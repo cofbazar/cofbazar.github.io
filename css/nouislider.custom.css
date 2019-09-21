@@ -1,0 +1,33 @@
+.noUi-tooltip {
+  font-size: x-small;
+  padding: 2px;
+}
+.noUi-marker-horizontal.noUi-marker {
+  height: 2px;
+}
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 5px;
+}
+div.noUi-handle {
+  width: 14px !important;
+  height: 12px !important;
+  border-radius: 20px;
+  background-color: #3FB8AF;
+  border: 1px solid #3FB8AF;
+  box-shadow: none;
+}
+div.noUi-horizontal {
+  height: 5px !important;
+  background-color: #ccffff;
+}
+.noUi-value {
+  font-size: x-small;
+}
+.noUi-handle:after, .noUi-handle:before {
+  display: none;
+}
+
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
+  right: -7px;
+  left: auto;
+}

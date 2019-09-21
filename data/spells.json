@@ -1,0 +1,442 @@
+[
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Forme éthérée",
+    "oid": "spell-forme-etheree-mineur",
+    "short_description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 5,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur sait toujours légèrement en avance ce qui va arriver. Il gagne un bonus de +1 par Rang dans la Voie en Initiative et en DEF, ainsi qu’un bonus de +2 par Rang à tous les tests pour éviter d’être surpris.",
+    "magical_level": "mineur",
+    "name": "Parchemin - 6ème sens",
+    "oid": "spell-6eme-sens-mineur",
+    "short_description": "L’Ensorceleur sait toujours légèrement en avance ce qui va arriver",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Si l’Ensorceleur réussit un test d’Attaque magique (portée 10 m) contre le score max de PV d’une cible humanoïde, celle-ci se comporte comme un ami de longue date tant qu’elle n’est pas attaquée. Elle peut résister au sort avec un test de SAG difficulté [12 + Mod. de CHA], renouvelable une fois par jour.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Amitié",
+    "oid": "spell-amitie-mineur",
+    "short_description": "Si l’Ensorceleur réussit un test d’Attaque magique contre une cible humanoïde, celle-ci se comporte comme un ami de longue date tant qu’elle n’est pas attaquée.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Dédoublement",
+    "oid": "spell-dedoublement-mineur",
+    "short_description": "Sur une Attaque magique réussie, l’Ensorceleur crée un double translucide de la cible qui est sous son contrôle.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Le sort crée une lame d’énergie lumineuse pendant [5 + Mod. de CHA] tours. Dès le premier tour, l’Ensorceleur peut lui ordonner d’attaquer une cible de son choix (action gratuite, portée 20 m). L’attaque magique de la lame = attaque magique de l’Ensorceleur, [1d8 + Mod de CHA] DM.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Arme dansante",
+    "oid": "spell-arme-dansante-mineur",
+    "short_description": "Le sort crée une lame d’énergie lumineuse pendant [5 + Mod. de CHA] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Agrandissement",
+    "oid": "spell-agrandissement-mineur",
+    "short_description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Le Magicien choisit une cible située à moins de 30 mètres. Il fait un test d’attaque magique et le compare à la DEF de tous les personnages (y compris le Magicien et ses compagnons) se trouvant dans un rayon de 6 mètres autour de la cible. Chaque victime pour laquelle le test est un succès encaisse [4d6 + Mod. d’INT] de DM et doit effectuer un test de DEX difficulté 10 + Mod. d’INT du Magicien pour ne subir que la moitié des DM. Quand le test d’attaque est un échec, la cible subit automatiquement la moitié des DM (pas besoin de faire le test de DEX).",
+    "magical_level": "mineur",
+    "name": "Parchemin - Boule de feu",
+    "oid": "spell-boule-de-feu-mineur",
+    "short_description": "Le magicien lance une boule de feu qui inflige des dégâts à toutes personnes se trouvant dans la zone d'effet",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Arme enflammée",
+    "oid": "spell-arme-enflammee-mineur",
+    "short_description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).",
+    "magical_level": "mineur",
+    "name": "Parchemin - Armure de mage",
+    "oid": "spell-armure-de-mage-mineur",
+    "short_description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Détection de la magie",
+    "oid": "spell-detection-de-la-magie-mineur",
+    "short_description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien acquiert une beauté fascinante pour [5 + Mod. d’INT] tours. Il gagne un bonus de +5 aux tests de CHA ainsi qu’une attaque de contact nécessitant un test d’attaque magique et qui inflige [1d4 + Mod. de CHA] DM. Ces DM sont transformés en PV, au bénéfice du Nécromancien (sans dépasser son score max de PV).",
+    "magical_level": "mineur",
+    "name": "Parchemin - Aspect de la succube",
+    "oid": "spell-aspect-de-la-succube-mineur",
+    "short_description": "Le Nécromancien acquiert une beauté fascinante pour [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).",
+    "magical_level": "mineur",
+    "name": "Parchemin - Baiser du vampire",
+    "oid": "spell-baiser-du-vampire-mineur",
+    "short_description": "La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien anime le cadavre d’un humanoïde de taille moyenne, décédé depuis moins d’une heure. Le zombi comprend les ordres « Attaquer », « Suivre », « Garder » et « Pas bouger ». Zombie : Init 8, DEF 10, PV 12, Att +3, DM 1d6+1, se déplace à 50% de la vitesse normale. Le zombi se dégrade et perd 1PV par minute. Le Nécromancien peut contrôler un zombi par rang. Un zombi détruit tombe en poussière.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Animation des morts",
+    "oid": "spell-animation-des-morts-mineur",
+    "short_description": "Le Nécromancien anime le cadavre d’un humanoïde de taille moyenne, décédé depuis moins d’une heure.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Lorsque le nécromant tombe à 0 PV, il peut continuer à agir mais avec un malus de -2 à tous ses tests. Une nouvelle attaque réussie infligeant au moins 1 point de DM finira par l’achever !",
+    "magical_level": "mineur",
+    "name": "Parchemin - Exsangue",
+    "oid": "spell-exsangue-mineur",
+    "short_description": "Lorsque le nécromant tombe à 0 PV, il peut continuer à agir mais avec un malus de -2 à tous ses tests.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "L’ombre de la cible du Nécromancien attaque son propriétaire pendant [3 + Mod. d’INT] tours (portée 20 m). L’ombre poursuit sa cible partout où elle se réfugie. Ombre : 1 attaque par tour, att = att de la cible, DM = DM de la cible divisés par 2.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Ombre mortelle",
+    "oid": "spell-ombre-mortelle-mineur",
+    "short_description": "L’ombre de la cible du Nécromancien attaque son propriétaire. L’ombre poursuit sa cible partout où elle se réfugie.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Ailes célestes",
+    "oid": "spell-ailes-celestes-mineur",
+    "short_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Prêtre entonne un chant pour encourager ses compagnons en vue. Ceux-ci (ainsi que le Prêtre) bénéficient d’un bonus de +1 à tous leurs tests de Caractéristique et d’attaque pendant [3 + Mod. de SAG] tours.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Bénédiction",
+    "oid": "spell-benediction-mineur",
+    "short_description": "Le Prêtre entonne un chant pour encourager ses compagnons en vue.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Une fois par jour, le Prêtre peut toucher une cible, qui récupère alors tous ses PV perdus et se trouve guérie des poisons, maladies et affaiblissements de Caractéristiques.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Guérison",
+    "oid": "spell-guerison-mineur",
+    "short_description": "Une fois par jour, le Prêtre peut toucher une cible. Elle récupère alors tous ses PV et est guérie des poisons, maladies et affaiblissements de Caractéristiques.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "En touchant sa cible, le Prêtre annule les pénalités infligées par les sorts, les malédictions, la pétrification et les capacités spéciales d’autres personnages ou de créatures (douleur, mutilation, poisons etc.).",
+    "magical_level": "mineur",
+    "name": "Parchemin - Délivrance",
+    "oid": "spell-delivrance-mineur",
+    "short_description": "En touchant sa cible, le Prêtre annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours.",
+    "magical_level": "mineur",
+    "name": "Parchemin - Animation d’un arbre",
+    "oid": "spell-animation-dun-arbre-mineur",
+    "short_description": "Une fois par combat, le Druide peut animer un arbre en le touchant.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  }
+]

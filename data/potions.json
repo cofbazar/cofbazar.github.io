@@ -1,0 +1,1454 @@
+[
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Soins légers",
+    "oid": "potion-soins-legers-mineur",
+    "short_description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Soins légers",
+    "oid": "potion-soins-legers-moyen",
+    "short_description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Soins modérés",
+    "oid": "potion-soins-moderes-mineur",
+    "short_description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Soins modérés",
+    "oid": "potion-soins-moderes-moyen",
+    "short_description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "En touchant sa cible, le Prêtre annule les pénalités infligées par les sorts, les malédictions, la pétrification et les capacités spéciales d’autres personnages ou de créatures (douleur, mutilation, poisons etc.).",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Délivrance",
+    "oid": "potion-delivrance-mineur",
+    "short_description": "En touchant sa cible, le Prêtre annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "En touchant sa cible, le Prêtre annule les pénalités infligées par les sorts, les malédictions, la pétrification et les capacités spéciales d’autres personnages ou de créatures (douleur, mutilation, poisons etc.).",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Délivrance",
+    "oid": "potion-delivrance-moyen",
+    "short_description": "En touchant sa cible, le Prêtre annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Pendant [5 + Mod. de CHA] tours, l’Ensorceleur détecte les créatures invisibles ou cachées à moins de 30 mètres et détecte si un sort de Clairvoyance affecte l’endroit. Aveuglé, ce sort lui permet de voir normalement.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Détection de l’invisible",
+    "oid": "potion-detection-de-linvisible-mineur",
+    "short_description": "L’Ensorceleur détecte les créatures invisibles ou cachées et détecte si un sort de Clairvoyance affecte l’endroit.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Pendant [5 + Mod. de CHA] tours, l’Ensorceleur détecte les créatures invisibles ou cachées à moins de 30 mètres et détecte si un sort de Clairvoyance affecte l’endroit. Aveuglé, ce sort lui permet de voir normalement.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Détection de l’invisible",
+    "oid": "potion-detection-de-linvisible-moyen",
+    "short_description": "L’Ensorceleur détecte les créatures invisibles ou cachées et détecte si un sort de Clairvoyance affecte l’endroit.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Agrandissement",
+    "oid": "potion-agrandissement-mineur",
+    "short_description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Agrandissement",
+    "oid": "potion-agrandissement-moyen",
+    "short_description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Forme gazeuse",
+    "oid": "potion-forme-gazeuse-mineur",
+    "short_description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol à une vitesse de 10 m par tour.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Forme gazeuse",
+    "oid": "potion-forme-gazeuse-moyen",
+    "short_description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol à une vitesse de 10 m par tour.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Hâte",
+    "oid": "potion-hate-mineur",
+    "short_description": "Le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Hâte",
+    "oid": "potion-hate-moyen",
+    "short_description": "Le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Pendant [5 + Mod. d’INT] tours, le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Protection contre les éléments",
+    "oid": "potion-protection-contre-les-elements-mineur",
+    "short_description": "Le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Pendant [5 + Mod. d’INT] tours, le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Protection contre les éléments",
+    "oid": "potion-protection-contre-les-elements-moyen",
+    "short_description": "Le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Le Magicien peut respirer sous l’eau pendant 10 minutes. Cette capacité peut être étendue à un compagnon par point de Mod. d’INT.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Respiration aquatique",
+    "oid": "potion-respiration-aquatique-mineur",
+    "short_description": "Le Magicien peut respirer sous l’eau pendant 10 minutes.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2400
+    },
+    "count": 1,
+    "full_description": "Le Magicien peut respirer sous l’eau pendant 10 minutes. Cette capacité peut être étendue à un compagnon par point de Mod. d’INT.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Respiration aquatique",
+    "oid": "potion-respiration-aquatique-moyen",
+    "short_description": "Le Magicien peut respirer sous l’eau pendant 10 minutes.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Armure de mage",
+    "oid": "potion-armure-de-mage-mineur",
+    "short_description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Armure de mage",
+    "oid": "potion-armure-de-mage-moyen",
+    "short_description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Magicien affecte une cible à moins de 10 mètres avec ce sort. La cible peut chuter de 6 mètres par rang dans la Voie sans subir de dégâts. Si la chute est supérieure à cette hauteur, elle est réduite d’autant.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Chute ralentie",
+    "oid": "potion-chute-ralentie-mineur",
+    "short_description": "Le Magicien ralentie la chute d'une cible pour ne pas subir de dégâts.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Le Magicien affecte une cible à moins de 10 mètres avec ce sort. La cible peut chuter de 6 mètres par rang dans la Voie sans subir de dégâts. Si la chute est supérieure à cette hauteur, elle est réduite d’autant.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Chute ralentie",
+    "oid": "potion-chute-ralentie-moyen",
+    "short_description": "Le Magicien ralentie la chute d'une cible pour ne pas subir de dégâts.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Invisibilité",
+    "oid": "potion-invisibilite-mineur",
+    "short_description": "Le Magicien se rend invisible et personne ne peut plus détecter sa présence ou lui porter d’attaque.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Invisibilité",
+    "oid": "potion-invisibilite-moyen",
+    "short_description": "Le Magicien se rend invisible et personne ne peut plus détecter sa présence ou lui porter d’attaque.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Le Magicien peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Vol",
+    "oid": "potion-vol-mineur",
+    "short_description": "Le Magicien peut voler et sa vitesse de déplacement est la même qu’au sol.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2400
+    },
+    "count": 1,
+    "full_description": "Le Magicien peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Vol",
+    "oid": "potion-vol-moyen",
+    "short_description": "Le Magicien peut voler et sa vitesse de déplacement est la même qu’au sol.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Langage des animaux",
+    "oid": "potion-langage-des-animaux-mineur",
+    "short_description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Langage des animaux",
+    "oid": "potion-langage-des-animaux-moyen",
+    "short_description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Masque du prédateur",
+    "oid": "potion-masque-du-predateur-mineur",
+    "short_description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2400
+    },
+    "count": 1,
+    "full_description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Masque du prédateur",
+    "oid": "potion-masque-du-predateur-moyen",
+    "short_description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "full_description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Forme animale",
+    "oid": "potion-forme-animale-mineur",
+    "short_description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 5,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3750
+    },
+    "count": 1,
+    "full_description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Forme animale",
+    "oid": "potion-forme-animale-moyen",
+    "short_description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 5,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Non seulement le Druide ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, il obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Marche sylvestre",
+    "oid": "potion-marche-sylvestre-mineur",
+    "short_description": "Le Druide ne subit aucune pénalité de déplacement en terrain difficile et obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Non seulement le Druide ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, il obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Marche sylvestre",
+    "oid": "potion-marche-sylvestre-moyen",
+    "short_description": "Le Druide ne subit aucune pénalité de déplacement en terrain difficile et obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Une fois par combat, le Druide peut se transformer en arbre de petite taille (environ 4 m de hauteur) pendant [5 + Mod. de SAG] tours. Il prend les mêmes Caractéristiques que l’arbre animé, mais conserve ses propres PV. Sous cette forme, il ne peut pas parler mais peut utiliser les sorts des voies du protecteur et des végétaux.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Forme d’arbre",
+    "oid": "potion-forme-darbre-mineur",
+    "short_description": "Une fois par combat, le Druide peut se transformer en arbre de petite taille pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2400
+    },
+    "count": 1,
+    "full_description": "Une fois par combat, le Druide peut se transformer en arbre de petite taille (environ 4 m de hauteur) pendant [5 + Mod. de SAG] tours. Il prend les mêmes Caractéristiques que l’arbre animé, mais conserve ses propres PV. Sous cette forme, il ne peut pas parler mais peut utiliser les sorts des voies du protecteur et des végétaux.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Forme d’arbre",
+    "oid": "potion-forme-darbre-moyen",
+    "short_description": "Une fois par combat, le Druide peut se transformer en arbre de petite taille pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Peau d’écorce",
+    "oid": "potion-peau-decorce-mineur",
+    "short_description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Peau d’écorce",
+    "oid": "potion-peau-decorce-moyen",
+    "short_description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’il reste concentré (action limitée à chaque tour). Les créatures présentes ont droit à un test de SAG difficulté [12 + Mod. de CHA] : en cas de réussite, elles se sentent observées.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Clairvoyance",
+    "oid": "potion-clairvoyance-mineur",
+    "short_description": "L’Ensorceleur peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’il reste concentré.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’il reste concentré (action limitée à chaque tour). Les créatures présentes ont droit à un test de SAG difficulté [12 + Mod. de CHA] : en cas de réussite, elles se sentent observées.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Clairvoyance",
+    "oid": "potion-clairvoyance-moyen",
+    "short_description": "L’Ensorceleur peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’il reste concentré.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui le blesse ou le touche reçoit une décharge infligeant 1d6 DM. Il peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Sous tension",
+    "oid": "potion-sous-tension-mineur",
+    "short_description": "L’Ensorceleur se charge d’énergie électrique. Toute créature qui le blesse ou le touche reçoit une décharge. Il peut également délivrer une décharge électrique.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui le blesse ou le touche reçoit une décharge infligeant 1d6 DM. Il peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Sous tension",
+    "oid": "potion-sous-tension-moyen",
+    "short_description": "L’Ensorceleur se charge d’énergie électrique. Toute créature qui le blesse ou le touche reçoit une décharge. Il peut également délivrer une décharge électrique.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Forme éthérée",
+    "oid": "potion-forme-etheree-mineur",
+    "short_description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 5,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3750
+    },
+    "count": 1,
+    "full_description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Forme éthérée",
+    "oid": "potion-forme-etheree-moyen",
+    "short_description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 5,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "L’ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou – 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Imitation",
+    "oid": "potion-imitation-mineur",
+    "short_description": "L’ensorceleur peut prendre l’apparence d’une créature de taille proche qu’il voit au moment de l’incantation.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "L’ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou – 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Imitation",
+    "oid": "potion-imitation-moyen",
+    "short_description": "L’ensorceleur peut prendre l’apparence d’une créature de taille proche qu’il voit au moment de l’incantation.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Un breuvage étrange qui guérit [1d4 + rang] PV et permet de gagner un bonus de +3 aux [rang +1] prochains tests de réussite effectués (dans une limite de temps de 12 heures).",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Fortifiant",
+    "oid": "potion-fortifiant-mineur",
+    "short_description": "Un breuvage étrange qui guérit [1d4 + rang] PV et permet de gagner un bonus de +3 aux [rang +1] prochains tests de réussite effectués.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "Un breuvage étrange qui guérit [1d4 + rang] PV et permet de gagner un bonus de +3 aux [rang +1] prochains tests de réussite effectués (dans une limite de temps de 12 heures).",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Fortifiant",
+    "oid": "potion-fortifiant-moyen",
+    "short_description": "Un breuvage étrange qui guérit [1d4 + rang] PV et permet de gagner un bonus de +3 aux [rang +1] prochains tests de réussite effectués.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Forgesort lance la fiole à une distance maximum de 10 m, grâce à une action d’attaque (réussite automatique). Le contenu explose dans un rayon de 3 m en infligeant 1d6 DM par rang dans la voie. Un test de DEX difficulté [10 + Mod. d’INT] réussi permet aux victimes de diviser les DM par 2.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Feu grégeois",
+    "oid": "potion-feu-gregeois-mineur",
+    "short_description": "Le Forgesort lance la fiole grâce à une action d’attaque. Le contenu explose dans un rayon de 3 m en infligeant 1d6 DM par rang dans la voie.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Le Forgesort lance la fiole à une distance maximum de 10 m, grâce à une action d’attaque (réussite automatique). Le contenu explose dans un rayon de 3 m en infligeant 1d6 DM par rang dans la voie. Un test de DEX difficulté [10 + Mod. d’INT] réussi permet aux victimes de diviser les DM par 2.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Feu grégeois",
+    "oid": "potion-feu-gregeois-moyen",
+    "short_description": "Le Forgesort lance la fiole grâce à une action d’attaque. Le contenu explose dans un rayon de 3 m en infligeant 1d6 DM par rang dans la voie.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Le Forgesort peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Élixir de guérison",
+    "oid": "potion-elixir-de-guerison-mineur",
+    "short_description": "Le Forgesort peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "Le Forgesort peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Élixir de guérison",
+    "oid": "potion-elixir-de-guerison-moyen",
+    "short_description": "Le Forgesort peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Pendant [1d4 + Mod. d’INT] tours, le corps du Magicien devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Flou",
+    "oid": "potion-flou-mineur",
+    "short_description": "Pendant [1d4 + Mod. d’INT] tours, le corps du Magicien devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "Pendant [1d4 + Mod. d’INT] tours, le corps du Magicien devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Flou",
+    "oid": "potion-flou-moyen",
+    "short_description": "Pendant [1d4 + Mod. d’INT] tours, le corps du Magicien devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien acquiert une beauté fascinante pour [5 + Mod. d’INT] tours. Il gagne un bonus de +5 aux tests de CHA ainsi qu’une attaque de contact nécessitant un test d’attaque magique et qui inflige [1d4 + Mod. de CHA] DM. Ces DM sont transformés en PV, au bénéfice du Nécromancien (sans dépasser son score max de PV).",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Aspect de la succube",
+    "oid": "potion-aspect-de-la-succube-mineur",
+    "short_description": "Le Nécromancien acquiert une beauté fascinante pour [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien acquiert une beauté fascinante pour [5 + Mod. d’INT] tours. Il gagne un bonus de +5 aux tests de CHA ainsi qu’une attaque de contact nécessitant un test d’attaque magique et qui inflige [1d4 + Mod. de CHA] DM. Ces DM sont transformés en PV, au bénéfice du Nécromancien (sans dépasser son score max de PV).",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Aspect de la succube",
+    "oid": "potion-aspect-de-la-succube-moyen",
+    "short_description": "Le Nécromancien acquiert une beauté fascinante pour [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien prend l’apparence d’un démon pendant [5 + Mod. d’INT] tours. Il gagne + 2 en attaque au contact, en DEF et à tous les tests physiques (FOR, DEX, CON). Il peut faire deux attaques de griffe à 1d6+4 DM à chaque tour, en action limitée (une seule en action d’attaque). Ne se cumule pas avec l’Aspect de la succube.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Aspect du démon",
+    "oid": "potion-aspect-du-demon-mineur",
+    "short_description": "Le Nécromancien prend l’apparence d’un démon pendant [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2400
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien prend l’apparence d’un démon pendant [5 + Mod. d’INT] tours. Il gagne + 2 en attaque au contact, en DEF et à tous les tests physiques (FOR, DEX, CON). Il peut faire deux attaques de griffe à 1d6+4 DM à chaque tour, en action limitée (une seule en action d’attaque). Ne se cumule pas avec l’Aspect de la succube.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Aspect du démon",
+    "oid": "potion-aspect-du-demon-moyen",
+    "short_description": "Le Nécromancien prend l’apparence d’un démon pendant [5 + Mod. d’INT] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 4,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Masque mortuaire",
+    "oid": "potion-masque-mortuaire-mineur",
+    "short_description": "Le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Masque mortuaire",
+    "oid": "potion-masque-mortuaire-moyen",
+    "short_description": "Le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Pattes d’araignée",
+    "oid": "potion-pattes-daraignee-mineur",
+    "short_description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "full_description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Pattes d’araignée",
+    "oid": "potion-pattes-daraignee-moyen",
+    "short_description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Ailes célestes",
+    "oid": "potion-ailes-celestes-mineur",
+    "short_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Ailes célestes",
+    "oid": "potion-ailes-celestes-moyen",
+    "short_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Quand le Prêtre lance ce sort, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15. S’ils échouent, ils ne peuvent pas l’attaquer. Les effets de ce sort durent [5 + Mod de SAG] tours, mais s’il tente la moindre attaque, le sort prend fin immédiatement.",
+    "magical_level": "mineur",
+    "name": "Potion mineure - Sanctuaire",
+    "oid": "potion-sanctuaire-mineur",
+    "short_description": "Quand le Prêtre lance ce sort, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15.",
+    "usable_by": [],
+    "use": 1,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1350
+    },
+    "count": 1,
+    "full_description": "Quand le Prêtre lance ce sort, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15. S’ils échouent, ils ne peuvent pas l’attaquer. Les effets de ce sort durent [5 + Mod de SAG] tours, mais s’il tente la moindre attaque, le sort prend fin immédiatement.",
+    "magical_level": "moyen",
+    "name": "Potion moyenne - Sanctuaire",
+    "oid": "potion-sanctuaire-moyen",
+    "short_description": "Quand le Prêtre lance ce sort, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15.",
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/6eme-sens/"
+    ],
+    "count": 1,
+    "name": "Voie de la divination",
+    "oid": "http://co-drs.org/voies/voie-de-la-divination/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/a-couvert/"
+    ],
+    "count": 1,
+    "name": "Voie du champ de bataille",
+    "oid": "http://co-drs.org/voies/voie-du-champ-de-bataille/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/absorber-un-coup/"
+    ],
+    "count": 1,
+    "name": "Voie du bouclier",
+    "oid": "http://co-drs.org/voies/voie-du-bouclier/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/acrobate/"
+    ],
+    "count": 1,
+    "name": "Voie du saltimbanque",
+    "oid": "http://co-drs.org/voies/voie-du-saltimbanque/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/acrobaties/"
+    ],
+    "count": 1,
+    "name": "Voie du déplacement",
+    "oid": "http://co-drs.org/voies/voie-du-deplacement/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/adaptable/"
+    ],
+    "count": 1,
+    "name": "Voie de l’humain",
+    "oid": "http://co-drs.org/voies/voie-de-l-humain/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/agrandissement/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie des arcanes",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-des-arcanes/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/agripper/"
+    ],
+    "count": 1,
+    "name": "Voie des créatures volantes",
+    "oid": "http://co-drs.org/voies/voie-des-creatures-volantes/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/ailes-celestes/"
+    ],
+    "count": 1,
+    "name": "Voie de la foi",
+    "oid": "http://co-drs.org/voies/voie-de-la-foi/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/ambidextrie/"
+    ],
+    "count": 1,
+    "name": "Voie du spadassin",
+    "oid": "http://co-drs.org/voies/voie-du-spadassin/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/amitie/"
+    ],
+    "count": 1,
+    "name": "Voie de l’envoûteur",
+    "oid": "http://co-drs.org/voies/voie-de-l-envouteur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/animal-fabuleux/"
+    ],
+    "count": 1,
+    "name": "Voie du compagnon animal",
+    "oid": "http://co-drs.org/voies/voie-du-compagnon-animal/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/animal-fabuleux-2/"
+    ],
+    "count": 1,
+    "name": "Voie du montreur d’ours",
+    "oid": "http://co-drs.org/voies/voie-du-montreur-dours/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/animation-des-morts/"
+    ],
+    "count": 1,
+    "name": "Voie de l’outre-tombe",
+    "oid": "http://co-drs.org/voies/voie-de-l-outre-tombe/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/animation-d-un-arbre/"
+    ],
+    "count": 1,
+    "name": "Voie des végétaux",
+    "oid": "http://co-drs.org/voies/voie-des-vegetaux/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/animer-un-cadavre/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie maléfique",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-malefique/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/archer-emerite/"
+    ],
+    "count": 1,
+    "name": "Voie de l’elfe sylvain",
+    "oid": "http://co-drs.org/voies/voie-de-l-elfe-sylvain/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/argument-de-taille/"
+    ],
+    "count": 1,
+    "name": "Voie de la brute",
+    "oid": "http://co-drs.org/voies/voie-de-la-brute/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/arme-benie/"
+    ],
+    "count": 1,
+    "name": "Voie de la guerre sainte",
+    "oid": "http://co-drs.org/voies/voie-de-la-guerre-sainte/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/arme-dansante/"
+    ],
+    "count": 1,
+    "name": "Voie de l’invocation",
+    "oid": "http://co-drs.org/voies/voie-de-l-invocation/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/arme-de-predilection/"
+    ],
+    "count": 1,
+    "name": "Voie du maître d’armes",
+    "oid": "http://co-drs.org/voies/voie-du-maitre-darmes/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/arme-enflammee/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie élémentaire",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-elementaire/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/arme-secrete/"
+    ],
+    "count": 1,
+    "name": "Voie de la séduction",
+    "oid": "http://co-drs.org/voies/voie-de-la-seduction/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/armure-de-mage/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie protectrice",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-protectrice/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/armure-de-vent/"
+    ],
+    "count": 1,
+    "name": "Voie du primitif",
+    "oid": "http://co-drs.org/voies/voie-du-primitif/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/armure-magique/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie de combat",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-de-combat/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/armure-naturelle/"
+    ],
+    "count": 1,
+    "name": "Voie de la résistance",
+    "oid": "http://co-drs.org/voies/voie-de-la-resistance/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/armure-sur-mesure/"
+    ],
+    "count": 1,
+    "name": "Voie de la guerre",
+    "oid": "http://co-drs.org/voies/voie-de-la-guerre/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/artefact-majeur/"
+    ],
+    "count": 1,
+    "name": "Voie des artefacts",
+    "oid": "http://co-drs.org/voies/voie-des-artefacts/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/as-de-la-gachette/"
+    ],
+    "count": 1,
+    "name": "Voie du pistolero",
+    "oid": "http://co-drs.org/voies/voie-du-pistolero/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/ascetisme/"
+    ],
+    "count": 1,
+    "name": "Voie de l’énergie vitale",
+    "oid": "http://co-drs.org/voies/voie-de-l-energie-vitale/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/aspect-de-la-succube/"
+    ],
+    "count": 1,
+    "name": "Voie du démon",
+    "oid": "http://co-drs.org/voies/voie-du-demon/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/assassinat/"
+    ],
+    "count": 1,
+    "name": "Voie du tueur",
+    "oid": "http://co-drs.org/voies/voie-du-tueur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-bondissante/"
+    ],
+    "count": 1,
+    "name": "Voie du fauve",
+    "oid": "http://co-drs.org/voies/voie-du-fauve/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-circulaire/"
+    ],
+    "count": 1,
+    "name": "Voie du combat",
+    "oid": "http://co-drs.org/voies/voie-du-combat/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-eclair/"
+    ],
+    "count": 1,
+    "name": "Voie de l’escarmouche",
+    "oid": "http://co-drs.org/voies/voie-de-l-escarmouche/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-en-traitre/"
+    ],
+    "count": 1,
+    "name": "Voie du roublard",
+    "oid": "http://co-drs.org/voies/voie-du-roublard/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-en-traitre-2/"
+    ],
+    "count": 1,
+    "name": "Voie de la meute",
+    "oid": "http://co-drs.org/voies/voie-de-la-meute/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-flamboyante/"
+    ],
+    "count": 1,
+    "name": "Voie de l’escrime",
+    "oid": "http://co-drs.org/voies/voie-de-l-escrime/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-sanglante/"
+    ],
+    "count": 1,
+    "name": "Voie du demi-orque",
+    "oid": "http://co-drs.org/voies/voie-du-demi-orque/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-sonore/"
+    ],
+    "count": 1,
+    "name": "Voie du musicien",
+    "oid": "http://co-drs.org/voies/voie-du-musicien/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-sournoise/"
+    ],
+    "count": 1,
+    "name": "Voie de l’assassin",
+    "oid": "http://co-drs.org/voies/voie-de-l-assassin/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/attaque-tourbillon/"
+    ],
+    "count": 1,
+    "name": "Voie du pourfendeur",
+    "oid": "http://co-drs.org/voies/voie-du-pourfendeur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/aura-feerique/"
+    ],
+    "count": 1,
+    "name": null,
+    "oid": "Unknown-id_aura-feerique"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/autorite-naturelle/"
+    ],
+    "count": 1,
+    "name": "Voie de la noblesse",
+    "oid": "http://co-drs.org/voies/voie-de-la-noblesse/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/baies-magiques/"
+    ],
+    "count": 1,
+    "name": "Voie du protecteur",
+    "oid": "http://co-drs.org/voies/voie-du-protecteur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/baiser-du-vampire/"
+    ],
+    "count": 1,
+    "name": "Voie de la mort",
+    "oid": "http://co-drs.org/voies/voie-de-la-mort/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/balayage/"
+    ],
+    "count": 1,
+    "name": "Voie du colosse",
+    "oid": "http://co-drs.org/voies/voie-du-colosse/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/baton-de-druide/"
+    ],
+    "count": 1,
+    "name": "Voie de la nature",
+    "oid": "http://co-drs.org/voies/voie-de-la-nature/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/benediction/"
+    ],
+    "count": 1,
+    "name": "Voie de la prière",
+    "oid": "http://co-drs.org/voies/voie-de-la-priere/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/bon-pour-le-moral/"
+    ],
+    "count": 1,
+    "name": "Voie du halfelin",
+    "oid": "http://co-drs.org/voies/voie-du-halfelin/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/bonne-nature/"
+    ],
+    "count": 1,
+    "name": "Voie du gnome",
+    "oid": "http://co-drs.org/voies/voie-du-gnome/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/boule-de-feu/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie destructrice",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-destructrice/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/boulet-explosif/"
+    ],
+    "count": 1,
+    "name": "Voie des explosifs",
+    "oid": "http://co-drs.org/voies/voie-des-explosifs/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/capacite-fabuleuse/"
+    ],
+    "count": 1,
+    "name": "Voie de prestige spécialisée",
+    "oid": "http://co-drs.org/voies/voie-de-prestige-specialisee/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/capitaine/"
+    ],
+    "count": 1,
+    "name": "Voie du chef d’armée",
+    "oid": "http://co-drs.org/voies/voie-du-chef-d-armee/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/cavalier-emerite/"
+    ],
+    "count": 1,
+    "name": "Voie du cavalier",
+    "oid": "http://co-drs.org/voies/voie-du-cavalier/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/chair-a-canon/"
+    ],
+    "count": 1,
+    "name": "Voie du PNJ récurrent",
+    "oid": "http://co-drs.org/voies/voie-du-pnj-recurrent/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/charge-3/"
+    ],
+    "count": 1,
+    "name": "Voie du cogneur",
+    "oid": "http://co-drs.org/voies/voie-du-cogneur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/charge-fantastique/"
+    ],
+    "count": 1,
+    "name": "Voie du meneur d’homme",
+    "oid": "http://co-drs.org/voies/voie-du-meneur-d-homme/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/combat-a-deux-armes-ameliore/"
+    ],
+    "count": 1,
+    "name": "Voie du combat à deux armes",
+    "oid": "http://co-drs.org/voies/voie-du-combat-a-deux-armes/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/combat-en-phalange/"
+    ],
+    "count": 1,
+    "name": "Voie du soldat",
+    "oid": "http://co-drs.org/voies/voie-du-soldat/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/comprehension-des-langues/"
+    ],
+    "count": 1,
+    "name": "Voie du vagabond",
+    "oid": "http://co-drs.org/voies/voie-du-vagabond/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/corps-enflamme/"
+    ],
+    "count": 1,
+    "name": "Voie des créatures élémentaire [du feu]",
+    "oid": "http://co-drs.org/voies/voie-des-creatures-elementaire-du-feu/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/couleuvrine/"
+    ],
+    "count": 1,
+    "name": "Voie de l’artilleur",
+    "oid": "http://co-drs.org/voies/voie-de-l-artilleur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/course-des-airs/"
+    ],
+    "count": 1,
+    "name": "Voie du vent",
+    "oid": "http://co-drs.org/voies/voie-du-vent/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/cri-de-guerre/"
+    ],
+    "count": 1,
+    "name": "Voie de la rage",
+    "oid": "http://co-drs.org/voies/voie-de-la-rage/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/dans-le-mille/"
+    ],
+    "count": 1,
+    "name": "Voie de l’archer",
+    "oid": "http://co-drs.org/voies/voie-de-l-archer/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/dedoublement/"
+    ],
+    "count": 1,
+    "name": "Voie des illusions",
+    "oid": "http://co-drs.org/voies/voie-des-illusions/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/defaut-dans-la-cuirasse/"
+    ],
+    "count": 1,
+    "name": "Voie de la précision",
+    "oid": "http://co-drs.org/voies/voie-de-la-precision/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/delivrance/"
+    ],
+    "count": 1,
+    "name": "Voie de la spiritualité",
+    "oid": "http://co-drs.org/voies/voie-de-la-spiritualite/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/deluge-de-coups/"
+    ],
+    "count": 1,
+    "name": "Voie du poing",
+    "oid": "http://co-drs.org/voies/voie-du-poing/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/detection-de-la-magie/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie universelle",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-universelle/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/devorer/"
+    ],
+    "count": 1,
+    "name": "Voie du prédateur",
+    "oid": "http://co-drs.org/voies/voie-du-predateur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/elixir-de-guerison/"
+    ],
+    "count": 1,
+    "name": "Voie des élixirs",
+    "oid": "http://co-drs.org/voies/voie-des-elixirs/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/embuscade/"
+    ],
+    "count": 1,
+    "name": "Voie du traqueur",
+    "oid": "http://co-drs.org/voies/voie-du-traqueur/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/endurant/"
+    ],
+    "count": 1,
+    "name": "Voie de la survie",
+    "oid": "http://co-drs.org/voies/voie-de-la-survie/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/endurer/"
+    ],
+    "count": 1,
+    "name": "Voie du métal",
+    "oid": "http://co-drs.org/voies/voie-du-metal/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/esquive-du-singe/"
+    ],
+    "count": 1,
+    "name": "Voie de la maîtrise",
+    "oid": "http://co-drs.org/voies/voie-de-la-maitrise/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/exsangue/"
+    ],
+    "count": 1,
+    "name": "Voie du sang",
+    "oid": "http://co-drs.org/voies/voie-du-sang/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/familier/"
+    ],
+    "count": 1,
+    "name": "Voie du familier",
+    "oid": "http://co-drs.org/voies/voie-du-familier/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/feindre-la-mort/"
+    ],
+    "count": 1,
+    "name": "Voie de l’aventurier",
+    "oid": "http://co-drs.org/voies/voie-de-l-aventurier/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/force-d-ame/"
+    ],
+    "count": 1,
+    "name": "Voie du haut-elfe",
+    "oid": "http://co-drs.org/voies/voie-du-haut-elfe/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/forme-animale/"
+    ],
+    "count": 1,
+    "name": "Voie des animaux",
+    "oid": "http://co-drs.org/voies/voie-des-animaux/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/forme-etheree/"
+    ],
+    "count": 1,
+    "name": "Voie de l’air",
+    "oid": "http://co-drs.org/voies/voie-de-l-air/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/golem/"
+    ],
+    "count": 1,
+    "name": "Voie du golem",
+    "oid": "http://co-drs.org/voies/voie-du-golem/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/guerir/"
+    ],
+    "count": 1,
+    "name": "Voie de la magie de guérison",
+    "oid": "http://co-drs.org/voies/voie-de-la-magie-de-guerison/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/guerison/"
+    ],
+    "count": 1,
+    "name": "Voie des soins",
+    "oid": "http://co-drs.org/voies/voie-des-soins/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/haches-et-marteaux/"
+    ],
+    "count": 1,
+    "name": "Voie du nain",
+    "oid": "http://co-drs.org/voies/voie-du-nain/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/hausser-le-ton/"
+    ],
+    "count": 1,
+    "name": "Voie du champion",
+    "oid": "http://co-drs.org/voies/voie-du-champion/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/ignorer-la-douleur/"
+    ],
+    "count": 1,
+    "name": "Voie du héros",
+    "oid": "http://co-drs.org/voies/voie-du-heros/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/immortel-2/"
+    ],
+    "count": 1,
+    "name": "Voie des créatures magiques",
+    "oid": "http://co-drs.org/voies/voie-des-creatures-magiques/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/maitrise-du-ki/"
+    ],
+    "count": 1,
+    "name": "Voie de la méditation",
+    "oid": "http://co-drs.org/voies/voie-de-la-meditation/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/ombre-mortelle/"
+    ],
+    "count": 1,
+    "name": "Voie de la sombre magie",
+    "oid": "http://co-drs.org/voies/voie-de-la-sombre-magie/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/peau-de-pierre/"
+    ],
+    "count": 1,
+    "name": "Voie du pagne",
+    "oid": "http://co-drs.org/voies/voie-du-pagne/"
+  },
+  {
+    "__type__": "Way",
+    "capacities": [
+      "http://co-drs.org/capacites/rune-de-pouvoir/"
+    ],
+    "count": 1,
+    "name": "Voie des runes",
+    "oid": "http://co-drs.org/voies/voie-des-runes/"
+  }
+]

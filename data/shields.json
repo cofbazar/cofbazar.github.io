@@ -1,0 +1,40 @@
+[
+  {
+    "__type__": "Shield",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2
+    },
+    "count": 1,
+    "full_description": "Un petit bouclier en métal qui occupe une main. Très maniable, il n'offre cependant que très peu de protection contre les projectiles. Il procure un bonus de DEF +1.",
+    "name": "Petit bouclier",
+    "oid": "petit-bouclier",
+    "short_description": "Un petit bouclier très maniable en métal qui occupe une main.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 4
+    },
+    "count": 1,
+    "full_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre une bonne protection contre les projectiles. Il procure un bonus de DEF +2.",
+    "name": "Grand bouclier",
+    "oid": "grand-bouclier",
+    "short_description": "Un grand bouclier en métal qui occupe une main.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  }
+]

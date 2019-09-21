@@ -1,0 +1,89 @@
+[
+  {
+    "__type__": "Mount",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 300
+    },
+    "count": 1,
+    "full_description": "Un cheval spécialement dressé pour les combats.",
+    "name": "Cheval de guerre léger",
+    "oid": "cheval-de-guerre-leger",
+    "short_description": "Un cheval spécialement dressé pour les combats.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 600.0
+    }
+  },
+  {
+    "__type__": "Mount",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100
+    },
+    "count": 1,
+    "full_description": "Un cheval dressé pour être monté.",
+    "name": "Cheval de selle",
+    "oid": "cheval-de-selle",
+    "short_description": "Un cheval dressé pour être monté.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 500.0
+    }
+  },
+  {
+    "__type__": "Mount",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25
+    },
+    "count": 1,
+    "full_description": "Une mule.",
+    "name": "Mule",
+    "oid": "mule",
+    "short_description": "Une mule.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "Mount",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25
+    },
+    "count": 1,
+    "full_description": "Un âne.",
+    "name": "Âne",
+    "oid": "ane",
+    "short_description": "Un âne.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "Mount",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Un cheval de petite taille avec une crinière épaisse, une queue et un pelage fournis.",
+    "name": "Poney",
+    "oid": "poney",
+    "short_description": "Un cheval de petite taille.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 400.0
+    }
+  }
+]

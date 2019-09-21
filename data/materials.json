@@ -1,0 +1,249 @@
+[
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1
+    },
+    "count": 1,
+    "full_description": "Un briquet est une petite pièce d’acier dont on se sert pour créer par percussion avec un silex une étincelle.",
+    "name": "Briquet à silex",
+    "oid": "briquet-a-silex",
+    "short_description": "Un briquet à silex.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3
+    },
+    "count": 1,
+    "full_description": "Un carquois est un étui qui sert à ranger des flèches d'arc ou des carreaux d'arbalète. Il peut être porté sur l'archer (à la ceinture ou sur le dos), sur l'arc ou posé au sol. Il contient 20 flêches ou 20 carreaux.",
+    "name": "Carquois",
+    "oid": "carquois",
+    "short_description": "Un carquois pour ranger des flèches d'arc ou des carreaux ",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2
+    },
+    "count": 1,
+    "full_description": "Une solide corde de 15m.",
+    "name": "Une corde",
+    "oid": "corde-15m-",
+    "short_description": "Une solide corde de 15m.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1
+    },
+    "count": 1,
+    "full_description": "Une couverture bien épaise qui tient chaux lorsque l'on dort à la belle étoile.",
+    "name": "Couverture",
+    "oid": "couverture",
+    "short_description": "Une couverture bien épaise.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2
+    },
+    "count": 1,
+    "full_description": "Un grappin est un outil composé de plusieurs crochets, généralement attaché à une corde ou autre filin.",
+    "name": "Grappin",
+    "oid": "grappin",
+    "short_description": "Un grappin composé de plusieurs crochets.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1
+    },
+    "count": 1,
+    "full_description": "Une bouteille d'huile. L'huile s'enflamme lorsque qu'elle est au contacte du feu.",
+    "name": "Huile",
+    "oid": "huile",
+    "short_description": "Une bouteille d'huile",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3
+    },
+    "count": 1,
+    "full_description": "Une lanterne à huile est une lampe dont le combustible est de la graisse animale, de l'huile végétale, de l'huile de baleine ou encore de l'huile minérale. La flamme est protégée par des parois translucides.",
+    "name": "Lanterne à huile",
+    "oid": "lanterne-a-huile",
+    "short_description": "Une lanterne à huile dont la flamme est protégée par des parois translucides.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5
+    },
+    "count": 1,
+    "full_description": "Une plume, une fiole d'encre et un rouleau de papier. Vous êtes paré pour écrire votre premier roman.",
+    "name": "Matériel d’écriture",
+    "oid": "materiel-decriture",
+    "short_description": "Une plume, une fiole d'encre et un rouleau de papier.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5
+    },
+    "count": 1,
+    "full_description": "Cet étuit comprend l'ensemble des outils nécessaires pour crocher n'importe quelle serrure. Elle contient un passepartout, des crochets, des tendeurs, des racleurs et des demi-diamants de plusieurs tailles.",
+    "name": "Outils de crochetage",
+    "oid": "outils-de-crochetage",
+    "short_description": "Outils nécessaires pour crocher n'importe quelle serrure.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10
+    },
+    "count": 1,
+    "full_description": "Une petite potion de soin qui permet de restaurer 1d8 PV.",
+    "name": "Potion de soin",
+    "oid": "potion-de-soin",
+    "short_description": "Une petite potion de soin.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 4
+    },
+    "count": 1,
+    "full_description": "Tous les aliments nécessaires pour subvenir aux besoins de son corps pendant 1 semaine. Avec quelques unes de ces rations en poche, vous êtes sûre de ne jamais avoir faim lorsque vous partez à l'aventure.",
+    "name": "Ration",
+    "oid": "ration",
+    "short_description": "Aliments nécessaires pour subvenir aux besoins de son corps pendant 1 semaine.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1
+    },
+    "count": 1,
+    "full_description": "Un grand sac à dos qui permettra à n'importe quel aventurier de stocker le nécessaire pour faire un long voyage.",
+    "name": "Sac à dos",
+    "oid": "sac-a-dos",
+    "short_description": "Un grand sac à dos.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1
+    },
+    "count": 1,
+    "full_description": "Un bâton que l’on enflamme à une extrémité pour pouvoir éclairer. Ce lot comporte 3 torches qui permettent chacune de s'éclairer pendant 1 heure dans un rayon de 10m",
+    "name": "Torches",
+    "oid": "torches",
+    "short_description": "Trois torches.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  }
+]

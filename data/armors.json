@@ -1,0 +1,286 @@
+[
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2
+    },
+    "count": 1,
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1.",
+    "magical_level": 0,
+    "name": "Armure matelassée",
+    "oid": "tissu-matelasse",
+    "short_description": "Armure composée de tissus matelassés et battus.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 54
+    },
+    "count": 1,
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Armure matelassée, de qualité",
+    "oid": "tissu-matelasse-quality+0",
+    "short_description": "Armure composée de tissus matelassés et battus. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 4
+    },
+    "count": 1,
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2.",
+    "magical_level": 0,
+    "name": "Armure de cuir",
+    "oid": "cuir",
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 58
+    },
+    "count": 1,
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Armure de cuir, de qualité",
+    "oid": "cuir-quality+0",
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8
+    },
+    "count": 1,
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3.",
+    "magical_level": 0,
+    "name": "Armure de cuir renforcée",
+    "oid": "cuir-renforce",
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 66
+    },
+    "count": 1,
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Armure de cuir renforcée, de qualité",
+    "oid": "cuir-renforce-quality+0",
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 15
+    },
+    "count": 1,
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4.",
+    "magical_level": 0,
+    "name": "Chemise de mailles",
+    "oid": "chemise-de-mailles",
+    "short_description": "Armure composée de d'anneaux métalliques entrecroisées qui protège surtout le haut du corps.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 80
+    },
+    "count": 1,
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Chemise de mailles, de qualité",
+    "oid": "chemise-de-mailles-quality+0",
+    "short_description": "Armure composée de d'anneaux métalliques entrecroisées qui protège surtout le haut du corps. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 20
+    },
+    "count": 1,
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5.",
+    "magical_level": 0,
+    "name": "Cotte de mailles",
+    "oid": "cotte-de-mailles",
+    "short_description": "Armure composée de d'anneaux métalliques entrecroisées qui protège l'ensemble du corps.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 90
+    },
+    "count": 1,
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Cotte de mailles, de qualité",
+    "oid": "cotte-de-mailles-quality+0",
+    "short_description": "Armure composée de d'anneaux métalliques entrecroisées qui protège l'ensemble du corps. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6.",
+    "magical_level": 0,
+    "name": "Armure de demi-plaque",
+    "oid": "demi-plaque",
+    "short_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant à l'exception des jambes.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Armure de demi-plaque, de qualité",
+    "oid": "demi-plaque-quality+0",
+    "short_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant à l'exception des jambes. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8.",
+    "magical_level": 0,
+    "name": "Armure de plaque complète",
+    "oid": "plaque-complete",
+    "short_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant.",
+    "usable_by": [
+      "Chevalier"
+    ],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "magical_level": 0,
+    "name": "Armure de plaque complète, de qualité",
+    "oid": "plaque-complete-quality+0",
+    "short_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Cette armure est de qualité et réduit le malus de DEX de 1.",
+    "usable_by": [
+      "Chevalier"
+    ],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  }
+]

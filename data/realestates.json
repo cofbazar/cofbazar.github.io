@@ -1,0 +1,137 @@
+[
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500
+    },
+    "count": 1,
+    "full_description": "Un appartement.",
+    "name": "Appartement",
+    "oid": "appartement",
+    "short_description": "Un appartement.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "full_description": "Une maison misérabe dans les bas quartiers.",
+    "name": "Masure",
+    "oid": "masure",
+    "short_description": "Une maison misérable.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "full_description": "Un bel appartement luxueux.",
+    "name": "Suite",
+    "oid": "suite",
+    "short_description": "Un bel appartement luxueux.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 20000
+    },
+    "count": 1,
+    "full_description": "Une jolie maison dans un quartier tranquille.",
+    "name": "Maison",
+    "oid": "maison",
+    "short_description": "Une jolie maison.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100000
+    },
+    "count": 1,
+    "full_description": "Une villa luxueuse dans les beuax quartiers.",
+    "name": "Villa luxueuse",
+    "oid": "villa-luxueuse",
+    "short_description": "Une villa luxueuse.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200000
+    },
+    "count": 1,
+    "full_description": "Un manoir avec quelques terres.",
+    "name": "Manoir",
+    "oid": "manoir",
+    "short_description": "Un manoir.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600000
+    },
+    "count": 1,
+    "full_description": "Une place forte.",
+    "name": "Place forte",
+    "oid": "place-forte",
+    "short_description": "Une place forte.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1500000
+    },
+    "count": 1,
+    "full_description": "Un château.",
+    "name": "Château",
+    "oid": "chateau",
+    "short_description": "Un château.",
+    "usable_by": [],
+    "weigh": null
+  },
+  {
+    "__type__": "RealEstate",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3000000
+    },
+    "count": 1,
+    "full_description": "Un palais.",
+    "name": "Palais",
+    "oid": "palais",
+    "short_description": "Un palais.",
+    "usable_by": [],
+    "weigh": null
+  }
+]

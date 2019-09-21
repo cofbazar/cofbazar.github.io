@@ -1,0 +1,40 @@
+[
+  {
+    "__type__": "Char",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "full_description": "Un véhicule à deux roues, tiré par des chevaux ou des boeufs et couvert ou non d'une bâche. La carriole sert généralement au transport des personnes.",
+    "name": "Carriole",
+    "oid": "carriole",
+    "short_description": "Un véhicule à deux roues, tiré par des chevaux ou des boeufs servant au transportdes personnes.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 100.0
+    }
+  },
+  {
+    "__type__": "Char",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 90
+    },
+    "count": 1,
+    "full_description": "Un véhicule à 4 roues permettant de transporter des personnes ou du matériel.Le chariot est tiré le plus souvent par des boeufs et peut être couvert par une bâche pour protéger la cargaison.",
+    "name": "Chariot",
+    "oid": "chariot",
+    "short_description": "Un véhicule à 4 roues permettant de transporter du matériel.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 200.0
+    }
+  }
+]

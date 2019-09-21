@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js-ext/wNumb.js"></script>
+    <script src="js-ext/stringops.js"></script>
+    <script src="js-ext/nouislider.min.js"></script>
+    <script src="js-ext/vue.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/cof.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/nouislider.custom.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <title>Chroniques Oubliées Fantasy</title>
+  </head>
+  <body>
+    <div class="app-container" id="app">
+      <!-- Headers -->
+      <div class="app-header">
+        <img class="header" src="images/header.png"/>
+      </div>
+
+      <!-- Head : selectors and cart -->
+      <div class="app-head-container">
+
+        <!--  * Item type -->
+        <div class="item-type-container" id="item-type">
+          <label class="item-type">Types :</label><br/>
+          <div class="item-type-subcontainer">
+            <div class="item-type-input-container" v-for="input in inputs">
+              <img class="input-ticon" v-bind:src="'images/' + input.icon"/>
+              <input v-bind:value="input.value" v-bind:id="input.value"
+                     type="checkbox" v-model="checkedNames">
+              <label class="item-type-input-label" v-bind:for="input.value">
+                {{ input.label }}
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!--  * Area size -->
+        <div class="area-size-container" id="area-size">
+          <label class="area">{{ label }} :</label><br/>
+          <select class="area-size-container" v-model="selected">
+            <option disabled value="">Please select one</option>
+            <option v-for="option in options"
+                    v-bind:value="option.value">{{ option.text }}</option>
+          </select>
+        </div>
+
+        <!--  * Item price -->
+        <div class="item-price-container" id="item-price">
+          <label class="item-price-cost">Prix :</label><br/>
+          <div class="item-price-slider-container">
+            <div id="slider" ref="slider"></div>
+          </div>
+        </div>
+
+        <!--  * Cart -->
+        <div class="item-cart-container" id="item-cart">
+          <table class="item-cart">
+            <tr>
+              <th class="item-cart-h-del">
+                <img class="item-cart-cart" src="images/add.png" title="Panier"/>
+              </th>
+              <th class="generic-item">
+                <label class="item-cart-h-type">Type</label>
+              </th>
+              <th class="generic-item">
+                <label class="item-cart-h-name">Nom</label>
+              </th>
+              <th class="generic-item">
+                <label class="item-cart-h-count">Qté</label>
+              </th>
+              <th class="item-cart-h-cost">
+                <label class="item-cart-h-cost">Prix</label>
+              </th>
+              <th class="item-cart-h-cost">
+                <label class="item-cart-h-cost">Total</label>
+              </th>
+            </tr>
+            <tr v-for="item in cartData">
+              <td class="generic-item">
+                <img class="item-cart-del" src="images/del.png"
+                     v-on:click="delFromCart(item)"
+                     title="Supprimer du panier"/>
+              </td>
+              <td class="generic-item">
+                <img class="item-cart-ticon" v-bind:src="'images/' + item.ticon"
+                     v-bind:title="item.tdescription"/>
+              </td>
+              <td class="item-cart-name">{{ item.name }}</td>
+              <td class="item-cart-count">{{ item.count }}</td>
+              <td class="item-cart-cost">
+                {{ item.cost.value }} {{ item.cost.unit }}
+              </td>
+              <td class="item-cart-cost">
+                {{ subTotal(item) }} {{ item.cost.unit }}
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4"></td>
+              <td class="item-cart-total">Total</td>
+              <td class="item-cart-total">{{ cartTotal(cartData) }} pa</td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+
+      <div class="app-separator"></div>
+
+      <!-- App body -->
+      <div class="app-body">
+        <div class="item-list-container" id="item-list">
+          <table class="item-list">
+            <tr>
+              <th class="item-list-h-add"></th>
+              <th class="generic-item">
+                <div class="item-list-sortable" v-on:click="sort('tlabel')">
+                  <label class="item-list-h-type">Type</label>
+                  <div class="item-list-sort-arrow-container">
+                    <label v-show="descSort('tlabel')">&#9662;</label>
+                    <label v-show="ascSort('tlabel')">&#9652;</label>
+                  </div>
+                </div>
+              </th>
+              <th class="generic-item">
+                <div class="item-list-sortable" v-on:click="sort('name')">
+                  <label class="item-list-h-name">Nom</label>
+                  <div class="item-list-sort-arrow-container">
+                    <label v-show="descSort('name')">&#9662;</label>
+                    <label v-show="ascSort('name')">&#9652;</label>
+                  </div>
+                </div>
+              </th>
+              <th class="generic-item">
+                <div class="item-list-h-short-description-container">
+                  <label class="item-list-h-short-description">Résumé</label>
+                  <input class="item-list-h-short-description"
+                         type="text" placeholder="Filtre" v-model="filterValue"
+                         v-on:change="filterm(filterValue)"
+                         v-on:input="filter(filterValue)"/>
+                </div>
+              </th>
+              <th class="generic-item">
+                <div class="item-list-sortable" v-on:click="sort('cost')">
+                  <label class="item-list-h-cost">Prix</label>
+                  <div class="item-list-sort-arrow-container">
+                    <label v-show="descSort('cost')">&#9662;</label>
+                    <label v-show="ascSort('cost')">&#9652;</label>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr v-for="item in itemsListData">
+              <td class="generic-item">
+                <img class="item-list-add" src="images/add.png"
+                     v-on:click="addToCart(item)"
+                     title="Ajouter au panier"/>
+              </td>
+              <td class="item-list-ticon">
+                <img class="item-list-ticon" v-bind:src="'images/' + item.ticon"
+                     v-bind:title="item.tdescription"/>
+              </td>
+              <td class="item-list-name">{{ item.name }}</td>
+              <td class="generic-item">
+                <details>
+                  <summary class="item-list-short-description">
+                    {{ item.short_description }}
+                  </summary>
+                  <div class="item-list-full-description-container">
+                    {{item.full_description}}
+                  </div>
+                </details>
+              </td>
+              <td class="item-list-cost">
+                {{ item.cost.value }} {{ item.cost.unit }}
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="app-footer" id="app-footer">
+        <label class="footer">Powered by</label>
+        <div v-for="block in blockList">
+          <a v-bind:href="block.url">
+            <img class="footer" v-bind:src="'images/' + block.image"
+                 v-bind:title="block.title"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

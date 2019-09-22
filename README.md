@@ -4,7 +4,7 @@ Bazar de Chroniques Oubliées Fantasy
 Mentions légales
 ----------------
 
-    Chroniques Oubliées™ Fantasy – Hors-série Casus Belli #1. Copyright 2009. Black Book Éditions. Auteurs : Laurent Bernasconi, Raphaël Bombayl, David Burckle, Damien Coltice et Didier Guiserix.
+>Chroniques Oubliées™ Fantasy – Hors-série Casus Belli #1. Copyright 2009. Black Book Éditions. Auteurs : Laurent Bernasconi, Raphaël Bombayl, David Burckle, Damien Coltice et Didier Guiserix.
 
 Conditions d’utilisations Black Book Editions
 ---------------------------------------------

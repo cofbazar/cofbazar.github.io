@@ -7,6 +7,7 @@ var cofConfig = {
       {"name": "Bracer", "label": "Bracelets", "description": "Bracelet de défense", "file": "bracers.json", "icon": "bracers.png"},
       {"name": "Char", "label": "Chariots", "description": "Chariot", "file": "chars.json", "icon": "chars.png"},
       {"name": "Cloak", "label": "Capes", "description": "Cape de protection", "file": "cloaks.json", "icon": "cloaks.png"},
+      {"name": "Helmet", "label": "Casques", "description": "Casque", "file": "helmets.json", "icon": "helmets.png"},
       {"name": "Inn", "label": "Auberge", "description": "Consommation d'auberge", "file": "inns.json", "icon": "inns.png"},
       {"name": "MagicalWand", "label": "Baguettes", "description": "Baguette magique", "file": "magicalwands.json", "icon": "magicalwands.png"},
       {"name": "Material", "label": "Matériels", "description": "Matériel", "file": "materials.json", "icon": "materials.png"},

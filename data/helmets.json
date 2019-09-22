@@ -1,0 +1,82 @@
+[
+  {
+    "__type__": "Helmet",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1
+    },
+    "count": 1,
+    "full_description": "La calotte en cuir est l'élément indispensable pour compléter une armure de cuir. Elle offre une RD de 2 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -2 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
+    "magical_level": 0,
+    "name": "Calotte en cuir",
+    "oid": "leather-helmet",
+    "short_description": "Calotte en cuir.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3
+    },
+    "count": 1,
+    "full_description": "Le camail est l'élément indispensable pour compléter une chemise de maille. Il offre une RD de 4 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -4 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
+    "magical_level": 0,
+    "name": "Camail",
+    "oid": "camail-helmet",
+    "short_description": "Un camail.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5
+    },
+    "count": 1,
+    "full_description": "Le casque est l'élément indispensable pour compléter une cotte de maille. Il offre une RD de 6 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -6 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
+    "magical_level": 0,
+    "name": "Casque",
+    "oid": "maille-helmet",
+    "short_description": "Un casque.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8
+    },
+    "count": 1,
+    "full_description": "Le heaume est l'élément indispensable pour compléter une armure de demi-plaques. Il offre une RD de 8 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -8 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
+    "magical_level": 0,
+    "name": "Heaume",
+    "oid": "heavy-helmet",
+    "short_description": "Un heaume.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  }
+]

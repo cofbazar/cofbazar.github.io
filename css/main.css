@@ -261,7 +261,6 @@ label.item-list-h-type {
 
 div.item-list-sort-arrow-container {
   display: flex;
-  //flex-direction: column;
 }
 
 label.item-list-h-name {
@@ -285,7 +284,6 @@ div.item-list-h-short-description-container {
 
 input.item-list-h-short-description {
   margin-right: 2px;
-  width: 50px;
 }
 
 label.item-list-h-cost {
@@ -406,13 +404,22 @@ img.footer {
     font-size: xx-small;
   }
 
+  label.item-list-h-short-description {
+    font-size: xx-small;
+  }
+
+  input.item-list-h-short-description {
+    width: 50px;
+  }
+
   label.item-list-h-cost {
     font-size: xx-small;
   }
 
   td.item-list-ticon {
-    width: 20px;
+    width: 20px;
   }
+
   img.item-list-ticon {
     width: 24px;
     height: 24px;

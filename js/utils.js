@@ -28,7 +28,7 @@ Array.prototype.maxPrice = function() {
 function areaText(area) {
   if (area['name'] === 'notSelected') {
     //console.log("areaText(" + JSON.stringify(area) + ") = ''");
-    return '';
+    return 'Tous les objets';
   } else {
     text = area['label'] + " ( " + area['people'] + " " + cofConfig['units']['people']+ " )";
     //console.log("areaText(" + JSON.stringify(area) + ") = '" + text + "'");

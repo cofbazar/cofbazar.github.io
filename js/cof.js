@@ -53,6 +53,8 @@ var itemPrice = new Vue({
       itemList.itemsListData = setItemsListData(
         itemList.cofFullData, itemType.checkedNames, this.minRange,
         this.maxRange, itemList.sortKeys, itemList.filterValue);
+
+      appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Max range(" + v + ")");
     }
   },
@@ -83,6 +85,8 @@ var itemPrice = new Vue({
         itemList.itemsListData = setItemsListData(
         itemList.cofFullData, itemType.checkedNames, this.minRange,
         this.maxRange, itemList.sortKeys, itemList.filterValue);
+
+      appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Update slider (" + handle + ", " + values[handle] + ")")
     });
   }
@@ -104,6 +108,8 @@ var itemType = new Vue({
       itemList.itemsListData = setItemsListData(
         itemList.cofFullData, this.checkedNames, itemPrice.minRange,
         itemPrice.maxRange, itemList.sortKeys, itemList.filterValue);
+      
+      appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Item type checked(" + v + ")");
     }
   }
@@ -164,6 +170,14 @@ var itemCart = new Vue({
   }
 });
 
+var appSeparator = new Vue({
+  el: '#app-separator',
+  data: {
+    loadedItems: 0,
+    allItems: 0,
+  }
+});
+
 var itemList = new Vue({
   el: '#item-list',
   data: {
@@ -180,6 +194,8 @@ var itemList = new Vue({
         this.itemsListData = setItemsListData(
           this.cofFullData, itemType.checkedNames, itemPrice.minRange,
           itemPrice.maxRange, this.sortKeys, this.filterValue);
+
+        appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "'");
       }
     },
@@ -190,6 +206,8 @@ var itemList = new Vue({
         this.itemsListData = setItemsListData(
           this.cofFullData, itemType.checkedNames, itemPrice.minRange,
           itemPrice.maxRange, this.sortKeys, this.filterValue);
+          
+        appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "' for mobile");
       }
     },
@@ -232,6 +250,8 @@ var itemList = new Vue({
       this.itemsListData = setItemsListData(
           this.cofFullData, itemType.checkedNames, itemPrice.minRange,
           itemPrice.maxRange, this.sortKeys, this.filterValue);
+
+      appSeparator.loadedItems = this.itemsListData.length;
       console.timeEnd("Sorting (" + key + ")");
     },
     descSort: function(key) {
@@ -264,10 +284,13 @@ var itemList = new Vue({
       // set default max cost for all object in empty area
       maxCofDataPrice = this.cofFullData.maxPrice();
       notSelectedArea = {"name": "notSelected", "cost-max" : maxCofDataPrice};
+      appSeparator.allItems = this.cofFullData.length;
 
       this.itemsListData = setItemsListData(
           this.cofFullData, defaultItemType, defaultItemPriceMin,
           defaultItemPriceMax, defaultSortKeys, defaultFilterValue);
+
+      appSeparator.loadedItems = this.itemsListData.length;
       console.timeEnd("Initialization");
     });
   }

@@ -210,8 +210,16 @@ div.app-separator {
   z-index: 1;
   background-size: cover;
   border-radius: 12px;
-  height: 10px;
+  height: 15px;
   margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label.app-separator {
+  font-size: small;
+  color: white;
+  padding-left: 20px;
 }
 
 /* App body */

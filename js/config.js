@@ -36,7 +36,7 @@ var cofConfig = {
   },
   "footers": {
     "data": [
-      {"name": "vuejs", "title": "VueJS", "image": "vuejs.png", "url": "https://vuejs.org"},
+      {"name": "drs", "title": "Document de Référence Système", "image": "drs.png", "url": "http://co-drs.org/"},
       {"name": "noob", "title": "NoobliéesChroniques", "image": "noob.png", "url" : "https://nooblieeschroniques.fr"},
       {"name": "gameicons", "title": "Game-icons.net", "image": "gameicons.png", "url": "https://game-icons.net/"},
       {"name": "ogl", "title": "Open Game Licence", "image": "ogl.png", "url": "http://www.opengamingfoundation.org/ogl.html"},

@@ -1,6 +1,13 @@
 Bazar de Chroniques Oubliées Fantasy
 ====================================
 
+Les ressources utilisées pour ce site :
+* Objets : 
+  * Edition deluxe du hors-série casus belli #1 ([Black Book Edition](https://www.black-book-editions.fr/))
+  * Du site contenant le Document de Référence Système pour Choniques Oubliées Fantasy ([DRS](http://co-drs.org/))
+* Les icônes : ([Game-icons.net](https://game-icons.net/)))
+* Les images : Des feuilles de personnages ([nooblieeschroniques](http://nooblieeschroniques.fr))
+
 Mentions légales
 ----------------
 

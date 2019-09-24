@@ -245,5 +245,195 @@
       "unit": "Kg",
       "value": 1.0
     }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "full_description": "Le Pnoulpe est une variété de petit poulpe qui à la particularité de transformer l'eau en mélange respirable et inversement en quantité suffisante pour assurer la survie d'un être humain en milieu aquatique. En pratique, on place le corps mou de couleur rouge sur les voies respiratoires, les tentacules enserrant la tête puis on se dépêche d'enter dans l'eau pour ne pas asphyxier. Les habitants de la cité de Calio ont chacun le leur (une telle créature vit environ 10 ans) et les élèvent. On trouve cependant peu de ceux-ci à la vente pour 2 raisons. D'une part la production est très peu supérieure aux besoins de Calio et d'autre part le liquide qui permet de maintenir le Pnoulpe en état de léthargie a un coût de fabrication très élevé. Le Pnoulpe est vendue dans un coffret de bois étanche empli d'un liquide qui permet de le conserver en léthargie pendant 1 mois au maximum (15x15x30cm), poids 5Kg). Dès que la boîte est ouverte, il faut mettre le Pnoulpe à l'eau, la boîte et le liquide ne sont plus utilisables.",
+    "name": "Pnoulpe",
+    "oid": "pnoulpe",
+    "short_description": "Un petit poulpe, qui permet de transformer l'eau en mélange respirable. A placer sur ses voies respiratoires.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "full_description": "Le sourcier est un des nombreux arbres magique du Wahalith, ses branches taillées de façon appropriée ont la particularité d'indiquer la direction de la plus proche source d'eau en surface et ce quel que soit la distance. Le bois nécesite d'être relativement frais et malgré un traitement spécial perd ses propriétés en 2 mois.",
+    "name": "Baguette de sourcier",
+    "oid": "dowser-s-wand",
+    "short_description": "La baguette de sourcier permet d'indiquer la direction de la plus proche source d'eau en surface.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000.0
+    },
+    "count": 1,
+    "full_description": "Le sourcier est un des nombreux arbres magique du Wahalith, ses branches taillées de façon appropriée ont la particularité d'indiquer la direction de la plus proche source d'eau en surface et ce quel que soit la distance. Il existe une méthode particulièrement longue et complexe pour obtenir une baguette aux propriétés permanentes qui s'utilise uniquement avec le rameau le plus élévé d'un Sourcier, cela rend l'objet beaucoup plus rare et cher",
+    "name": "Baguette de vrai sourcier",
+    "oid": "true-dowser-s-wand",
+    "short_description": "La baguette de vrai sourcier permet d'indiquer la direction de la plus proche source d'eau en surface. Son effet est permanent.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "full_description": "Il s'agit d'un pavé de métal de la taille d'un zippo qui contient un petit morceau de Phospharium, le métal qui s'enflamme par réaction alchimique au contact de l'air. Lorsque l'on ouvre le couvercle, le fragment chauffe et s'enflamme, lorsqu'on le ferme, privé d'air il s'éteint. L'ensemble a cependant tendance à vite devenir brûlant.",
+    "name": "Fragment ardent",
+    "oid": "ardent-fragment",
+    "short_description": "Petit morceau de Phospharium de la taille d'un zippo qui s'enflamme au contact de l'air.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "full_description": "Un manche en métal avec une gaine en cuir et à l'extrémité un morceau de cylindre de Phospharium de 10cm environ recouvert d'un capuchon gainé de cuir lui aussi. Une fois le capuchon retiré, l'objet donne une lueur équivalente à une torche normale (soit environ 12m de diamètre).",
+    "name": "Torche ardente",
+    "oid": "ardent-torch",
+    "short_description": "Une torche en phospharium qui éclaire lorsque l'on enlève le capuchon de protection.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "full_description": "La cosse de psalifère sèche ressemble à un gros haricot sec de 2cm de diamètre. Son coeur renferme une énorme quantité de spores noires que la fermentation fait monter en pression. Dans la nature, la cosse fini par exploser projetant ses spores en un large nuage de brouillard noir qui se dissipe au gré du vent. Lorsqu'elles sont récoltées, les cosses sont traitées de façon à arrêter le porcessus de fermentation juste avant l'instant cruciale, elle n'explosent alors qu'en cas de choc assez violent. Lorsque la cosse est jetée par terre ou tirée avec une flèche, elle explose en projetant un nuage de brouillard noir de 6m qui plonge la zone dans les ténèbres. Au deuxième tour, la zone atteind 18m de diamètre et correspond à un brouillard épais. Ensuite le brouillard se dissipe progressivement, mais si l'air est calme, il peut durer jusqu'à 5 min.",
+    "name": "Cosse de psalifère",
+    "oid": "cosse-de-psalifere",
+    "short_description": "La cosse de psalifère permet de créer une zone de brouillard épais lorsqu'elle estjetée à terre ou tirée avec une flèche.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5.0
+    },
+    "count": 1,
+    "full_description": "Celui ou celle qui ingère cette graine est stérile pendant les 24h suivantes (latence 1h).",
+    "name": "Graine d'amour",
+    "oid": "graine-d-amour",
+    "short_description": "La graine d'amour rend stérile celui ou celle qui l'ingère.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "full_description": "Cette simple chope en métal, en bois, en ivoire et autre terre cuite, possède un fond doublé en Hybberium protégé par un capuchon de cuir. Lorsque ce dernier est retiré, l'action glaciale de l'Hybberium ne tarde pas à se faire sentir et permet à votre bière d'être bien fraîche même en plein désert. Un must pour tout nain qui se respecte.",
+    "name": "Chope en Hybberium",
+    "oid": "chope-en-hybberium",
+    "short_description": "Chope en Hybberium qui reste fraîche en toute occasion.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "full_description": "Cette simple tasse en métal, en bois, en ivoire et autre terre cuite, possède un fond doublé en Phospharium protégé par un capuchon de cuir. Lorsque ce dernier est retiré, l'action chauffante du Phospharium ne tarde pas à se faire sentir et permet à votre thé d'être bien chaud même en plein milieu de la banquise. Les elfes en raffolent.",
+    "name": "Tasse en Phospharium",
+    "oid": "tasse-en-phospharium",
+    "short_description": "Une tasse en phospharium qui reste chaude en toute occasion.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250.0
+    },
+    "count": 1,
+    "full_description": "Cette simple casserole en métal, en bois, en ivoire et autre terre cuite, possède un fond doublé en Phospharium protégé par un capuchon de cuir. Lorsque ce dernier est retiré, l'action chauffante du Phospharium ne tarde pas à se faire sentir. Plus qu'un simple gadget, c'est la solution pour manger cuit sans révéler votre position en terre hostile par un feu de camp.",
+    "name": "Casserole en Phospharium",
+    "oid": "casserole-en-phospharium",
+    "short_description": "Casserole en Phospharium pour manger un repas cuit même en terre hostile.",
+    "usable_by": [],
+    "weigh": {
+      "__type__": "Weigh",
+      "unit": "Kg",
+      "value": 0.4
+    }
   }
 ]

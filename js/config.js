@@ -1,5 +1,4 @@
 var cofConfig = {
-  //"dataUrl": "https://raw.githubusercontent.com/christophe-marteau/cofdata/master/",
   "dataUrl": 'data/',
   "items": {
     "data" : [

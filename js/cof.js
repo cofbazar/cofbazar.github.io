@@ -1,3 +1,4 @@
+var defaultFantasyMode = "high";
 var defaultItemType = ['Armor'];
 var defaultFilterValue = undefined
 var defaultSelectedAreaSize = "village";
@@ -19,6 +20,90 @@ console.log("Areas :" + JSON.stringify(areas()));
 console.log("defaultItemPriceMin :" + defaultItemPriceMin);
 console.log("defaultItemPriceMax :" + defaultItemPriceMax);
 */
+
+var itemData = new Vue({
+  el: '#item-data',
+  data: {
+    cofFullData: [],
+  },
+  mounted () {
+    fetchData().then(arrayOfResponses => {
+
+      console.time("COF data loaded");
+      arrayOfResponses.forEach(a => {
+        //Add icon type and label type to data
+        itype = cofConfig['items']['data'].find(t => t['name'] === a[0]['__type__']);
+        a.map(item => {
+          item['ticon'] = itype['icon'];
+          item['tlabel'] = itype['label'];
+          item['tdescription'] = itype['description'];
+          item['displayFullDescription'] = false;
+          return item;
+        })
+        // data
+        this.cofFullData = this.cofFullData.concat(a);
+      });
+      console.timeEnd("COF data loaded");
+      console.time("Initialization");
+      // set default max cost for all object in empty area
+      maxCofDataPrice = this.cofFullData.maxPrice();
+      notSelectedArea = {"name": "notSelected", "cost-max" : maxCofDataPrice};
+      appSeparator.allItems = this.cofFullData.length;
+
+      itemList.itemsListData = setItemsListData(
+        this.cofFullData, defaultItemType, defaultItemPriceMin,
+        defaultItemPriceMax, defaultSortKeys, defaultFilterValue, defaultFantasyMode);
+
+      appSeparator.loadedItems = itemList.itemsListData.length;
+    console.timeEnd("Initialization");
+    });
+  }
+});
+
+var itemFantasy = new Vue({
+  el: '#item-fantasy',
+  data: {
+    fantasyMode: defaultFantasyMode,
+  },
+  watch: {
+    fantasyMode: function (v) {
+      console.time("Fantasy mode checked(" + v + ")");
+      this.fantasyMode = v;
+      itemList.itemsListData = setItemsListData(
+        itemData.cofFullData, itemType.checkedNames, itemPrice.minRange,
+        itemPrice.maxRange, itemList.sortKeys, itemList.filterValue,
+        this.fantasyMode);
+      appSeparator.loadedItems = itemList.itemsListData.length;
+      console.timeEnd("Fantasy mode checked(" + v + ")");
+    }
+  }
+});
+
+
+var itemType = new Vue({
+  el: '#item-type',
+  data: {
+    checkedNames: defaultItemType,
+    inputs: cofConfig['items']['data'].map(item => ({
+      value: item['name'],
+      label: item['label'],
+      icon:item['icon']
+    }))
+  },
+  watch: {
+    checkedNames: function (v) {
+      console.time("Item type checked(" + v + ")");
+      itemList.itemsListData = setItemsListData(
+        itemData.cofFullData, this.checkedNames, itemPrice.minRange,
+        itemPrice.maxRange, itemList.sortKeys, itemList.filterValue, 
+        itemFantasy.fantasyMode);
+      
+      appSeparator.loadedItems = itemList.itemsListData.length;
+      console.timeEnd("Item type checked(" + v + ")");
+    }
+  }
+});
+
 var itemPrice = new Vue({
   el: '#item-price',
   data: {
@@ -41,8 +126,9 @@ var itemPrice = new Vue({
       this.vslider.updateOptions({'range': {'min': v, 'max': this.max},
                                   'start': [v, this.max]});
       itemList.itemsListData = setItemsListData(
-        itemList.cofFullData, itemType.checkedNames, this.minRange,
-        this.maxRange, itemList.sortKeys, itemList.filterValue);
+        itemData.cofFullData, itemType.checkedNames, this.minRange,
+        this.maxRange, itemList.sortKeys, itemList.filterValue,
+        itemFantasy.fantasyMode);
       console.timeEnd("Min range(" + v + ")");
     },
     max: function (v) {
@@ -51,8 +137,9 @@ var itemPrice = new Vue({
       this.vslider.updateOptions({'range': {'min': this.min, 'max': v},
                                   'start': [this.min, v]});
       itemList.itemsListData = setItemsListData(
-        itemList.cofFullData, itemType.checkedNames, this.minRange,
-        this.maxRange, itemList.sortKeys, itemList.filterValue);
+        itemData.cofFullData, itemType.checkedNames, this.minRange,
+        this.maxRange, itemList.sortKeys, itemList.filterValue,
+        itemFantasy.fantasyMode);
 
       appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Max range(" + v + ")");
@@ -83,35 +170,13 @@ var itemPrice = new Vue({
       this[handle ? 'maxRange' : 'minRange'] = parseInt(values[handle]);
       console.time("Update slider (" + handle + ", " + values[handle] + ")")
         itemList.itemsListData = setItemsListData(
-        itemList.cofFullData, itemType.checkedNames, this.minRange,
-        this.maxRange, itemList.sortKeys, itemList.filterValue);
+        itemData.cofFullData, itemType.checkedNames, this.minRange,
+        this.maxRange, itemList.sortKeys, itemList.filterValue,
+        itemFantasy.fantasyMode);
 
       appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Update slider (" + handle + ", " + values[handle] + ")")
     });
-  }
-});
-
-var itemType = new Vue({
-  el: '#item-type',
-  data: {
-    checkedNames: defaultItemType,
-    inputs: cofConfig['items']['data'].map(item => ({
-      value: item['name'],
-      label: item['label'],
-      icon:item['icon']
-    }))
-  },
-  watch: {
-    checkedNames: function (v) {
-      console.time("Item type checked(" + v + ")");
-      itemList.itemsListData = setItemsListData(
-        itemList.cofFullData, this.checkedNames, itemPrice.minRange,
-        itemPrice.maxRange, itemList.sortKeys, itemList.filterValue);
-      
-      appSeparator.loadedItems = itemList.itemsListData.length;
-      console.timeEnd("Item type checked(" + v + ")");
-    }
   }
 });
 
@@ -193,7 +258,8 @@ var itemList = new Vue({
         this.filterValue = v;
         this.itemsListData = setItemsListData(
           this.cofFullData, itemType.checkedNames, itemPrice.minRange,
-          itemPrice.maxRange, this.sortKeys, this.filterValue);
+          itemPrice.maxRange, this.sortKeys, this.filterValue,
+          itemFantasy.fantasyMode);
 
         appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "'");
@@ -205,7 +271,8 @@ var itemList = new Vue({
         this.filterValue = v;
         this.itemsListData = setItemsListData(
           this.cofFullData, itemType.checkedNames, itemPrice.minRange,
-          itemPrice.maxRange, this.sortKeys, this.filterValue);
+          itemPrice.maxRange, this.sortKeys, this.filterValue,
+          itemFantasy.fantasyMode);
           
         appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "' for mobile");
@@ -249,7 +316,8 @@ var itemList = new Vue({
 
       this.itemsListData = setItemsListData(
           this.cofFullData, itemType.checkedNames, itemPrice.minRange,
-          itemPrice.maxRange, this.sortKeys, this.filterValue);
+          itemPrice.maxRange, this.sortKeys, this.filterValue,
+          itemFantasy.fantasyMode);
 
       appSeparator.loadedItems = this.itemsListData.length;
       console.timeEnd("Sorting (" + key + ")");
@@ -261,39 +329,6 @@ var itemList = new Vue({
       return (this.sortKeys.find(k => k['key'] === key)['dir'] <= 0);
     },
   },
-  mounted () {
-    fetchData().then(arrayOfResponses => {
-
-      console.time("COF data loaded");
-      arrayOfResponses.forEach(a => {
-        //Add icon type and label type to data
-        itype = cofConfig['items']['data'].find(t => t['name'] === a[0]['__type__']);
-        a.map(item => {
-          item['ticon'] = itype['icon'];
-          item['tlabel'] = itype['label'];
-          item['tdescription'] = itype['description'];
-          item['displayFullDescription'] = false;
-          return item;
-        })
-        // data
-        this.cofFullData = this.cofFullData.concat(a);
-      });
-      console.timeEnd("COF data loaded");
-
-      console.time("Initialization");
-      // set default max cost for all object in empty area
-      maxCofDataPrice = this.cofFullData.maxPrice();
-      notSelectedArea = {"name": "notSelected", "cost-max" : maxCofDataPrice};
-      appSeparator.allItems = this.cofFullData.length;
-
-      this.itemsListData = setItemsListData(
-          this.cofFullData, defaultItemType, defaultItemPriceMin,
-          defaultItemPriceMax, defaultSortKeys, defaultFilterValue);
-
-      appSeparator.loadedItems = this.itemsListData.length;
-      console.timeEnd("Initialization");
-    });
-  }
 });
 
 var footerBlock = new Vue({

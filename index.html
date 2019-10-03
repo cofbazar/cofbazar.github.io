@@ -20,6 +20,7 @@
     <title>Chroniques Oubliées Fantasy</title>
   </head>
   <body>
+    <div id=item-data></div>
     <div class="app-container" id="app">
       <!-- Headers -->
       <div class="app-header">
@@ -31,6 +32,18 @@
 
       <!-- Head : selectors and cart -->
       <div class="app-head-container">
+
+        <div class="item-fantasy-container" id="item-fantasy">
+          <label class="item-fantasy">Fantasy :</label><br/>
+          <div class="item-fantasy-for">
+            <label for="low">Low</label>
+            <input type="radio" id="low" value="low" v-model="fantasyMode">
+          </div>
+          <div class="item-fantasy-for">
+            <label for="high">High</label>
+            <input type="radio" id="high" value="high" v-model="fantasyMode">
+          </div>
+        </div>
 
         <!--  * Item type -->
         <div class="item-type-container" id="item-type">

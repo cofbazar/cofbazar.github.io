@@ -27,11 +27,11 @@ var cofConfig = {
   "areas": {
     "label": "Agglomérations",
     "data": [
-      {"name": "village", "label": 'Village', "people": 500, "cost-max" : "20"},
-      {"name": "borough", "label": 'Bourg', "people": 2000, "cost-max" : "200"},
-      {"name": "town", "label": 'Ville', "people": 8000, "cost-max" : "1000"},
-      {"name": "city", "label": 'Cité', "people": 30000,"cost-max" : "3000"},
-      {"name": "megalopolis", "label": 'Mégapole', "people": 100000, "cost-max" : "5000"}
+      {"name": "village", "label": 'Village', "people": 500, "cost-max" : "200"},
+      {"name": "borough", "label": 'Bourg', "people": 2000, "cost-max" : "2000"},
+      {"name": "town", "label": 'Ville', "people": 8000, "cost-max" : "10000"},
+      {"name": "city", "label": 'Cité', "people": 30000,"cost-max" : "30000"},
+      {"name": "megalopolis", "label": 'Mégapole', "people": 100000, "cost-max" : "50000"}
     ]
   },
   "footers": {

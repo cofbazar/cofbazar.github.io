@@ -24,7 +24,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1.",
@@ -44,7 +44,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
@@ -64,7 +64,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit de 2 tous les DM subits.",
@@ -84,7 +84,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit de 4 tous les DM subits.",
@@ -104,7 +104,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus de +5 aux test de natation.",
@@ -124,7 +124,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
@@ -144,7 +144,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
@@ -164,7 +164,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
@@ -184,7 +184,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
@@ -204,7 +204,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
@@ -224,7 +224,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
@@ -244,7 +244,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2.",
@@ -264,7 +264,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
@@ -284,7 +284,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit de 2 tous les DM subits.",
@@ -304,7 +304,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit de 4 tous les DM subits.",
@@ -324,7 +324,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus de +5 aux test de natation.",
@@ -344,7 +344,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
@@ -364,7 +364,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
@@ -384,7 +384,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
@@ -404,7 +404,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
@@ -424,7 +424,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
@@ -444,7 +444,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
@@ -464,7 +464,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3.",
@@ -484,7 +484,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
@@ -504,7 +504,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit de 2 tous les DM subits.",
@@ -524,7 +524,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit de 4 tous les DM subits.",
@@ -544,7 +544,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus de +5 aux test de natation.",
@@ -564,7 +564,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
@@ -584,7 +584,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
@@ -604,7 +604,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
@@ -624,7 +624,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
@@ -644,7 +644,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
@@ -664,7 +664,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
@@ -684,7 +684,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4.",
@@ -704,7 +704,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
@@ -724,7 +724,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit de 2 tous les DM subits.",
@@ -744,7 +744,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit de 4 tous les DM subits.",
@@ -764,7 +764,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus de +5 aux test de natation.",
@@ -784,7 +784,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
@@ -804,7 +804,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
@@ -824,7 +824,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
@@ -844,7 +844,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
@@ -864,7 +864,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
@@ -884,7 +884,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
@@ -904,7 +904,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
@@ -924,7 +924,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe réduit de 2 tous les DM subits.",
@@ -944,7 +944,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe réduit de 4 tous les DM subits.",
@@ -964,7 +964,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe apporte un bonus de +5 aux test de natation.",
@@ -984,7 +984,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
@@ -1004,7 +1004,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
@@ -1024,7 +1024,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
@@ -1044,7 +1044,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
@@ -1064,7 +1064,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
@@ -1084,7 +1084,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
@@ -1104,7 +1104,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",

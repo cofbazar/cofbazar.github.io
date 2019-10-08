@@ -62,7 +62,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -91,7 +91,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -120,7 +120,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -149,7 +149,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -178,7 +178,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -207,7 +207,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -236,7 +236,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -265,7 +265,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -294,7 +294,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -323,7 +323,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -352,7 +352,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -381,7 +381,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -410,7 +410,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -439,7 +439,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -468,7 +468,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -497,7 +497,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -526,7 +526,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -555,7 +555,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -584,7 +584,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -613,7 +613,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -642,7 +642,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -671,7 +671,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -700,7 +700,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -729,7 +729,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -758,7 +758,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -787,7 +787,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -816,7 +816,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -845,7 +845,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -874,7 +874,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -903,7 +903,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -932,7 +932,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -961,7 +961,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -990,7 +990,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -1019,7 +1019,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -1048,7 +1048,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -1077,7 +1077,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -1106,7 +1106,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -1135,7 +1135,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1164,7 +1164,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1193,7 +1193,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -1222,7 +1222,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1251,7 +1251,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1280,7 +1280,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1309,7 +1309,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1338,7 +1338,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1367,7 +1367,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1396,7 +1396,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1425,7 +1425,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -1454,7 +1454,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1483,7 +1483,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1512,7 +1512,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -1541,7 +1541,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1570,7 +1570,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1599,7 +1599,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1628,7 +1628,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1657,7 +1657,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1686,7 +1686,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1715,7 +1715,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1744,7 +1744,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1831,7 +1831,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -1860,7 +1860,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -1889,7 +1889,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -1918,7 +1918,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -1947,7 +1947,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -1976,7 +1976,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2005,7 +2005,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2034,7 +2034,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2063,7 +2063,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2092,7 +2092,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2121,7 +2121,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2150,7 +2150,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2179,7 +2179,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -2208,7 +2208,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2237,7 +2237,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2266,7 +2266,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2295,7 +2295,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2324,7 +2324,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2353,7 +2353,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2382,7 +2382,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2411,7 +2411,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2440,7 +2440,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2469,7 +2469,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2498,7 +2498,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2527,7 +2527,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -2556,7 +2556,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2585,7 +2585,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2614,7 +2614,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -2643,7 +2643,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2672,7 +2672,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2701,7 +2701,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2730,7 +2730,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2759,7 +2759,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2788,7 +2788,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2817,7 +2817,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2846,7 +2846,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2875,7 +2875,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -2904,7 +2904,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -2933,7 +2933,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -2962,7 +2962,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -2991,7 +2991,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3020,7 +3020,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3049,7 +3049,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3078,7 +3078,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3107,7 +3107,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3136,7 +3136,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3165,7 +3165,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3194,7 +3194,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -3223,7 +3223,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3252,7 +3252,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3281,7 +3281,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3310,7 +3310,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3339,7 +3339,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3368,7 +3368,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3397,7 +3397,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3426,7 +3426,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3455,7 +3455,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3484,7 +3484,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3513,7 +3513,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3600,7 +3600,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -3629,7 +3629,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3658,7 +3658,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3687,7 +3687,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -3716,7 +3716,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3745,7 +3745,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3774,7 +3774,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3803,7 +3803,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3832,7 +3832,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3861,7 +3861,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3890,7 +3890,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3919,7 +3919,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3948,7 +3948,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -3977,7 +3977,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4006,7 +4006,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4035,7 +4035,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4064,7 +4064,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4093,7 +4093,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4122,7 +4122,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4151,7 +4151,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4180,7 +4180,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4209,7 +4209,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4238,7 +4238,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4267,7 +4267,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4296,7 +4296,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -4325,7 +4325,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4354,7 +4354,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4383,7 +4383,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4412,7 +4412,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4441,7 +4441,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4470,7 +4470,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4499,7 +4499,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4528,7 +4528,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4557,7 +4557,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4586,7 +4586,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4615,7 +4615,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4644,7 +4644,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -4673,7 +4673,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4702,7 +4702,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4731,7 +4731,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -4760,7 +4760,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4789,7 +4789,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4818,7 +4818,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4847,7 +4847,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4876,7 +4876,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4905,7 +4905,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4934,7 +4934,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4963,7 +4963,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -4992,7 +4992,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5021,7 +5021,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5050,7 +5050,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5079,7 +5079,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5108,7 +5108,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5137,7 +5137,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5166,7 +5166,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5195,7 +5195,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5224,7 +5224,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5253,7 +5253,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5282,7 +5282,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5369,7 +5369,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -5398,7 +5398,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5427,7 +5427,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5456,7 +5456,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5485,7 +5485,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5514,7 +5514,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5543,7 +5543,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5572,7 +5572,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5601,7 +5601,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5630,7 +5630,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5659,7 +5659,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5688,7 +5688,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5717,7 +5717,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -5746,7 +5746,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5775,7 +5775,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5804,7 +5804,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -5833,7 +5833,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5862,7 +5862,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5891,7 +5891,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5920,7 +5920,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5949,7 +5949,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -5978,7 +5978,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -6007,7 +6007,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -6036,7 +6036,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -6065,7 +6065,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -6094,7 +6094,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6123,7 +6123,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6152,7 +6152,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6181,7 +6181,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6210,7 +6210,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6239,7 +6239,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6268,7 +6268,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6297,7 +6297,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6326,7 +6326,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6355,7 +6355,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6384,7 +6384,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6413,7 +6413,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -6442,7 +6442,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6471,7 +6471,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6500,7 +6500,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -6529,7 +6529,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6558,7 +6558,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6587,7 +6587,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6616,7 +6616,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6645,7 +6645,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6674,7 +6674,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6703,7 +6703,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6732,7 +6732,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -6761,7 +6761,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6790,7 +6790,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6819,7 +6819,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -6848,7 +6848,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6877,7 +6877,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6906,7 +6906,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6935,7 +6935,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6964,7 +6964,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -6993,7 +6993,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -7022,7 +7022,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -7051,7 +7051,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -7138,7 +7138,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -7167,7 +7167,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7196,7 +7196,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7225,7 +7225,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7254,7 +7254,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7283,7 +7283,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7312,7 +7312,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7341,7 +7341,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7370,7 +7370,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7399,7 +7399,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7428,7 +7428,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7457,7 +7457,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7486,7 +7486,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -7515,7 +7515,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7544,7 +7544,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7573,7 +7573,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -7602,7 +7602,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7631,7 +7631,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7660,7 +7660,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7689,7 +7689,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7718,7 +7718,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7747,7 +7747,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7776,7 +7776,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7805,7 +7805,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7834,7 +7834,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -7863,7 +7863,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -7892,7 +7892,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -7921,7 +7921,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -7950,7 +7950,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -7979,7 +7979,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8008,7 +8008,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8037,7 +8037,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8066,7 +8066,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8095,7 +8095,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8124,7 +8124,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8153,7 +8153,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8182,7 +8182,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -8211,7 +8211,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8240,7 +8240,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8269,7 +8269,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -8298,7 +8298,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8327,7 +8327,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8356,7 +8356,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8385,7 +8385,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8414,7 +8414,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8443,7 +8443,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8472,7 +8472,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8501,7 +8501,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -8530,7 +8530,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8559,7 +8559,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8588,7 +8588,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -8617,7 +8617,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8646,7 +8646,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8675,7 +8675,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8704,7 +8704,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8733,7 +8733,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8762,7 +8762,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8791,7 +8791,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8820,7 +8820,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8907,7 +8907,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -8936,7 +8936,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -8965,7 +8965,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -8994,7 +8994,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9023,7 +9023,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9052,7 +9052,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9081,7 +9081,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9110,7 +9110,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9139,7 +9139,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9168,7 +9168,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9197,7 +9197,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9226,7 +9226,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9255,7 +9255,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -9284,7 +9284,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9313,7 +9313,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9342,7 +9342,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9371,7 +9371,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9400,7 +9400,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9429,7 +9429,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9458,7 +9458,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9487,7 +9487,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9516,7 +9516,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9545,7 +9545,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9574,7 +9574,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9603,7 +9603,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -9632,7 +9632,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9661,7 +9661,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9690,7 +9690,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -9719,7 +9719,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9748,7 +9748,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9777,7 +9777,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9806,7 +9806,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9835,7 +9835,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9864,7 +9864,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9893,7 +9893,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9922,7 +9922,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9951,7 +9951,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -9980,7 +9980,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10009,7 +10009,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10038,7 +10038,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -10067,7 +10067,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10096,7 +10096,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10125,7 +10125,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10154,7 +10154,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10183,7 +10183,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10212,7 +10212,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10241,7 +10241,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10270,7 +10270,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -10299,7 +10299,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10328,7 +10328,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10357,7 +10357,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10386,7 +10386,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10415,7 +10415,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10444,7 +10444,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10473,7 +10473,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10502,7 +10502,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10531,7 +10531,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10560,7 +10560,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10589,7 +10589,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10680,7 +10680,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -10711,7 +10711,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10742,7 +10742,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10773,7 +10773,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -10804,7 +10804,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10835,7 +10835,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10866,7 +10866,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10897,7 +10897,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10928,7 +10928,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10959,7 +10959,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -10990,7 +10990,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -11021,7 +11021,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -11052,7 +11052,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -11083,7 +11083,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11114,7 +11114,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11145,7 +11145,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11176,7 +11176,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11207,7 +11207,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11238,7 +11238,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11269,7 +11269,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11300,7 +11300,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11331,7 +11331,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11362,7 +11362,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11393,7 +11393,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11424,7 +11424,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 18000
     },
     "count": 1,
     "defense": [
@@ -11455,7 +11455,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11486,7 +11486,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11517,7 +11517,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -11548,7 +11548,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11579,7 +11579,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11610,7 +11610,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11641,7 +11641,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11672,7 +11672,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11703,7 +11703,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11734,7 +11734,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11765,7 +11765,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11796,7 +11796,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 32000
     },
     "count": 1,
     "defense": [
@@ -11827,7 +11827,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -11858,7 +11858,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -11889,7 +11889,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 7200
+      "value": 72000
     },
     "count": 1,
     "defense": [
@@ -11920,7 +11920,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -11951,7 +11951,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -11982,7 +11982,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -12013,7 +12013,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -12044,7 +12044,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -12075,7 +12075,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -12106,7 +12106,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -12137,7 +12137,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 50000
     },
     "count": 1,
     "defense": [
@@ -12168,7 +12168,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12199,7 +12199,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12230,7 +12230,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 8000
     },
     "count": 1,
     "defense": [
@@ -12261,7 +12261,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12292,7 +12292,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12323,7 +12323,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12354,7 +12354,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12385,7 +12385,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12416,7 +12416,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12447,7 +12447,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [
@@ -12478,7 +12478,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 2000
     },
     "count": 1,
     "defense": [

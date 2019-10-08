@@ -246,7 +246,6 @@ var appSeparator = new Vue({
 var itemList = new Vue({
   el: '#item-list',
   data: {
-    cofFullData: [],
     itemsListData: [],
     sortKeys: defaultSortKeys,
     filterValue: undefined,
@@ -257,7 +256,7 @@ var itemList = new Vue({
         console.time("Filter data on '" + v + "'");
         this.filterValue = v;
         this.itemsListData = setItemsListData(
-          this.cofFullData, itemType.checkedNames, itemPrice.minRange,
+          itemData.cofFullData, itemType.checkedNames, itemPrice.minRange,
           itemPrice.maxRange, this.sortKeys, this.filterValue,
           itemFantasy.fantasyMode);
 
@@ -270,7 +269,7 @@ var itemList = new Vue({
         console.time("Filter data on '" + v + "' for mobile");
         this.filterValue = v;
         this.itemsListData = setItemsListData(
-          this.cofFullData, itemType.checkedNames, itemPrice.minRange,
+          itemData.cofFullData, itemType.checkedNames, itemPrice.minRange,
           itemPrice.maxRange, this.sortKeys, this.filterValue,
           itemFantasy.fantasyMode);
           
@@ -315,7 +314,7 @@ var itemList = new Vue({
       this.sortKeys.unshift(nKey);
 
       this.itemsListData = setItemsListData(
-          this.cofFullData, itemType.checkedNames, itemPrice.minRange,
+          itemData.cofFullData, itemType.checkedNames, itemPrice.minRange,
           itemPrice.maxRange, this.sortKeys, this.filterValue,
           itemFantasy.fantasyMode);
 

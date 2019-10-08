@@ -79,7 +79,7 @@ setItemsListData = function(dataList, itemTypeList, minCostValue, maxCostValue,
                             sortKeys, filterValue, fantasyMode) {
   //console.log("setItemsListData(<fullData>, "+ itemTypeList + ", " +
   //            minCostValue + ", " + maxCostValue + ", " + JSON.stringify(sortKeys) + 
-  //            ", " + filterValue + ", " + fantasyMode + ")")
+  //            ", " + filterValue + ", " + fantasyMode + ")");
   if ((filterValue === undefined) || (filterValue === '')) {
     return dataList.filter(item =>
       itemTypeList.includes(item['__type__']) && isMagicalItem(fantasyMode, item) &&

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js-ext/wNumb.js"></script>
+    <script src="js-ext/stringops.js"></script>
+    <script src="js-ext/nouislider.min.js"></script>
+    <script src="js-ext/vue.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/common.js" defer></script>
+    <script src="js/common-cards.js" defer></script>
+    <script src="js/cof-cards.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/common-cards.css">
+    <link rel="stylesheet" type="text/css" href="css/cof-cards.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="icon" type="image/jpg" href="images/common/favicon.jpg">
+    <title>Chroniques Oubliées Fantasy</title>
+  </head>
+  <body>
+    <div id="item-data"></div>
+    <div class="app-container" id="app">
+      <!-- Headers -->
+      <div id="app-header" class="app-headers">
+        <cofbazar-header></cofbazar-header>
+      </div>
+    <!-- App body -->
+    <div id="item-list"></div> 
+    <div id="app">
+      <div class="add-card-help" 
+           v-if="itemCount == 0">Veuillez ajouter des objets dans le panier pour générer leurs cartes.</div>
+      <div class="card-body" id="card-list" ref="content" v-for="(page, index) in items">
+        <div class="page-break"></div>
+        <div class="card-inside">
+          <div class="card" v-for="(item, index) in page">
+            <div class="card-editable">
+              <div class="card-header">
+                <div class="card-title-container">
+                  <p class="card-title">{{ item.title }}</p>
+                  <p class="card-subtitle">{{ item.subtitle }}</p>
+                </div> 
+                <img class="item-type-image" v-bind:src="'images/item-type/' + item.ticon"/>
+              </div>
+              <div class="card-content">
+                <div class="item-image-container">
+                  <div class="left-image-container">
+                    <cofbazar-card-iconified-special-property 
+                      v-bind:isproperties="getISProperties(item)">
+                    </cofbazar-card-iconified-special-property>
+                    <cofbazar-card-damage-category 
+                      v-bind:attack="item.attack">
+                    </cofbazar-card-damage-category>
+                  </div>
+                  <img class="item-image" 
+                       v-bind:src="'images/item/' + item.base_item + '.png'"/>
+                  <div class="right-image-container">
+                    <cofbazar-card-flavor 
+                      v-bind:flavors="item.flavor">
+                    </cofbazar-card-flavor>
+                    <cofbazar-card-big-slot
+                      v-bind:use="item.use">
+                    </cofbazar-card-big-slot>
+                  </div>
+                </div>
+                <div class="item-description-container">
+                  <p class="item-description">{{ item.short_description }}</p>
+                </div>
+                <cofbazar-card-defense
+                  v-bind:defense="item.defense">
+                </cofbazar-card-defense>
+                <cofbazar-card-attack 
+                  v-bind:attack="item.attack">
+                </cofbazar-card-attack>
+                <cofbazar-card-special-property 
+                  v-bind:sproperties="item.special_property">
+                </cofbazar-card-special-property>
+              </div>
+              <cofbazar-card-footer 
+                v-bind:item="item">
+              </cofbazar-card-footer>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div id="app-footer">
+        <cofbazar-footer></cofbazar-footer>
+      </div>
+    </div>
+  </body>
+</html>
+

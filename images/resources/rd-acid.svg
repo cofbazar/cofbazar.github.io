@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg134"
+   sodipodi:docname="acid-shield.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/plic/Documents/dev/cofbazar.github.io/images/card/rd-acid.png"
+   inkscape:export-xdpi="12.000001"
+   inkscape:export-ydpi="12.000001">
+  <metadata
+     id="metadata140">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs138">
+    <radialGradient
+       id="gradient-1">
+      <stop
+         id="stop142"
+         stop-opacity="1"
+         stop-color="#a0ee49"
+         offset="0%" />
+      <stop
+         id="stop144"
+         stop-opacity="1"
+         stop-color="#417505"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-2"
+       gradientTransform="scale(0.73425765,1.3619198)"
+       cx="357.7593"
+       cy="189.09484"
+       fx="357.7593"
+       fy="189.09484"
+       r="159.47195"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop147"
+         stop-opacity="1"
+         stop-color="#98f23a"
+         offset="0%" />
+      <stop
+         id="stop149"
+         stop-opacity="1"
+         stop-color="#386107"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-6">
+      <stop
+         id="stop152"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop154"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-8">
+      <stop
+         id="stop157"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop159"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-9">
+      <stop
+         id="stop162"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop164"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-10">
+      <stop
+         id="stop167"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop169"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-11">
+      <stop
+         id="stop172"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop174"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-12">
+      <stop
+         id="stop177"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop179"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-13">
+      <stop
+         id="stop182"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop184"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-14">
+      <stop
+         id="stop187"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop189"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-15">
+      <stop
+         id="stop192"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop194"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-16">
+      <stop
+         id="stop197"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0%" />
+      <stop
+         id="stop199"
+         stop-opacity="1"
+         stop-color="#000000"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1236"
+     inkscape:window-height="693"
+     id="namedview136"
+     showgrid="false"
+     inkscape:zoom="0.41210938"
+     inkscape:cx="274.19336"
+     inkscape:cy="290.53986"
+     inkscape:window-x="2414"
+     inkscape:window-y="355"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg134" />
+  <g
+     class=""
+     transform="translate(0,0)"
+     style="touch-action: none;"
+     id="g132">
+    <g
+       id="g130">
+      <path
+         d="M259.303 23.195C191.17 23.188 122.745 33.57 54.896 54.732L48.776 57.557L48.473 64.077C48.473 159.39 58.169 242.645 88.77 314.037C119.37 385.429 171.09 444.222 254.047 488.657L258.719 490.994L262.806 488.658C343.87 445.236 396.29 386.753 427.5 315.205C458.71 243.658 468.965 159.721 468.965 64.075L468.965 57.07L462.541 54.734C395.381 33.596 327.437 23.204 259.304 23.197Z"
+         class=""
+         fill="#417505"
+         fill-opacity="1"
+         id="path122" />
+      <path
+         d="M259.303 41.885C322.961 41.891 386.733 52.045 449.691 71.085C449.137 162.168 438.864 241.399 409.981 307.613C380.951 374.158 333.639 428.025 258.721 469.385C181.681 427.003 134.197 373.5 105.706 307.029C77.424 241.044 68.248 161.951 67.746 71.085C131.556 51.893 195.446 41.877 259.304 41.885Z"
+         class=""
+         fill="#b8e986"
+         fill-opacity="1"
+         id="path124" />
+      <path
+         d="M261.688 80.405L205.813 112.845L235.938 165.063C230.221 167.413 224.896 170.503 220.094 174.25L189.969 122.062L134.187 154.438L134.187 218.25L194.717 218.25C194.299 221.29 194.062 224.406 194.062 227.563C194.062 230.74 194.294 233.868 194.718 236.938L134.186 236.938L134.186 301.5L189.904 333.844L220.217 281.344C225.004 285.118 230.305 288.249 235.997 290.624L205.747 343.062L261.685 375.532L317.591 343.156L287.247 290.626C292.943 288.246 298.237 285.092 303.027 281.313L333.44 334L388.69 302L388.69 236.937L328.5 236.937C328.924 233.867 329.156 230.74 329.156 227.562C329.156 224.406 328.919 221.292 328.5 218.25L388.688 218.25L388.688 153.906L333.375 121.906L303.155 174.281C298.352 170.531 293.032 167.417 287.313 165.063L317.531 112.72L261.689 80.406Z"
+         class=""
+         fill="#d0021b"
+         fill-opacity="0"
+         id="path126" />
+      <path
+         d="M261.594 178.375C288.814 178.375 310.814 200.339 310.814 227.563C310.812 254.787 288.818 276.75 261.594 276.75C234.37 276.75 212.406 254.784 212.406 227.562C212.406 200.342 234.373 178.375 261.594 178.375Z"
+         class="selected"
+         fill="#b8e986"
+         fill-opacity="1"
+         id="path128" />
+    </g>
+  </g>
+  <g
+     id="g210"
+     class=""
+     transform="matrix(0.55445336,0,0,0.55445336,109.83234,82.53991)">
+    <g
+       id="g208">
+      <path
+         id="path204"
+         class=""
+         d="M 263.844,40.344 C 234.1,213.202 145.594,248.03 145.594,369.22 c 0,60.804 60.106,105.5 118.25,105.5 59.45,0 115.937,-41.803 115.937,-99.533 0,-116.332 -85.2,-162.312 -115.936,-334.843 z"
+         inkscape:connector-curvature="0"
+         style="fill:url(#gradient-2)" />
+      <path
+         id="path206"
+         class="selected"
+         d="m 205.564,257.438 c -27.963,75.53 -5.105,154.567 54.25,179.375 15.185,6.348 31.724,7.714 47.905,6.28 C 191.585,492.88 121.883,363.277 205.561,257.437 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#375f06;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,354 @@
+/* Card sections */
+div.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+label.section-title{
+  font-size: 8px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: left;
+  font-weight: bold;
+  width: 32;
+  border-bottom: 1px solid #ae9a87;
+  margin: 0mm 0.5mm 0px 0.5mm;
+  font-variant: small-caps;
+}
+@-moz-document url-prefix() {
+  label.section-title{
+    font-size: 7px;
+    font-family: 'Times New Roman';
+    margin: 0px;
+    text-align: left;
+    font-weight: bold;
+    width: 32;
+    border-bottom: 1px solid #ae9a87;
+    margin: 0mm 0.5mm 1px 0.5mm;
+    font-variant: small-caps;
+  }
+}
+
+img.section-bullet{
+  width: 4px;
+  height: 4px;
+  padding: 0px 2px 0px 1px;
+}
+
+/* Iconified special properties*/
+div.isproperties-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex: 1 1 0px;
+}
+
+div.isproperty-container {
+  margin-left: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 0 0 0px;
+}
+
+img.isproperty-icon {
+  width: 8px;
+  height: 8px;
+}
+
+label.isproperty-text {
+  font-size: 6px;
+  font-family: 'Times New Roman';
+  padding-left: 1px;
+}
+
+/* Damage category*/
+div.damage-categories-container {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 8px;
+}
+
+div.damage-category-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 8px;
+}
+
+img.damage-category-icon {
+  width: 8px;
+  height: 8px;
+}
+
+/* Flavors */
+div.flavors-container {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 16px;
+}
+
+div.flavor-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 8px;
+}
+
+img.flavor-icon {
+  width: 8px;
+  height: 8px;
+}
+
+/* Slots */
+div.big-slot-container {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: center;
+  border: 1px;
+  border-radius: 4px;
+  border: 1px solid #ae9a87;
+  width: 22px;
+  height: 22px;
+  margin-right:1px;
+}
+
+label.big-slot-container {
+  align-self: center;
+  font-size: 5px;
+  color: ae9a87;
+  font-family: 'Times New Roman';
+}
+@-moz-document url-prefix() {
+  label.big-slot-container {
+    align-self: center;
+    font-size: 4px;
+    color: ae9a87;
+    font-family: 'Times New Roman';
+  }
+}
+
+/* Attack section */
+div.attack-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+label.attack-modifier {
+  font-size: 9px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: left;
+  padding-left: 1px;
+}
+
+img.attack-icon{
+  width: 11px;
+  height: 11px;
+  padding: 0px;
+}
+
+div.damage-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label.damage-modifier {
+  font-size: 9px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding-left: 1px;
+}
+
+label.damage-separator {
+  font-size: 9px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding-left: 0px;
+}
+
+label.damage-magical-modifier {
+  font-size: 9px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding-left: 1px;
+  color: crimson;
+  font-weight: bold;
+}
+
+img.damage-icon{
+  width: 11px;
+  height: 11px;
+}
+
+label.damage-text-modifier {
+  font-size: 6px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding: 0px;
+}
+
+label.damage-limitation {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  padding-left: 1px;
+}
+
+div.damage-limitation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+/* Defense section */
+div.defense-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+img.defense-icon{
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+}
+
+div.defense-mod-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label.defense-modifier {
+  font-size: 9px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding-left: 1px;
+}
+
+label.defense-limitation {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  padding-left: 1px;
+}
+
+div.defense-limitation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+/* special property */
+div.sproperty {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+label.sproperty{
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: left;
+}
+
+img.section-bullet-sp {
+  width: 4px;
+  height: 4px;
+  padding: 2px 2px 0px 1px;
+  flex-shrink: 0;
+}
+
+/* Card footer */
+div.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 0px;
+  margin: 0mm 1mm 0mm 1mm;
+}
+
+div.footer-group-start {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.footer-group-center {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.footer-group-end {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+img.hands-icon {
+  width: 10px;
+  height: 10px;
+}
+
+label.hands-separator {
+  font-size: 10px;
+  font-family: 'Times New Roman';
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+p.weight-text {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  padding: 2px 1px 2px 1px;
+  margin: 0px;
+  text-align: right;
+}
+
+img.weight-icon{
+  width: 10px;
+  height: 10px;
+}
+
+p.cost-text {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  padding: 2px 2px 2px 1px;
+  margin: 0px;
+  text-align: right;
+}
+
+img.cost-icon{
+  width: 12px;
+  height: auto;
+}

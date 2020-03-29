@@ -1,0 +1,45 @@
+@page {
+  size: 210mm 297mm;
+  margin: 0px;
+}
+
+body {
+  -webkit-print-color-adjust: exact !important;
+  margin: 0px;
+  color-adjust: exact; /*Firefox*/
+}
+
+/* Headers */
+div.app-headers {
+  display:none;
+}
+
+img.header {
+ display: none;
+}
+
+a.header {
+  display: none;
+}
+div.print-button {
+  display: none;
+}
+
+/* Footer */
+div.app-footer {
+ display: none;
+}
+
+label.footer {
+  display: none
+}
+
+img.footer {
+ display: none;
+}
+
+div.page-break {
+  clear: both;
+  page-break-after: always;
+  padding-top: 20mm;
+}

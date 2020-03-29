@@ -1,4 +1,11 @@
 var cofConfig = {
+  "headers": {
+    "data": [
+      {"name": "items", "label": "Objets", "url": "index.html"},
+      {"name": "cards", "label": "Cartes", "url": "cards.html"},
+      {"name": "resources", "label": "Ressources", "url": "resources.html"},
+    ]
+  },
   "dataUrl": 'data/',
   "items": {
     "data" : [
@@ -31,8 +38,142 @@ var cofConfig = {
       {"name": "borough", "label": 'Bourg', "people": 2000, "cost-max" : "2000"},
       {"name": "town", "label": 'Ville', "people": 8000, "cost-max" : "10000"},
       {"name": "city", "label": 'Cité', "people": 30000,"cost-max" : "30000"},
-      {"name": "megalopolis", "label": 'Mégapole', "people": 100000, "cost-max" : "50000"}
+      {"name": "megalopolis", "label": 'Mégapole', "people": 100000, "cost-max" : "50000"},
+      {"name": "notSelected", "cost-max" : -1.0}
     ]
+  },
+  "abilities": {
+    "data": [
+      {"name": "DEX", "label": "Dextérité"},
+      {"name": "FOR", "label": "Force"},
+      {"name": "CON", "label": "Constitution"},
+      {"name": "INT", "label": "Intelligence"},
+      {"name": "SAG", "label": "Sagesse"},
+      {"name": "CHA", "label": "Charisme"}
+    ],
+    "label": "Caractéristiques"
+  },
+  "attacks": {
+    "data": [
+      {"name": "melee", "label": "Attaque au contact"},
+      {"name": "ranged", "label": "Attaque à distance"},
+      {"name": "magical", "label": "Attaque magique"},
+    ],
+    "prefix": "attack-",
+    "label": "Attaques"
+  },
+  "damages": {
+    "data": [
+      {"name": "acid", "label": "Dégât d'acide", "iconify": true},
+      {"name": "blunt", "label": "Dégât contondant", "iconify": false},
+      {"name": "coldness", "label": "Dégât de froid", "iconify": true},
+      {"name": "fire", "label": "Dégât de feu", "iconify": true},
+      {"name": "lightning", "label": "Dégât de foudre", "iconify": true},
+      {"name": "punctured", "label": "Dégât perforant", "iconify": false},
+      {"name": "sharp", "label": "Dégât tranchant", "iconify": false},
+    ],
+    "prefix": "damage-",
+    "label": "Dégats"
+  },
+  "defenses" : {
+    "data": [
+      {"name": "defense", "label": "Défense"}
+    ],
+    "prefix": "",
+    "label": "Défenses"
+  },
+  "character-sheet" : {
+    "data": [
+      {"name": "pv", "label": "Points de vie (PV)"},
+      {"name": "life-die", "label": "Dé de vie"},
+      {"name": "level", "label": "Niveau"},
+      {"name": "initiative", "label": "Initiative"}
+    ],
+    "prefix": "",
+    "label": "Feuille de personnage"
+  },
+  "guis" : {
+    "data": [
+      {"name": "add", "label": "Ajouter l'objet au panier"},
+      {"name": "del", "label": "Supprimer l'objet du panier"},
+      {"name": "reset-filter", "label": "Réinitialiser tous les filtres"},
+      {"name": "reset-cart", "label": "Vider tout le panier"},
+      {"name": "add-all-visible", "label": "Ajouter tous les objets visibles au panier"}
+    ],
+    "prefix": "../gui/",
+    "label": "Interface"
+  },
+  "flavors": {
+    "data": [
+      {"name": "acid", "label": "Objet élémentaire d'acide"},
+      {"name": "coldness", "label": "Objet élémentaire de froid"},
+      {"name": "fire", "label": "Objet élémentaire de feu"},
+      {"name": "lightning", "label": "Objet élémentaire de foudre"},
+      {"name": "daemon-scourge", "label": "Objet magique fléau des démons"},
+      {"name": "dead-scourge", "label": "Objet fléau des morts-vivants"},
+      {"name": "dragon-scourge", "label": "Objet fléau des dragons"},
+      {"name": "goblin-scourge", "label": "Objet fléau des gobelins"},
+      {"name": "quality", "label": "Objet de qualité"},
+      {"name": "magical", "label": "Objet magique"},
+      {"name": "free-action", "label": "Objet de libre action"},
+      {"name": "defense", "label": "Objet de défense"},
+      {"name": "magical-resistance", "label": "Objet de résistance à la magie"},
+      {"name": "protective", "label": "Objet de protection"},
+      {"name": "shadow", "label": "Objet de l'ombre"},
+      {"name": "sharp", "label": "Objet affuté"},
+      {"name": "swimming", "label": "Objet de natation"},
+    ],
+    "prefix": "flavor-",
+    "label": "Variante d'objet"
+  },
+  "flavors-material": {
+    "data": [
+      {"name": "swimming", "label": "Objet de natation"},
+      {"name": "adamantium", "label": "Objet en adamantium"},
+      {"name": "cold-iron", "label": "Objet en fer froid"},
+      {"name": "dalberath", "label": "Objet en dalberath"},
+      {"name": "durium", "label": "Objet en durium"},
+      {"name": "hybberium", "label": "Objet en hybberium"},
+      {"name": "laenk", "label": "Objet en laënk"},
+      {"name": "lothar", "label": "Objet en lothar"},
+      {"name": "mythral", "label": "Objet en mythral"},
+      {"name": "phospharium", "label": "Objet en phospharium"},
+      {"name": "silver", "label": "Objet en argent"},
+      {"name": "sombracier", "label": "Objet en sombracier"},
+      {"name": "xylene", "label": "Objet en xylène"},
+    ],
+    "prefix": "flavor-",
+    "label": "Variante de matériaux"
+  },
+  "skills": {
+    "data": [
+      {"name": "paralysed", "label": "Résistance à la paralysie", "iconify": true, "textify": true},
+      {"name": "slowdown", "label": "Résistance au ralentissement", "iconify": true, "textify": true},
+      {"name": "immobilized", "label": "Résistance à l'immobilisation", "iconify": true, "textify": true},
+    ],
+    "prefix": "icon-special-property-",
+    "label": "Compétences"
+  },
+  "special-properties": {
+    "data": [
+      {"name": "area", "label": "Zone d'effet"},
+      {"name": "range", "label": "Distance"},
+      {"name": "critical", "label": "Plage de critique"},
+    ],
+    "prefix": "icon-special-property-",
+    "label": "Propriétés spéciales"
+  },
+  "rds": {
+    "data": [
+      {"name": "acid", "label": "Réduction des dégâts d'acide"},
+      {"name": "coldness", "label": "Réduction des dégâts de froid"},
+      {"name": "fire", "label": "Réduction des dégâts de feu"},
+      {"name": "lightning", "label": "Réduction des dégâts de foudre"},
+      {"name": "natural", "label": "Réduction des dégâts naturels"},
+      {"name": "poison", "label": "Réduction des dégâts de poison"},
+    ],
+    "prefix": "icon-special-property-rd-",
+    "label": "Résistances aux dégats"
   },
   "footers": {
     "data": [

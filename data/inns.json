@@ -1,398 +1,494 @@
 [
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 10
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un banquet simple mais copieux.",
     "name": "Banquet",
     "oid": "banquet",
     "short_description": "Un banquet simple mais copieux.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 30
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un banquet somptueux avec plein de mets exquis qui ravirait n'importe quel convive.",
     "name": "Banquet somptueux",
     "oid": "banquet somptueux",
     "short_description": "Un banquet somptueux avec plein de mets exquis.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 60
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un banquet avec des mets exotiques. Le repas rêvé pour épater n'importe quelbourgeois ayant de l'argent plein les poches.",
     "name": "Banquet exotique",
     "oid": "banquet exotique",
     "short_description": "Un banquet avec des mets exotiques.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 100
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un banquet digne d'une cour royale. Idéal pour amadouer n'importe quel monarque.",
     "name": "Banquet royal",
     "oid": "banquet royal",
     "short_description": "Un banquet digne d'une cour royale.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 5
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un bon repas copieux avec des pommes de terre et du pain.",
     "name": "Bon repas",
     "oid": "bon-repas",
     "short_description": "Un bon repas copieux.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.2
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une pinte de cervoise.",
     "name": "Cervoise",
     "oid": "cervoise",
     "short_description": "Une pinte de cervoise.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.2
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une pinte de bière.",
     "name": "Bière",
     "oid": "biere",
     "short_description": "Une pinte de bière.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.1
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un verre de cidre",
     "name": "Cidre",
     "oid": "cidre",
     "short_description": "Un verre de cidre.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.1
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un verre de lait de chèvre.",
     "name": "Lait",
     "oid": "lait",
     "short_description": "Un verre de lait",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 5
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une bouteille d'un grand cru.",
     "name": "Grand cru",
     "oid": "grand-cru",
     "short_description": "Une bouteille d'un grand cru.",
     "special_property": [],
     "usable_by": [],
-    "weigh": {
-      "__type__": "Weigh",
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
       "unit": "Kg",
       "value": 1.0
     }
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 20
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une bouteille d'un grand cru supérieur.",
     "name": "Grand cru supérieur",
     "oid": "grand-cru-superieur",
     "short_description": "Une bouteille d'un grand cru supérieur.",
     "special_property": [],
     "usable_by": [],
-    "weigh": {
-      "__type__": "Weigh",
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
       "unit": "Kg",
       "value": 1.0
     }
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une bouteille d'un grand cru classé.",
     "name": "Grand cru classé",
     "oid": "grand-cru-classe",
     "short_description": "Une bouteille d'un grand cru classé.",
     "special_property": [],
     "usable_by": [],
-    "weigh": {
-      "__type__": "Weigh",
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
       "unit": "Kg",
       "value": 1.0
     }
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.5
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un verre d'hydromel",
     "name": "Hydromel",
     "oid": "hydromel",
     "short_description": "Un verre d'hydromel",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.5
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un verre de vin quelqconque qui étanchera la soif de n'importe quel aventurier à la fin d'une bonne journée.",
     "name": "Vin",
     "oid": "vin",
     "short_description": "Un verre de vin quelconque.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 1
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Un repas avec une bonne tranche de viande.",
     "name": "Repas avec viande",
     "oid": "repas-avec-viande",
     "short_description": "Un repas avec une bonne tranche de viande.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.1
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une bonne soupe de légumes servie avec du pain.",
     "name": "Soupe et pain",
     "oid": "soupe-et-pain",
     "short_description": "Une soupe de légumes avec du pain.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 1
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans une chambre modeste pour 4 personnes.",
     "name": "Nuit (chambre pour 4 personnes)",
     "oid": "nuit-chambre-de-4-modeste",
     "short_description": "Une nuit dans une chambre modeste pour 4 personnes.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans une chambre confortable pour 4 personnes.",
     "name": "Nuit (chambre confortable pour 4 personnes)",
     "oid": "nuit-chambre-de-4-confortable",
     "short_description": "Une nuit dans une chambre confortable pour 4 personnes.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans une chambre individuelle modeste.",
     "name": "Nuit (chambre individuelle)",
     "oid": "nuit-chambre-individuelle-modeste",
     "short_description": "Une nuit dans une chambre individuelle modeste.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 5
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans une chambre individuelle confortable.",
     "name": "Nuit (chambre individuelle confortable)",
     "oid": "nuit-chambre-individuelle-confortable",
     "short_description": "Une nuit dans une chambre individuelle confortable.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 0.5
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans un dortoir modeste.",
     "name": "Nuit (dortoir)",
     "oid": "nuit-dortoir-modeste",
     "short_description": "Une nuit dans un dortoir modeste.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 1.0
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans un dortoir confortable.",
     "name": "Nuit (dortoir confortable)",
     "oid": "nuit-dortoir-confortable",
     "short_description": "Une nuit dans un dortoir confortable.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 10
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans une suite.",
     "name": "Nuit (suite)",
     "oid": "nuit-suite",
     "short_description": "Une nuit dans une suite.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   },
   {
     "__type__": "Inn",
+    "base_item": "",
+    "category": null,
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50
     },
     "count": 1,
+    "flavor": [],
     "full_description": "Une nuit dans une suite luxueuse.",
     "name": "Nuit (suite luxueuse)",
     "oid": "nuit-suite-luxueuse",
     "short_description": "Une nuit dans une suite luxueuse.",
     "special_property": [],
     "usable_by": [],
-    "weigh": null
+    "use": -1,
+    "weight": null
   }
 ]

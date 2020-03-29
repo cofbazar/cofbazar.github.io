@@ -12,37 +12,48 @@
     <script src="js-ext/vue.js"></script>
     <script src="js/config.js"></script>
     <script src="js/utils.js"></script>
-    <script src="js/cof.js" defer></script>
+    <script src="js/common.js" defer></script>
+    <script src="js/cof-items.js" defer></script>
     <link rel="stylesheet" type="text/css" href="css/nouislider.min.css">
     <link rel="stylesheet" type="text/css" href="css/nouislider.custom.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/cof-items.css">
+    <link rel="icon" type="image/jpg" href="images/common/favicon.jpg">
     <title>Chroniques Oubliées Fantasy</title>
   </head>
   <body>
-    <div id=item-data></div>
+    <div id="item-data"></div>
     <div class="app-container" id="app">
       <!-- Headers -->
-      <div class="app-header">
-        <img class="header" src="images/header.png"/>
-        <a class="header" href="https://github.com/cofbazar/cofbazar.github.io/blob/master/README.md">
-          Mentions légales
-        </a>
+      <div id="app-header">
+        <cofbazar-header></cofbazar-header>
       </div>
-
+   
       <!-- Head : selectors and cart -->
       <div class="app-head-container">
-
-        <div class="item-fantasy-container" id="item-fantasy">
-          <label class="item-fantasy">Fantasy :</label><br/>
-          <div class="item-fantasy-for">
-            <label for="low">Low</label>
-            <input type="radio" id="low" value="low" v-model="fantasyMode">
+        <div id="item-settings">
+          <div class="item-settings-container">
+            <img src="images/gui/reset-filter.png" 
+                 class="item-settings-reset" 
+                 v-on:click="resetFilters()"
+                 title="Réinitialiser les filtres"/>
+            
           </div>
-          <div class="item-fantasy-for">
-            <label for="high">High</label>
-            <input type="radio" id="high" value="high" v-model="fantasyMode">
-          </div>
+        </div>
+   
+        <!--  * Fantasy mode -->
+        <div id="item-fantasy">
+            <div class="item-fantasy-container">
+                <label class="item-fantasy">Fantasy :</label><br/>
+                <div class="item-fantasy-for">
+                  <label for="low">Low</label>
+                  <input type="radio" id="low" value="low" v-model="fantasyMode">
+                </div>
+                <div class="item-fantasy-for">
+                  <label for="high">High</label>
+                  <input type="radio" id="high" value="high" v-model="fantasyMode">
+                </div>
+              </div>
         </div>
 
         <!--  * Item type -->
@@ -50,7 +61,7 @@
           <label class="item-type">Types :</label><br/>
           <div class="item-type-subcontainer">
             <div class="item-type-input-container" v-for="input in inputs">
-              <img class="input-ticon" v-bind:src="'images/' + input.icon"/>
+              <img class="input-ticon" v-bind:src="'images/item-type/' + input.icon"/>
               <input v-bind:value="input.value" v-bind:id="input.value"
                      type="checkbox" v-model="checkedNames">
               <label class="item-type-input-label" v-bind:for="input.value">
@@ -83,7 +94,10 @@
           <table class="item-cart">
             <tr>
               <th class="item-cart-h-del">
-                <img class="item-cart-cart" src="images/add.png" title="Panier"/>
+                <img src="images/gui/reset-cart.png" 
+                 class="item-settings-reset"
+                 v-on:click="resetCart()"
+                 title="Vider tout le panier"/>
               </th>
               <th class="generic-item">
                 <label class="item-cart-h-type">Type</label>
@@ -103,12 +117,12 @@
             </tr>
             <tr v-for="item in cartData">
               <td class="generic-item">
-                <img class="item-cart-del" src="images/del.png"
+                <img class="item-cart-del" src="images/gui/del.png"
                      v-on:click="delFromCart(item)"
                      title="Supprimer du panier"/>
               </td>
               <td class="generic-item">
-                <img class="item-cart-ticon" v-bind:src="'images/' + item.ticon"
+                <img class="item-cart-ticon" v-bind:src="'images/item-type/' + item.ticon"
                      v-bind:title="item.tdescription"/>
               </td>
               <td class="item-cart-name">{{ item.name }}</td>
@@ -141,7 +155,11 @@
         <div class="item-list-container" id="item-list">
           <table class="item-list">
             <tr>
-              <th class="item-list-h-add"></th>
+              <th class="item-list-h-add">
+                <img class="item-list-add" src="images/gui/add-all-visible.png"
+                     v-on:click="addAllVisibleToCart()"
+                     title="Ajouter tous les objets visibles au panier"/>
+              </th>
               <th class="generic-item">
                 <div class="item-list-sortable" v-on:click="sort('tlabel')">
                   <label class="item-list-h-type">Type</label>
@@ -154,6 +172,10 @@
               <th class="generic-item">
                 <div class="item-list-sortable" v-on:click="sort('name')">
                   <label class="item-list-h-name">Nom</label>
+                  <input class="item-list-h-name"
+                         type="text" placeholder="Filtre" v-model="userInputName"
+                         v-on:change="mFilterUserInputName(userInputName)"
+                         v-on:input="filterUserInputName(userInputName)"/>
                   <div class="item-list-sort-arrow-container">
                     <label v-show="descSort('name')">&#9662;</label>
                     <label v-show="ascSort('name')">&#9652;</label>
@@ -164,9 +186,9 @@
                 <div class="item-list-h-short-description-container">
                   <label class="item-list-h-short-description">Résumé</label>
                   <input class="item-list-h-short-description"
-                         type="text" placeholder="Filtre" v-model="filterValue"
-                         v-on:change="filterm(filterValue)"
-                         v-on:input="filter(filterValue)"/>
+                         type="text" placeholder="Filtre" v-model="userInputDescription"
+                         v-on:change="mFilterUserInputDescription(userInputDescription)"
+                         v-on:input="filterUserInputDescription(userInputDescription)"/>
                 </div>
               </th>
               <th class="generic-item">
@@ -181,12 +203,12 @@
             </tr>
             <tr v-for="item in itemsListData">
               <td class="generic-item">
-                <img class="item-list-add" src="images/add.png"
+                <img class="item-list-add" src="images/gui/add.png"
                      v-on:click="addToCart(item)"
                      title="Ajouter au panier"/>
               </td>
               <td class="item-list-ticon">
-                <img class="item-list-ticon" v-bind:src="'images/' + item.ticon"
+                <img class="item-list-ticon" v-bind:src="'images/item-type/' + item.ticon"
                      v-bind:title="item.tdescription"/>
               </td>
               <td class="item-list-name">{{ item.name }}</td>
@@ -211,14 +233,8 @@
       </div>
 
       <!-- Footer -->
-      <div class="app-footer" id="app-footer">
-        <label class="footer">Powered by</label>
-        <div v-for="block in blockList">
-          <a v-bind:href="block.url">
-            <img class="footer" v-bind:src="'images/' + block.image"
-                 v-bind:title="block.title"/>
-          </a>
-        </div>
+      <div id="app-footer">
+        <cofbazar-footer></cofbazar-footer>
       </div>
     </div>
   </body>

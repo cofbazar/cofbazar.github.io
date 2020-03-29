@@ -1,0 +1,89 @@
+div.ressources-container{
+    display: flex;
+    flex-direction: column;
+}
+
+label.resource-section-txt {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+div.resource-character-sheet-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div.feuille-personnage-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 3px 15px;
+}
+
+label.feuille-personnage-text {
+    width: 100px;
+    padding: 0px 3px;
+}
+
+img.feuille-personnage-bullet {
+    width: 10px;
+    height: 10px;
+}
+
+img.feuille-personnage-icon {
+    width: 64px;
+    height: auto;
+}
+
+div.resource-card-help-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex: 1 0 auto;
+    height: 20cm;
+}
+
+div.help-category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    padding: 1px 0px 3px 0px;
+    background-color: gainsboro;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    margin: 1px;
+    
+}
+label.help-category-text {
+    width: 300px;
+    font-variant: small-caps;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+div.help-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+}
+
+img.help-icon {
+    width: 32px;
+    height: 32px;
+}
+
+label.help-text {
+    padding-left: 4px;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js-ext/wNumb.js"></script>
+    <script src="js-ext/stringops.js"></script>
+    <script src="js-ext/nouislider.min.js"></script>
+    <script src="js-ext/vue.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/common.js" defer></script>
+    <script src="js/cof-resources.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/cof-resources.css">
+    <link rel="icon" type="image/jpg" href="images/common/favicon.jpg">
+    <title>Chroniques Oubliées Fantasy</title>
+  </head>
+  <body>
+    <div id=item-data></div>
+    <div class="app-container" id="app">
+      <!-- Headers -->
+      <div id='app-header'>
+        <cofbazar-header></cofbazar-header>
+      </div>
+      <div class="ressources-container">
+        <div class="resource-character-sheet-container">
+          <label class="resource-section-txt">Feuille de personnage :</label>
+          <div class="feuille-personnage-list">
+            <img class="feuille-personnage-bullet"
+                 src="images/resources/bullet-character-sheet.png"/>
+            <label class="feuille-personnage-text">Version PDF :</label>
+            <a href="resources/Feuille-Personnage.pdf">
+              <img class="feuille-personnage-icon"
+                   src="images/resources/feuille-personnage-iconified.png"/>
+            </a>
+          </div>
+          <div class="feuille-personnage-list">
+            <img class="feuille-personnage-bullet"
+                 src="images/resources/bullet-character-sheet.png"/>
+            <label class="feuille-personnage-text">Version ODG :</label>
+            <a href="resources/Feuille-Personnage.odg">
+              <img class="feuille-personnage-icon"
+                   src="images/resources/feuille-personnage-iconified.png"/>
+            </a>
+          </div>
+        </div>
+        <label class="resource-section-txt">Légendes des icones :</label>
+        <div class="resource-card-help-container" id="card-help">
+         
+          <div class="help-category-container" v-for="hc in helpCategories">
+            <label class="help-category-text">{{ cf[hc].label }} :</label>   
+            <div class="help-container" v-for="h in cf[hc].data">
+              <img class="help-icon" 
+                   v-bind:src="'images/card/' + cf[hc].prefix + h.name + '.png'"/>
+              <label class="help-text">: {{ h.label }}</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div id="app-footer">
+        <cofbazar-footer></cofbazar-footer>
+      </div>
+    </div>
+  </body>
+</html>

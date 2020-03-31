@@ -115,26 +115,26 @@ setItemsListData = function(dataList, itemTypeList, minCostValue, maxCostValue,
 };
 
 Array.prototype.nameFilter = function(name) {
+  
   if ((name === undefined) || (name === '')) {
     return(this);
   } else {
-    return(this.filter(item => (
-      item['name']
-    ).noAccents().toLowerCase().includes(
-      name.noAccents().toLowerCase()))
-    );
+    console.log(name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase());
+    return(this.filter(item => 
+      item['name'].normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().search(
+      ".*" + name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() + ".*") == 0));
   }
 };
 
 Array.prototype.descriptionFilter = function(description) {
+  console.log(description);
   if ((description === undefined) || (description === '')) {
     return(this);
   } else {
     return(this.filter(item => (
       item['short_description'] + item['name'] + item['full_description']
-    ).noAccents().toLowerCase().includes(
-      description.noAccents().toLowerCase()))
-    );
+    ).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().search(
+      ".*" + description.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() + ".*") == 0));
   }
 };
 

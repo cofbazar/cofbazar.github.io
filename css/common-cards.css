@@ -102,10 +102,9 @@ img.flavor-icon {
   height: 8px;
 }
 
-/* Slots */
+/* Big slots */
 div.big-slot-container {
   display: flex;
-  align-self: flex-end;
   flex-direction: column;
   justify-content: flex-end;
   align-self: center;
@@ -233,6 +232,16 @@ div.defense-mod-container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+label.defense-limitation {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding-left: 1px;
 }
 
 label.defense-modifier {
@@ -240,13 +249,6 @@ label.defense-modifier {
   font-family: 'Times New Roman';
   margin: 0px;
   text-align: right;
-  padding-left: 1px;
-}
-
-label.defense-limitation {
-  font-size: 7px;
-  font-family: 'Times New Roman';
-  padding-left: 1px;
 }
 
 div.defense-limitation-container {
@@ -280,6 +282,24 @@ img.section-bullet-sp {
   flex-shrink: 0;
 }
 
+/* Small slots */
+div.small-slots-container {
+  padding-top: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.small-slot-container {
+  border: 1px;
+  border-radius: 4px;
+  border: 1px solid #ae9a87;
+  width: 5mm;
+  height: 5mm;
+}
+
+
 /* Card footer */
 div.card-footer {
   display: flex;
@@ -289,6 +309,7 @@ div.card-footer {
   flex: 0 0 0px;
   margin: 0mm 1mm 0mm 1mm;
 }
+
 
 div.footer-group-start {
   display: flex;

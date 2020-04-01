@@ -128,7 +128,6 @@ var cofConfig = {
   },
   "flavors-material": {
     "data": [
-      {"name": "swimming", "label": "Objet de natation"},
       {"name": "adamantium", "label": "Objet en adamantium"},
       {"name": "cold-iron", "label": "Objet en fer froid"},
       {"name": "dalberath", "label": "Objet en dalberath"},
@@ -147,9 +146,12 @@ var cofConfig = {
   },
   "skills": {
     "data": [
-      {"name": "paralysed", "label": "Résistance à la paralysie", "iconify": true, "textify": true},
-      {"name": "slowdown", "label": "Résistance au ralentissement", "iconify": true, "textify": true},
-      {"name": "immobilized", "label": "Résistance à l'immobilisation", "iconify": true, "textify": true},
+      {"name": "paralysed-resistance", "label": "Résistance à la paralysie", "iconify": true, "textify": true},
+      {"name": "slowdown-resistance", "label": "Résistance au ralentissement", "iconify": true, "textify": true},
+      {"name": "immobilized-resistance", "label": "Résistance à l'immobilisation", "iconify": true, "textify": true},
+      {"name": "swimming", "label": "Test de natation", "iconify": true, "textify": true},
+      {"name": "shadow", "label": "Test de discrétion", "iconify": true, "textify": true},
+      {"name": "magical-resistance", "label": "Résistance à la magie", "iconify": true, "textify": true},
     ],
     "prefix": "icon-special-property-",
     "label": "Compétences"
@@ -159,12 +161,14 @@ var cofConfig = {
       {"name": "area", "label": "Zone d'effet"},
       {"name": "range", "label": "Distance"},
       {"name": "critical", "label": "Plage de critique"},
+      {"name": "duration", "label": "Durée de l'effet"},
     ],
     "prefix": "icon-special-property-",
     "label": "Propriétés spéciales"
   },
   "rds": {
     "data": [
+      {"name": "", "label": "Réduction des dégâts"},
       {"name": "acid", "label": "Réduction des dégâts d'acide"},
       {"name": "coldness", "label": "Réduction des dégâts de froid"},
       {"name": "fire", "label": "Réduction des dégâts de feu"},

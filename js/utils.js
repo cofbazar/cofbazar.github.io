@@ -127,7 +127,6 @@ Array.prototype.nameFilter = function(name) {
 };
 
 Array.prototype.descriptionFilter = function(description) {
-  console.log(description);
   if ((description === undefined) || (description === '')) {
     return(this);
   } else {
@@ -140,7 +139,6 @@ Array.prototype.descriptionFilter = function(description) {
 
 
 filterItemsList = function(itemsList, filters) {
-  console.log("filterItemsList(<itemsList>, " + JSON.stringify(filters))
   return itemsList.filter(item =>
     filters['type'].includes(item['__type__']) && 
     isMagicalItem(filters['fantasyMode'], item) &&
@@ -200,4 +198,11 @@ function sortType(ta, tb){
 
 function getNames(a) {
   return(a.map(i => {return(i.name);}));
+}
+
+Array.prototype.sum = function() {
+  return(this.reduce(
+    function(t, n,){
+      return(t + n);
+    },0));
 }

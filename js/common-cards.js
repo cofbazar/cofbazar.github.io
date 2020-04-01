@@ -58,12 +58,15 @@ Vue.component('cofbazar-card-big-slot', {
   props: ['use'],
   methods: {
     isBigSlot(u) {
+      return((u != null) && ((u == 0) || (u > 5)));
+    },
+    hasBigSlotLabel(u) {
       return((u != null) && (u > 5));
     },
   },
   template: 
     `<div v-if="isBigSlot(use)" class="big-slot-container">
-      <label class="big-slot-container">{{ use }}</label>
+      <label v-if="hasBigSlotLabel(use)" class="big-slot-container">{{ use }}</label>
     </div>`
 });
 
@@ -151,7 +154,7 @@ Vue.component('cofbazar-card-defense', {
   props: ['defense'],
   methods: {
     hasDefense(d) {
-      return(d != null);
+      return((d != null) && (d.filter(m => m.label=="DEF").map(m => {return(m.count);}).sum() != 0));
     },
     hasDefenseLimitation(d) {
       return(d.limitation != null);
@@ -180,8 +183,11 @@ Vue.component('cofbazar-card-defense', {
       <div class="defense-container">
         <img class="section-bullet" src="images/card/defense-bullet.png"/>
         <img class="defense-icon" v-bind:src="'images/card/defense.png'"/>
+        <label class="defense-modifier">: </label>
         <div class="defense-mod-container" v-for="def in getDefense(defense)">
-          <label class="defense-modifier">: {{ defenseToStr(def) }}</label>
+          <label v-if="hasDefenseLimitation(def)" class="defense-limitation">(</label>
+          <label v-if="def.count != 0 " class="defense-modifier">{{ defenseToStr(def) }}</label>
+          <label v-if="hasDefenseLimitation(def)" class="defense-limitation">)*</label>
         </div>
       </div>
       <div class="defense-limitation-container" v-for="def in defense">
@@ -204,6 +210,22 @@ Vue.component('cofbazar-card-special-property', {
       <div class="sproperty" v-for="sp in sproperties">
         <img class="section-bullet-sp" src="images/card/special-property.png"/>
         <label class="sproperty">{{ sp }}</label>
+      </div>
+    </div>`
+});
+
+Vue.component('cofbazar-card-small-slots', {
+  props: ['use'],
+  methods: {
+    hasSmallSlots(u) {
+      return((u != null) && (u > 0) && (u <= 5));
+    },
+  },
+  template: 
+    `<div v-if="hasSmallSlots(use)" class="section-container">
+      <label class="section-title">Utilisations :</label>
+      <div class="small-slots-container">
+        <div class="small-slot-container" v-for="u in use"></div>
       </div>
     </div>`
 });

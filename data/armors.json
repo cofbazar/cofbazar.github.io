@@ -50,7 +50,7 @@
   {
     "__type__": "Armor",
     "base_item": "tissu-matelasse",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -182,7 +182,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -191,7 +191,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -200,7 +200,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -233,6 +233,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -282,6 +291,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -351,7 +369,17 @@
     "name": "Armure matelassée +1, de natation",
     "oid": "tissu-matelasse-magical+1-swimming+2",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -400,7 +428,17 @@
     "name": "Armure matelassée +1, de l'ombre",
     "oid": "tissu-matelasse-magical+1-shadow+2",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -450,7 +488,9 @@
     "oid": "tissu-matelasse-magical+1-protective+2",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -478,6 +518,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -498,7 +547,17 @@
     "name": "Armure matelassée +1, de résistance à la magie",
     "oid": "tissu-matelasse-magical+1-magical-resistance+2",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -831,7 +890,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -840,7 +899,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -849,7 +908,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -882,6 +941,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -931,6 +999,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -1000,7 +1077,17 @@
     "name": "Armure matelassée +2, de natation",
     "oid": "tissu-matelasse-magical+2-swimming+3",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1049,7 +1136,17 @@
     "name": "Armure matelassée +2, de l'ombre",
     "oid": "tissu-matelasse-magical+2-shadow+3",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1099,7 +1196,9 @@
     "oid": "tissu-matelasse-magical+2-protective+3",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1127,6 +1226,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -1147,7 +1255,17 @@
     "name": "Armure matelassée +2, de résistance à la magie",
     "oid": "tissu-matelasse-magical+2-magical-resistance+3",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1480,7 +1598,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -1489,7 +1607,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -1498,7 +1616,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -1531,6 +1649,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -1580,6 +1707,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -1649,7 +1785,17 @@
     "name": "Armure matelassée +3, de natation",
     "oid": "tissu-matelasse-magical+3-swimming+4",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1698,7 +1844,17 @@
     "name": "Armure matelassée +3, de l'ombre",
     "oid": "tissu-matelasse-magical+3-shadow+4",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1748,7 +1904,9 @@
     "oid": "tissu-matelasse-magical+3-protective+4",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1776,6 +1934,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -1796,7 +1963,17 @@
     "name": "Armure matelassée +3, de résistance à la magie",
     "oid": "tissu-matelasse-magical+3-magical-resistance+4",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -2129,7 +2306,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -2138,7 +2315,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -2147,7 +2324,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -2180,6 +2357,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -2229,6 +2415,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -2298,7 +2493,17 @@
     "name": "Armure matelassée +4, de natation",
     "oid": "tissu-matelasse-magical+4-swimming+5",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -2347,7 +2552,17 @@
     "name": "Armure matelassée +4, de l'ombre",
     "oid": "tissu-matelasse-magical+4-shadow+5",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -2397,7 +2612,9 @@
     "oid": "tissu-matelasse-magical+4-protective+5",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -2425,6 +2642,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -2445,7 +2671,17 @@
     "name": "Armure matelassée +4, de résistance à la magie",
     "oid": "tissu-matelasse-magical+4-magical-resistance+5",
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -2738,7 +2974,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -2747,7 +2983,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -2756,7 +2992,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -2789,6 +3025,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -2843,6 +3088,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -2921,6 +3175,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -2975,6 +3238,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -3031,7 +3303,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -3059,6 +3333,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -3083,6 +3366,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -3397,7 +3689,7 @@
   {
     "__type__": "Armor",
     "base_item": "cuir",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -3558,7 +3850,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -3567,7 +3859,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -3576,7 +3868,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -3609,6 +3901,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -3668,6 +3969,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -3756,6 +4066,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -3815,6 +4134,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -3876,7 +4204,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -3904,6 +4234,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -3933,6 +4272,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -4307,7 +4655,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -4316,7 +4664,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -4325,7 +4673,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -4358,6 +4706,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -4407,6 +4764,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -4476,7 +4842,17 @@
     "name": "Armure de cuir +2, de natation",
     "oid": "cuir-magical+2-swimming+3",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -4525,7 +4901,17 @@
     "name": "Armure de cuir +2, de l'ombre",
     "oid": "cuir-magical+2-shadow+3",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -4575,7 +4961,9 @@
     "oid": "cuir-magical+2-protective+3",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -4603,6 +4991,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -4623,7 +5020,17 @@
     "name": "Armure de cuir +2, de résistance à la magie",
     "oid": "cuir-magical+2-magical-resistance+3",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -4956,7 +5363,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -4965,7 +5372,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -4974,7 +5381,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -5007,6 +5414,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -5056,6 +5472,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -5125,7 +5550,17 @@
     "name": "Armure de cuir +3, de natation",
     "oid": "cuir-magical+3-swimming+4",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -5174,7 +5609,17 @@
     "name": "Armure de cuir +3, de l'ombre",
     "oid": "cuir-magical+3-shadow+4",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -5224,7 +5669,9 @@
     "oid": "cuir-magical+3-protective+4",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -5252,6 +5699,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -5272,7 +5728,17 @@
     "name": "Armure de cuir +3, de résistance à la magie",
     "oid": "cuir-magical+3-magical-resistance+4",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -5605,7 +6071,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -5614,7 +6080,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -5623,7 +6089,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -5656,6 +6122,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -5705,6 +6180,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -5774,7 +6258,17 @@
     "name": "Armure de cuir +4, de natation",
     "oid": "cuir-magical+4-swimming+5",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -5823,7 +6317,17 @@
     "name": "Armure de cuir +4, de l'ombre",
     "oid": "cuir-magical+4-shadow+5",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -5873,7 +6377,9 @@
     "oid": "cuir-magical+4-protective+5",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -5901,6 +6407,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -5921,7 +6436,17 @@
     "name": "Armure de cuir +4, de résistance à la magie",
     "oid": "cuir-magical+4-magical-resistance+5",
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -6214,7 +6739,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -6223,7 +6748,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -6232,7 +6757,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -6265,6 +6790,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -6319,6 +6853,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -6397,6 +6940,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -6451,6 +7003,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -6507,7 +7068,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -6535,6 +7098,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -6559,6 +7131,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -6873,7 +7454,7 @@
   {
     "__type__": "Armor",
     "base_item": "cuir-renforce",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -7034,7 +7615,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -7043,7 +7624,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -7052,7 +7633,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -7085,6 +7666,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -7144,6 +7734,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -7232,6 +7831,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -7291,6 +7899,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -7352,7 +7969,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -7380,6 +7999,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -7409,6 +8037,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -7802,7 +8439,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -7811,7 +8448,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -7820,7 +8457,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -7853,6 +8490,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -7912,6 +8558,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -8000,6 +8655,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -8059,6 +8723,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -8120,7 +8793,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -8148,6 +8823,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -8177,6 +8861,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -8551,7 +9244,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -8560,7 +9253,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -8569,7 +9262,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -8602,6 +9295,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -8651,6 +9353,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -8720,7 +9431,17 @@
     "name": "Armure cuir renforcé +3, de natation",
     "oid": "cuir-renforce-magical+3-swimming+4",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -8769,7 +9490,17 @@
     "name": "Armure cuir renforcé +3, de l'ombre",
     "oid": "cuir-renforce-magical+3-shadow+4",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -8819,7 +9550,9 @@
     "oid": "cuir-renforce-magical+3-protective+4",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -8847,6 +9580,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -8867,7 +9609,17 @@
     "name": "Armure cuir renforcé +3, de résistance à la magie",
     "oid": "cuir-renforce-magical+3-magical-resistance+4",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -9200,7 +9952,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -9209,7 +9961,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -9218,7 +9970,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -9251,6 +10003,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -9300,6 +10061,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -9369,7 +10139,17 @@
     "name": "Armure cuir renforcé +4, de natation",
     "oid": "cuir-renforce-magical+4-swimming+5",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -9418,7 +10198,17 @@
     "name": "Armure cuir renforcé +4, de l'ombre",
     "oid": "cuir-renforce-magical+4-shadow+5",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -9468,7 +10258,9 @@
     "oid": "cuir-renforce-magical+4-protective+5",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -9496,6 +10288,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -9516,7 +10317,17 @@
     "name": "Armure cuir renforcé +4, de résistance à la magie",
     "oid": "cuir-renforce-magical+4-magical-resistance+5",
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -9809,7 +10620,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -9818,7 +10629,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -9827,7 +10638,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -9860,6 +10671,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -9914,6 +10734,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -9992,6 +10821,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -10046,6 +10884,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -10102,7 +10949,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -10130,6 +10979,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -10154,6 +11012,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -10468,7 +11335,7 @@
   {
     "__type__": "Armor",
     "base_item": "chemise-de-mailles",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -10629,7 +11496,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -10638,7 +11505,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -10647,7 +11514,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -10680,6 +11547,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -10739,6 +11615,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -10827,6 +11712,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -10886,6 +11780,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -10947,7 +11850,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -10975,6 +11880,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -11004,6 +11918,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -11397,7 +12320,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -11406,7 +12329,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -11415,7 +12338,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -11448,6 +12371,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -11507,6 +12439,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -11595,6 +12536,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -11654,6 +12604,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -11715,7 +12674,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -11743,6 +12704,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -11772,6 +12742,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -12165,7 +13144,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -12174,7 +13153,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -12183,7 +13162,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -12216,6 +13195,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -12275,6 +13263,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -12363,6 +13360,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -12422,6 +13428,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -12483,7 +13498,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -12511,6 +13528,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -12540,6 +13566,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -12914,7 +13949,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -12923,7 +13958,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -12932,7 +13967,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -12965,6 +14000,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -13014,6 +14058,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -13083,7 +14136,17 @@
     "name": "Chemise de mailles +4, de natation",
     "oid": "chemise-de-mailles-magical+4-swimming+5",
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -13132,7 +14195,17 @@
     "name": "Chemise de mailles +4, de l'ombre",
     "oid": "chemise-de-mailles-magical+4-shadow+5",
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -13182,7 +14255,9 @@
     "oid": "chemise-de-mailles-magical+4-protective+5",
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -13210,6 +14285,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -13230,7 +14314,17 @@
     "name": "Chemise de mailles +4, de résistance à la magie",
     "oid": "chemise-de-mailles-magical+4-magical-resistance+5",
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
-    "skill": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -13523,7 +14617,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -13532,7 +14626,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -13541,7 +14635,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -13574,6 +14668,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -13628,6 +14731,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -13706,6 +14818,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -13760,6 +14881,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -13816,7 +14946,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -13844,6 +14976,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -13868,6 +15009,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -14182,7 +15332,7 @@
   {
     "__type__": "Armor",
     "base_item": "cotte-de-mailles",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -14343,7 +15493,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -14352,7 +15502,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -14361,7 +15511,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -14394,6 +15544,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -14453,6 +15612,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -14541,6 +15709,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -14600,6 +15777,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -14661,7 +15847,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -14689,6 +15877,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -14718,6 +15915,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -15111,7 +16317,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -15120,7 +16326,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -15129,7 +16335,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -15162,6 +16368,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -15221,6 +16436,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -15309,6 +16533,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -15368,6 +16601,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -15429,7 +16671,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -15457,6 +16701,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -15486,6 +16739,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -15879,7 +17141,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -15888,7 +17150,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -15897,7 +17159,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -15930,6 +17192,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -15989,6 +17260,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -16077,6 +17357,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -16136,6 +17425,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -16197,7 +17495,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -16225,6 +17525,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -16254,6 +17563,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -16647,7 +17965,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -16656,7 +17974,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -16665,7 +17983,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -16698,6 +18016,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -16757,6 +18084,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -16845,6 +18181,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -16904,6 +18249,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -16965,7 +18319,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -16993,6 +18349,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -17022,6 +18387,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -17356,7 +18730,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -17365,7 +18739,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -17374,7 +18748,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -17407,6 +18781,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -17461,6 +18844,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -17539,6 +18931,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -17593,6 +18994,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -17649,7 +19059,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -17677,6 +19089,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -17701,6 +19122,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -18015,7 +19445,7 @@
   {
     "__type__": "Armor",
     "base_item": "demi-plaque",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -18176,7 +19606,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -18185,7 +19615,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -18194,7 +19624,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -18227,6 +19657,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -18286,6 +19725,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -18374,6 +19822,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -18433,6 +19890,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -18494,7 +19960,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -18522,6 +19990,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -18551,6 +20028,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -18944,7 +20430,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -18953,7 +20439,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -18962,7 +20448,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -18995,6 +20481,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -19054,6 +20549,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -19142,6 +20646,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -19201,6 +20714,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -19262,7 +20784,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -19290,6 +20814,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -19319,6 +20852,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -19712,7 +21254,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -19721,7 +21263,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -19730,7 +21272,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -19763,6 +21305,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -19822,6 +21373,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -19910,6 +21470,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -19969,6 +21538,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -20030,7 +21608,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -20058,6 +21638,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -20087,6 +21676,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -20480,7 +22078,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -20489,7 +22087,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -20498,7 +22096,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -20531,6 +22129,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -20590,6 +22197,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -20678,6 +22294,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -20737,6 +22362,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -20798,7 +22432,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -20826,6 +22462,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -20855,6 +22500,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -21189,7 +22843,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -21198,7 +22852,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -21207,7 +22861,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -21240,6 +22894,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -21294,6 +22957,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -21372,6 +23044,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -21426,6 +23107,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -21482,7 +23172,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -21510,6 +23202,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -21534,6 +23235,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -21850,7 +23560,7 @@
   {
     "__type__": "Armor",
     "base_item": "plaque-complete",
-    "category": "Magique",
+    "category": "Optionel",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
@@ -22015,7 +23725,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -22024,7 +23734,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -22033,7 +23743,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -22068,6 +23778,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -22129,6 +23848,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -22219,6 +23947,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -22280,6 +24017,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -22343,7 +24089,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [
       "Chevalier"
     ],
@@ -22373,6 +24121,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -22402,6 +24159,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -22807,7 +24573,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -22816,7 +24582,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -22825,7 +24591,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -22860,6 +24626,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -22921,6 +24696,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -23011,6 +24795,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -23072,6 +24865,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -23135,7 +24937,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [
       "Chevalier"
     ],
@@ -23165,6 +24969,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -23194,6 +25007,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -23599,7 +25421,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -23608,7 +25430,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -23617,7 +25439,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -23652,6 +25474,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -23713,6 +25544,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -23803,6 +25643,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -23864,6 +25713,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -23927,7 +25785,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [
       "Chevalier"
     ],
@@ -23957,6 +25817,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -23986,6 +25855,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -24391,7 +26269,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -24400,7 +26278,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -24409,7 +26287,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -24444,6 +26322,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -24505,6 +26392,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -24595,6 +26491,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -24656,6 +26561,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -24719,7 +26633,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [
       "Chevalier"
     ],
@@ -24749,6 +26665,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -24778,6 +26703,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],
@@ -25122,7 +27056,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "slowdown"
+        "target": "slowdown-resistance"
       },
       {
         "__type__": "Mod",
@@ -25131,7 +27065,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "immobilized"
+        "target": "immobilized-resistance"
       },
       {
         "__type__": "Mod",
@@ -25140,7 +27074,7 @@
         "label": "Test",
         "limitation": "Contraintes physiques uniquement",
         "mtype": "+",
-        "target": "paralysed"
+        "target": "paralysed-resistance"
       }
     ],
     "special_property": [
@@ -25175,6 +27109,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -25231,6 +27174,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
       }
     ],
     "flavor": [
@@ -25311,6 +27263,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
       }
     ],
     "special_property": [],
@@ -25367,6 +27328,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
       }
     ],
     "special_property": [],
@@ -25425,7 +27395,9 @@
         "target": "DEX"
       }
     ],
-    "special_property": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [
       "Chevalier"
     ],
@@ -25455,6 +27427,15 @@
         "limitation": null,
         "mtype": "+",
         "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
       }
     ],
     "flavor": [
@@ -25479,6 +27460,15 @@
         "limitation": null,
         "mtype": "-",
         "target": "DEX"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "magical-resistance"
       }
     ],
     "special_property": [],

@@ -1,32 +1,7 @@
 [
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 0
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines.",
-    "magical_level": 0,
-    "name": "Bracelets",
-    "oid": "bracers-of-defense",
-    "short_description": "Bracelets de défense.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.1
-    }
-  },
-  {
-    "__type__": "Bracer",
-    "base_item": "",
+    "base_item": "bracers-of-defense",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -34,12 +9,32 @@
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets +1",
     "oid": "bracers-of-defense-magical+1",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -51,21 +46,76 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, d'action libre",
-    "oid": "bracers-of-defense-magical+1-free-move+2",
+    "oid": "bracers-of-defense-magical+1-free-action+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -76,20 +126,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de défense",
     "oid": "bracers-of-defense-magical+1-defense+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -101,20 +185,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +1, de défense supérieure",
-    "oid": "bracers-of-defense-magical+1-higher-defense+3",
+    "oid": "bracers-of-defense-magical+1-reinforced-defense+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -126,20 +244,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de natation",
     "oid": "bracers-of-defense-magical+1-swimming+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -151,20 +304,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de l'ombre",
     "oid": "bracers-of-defense-magical+1-shadow+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -176,21 +364,48 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de protection",
     "oid": "bracers-of-defense-magical+1-protective+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -201,45 +416,113 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 72000
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "magical_level": 6,
-    "name": "Bracelets +1, de resistance à la magie",
-    "oid": "bracers-of-defense-magical+1-magical-resistance+6",
-    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 en DEF.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.1
-    }
-  },
-  {
-    "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
+    "name": "Bracelets +1, de resistance à la magie",
+    "oid": "bracers-of-defense-magical+1-magical-resistance+2",
+    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de resistance au feu",
     "oid": "bracers-of-defense-magical+1-fire-resistance+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -251,20 +534,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de resistance au froid",
     "oid": "bracers-of-defense-magical+1-coldness-resistance+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -276,20 +593,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de resistance à l'acide",
     "oid": "bracers-of-defense-magical+1-acid-resistance+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -301,20 +652,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +1, de resistance à la foudre",
     "oid": "bracers-of-defense-magical+1-lightning-resistance+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -326,7 +711,7 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
+    "base_item": "bracers-of-defense",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -334,12 +719,32 @@
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets +2",
     "oid": "bracers-of-defense-magical+2",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -351,21 +756,76 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, d'action libre",
-    "oid": "bracers-of-defense-magical+2-free-move+3",
+    "oid": "bracers-of-defense-magical+2-free-action+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -376,20 +836,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de défense",
     "oid": "bracers-of-defense-magical+2-defense+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -401,20 +895,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +2, de défense supérieure",
-    "oid": "bracers-of-defense-magical+2-higher-defense+4",
+    "oid": "bracers-of-defense-magical+2-reinforced-defense+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -426,20 +954,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de natation",
     "oid": "bracers-of-defense-magical+2-swimming+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -451,20 +1014,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de l'ombre",
     "oid": "bracers-of-defense-magical+2-shadow+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -476,21 +1074,48 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de protection",
     "oid": "bracers-of-defense-magical+2-protective+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -501,45 +1126,113 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 98000
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "magical_level": 7,
-    "name": "Bracelets +2, de resistance à la magie",
-    "oid": "bracers-of-defense-magical+2-magical-resistance+7",
-    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 en DEF.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.1
-    }
-  },
-  {
-    "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
+    "name": "Bracelets +2, de resistance à la magie",
+    "oid": "bracers-of-defense-magical+2-magical-resistance+3",
+    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de resistance au feu",
     "oid": "bracers-of-defense-magical+2-fire-resistance+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -551,20 +1244,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de resistance au froid",
     "oid": "bracers-of-defense-magical+2-coldness-resistance+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -576,20 +1303,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de resistance à l'acide",
     "oid": "bracers-of-defense-magical+2-acid-resistance+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -601,20 +1362,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +2, de resistance à la foudre",
     "oid": "bracers-of-defense-magical+2-lightning-resistance+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -626,7 +1421,7 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
+    "base_item": "bracers-of-defense",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -634,12 +1429,32 @@
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3.",
+    "hands": 0,
     "magical_level": 3,
+    "material": null,
     "name": "Bracelets +3",
     "oid": "bracers-of-defense-magical+3",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -651,21 +1466,76 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, d'action libre",
-    "oid": "bracers-of-defense-magical+3-free-move+4",
+    "oid": "bracers-of-defense-magical+3-free-action+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -676,20 +1546,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de défense",
     "oid": "bracers-of-defense-magical+3-defense+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -701,20 +1605,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +3, de défense supérieure",
-    "oid": "bracers-of-defense-magical+3-higher-defense+5",
+    "oid": "bracers-of-defense-magical+3-reinforced-defense+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -726,20 +1664,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de natation",
     "oid": "bracers-of-defense-magical+3-swimming+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -751,20 +1724,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de l'ombre",
     "oid": "bracers-of-defense-magical+3-shadow+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -776,21 +1784,48 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de protection",
     "oid": "bracers-of-defense-magical+3-protective+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -801,45 +1836,113 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 128000
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "magical_level": 8,
-    "name": "Bracelets +3, de resistance à la magie",
-    "oid": "bracers-of-defense-magical+3-magical-resistance+8",
-    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 en DEF.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.1
-    }
-  },
-  {
-    "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
+    "name": "Bracelets +3, de resistance à la magie",
+    "oid": "bracers-of-defense-magical+3-magical-resistance+4",
+    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de resistance au feu",
     "oid": "bracers-of-defense-magical+3-fire-resistance+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -851,20 +1954,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de resistance au froid",
     "oid": "bracers-of-defense-magical+3-coldness-resistance+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -876,20 +2013,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de resistance à l'acide",
     "oid": "bracers-of-defense-magical+3-acid-resistance+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -901,20 +2072,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +3, de resistance à la foudre",
     "oid": "bracers-of-defense-magical+3-lightning-resistance+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -926,7 +2131,7 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
+    "base_item": "bracers-of-defense",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -934,12 +2139,32 @@
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4.",
+    "hands": 0,
     "magical_level": 4,
+    "material": null,
     "name": "Bracelets +4",
     "oid": "bracers-of-defense-magical+4",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -951,21 +2176,76 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, d'action libre",
-    "oid": "bracers-of-defense-magical+4-free-move+5",
+    "oid": "bracers-of-defense-magical+4-free-action+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -976,20 +2256,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de défense",
     "oid": "bracers-of-defense-magical+4-defense+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1001,20 +2315,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 72000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 6,
+    "material": null,
     "name": "Bracelets +4, de défense supérieure",
-    "oid": "bracers-of-defense-magical+4-higher-defense+6",
+    "oid": "bracers-of-defense-magical+4-reinforced-defense+6",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1026,20 +2374,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de natation",
     "oid": "bracers-of-defense-magical+4-swimming+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1051,20 +2434,55 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de l'ombre",
     "oid": "bracers-of-defense-magical+4-shadow+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1076,21 +2494,48 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de protection",
     "oid": "bracers-of-defense-magical+4-protective+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1101,45 +2546,113 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 162000
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "magical_level": 9,
-    "name": "Bracelets +4, de resistance à la magie",
-    "oid": "bracers-of-defense-magical+4-magical-resistance+9",
-    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 en DEF.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.1
-    }
-  },
-  {
-    "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
+    "name": "Bracelets +4, de resistance à la magie",
+    "oid": "bracers-of-defense-magical+4-magical-resistance+5",
+    "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de resistance au feu",
     "oid": "bracers-of-defense-magical+4-fire-resistance+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1151,20 +2664,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de resistance au froid",
     "oid": "bracers-of-defense-magical+4-coldness-resistance+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1176,20 +2723,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de resistance à l'acide",
     "oid": "bracers-of-defense-magical+4-acid-resistance+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1201,20 +2782,54 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 5,
+    "material": null,
     "name": "Bracelets +4, de resistance à la foudre",
     "oid": "bracers-of-defense-magical+4-lightning-resistance+5",
     "short_description": "Bracelets de défense. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1226,21 +2841,71 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, d'action libre",
-    "oid": "bracers-of-defense-free-move+1",
+    "oid": "bracers-of-defense-free-action+1",
     "short_description": "Bracelets de défense. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1251,20 +2916,49 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets réduisent de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de défense",
     "oid": "bracers-of-defense-defense+1",
     "short_description": "Bracelets de défense. Ces bracelets réduisent de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1276,20 +2970,49 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets réduisent de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 2,
+    "material": null,
     "name": "Bracelets, de défense supérieure",
-    "oid": "bracers-of-defense-higher-defense+2",
+    "oid": "bracers-of-defense-reinforced-defense+2",
     "short_description": "Bracelets de défense. Ces bracelets réduisent de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1301,20 +3024,50 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de natation",
     "oid": "bracers-of-defense-swimming+1",
     "short_description": "Bracelets de défense. Ces bracelets apportent un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1326,20 +3079,50 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de l'ombre",
     "oid": "bracers-of-defense-shadow+1",
     "short_description": "Bracelets de défense. Ces bracelets apportent un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1351,21 +3134,43 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de protection",
     "oid": "bracers-of-defense-protective+1",
     "short_description": "Bracelets de défense. Ces bracelets réduisent les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1376,45 +3181,103 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 50000
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "magical_level": 5,
-    "name": "Bracelets, de resistance à la magie",
-    "oid": "bracers-of-defense-magical-resistance+5",
-    "short_description": "Bracelets de défense. Ces bracelets apportent un bonus de +5 en DEF.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.1
-    }
-  },
-  {
-    "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
+    "name": "Bracelets, de resistance à la magie",
+    "oid": "bracers-of-defense-magical-resistance+1",
+    "short_description": "Bracelets de défense. Ces bracelets apportent un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de resistance au feu",
     "oid": "bracers-of-defense-fire-resistance+1",
     "short_description": "Bracelets de défense. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1426,20 +3289,49 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de resistance au froid",
     "oid": "bracers-of-defense-coldness-resistance+1",
     "short_description": "Bracelets de défense. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1451,20 +3343,49 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de resistance à l'acide",
     "oid": "bracers-of-defense-acid-resistance+1",
     "short_description": "Bracelets de défense. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1476,20 +3397,49 @@
   },
   {
     "__type__": "Bracer",
-    "base_item": "",
-    "category": null,
+    "base_item": "bracers-of-defense",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 1,
+    "material": null,
     "name": "Bracelets, de resistance à la foudre",
     "oid": "bracers-of-defense-lightning-resistance+1",
     "short_description": "Bracelets de défense. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,

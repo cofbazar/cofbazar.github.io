@@ -1,19 +1,34 @@
 [
   {
     "__type__": "Shield",
-    "base_item": "",
-    "category": null,
+    "base_item": "petit-bouclier",
+    "category": "Standard",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2
     },
     "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
     "flavor": [],
     "full_description": "Un petit bouclier en métal qui occupe une main. Très maniable, il n'offre cependant que très peu de protection contre les projectiles. Il procure un bonus de DEF +1.",
+    "hands": 1,
+    "magical_level": 0,
+    "material": null,
     "name": "Petit bouclier",
     "oid": "petit-bouclier",
     "short_description": "Un petit bouclier très maniable en métal qui occupe une main.",
+    "skill": null,
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -25,19 +40,34 @@
   },
   {
     "__type__": "Shield",
-    "base_item": "",
-    "category": null,
+    "base_item": "grand-bouclier",
+    "category": "Standard",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 4
     },
     "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
     "flavor": [],
     "full_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre une bonne protection contre les projectiles. Il procure un bonus de DEF +2.",
+    "hands": 1,
+    "magical_level": 0,
+    "material": null,
     "name": "Grand bouclier",
     "oid": "grand-bouclier",
     "short_description": "Un grand bouclier en métal qui occupe une main.",
+    "skill": null,
     "special_property": [],
     "usable_by": [],
     "use": -1,

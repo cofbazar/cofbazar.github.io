@@ -3,7 +3,7 @@ var defaultFantasyMode = "high";
 var defaultItemType = ['Armor'];
 var defaultAreaSize = "village";
 var defaultArea = cofConfig['areas']['data'].find(area => area['name'] === defaultAreaSize);
-var defaultAreaPriceMax = -1;
+var defaultAreaPriceMax = 1;
 var defaultUserInputName = undefined;
 var defaultUserInputDescription = undefined;
 var defaultItemPriceMin = 0.0;
@@ -21,6 +21,7 @@ var defaultFilter = {
   "fantasyMode": defaultFantasyMode,
   "type": defaultItemType,
   "areaSize": defaultAreaSize,
+  "areaPriceMax": defaultAreaPriceMax,
   "price": {
     "min": defaultItemPriceMin,
     "max": defaultItemPriceMax,
@@ -102,6 +103,7 @@ var itemSettings = new Vue({
       itemList.userInputName = itemFilter["userInput"]["name"];
       itemList.userInputDescription = itemFilter["userInput"]["description"];
       itemData.maxCofDataPrice = itemData.cofFullData.maxPrice();
+      areaSize.areaPriceMax = itemFilter["areaPriceMax"];
     },
   }
 });

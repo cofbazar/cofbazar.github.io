@@ -26,7 +26,7 @@ var itemList = new Vue({
           }
         }
         if (item.defense != null) {
-          item.defense.filter(m => m.label == "RD").forEach(
+          item.defense.filter(m => (m.label == "RD") && (m.limitation == null) ).forEach(
             rd => isproperties.push(
               {"name": "rd-" + rd.target, "value": rd.count, "icon": true}
             )

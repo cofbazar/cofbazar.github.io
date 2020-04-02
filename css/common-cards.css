@@ -259,6 +259,57 @@ div.defense-limitation-container {
   padding: 1px 0.5mm 0mm 0.5mm;
 }
 
+/* Rd section */
+div.rd-full-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+div.rd-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+img.rd-icon{
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+}
+
+div.rd-mod-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+label.rd-limitation {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+  padding-left: 1px;
+}
+
+label.rd-modifier {
+  font-size: 9px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: right;
+}
+
+div.rd-limitation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1px 0.5mm 0mm 0.5mm;
+}
+
 /* special property */
 div.sproperty {
   display: flex;

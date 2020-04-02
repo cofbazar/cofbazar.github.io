@@ -197,6 +197,55 @@ Vue.component('cofbazar-card-defense', {
     </div>`
 });
 
+Vue.component('cofbazar-card-rd', {
+  props: ['defense'],
+  methods: {
+    hasRd(d) {
+      return(
+        (d != null) && (d.length > 0) &&
+        (d.filter(m => (m.label=="RD") && (m.limitation != null)).length > 0)
+      );
+    },
+    rdToStr: function(d) {
+        var rdStr = ""
+        if (d.mtype != null) {
+            rdStr = rdStr + d.mtype;
+        }
+        if (d.count != null) {
+            rdStr = rdStr + d.count;
+        }
+        if (d.die != null) {
+            rdStr = rdStr + "d" + d.die;
+        }
+        return(rdStr);
+    },
+    getRd: function(d) {
+      return(d.filter(m => (m.label=="RD") && (m.limitation != null)));
+
+    },
+  },
+  template: 
+    `<div v-if="hasRd(defense)" class="section-container">
+      <label class="section-title">Résistance aux dégâts</label>           
+      <div class="rd-full-container" v-for="rd in getRd(defense)">
+        <div class="rd-container">
+          <img class="section-bullet" src="images/card/defense-bullet.png"/>
+          <img class="rd-icon" v-bind:src="'images/card/icon-special-property-rd-' + rd.target + '.png'"/>
+          <label class="rd-modifier">: </label>
+          <div class="rd-mod-container">
+            <label class="rd-limitation">(</label>
+            <label class="rd-modifier">{{ rdToStr(rd) }}</label>
+            <label class="rd-limitation">)*</label>
+          </div>
+        </div>
+        <div class="rd-limitation-container" v-for="def in defense">
+          <label class="rd-limitation">(*) {{ rd.limitation }}</label>
+        </div>
+      </div>    
+    </div>`
+});
+
+
 Vue.component('cofbazar-card-special-property', {
   props: ['sproperties'],
   methods: {

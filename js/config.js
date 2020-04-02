@@ -146,12 +146,14 @@ var cofConfig = {
   },
   "skills": {
     "data": [
-      {"name": "paralysed-resistance", "label": "Résistance à la paralysie", "iconify": true, "textify": true},
-      {"name": "slowdown-resistance", "label": "Résistance au ralentissement", "iconify": true, "textify": true},
-      {"name": "immobilized-resistance", "label": "Résistance à l'immobilisation", "iconify": true, "textify": true},
-      {"name": "swimming", "label": "Test de natation", "iconify": true, "textify": true},
-      {"name": "shadow", "label": "Test de discrétion", "iconify": true, "textify": true},
-      {"name": "magical-resistance", "label": "Résistance à la magie", "iconify": true, "textify": true},
+      {"name": "paralysed-resistance", "label": "Résistance à la paralysie", "iconify": true, "textify": false},
+      {"name": "slowdown-resistance", "label": "Résistance au ralentissement", "iconify": true, "textify": false},
+      {"name": "immobilized-resistance", "label": "Résistance à l'immobilisation", "iconify": true, "textify": false},
+      {"name": "view", "label": "Perception visuelle", "iconify": true, "textify": false},
+      {"name": "hearing", "label": "Perception auditive", "iconify": true, "textify": false},
+      {"name": "swimming", "label": "Test de natation", "iconify": true, "textify": false},
+      {"name": "shadow", "label": "Test de discrétion", "iconify": true, "textify": false},
+      {"name": "magical-resistance", "label": "Résistance à la magie", "iconify": true, "textify": false},
     ],
     "prefix": "icon-special-property-",
     "label": "Compétences"
@@ -168,7 +170,7 @@ var cofConfig = {
   },
   "rds": {
     "data": [
-      {"name": "", "label": "Réduction des dégâts"},
+      {"name": "rd", "label": "Réduction des dégâts"},
       {"name": "acid", "label": "Réduction des dégâts d'acide"},
       {"name": "coldness", "label": "Réduction des dégâts de froid"},
       {"name": "fire", "label": "Réduction des dégâts de feu"},

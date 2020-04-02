@@ -1,20 +1,61 @@
 [
   {
     "__type__": "Helmet",
-    "base_item": "",
-    "category": null,
+    "base_item": "leather-helmet",
+    "category": "Standard",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 1.0
     },
     "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": "Seulement contre les critiques",
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
     "flavor": [],
     "full_description": "La calotte en cuir est l'élément indispensable pour compléter une armure de cuir. Elle offre une RD de 2 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -2 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
     "magical_level": 0,
+    "material": null,
     "name": "Calotte en cuir",
     "oid": "leather-helmet",
-    "short_description": "Calotte en cuir.",
+    "short_description": "Une calotte en cuir qui protègera un peu la tête de l'aventurier et ne diminuera que légèrement sa perception.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -26,20 +67,61 @@
   },
   {
     "__type__": "Helmet",
-    "base_item": "",
-    "category": null,
+    "base_item": "camail-helmet",
+    "category": "Standard",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 3.0
     },
     "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": "Seulement contre les critiques",
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
     "flavor": [],
     "full_description": "Le camail est l'élément indispensable pour compléter une chemise de maille. Il offre une RD de 4 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -4 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
     "magical_level": 0,
+    "material": null,
     "name": "Camail",
     "oid": "camail-helmet",
-    "short_description": "Un camail.",
+    "short_description": "Un camail qui protègera la tête de l'aventurier mais diminuera sa perception.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -51,20 +133,61 @@
   },
   {
     "__type__": "Helmet",
-    "base_item": "",
-    "category": null,
+    "base_item": "maille-helmet",
+    "category": "Standard",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 5.0
     },
     "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "RD",
+        "limitation": "Seulement contre les critiques",
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
     "flavor": [],
     "full_description": "Le casque est l'élément indispensable pour compléter une cotte de maille. Il offre une RD de 6 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -6 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
     "magical_level": 0,
+    "material": null,
     "name": "Casque",
     "oid": "maille-helmet",
-    "short_description": "Un casque.",
+    "short_description": "Un casque qui protègera beaucoup la tête de l'aventurier mais diminuera fortement sa perception..",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -76,20 +199,61 @@
   },
   {
     "__type__": "Helmet",
-    "base_item": "",
-    "category": null,
+    "base_item": "heavy-helmet",
+    "category": "Standard",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8.0
     },
     "count": 1,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "RD",
+        "limitation": "Seulement contre les critiques",
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
     "flavor": [],
     "full_description": "Le heaume est l'élément indispensable pour compléter une armure de demi-plaques. Il offre une RD de 8 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -8 a tous les tests de SAG destinés à simuler la perception: détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
     "magical_level": 0,
+    "material": null,
     "name": "Heaume",
     "oid": "heavy-helmet",
-    "short_description": "Un heaume.",
+    "short_description": "Un heaume qui protègera énormément la tête de l'aventurier mais réduira sa perception quasiment à néant.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,

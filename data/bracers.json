@@ -28,7 +28,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets +1",
@@ -78,7 +77,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, d'action libre",
@@ -167,7 +165,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent de 2 tous les DM subits.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de défense",
@@ -226,7 +223,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets réduisent de 4 tous les DM subits.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +1, de défense supérieure",
@@ -276,7 +272,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 aux test de natation.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de natation",
@@ -336,7 +331,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de l'ombre",
@@ -396,7 +390,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de protection",
@@ -457,7 +450,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de resistance à la magie",
@@ -516,7 +508,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de resistance au feu",
@@ -575,7 +566,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de resistance au froid",
@@ -634,7 +624,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de resistance à l'acide",
@@ -693,7 +682,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +1. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +1, de resistance à la foudre",
@@ -738,7 +726,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets +2",
@@ -788,7 +775,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, d'action libre",
@@ -877,7 +863,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent de 2 tous les DM subits.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de défense",
@@ -936,7 +921,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets réduisent de 4 tous les DM subits.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +2, de défense supérieure",
@@ -986,7 +970,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 aux test de natation.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de natation",
@@ -1046,7 +1029,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de l'ombre",
@@ -1106,7 +1088,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de protection",
@@ -1167,7 +1148,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de resistance à la magie",
@@ -1226,7 +1206,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de resistance au feu",
@@ -1285,7 +1264,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de resistance au froid",
@@ -1344,7 +1322,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de resistance à l'acide",
@@ -1403,7 +1380,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +2. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +2, de resistance à la foudre",
@@ -1448,7 +1424,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3.",
-    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Bracelets +3",
@@ -1498,7 +1473,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, d'action libre",
@@ -1587,7 +1561,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent de 2 tous les DM subits.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de défense",
@@ -1646,7 +1619,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets réduisent de 4 tous les DM subits.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +3, de défense supérieure",
@@ -1696,7 +1668,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 aux test de natation.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de natation",
@@ -1756,7 +1727,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de l'ombre",
@@ -1816,7 +1786,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de protection",
@@ -1877,7 +1846,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de resistance à la magie",
@@ -1936,7 +1904,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de resistance au feu",
@@ -1995,7 +1962,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de resistance au froid",
@@ -2054,7 +2020,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de resistance à l'acide",
@@ -2113,7 +2078,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +3. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +3, de resistance à la foudre",
@@ -2158,7 +2122,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4.",
-    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Bracelets +4",
@@ -2208,7 +2171,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, d'action libre",
@@ -2297,7 +2259,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent de 2 tous les DM subits.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de défense",
@@ -2356,7 +2317,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets réduisent de 4 tous les DM subits.",
-    "hands": 0,
     "magical_level": 6,
     "material": null,
     "name": "Bracelets +4, de défense supérieure",
@@ -2406,7 +2366,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 aux test de natation.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de natation",
@@ -2466,7 +2425,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de l'ombre",
@@ -2526,7 +2484,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de protection",
@@ -2587,7 +2544,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de resistance à la magie",
@@ -2646,7 +2602,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de resistance au feu",
@@ -2705,7 +2660,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de resistance au froid",
@@ -2764,7 +2718,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de resistance à l'acide",
@@ -2823,7 +2776,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets sont magiques et offre un bonus en DEF de +4. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
-    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Bracelets +4, de resistance à la foudre",
@@ -2868,7 +2820,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Avec ces bracelets, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, d'action libre",
@@ -2952,7 +2903,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets réduisent de 2 tous les DM subits.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de défense",
@@ -3006,7 +2956,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets réduisent de 4 tous les DM subits.",
-    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Bracelets, de défense supérieure",
@@ -3051,7 +3000,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus de +5 aux test de natation.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de natation",
@@ -3106,7 +3054,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus +5 aux test de discrétion (DEX).",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de l'ombre",
@@ -3161,7 +3108,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets divisent par 2 les DM des coups critiques et des attaques sournoises.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de protection",
@@ -3217,7 +3163,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets apportent un bonus de +5 en DEF ou aux tests pour résister à la magie.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de resistance à la magie",
@@ -3271,7 +3216,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le feu.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de resistance au feu",
@@ -3325,7 +3269,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par le froid.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de resistance au froid",
@@ -3379,7 +3322,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par l'acide.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de resistance à l'acide",
@@ -3433,7 +3375,6 @@
       }
     ],
     "full_description": "Le bonus des bracelets de défense ne se cumule pas avec le bonus d'armure. Ils sont en général utilisé par les magiciens ou les moines. Ces bracelets permettent de réduire de 10 DM les dếgats occasionnés par la foudre.",
-    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Bracelets, de resistance à la foudre",

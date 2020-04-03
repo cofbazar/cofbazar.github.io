@@ -1,32 +1,7 @@
 [
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
-    "cost": {
-      "__type__": "Cost",
-      "unit": "pa",
-      "value": 0
-    },
-    "count": 1,
-    "flavor": [],
-    "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection.",
-    "magical_level": 0,
-    "name": "Cape",
-    "oid": "protective-cloak",
-    "short_description": "Cape de protection.",
-    "special_property": [],
-    "usable_by": [],
-    "use": -1,
-    "weight": {
-      "__type__": "Weight",
-      "unit": "Kg",
-      "value": 0.0
-    }
-  },
-  {
-    "__type__": "Cloak",
-    "base_item": "",
+    "base_item": "protective-cloak",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -34,12 +9,31 @@
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape +1",
     "oid": "protective-cloak-magical+1",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -51,21 +45,75 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, d'action libre",
     "oid": "protective-cloak-magical+1-free-move+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -76,20 +124,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape réduit de 2 tous les DM subits.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de défense",
     "oid": "protective-cloak-magical+1-defense+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape réduit de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -101,20 +182,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape réduit de 4 tous les DM subits.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +1, de défense supérieure",
     "oid": "protective-cloak-magical+1-higher-defense+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape réduit de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -126,20 +240,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonus de +5 aux test de natation.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de natation",
     "oid": "protective-cloak-magical+1-swimming+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -151,20 +299,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonus +5 aux test de discrétion (DEX).",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de l'ombre",
     "oid": "protective-cloak-magical+1-shadow+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -176,21 +358,47 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape divise par 2 les DM des coups critiques et des attaques sournoises.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de protection",
     "oid": "protective-cloak-magical+1-protective+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape réduit les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -201,20 +409,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 72000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
     "magical_level": 6,
+    "material": null,
     "name": "Cape +1, de resistance à la magie",
     "oid": "protective-cloak-magical+1-magical-resistance+6",
-    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonus de +5 en DEF.",
+    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape apporte un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -226,20 +467,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de resistance au feu",
     "oid": "protective-cloak-magical+1-fire-resistance+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -251,20 +525,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de resistance au froid",
     "oid": "protective-cloak-magical+1-coldness-resistance+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -276,20 +583,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de resistance à l'acide",
     "oid": "protective-cloak-magical+1-acid-resistance+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -301,20 +641,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +1, de resistance à la foudre",
     "oid": "protective-cloak-magical+1-lightning-resistance+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +1. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -326,7 +699,7 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
+    "base_item": "protective-cloak",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -334,12 +707,31 @@
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape +2",
     "oid": "protective-cloak-magical+2",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -351,21 +743,75 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, d'action libre",
     "oid": "protective-cloak-magical+2-free-move+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -376,20 +822,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape réduit de 2 tous les DM subits.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de défense",
     "oid": "protective-cloak-magical+2-defense+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape réduit de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -401,20 +880,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape réduit de 4 tous les DM subits.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +2, de défense supérieure",
     "oid": "protective-cloak-magical+2-higher-defense+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape réduit de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -426,20 +938,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonus de +5 aux test de natation.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de natation",
     "oid": "protective-cloak-magical+2-swimming+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -451,20 +997,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonus +5 aux test de discrétion (DEX).",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de l'ombre",
     "oid": "protective-cloak-magical+2-shadow+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -476,21 +1056,47 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape divise par 2 les DM des coups critiques et des attaques sournoises.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de protection",
     "oid": "protective-cloak-magical+2-protective+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape réduit les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -501,20 +1107,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 98000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
     "magical_level": 7,
+    "material": null,
     "name": "Cape +2, de resistance à la magie",
     "oid": "protective-cloak-magical+2-magical-resistance+7",
-    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonus de +5 en DEF.",
+    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape apporte un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -526,20 +1165,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de resistance au feu",
     "oid": "protective-cloak-magical+2-fire-resistance+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -551,20 +1223,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de resistance au froid",
     "oid": "protective-cloak-magical+2-coldness-resistance+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -576,20 +1281,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de resistance à l'acide",
     "oid": "protective-cloak-magical+2-acid-resistance+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -601,20 +1339,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +2, de resistance à la foudre",
     "oid": "protective-cloak-magical+2-lightning-resistance+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +2. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -626,7 +1397,7 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
+    "base_item": "protective-cloak",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -634,12 +1405,31 @@
       "value": 18000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3.",
     "magical_level": 3,
+    "material": null,
     "name": "Cape +3",
     "oid": "protective-cloak-magical+3",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -651,21 +1441,75 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, d'action libre",
     "oid": "protective-cloak-magical+3-free-move+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -676,20 +1520,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape réduit de 2 tous les DM subits.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de défense",
     "oid": "protective-cloak-magical+3-defense+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape réduit de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -701,20 +1578,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape réduit de 4 tous les DM subits.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +3, de défense supérieure",
     "oid": "protective-cloak-magical+3-higher-defense+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape réduit de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -726,20 +1636,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonus de +5 aux test de natation.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de natation",
     "oid": "protective-cloak-magical+3-swimming+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -751,20 +1695,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonus +5 aux test de discrétion (DEX).",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de l'ombre",
     "oid": "protective-cloak-magical+3-shadow+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -776,21 +1754,47 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape divise par 2 les DM des coups critiques et des attaques sournoises.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de protection",
     "oid": "protective-cloak-magical+3-protective+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape réduit les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -801,20 +1805,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 128000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
     "magical_level": 8,
+    "material": null,
     "name": "Cape +3, de resistance à la magie",
     "oid": "protective-cloak-magical+3-magical-resistance+8",
-    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonus de +5 en DEF.",
+    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape apporte un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -826,20 +1863,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de resistance au feu",
     "oid": "protective-cloak-magical+3-fire-resistance+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -851,20 +1921,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de resistance au froid",
     "oid": "protective-cloak-magical+3-coldness-resistance+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -876,20 +1979,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de resistance à l'acide",
     "oid": "protective-cloak-magical+3-acid-resistance+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -901,20 +2037,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +3, de resistance à la foudre",
     "oid": "protective-cloak-magical+3-lightning-resistance+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +3. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -926,7 +2095,7 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
+    "base_item": "protective-cloak",
     "category": null,
     "cost": {
       "__type__": "Cost",
@@ -934,12 +2103,31 @@
       "value": 32000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4.",
     "magical_level": 4,
+    "material": null,
     "name": "Cape +4",
     "oid": "protective-cloak-magical+4",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -951,21 +2139,75 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, d'action libre",
     "oid": "protective-cloak-magical+4-free-move+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -976,20 +2218,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape réduit de 2 tous les DM subits.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de défense",
     "oid": "protective-cloak-magical+4-defense+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape réduit de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1001,20 +2276,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 72000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape réduit de 4 tous les DM subits.",
     "magical_level": 6,
+    "material": null,
     "name": "Cape +4, de défense supérieure",
     "oid": "protective-cloak-magical+4-higher-defense+6",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape réduit de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1026,20 +2334,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonus de +5 aux test de natation.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de natation",
     "oid": "protective-cloak-magical+4-swimming+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1051,20 +2393,54 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonus +5 aux test de discrétion (DEX).",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de l'ombre",
     "oid": "protective-cloak-magical+4-shadow+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1076,21 +2452,47 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape divise par 2 les DM des coups critiques et des attaques sournoises.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de protection",
     "oid": "protective-cloak-magical+4-protective+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape réduit les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1101,20 +2503,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 162000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
     "magical_level": 9,
+    "material": null,
     "name": "Cape +4, de resistance à la magie",
     "oid": "protective-cloak-magical+4-magical-resistance+9",
-    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonus de +5 en DEF.",
+    "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape apporte un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1126,20 +2561,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de resistance au feu",
     "oid": "protective-cloak-magical+4-fire-resistance+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1151,20 +2619,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de resistance au froid",
     "oid": "protective-cloak-magical+4-coldness-resistance+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1176,20 +2677,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de resistance à l'acide",
     "oid": "protective-cloak-magical+4-acid-resistance+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1201,20 +2735,53 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape +4, de resistance à la foudre",
     "oid": "protective-cloak-magical+4-lightning-resistance+5",
     "short_description": "Cape de protection. Cette cape est magique et offre un bonus en DEF de +4. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1226,21 +2793,70 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, d'action libre",
     "oid": "protective-cloak-free-move+1",
     "short_description": "Cape de protection. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
-    "special_property": [],
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1251,20 +2867,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape réduit de 2 tous les DM subits.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de défense",
     "oid": "protective-cloak-defense+1",
     "short_description": "Cape de protection. Cette cape réduit de 2 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1276,20 +2920,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 8000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "defense"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape réduit de 4 tous les DM subits.",
     "magical_level": 2,
+    "material": null,
     "name": "Cape, de défense supérieure",
     "oid": "protective-cloak-higher-defense+2",
     "short_description": "Cape de protection. Cette cape réduit de 4 tous les DM subits.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1301,20 +2973,49 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "swimming"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape apporte un bonus de +5 aux test de natation.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de natation",
     "oid": "protective-cloak-swimming+1",
     "short_description": "Cape de protection. Cette cape apporte un bonus de +5 aux test de natation.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "swimming"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1326,20 +3027,49 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "shadow"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape apporte un bonus +5 aux test de discrétion (DEX).",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de l'ombre",
     "oid": "protective-cloak-shadow+1",
     "short_description": "Cape de protection. Cette cape apporte un bonus +5 aux test de discrétion.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "shadow"
+      }
+    ],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1351,21 +3081,42 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "protective"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape divise par 2 les DM des coups critiques et des attaques sournoises.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de protection",
     "oid": "protective-cloak-protective+1",
     "short_description": "Cape de protection. Cette cape réduit les dégats critiques",
-    "special_property": [],
+    "skill": [],
+    "special_property": [
+      "DM / 2 : attaque sournoise et critique"
+    ],
     "usable_by": [],
     "use": -1,
     "weight": {
@@ -1376,20 +3127,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 50000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": "Seulement contre la magie",
+        "mtype": "+",
+        "target": "magical"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical-resistance"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
     "magical_level": 5,
+    "material": null,
     "name": "Cape, de resistance à la magie",
     "oid": "protective-cloak-magical-resistance+5",
-    "short_description": "Cape de protection. Cette cape apporte un bonus de +5 en DEF.",
+    "short_description": "Cape de protection. Cette cape apporte un bonus de +5 en DEF pour résister à la magie.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1401,20 +3180,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de resistance au feu",
     "oid": "protective-cloak-fire-resistance+1",
     "short_description": "Cape de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1426,20 +3233,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "coldness"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de resistance au froid",
     "oid": "protective-cloak-coldness-resistance+1",
     "short_description": "Cape de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1451,20 +3286,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "acid"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de resistance à l'acide",
     "oid": "protective-cloak-acid-resistance+1",
     "short_description": "Cape de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
@@ -1476,20 +3339,48 @@
   },
   {
     "__type__": "Cloak",
-    "base_item": "",
-    "category": null,
+    "base_item": "protective-cloak",
+    "category": "Magique",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
       "value": 2000
     },
     "count": 1,
-    "flavor": [],
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "lightning"
+      }
+    ],
     "full_description": "Le bonus de la cape de protection ne se cumule pas avec le bonus des anneaux de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "magical_level": 1,
+    "material": null,
     "name": "Cape, de resistance à la foudre",
     "oid": "protective-cloak-lightning-resistance+1",
     "short_description": "Cape de protection. Cette cape permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,

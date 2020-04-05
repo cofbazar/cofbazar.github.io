@@ -161,22 +161,22 @@
                      title="Ajouter tous les objets visibles au panier"/>
               </th>
               <th class="generic-item">
-                <div class="item-list-sortable" v-on:click="sort('tlabel')">
+                <div class="item-list-sortable">
                   <label class="item-list-h-type">Type</label>
-                  <div class="item-list-sort-arrow-container">
+                  <div class="item-list-sort-arrow-container" v-on:click="sort('tlabel')">
                     <label v-show="descSort('tlabel')">&#9662;</label>
                     <label v-show="ascSort('tlabel')">&#9652;</label>
                   </div>
                 </div>
               </th>
               <th class="generic-item">
-                <div class="item-list-sortable" v-on:click="sort('name')">
+                <div class="item-list-sortable">
                   <label class="item-list-h-name">Nom</label>
                   <input class="item-list-h-name"
                          type="text" placeholder="Filtre" v-model="userInputName"
                          v-on:change="mFilterUserInputName(userInputName)"
                          v-on:input="filterUserInputName(userInputName)"/>
-                  <div class="item-list-sort-arrow-container">
+                  <div class="item-list-sort-arrow-container" v-on:click="sort('name')">
                     <label v-show="descSort('name')">&#9662;</label>
                     <label v-show="ascSort('name')">&#9652;</label>
                   </div>
@@ -192,9 +192,9 @@
                 </div>
               </th>
               <th class="generic-item">
-                <div class="item-list-sortable" v-on:click="sort('cost')">
+                <div class="item-list-sortable">
                   <label class="item-list-h-cost">Prix</label>
-                  <div class="item-list-sort-arrow-container">
+                  <div class="item-list-sort-arrow-container" v-on:click="sort('cost')">
                     <label v-show="descSort('cost')">&#9662;</label>
                     <label v-show="ascSort('cost')">&#9652;</label>
                   </div>

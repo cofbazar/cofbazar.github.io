@@ -71,6 +71,7 @@ var cofConfig = {
       {"name": "lightning", "label": "Dégât de foudre", "iconify": true},
       {"name": "punctured", "label": "Dégât perforant", "iconify": false},
       {"name": "sharp", "label": "Dégât tranchant", "iconify": false},
+      {"name": "natural", "label": "Dégât naturel", "iconify": true},
     ],
     "prefix": "damage-",
     "label": "Dégats"
@@ -122,6 +123,14 @@ var cofConfig = {
       {"name": "shadow", "label": "Objet de l'ombre"},
       {"name": "sharp", "label": "Objet affuté"},
       {"name": "swimming", "label": "Objet de natation"},
+    ],
+    "prefix": "flavor-",
+    "label": "Variante d'objet"
+  },
+  "flavors-potion": {
+    "data": [
+      {"name": "mineur", "label": "Potion mineure"},
+      {"name": "moyen", "label": "Potion moyenne"},
     ],
     "prefix": "flavor-",
     "label": "Variante d'objet"

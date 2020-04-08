@@ -43,17 +43,17 @@ var itemList = new Vue({
         }
         if (item.range != null) {
           isproperties.push(
-            {"name": "range", "value": item.range.value + item.range.unit, "icon": true}
+            {"name": "range", "value": item.range.value + " " + item.range.unit, "icon": true}
           );
         }
         if (item.area != null) {
           isproperties.push(
-            {"name": "area", "value": item.area.value + item.area.unit, "icon": true}
+            {"name": "area", "value": item.area.value + " " + item.area.unit, "icon": true}
           );
         }
         if (item.duration != null) {
           isproperties.push(
-            {"name": "duration", "value": item.duration.value + item.duration.unit, "icon": true}
+            {"name": "duration", "value": item.duration.value + " " + item.duration.unit, "icon": true}
           );
         }
         if (item.skill != null) {

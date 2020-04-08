@@ -2,7 +2,7 @@ var itemList = new Vue({
     el: '#card-help',
     data: {
         helpCategories: [
-            "flavors", "flavors-material", "attacks", "damages",
+            "flavors", "flavors-material", "flavors-potion", "attacks", "damages",
             "defenses", "rds", "skills", "special-properties", 
             "guis", "character-sheet"
         ],

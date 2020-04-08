@@ -40,28 +40,31 @@ img.section-bullet{
 
 /* Iconified special properties*/
 div.isproperties-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-content: flex-start;
-  flex: 1 1 0px;
-}
-
-div.isproperty-container {
   margin-left: 1px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  flex: 0 0 0px;
+  align-content: flex-start;
+  flex: 0 0 36px;
+}
+
+div.isproperty-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-width: 18px;
 }
 
 img.isproperty-icon {
   width: 8px;
   height: 8px;
+  min-width: 8px;
 }
 
 label.isproperty-text {
   font-size: 6px;
+  white-space: nowrap;
   font-family: 'Times New Roman';
   padding-left: 1px;
 }
@@ -103,7 +106,7 @@ img.flavor-icon {
 }
 
 /* Big slots */
-div.big-slot-container {
+div.quantity-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -116,14 +119,14 @@ div.big-slot-container {
   margin-right:1px;
 }
 
-label.big-slot-container {
+label.quantity-container {
   align-self: center;
   font-size: 5px;
   color: ae9a87;
   font-family: 'Times New Roman';
 }
 @-moz-document url-prefix() {
-  label.big-slot-container {
+  label.quantity-container {
     align-self: center;
     font-size: 4px;
     color: ae9a87;
@@ -138,6 +141,14 @@ div.attack-container {
   justify-content: flex-start;
   align-items: center;
   padding: 1px 0.5mm 0mm 0.5mm;
+}
+
+label.attack-name {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  margin: 0px;
+  text-align: left;
+  padding-left: 1px;
 }
 
 label.attack-modifier {
@@ -256,7 +267,7 @@ div.defense-limitation-container {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 1px 0.5mm 0mm 0.5mm;
+  padding-left: 1px;
 }
 
 /* Rd section */
@@ -307,7 +318,7 @@ div.rd-limitation-container {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 1px 0.5mm 0mm 0.5mm;
+  padding-left: 1px;
 }
 
 /* special property */
@@ -334,7 +345,7 @@ img.section-bullet-sp {
 }
 
 /* Small slots */
-div.small-slots-container {
+div.uses-container {
   padding-top: 2px;
   display: flex;
   flex-direction: row;
@@ -342,7 +353,7 @@ div.small-slots-container {
   justify-content: space-around;
 }
 
-div.small-slot-container {
+div.use-container {
   border: 1px;
   border-radius: 4px;
   border: 1px solid #ae9a87;

@@ -26,6 +26,7 @@
     "material": null,
     "name": "Calotte en cuir",
     "oid": "leather-helmet",
+    "quantity": -1,
     "short_description": "Une calotte en cuir qui protègera un peu la tête de l'aventurier et ne diminuera que légèrement sa perception.",
     "skill": [
       {
@@ -92,6 +93,7 @@
     "material": null,
     "name": "Camail",
     "oid": "camail-helmet",
+    "quantity": -1,
     "short_description": "Un camail qui protègera la tête de l'aventurier mais diminuera sa perception.",
     "skill": [
       {
@@ -158,6 +160,7 @@
     "material": null,
     "name": "Casque",
     "oid": "maille-helmet",
+    "quantity": -1,
     "short_description": "Un casque qui protègera beaucoup la tête de l'aventurier mais diminuera fortement sa perception..",
     "skill": [
       {
@@ -224,6 +227,7 @@
     "material": null,
     "name": "Heaume",
     "oid": "heavy-helmet",
+    "quantity": -1,
     "short_description": "Un heaume qui protègera énormément la tête de l'aventurier mais réduira sa perception quasiment à néant.",
     "skill": [
       {

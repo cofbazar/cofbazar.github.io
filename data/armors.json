@@ -26,6 +26,7 @@
     "material": null,
     "name": "Armure matelassée",
     "oid": "tissu-matelasse",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus.",
     "skill": [
       {
@@ -80,6 +81,7 @@
     "material": null,
     "name": "Armure matelassée, de qualité",
     "oid": "tissu-matelasse-quality+0",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [],
     "special_property": [],
@@ -124,6 +126,7 @@
     "material": null,
     "name": "Armure matelassée +1",
     "oid": "tissu-matelasse-magical+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [],
     "special_property": [],
@@ -173,6 +176,7 @@
     "material": null,
     "name": "Armure matelassée +1, d'action libre",
     "oid": "tissu-matelasse-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -261,6 +265,7 @@
     "material": null,
     "name": "Armure matelassée +1, de défense",
     "oid": "tissu-matelasse-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -319,6 +324,7 @@
     "material": null,
     "name": "Armure matelassée +1, de défense supérieure",
     "oid": "tissu-matelasse-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -368,6 +374,7 @@
     "material": null,
     "name": "Armure matelassée +1, de natation",
     "oid": "tissu-matelasse-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -427,6 +434,7 @@
     "material": null,
     "name": "Armure matelassée +1, de l'ombre",
     "oid": "tissu-matelasse-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -486,6 +494,7 @@
     "material": null,
     "name": "Armure matelassée +1, de protection",
     "oid": "tissu-matelasse-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -546,6 +555,7 @@
     "material": null,
     "name": "Armure matelassée +1, de résistance à la magie",
     "oid": "tissu-matelasse-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -614,6 +624,7 @@
     "material": null,
     "name": "Armure matelassée +1, de résistance au feu",
     "oid": "tissu-matelasse-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -672,6 +683,7 @@
     "material": null,
     "name": "Armure matelassée +1, de résistance au froid",
     "oid": "tissu-matelasse-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -730,6 +742,7 @@
     "material": null,
     "name": "Armure matelassée +1, de résistance à l'acide",
     "oid": "tissu-matelasse-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -788,6 +801,7 @@
     "material": null,
     "name": "Armure matelassée +1, de résistance à la foudre",
     "oid": "tissu-matelasse-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -832,6 +846,7 @@
     "material": null,
     "name": "Armure matelassée +2",
     "oid": "tissu-matelasse-magical+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [],
     "special_property": [],
@@ -881,6 +896,7 @@
     "material": null,
     "name": "Armure matelassée +2, d'action libre",
     "oid": "tissu-matelasse-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -969,6 +985,7 @@
     "material": null,
     "name": "Armure matelassée +2, de défense",
     "oid": "tissu-matelasse-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -1027,6 +1044,7 @@
     "material": null,
     "name": "Armure matelassée +2, de défense supérieure",
     "oid": "tissu-matelasse-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -1076,6 +1094,7 @@
     "material": null,
     "name": "Armure matelassée +2, de natation",
     "oid": "tissu-matelasse-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -1135,6 +1154,7 @@
     "material": null,
     "name": "Armure matelassée +2, de l'ombre",
     "oid": "tissu-matelasse-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -1194,6 +1214,7 @@
     "material": null,
     "name": "Armure matelassée +2, de protection",
     "oid": "tissu-matelasse-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -1254,6 +1275,7 @@
     "material": null,
     "name": "Armure matelassée +2, de résistance à la magie",
     "oid": "tissu-matelasse-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -1322,6 +1344,7 @@
     "material": null,
     "name": "Armure matelassée +2, de résistance au feu",
     "oid": "tissu-matelasse-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -1380,6 +1403,7 @@
     "material": null,
     "name": "Armure matelassée +2, de résistance au froid",
     "oid": "tissu-matelasse-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -1438,6 +1462,7 @@
     "material": null,
     "name": "Armure matelassée +2, de résistance à l'acide",
     "oid": "tissu-matelasse-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -1496,6 +1521,7 @@
     "material": null,
     "name": "Armure matelassée +2, de résistance à la foudre",
     "oid": "tissu-matelasse-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -1540,6 +1566,7 @@
     "material": null,
     "name": "Armure matelassée +3",
     "oid": "tissu-matelasse-magical+3",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [],
     "special_property": [],
@@ -1589,6 +1616,7 @@
     "material": null,
     "name": "Armure matelassée +3, d'action libre",
     "oid": "tissu-matelasse-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -1677,6 +1705,7 @@
     "material": null,
     "name": "Armure matelassée +3, de défense",
     "oid": "tissu-matelasse-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -1735,6 +1764,7 @@
     "material": null,
     "name": "Armure matelassée +3, de défense supérieure",
     "oid": "tissu-matelasse-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -1784,6 +1814,7 @@
     "material": null,
     "name": "Armure matelassée +3, de natation",
     "oid": "tissu-matelasse-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -1843,6 +1874,7 @@
     "material": null,
     "name": "Armure matelassée +3, de l'ombre",
     "oid": "tissu-matelasse-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -1902,6 +1934,7 @@
     "material": null,
     "name": "Armure matelassée +3, de protection",
     "oid": "tissu-matelasse-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -1962,6 +1995,7 @@
     "material": null,
     "name": "Armure matelassée +3, de résistance à la magie",
     "oid": "tissu-matelasse-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -2030,6 +2064,7 @@
     "material": null,
     "name": "Armure matelassée +3, de résistance au feu",
     "oid": "tissu-matelasse-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -2088,6 +2123,7 @@
     "material": null,
     "name": "Armure matelassée +3, de résistance au froid",
     "oid": "tissu-matelasse-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -2146,6 +2182,7 @@
     "material": null,
     "name": "Armure matelassée +3, de résistance à l'acide",
     "oid": "tissu-matelasse-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -2204,6 +2241,7 @@
     "material": null,
     "name": "Armure matelassée +3, de résistance à la foudre",
     "oid": "tissu-matelasse-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -2248,6 +2286,7 @@
     "material": null,
     "name": "Armure matelassée +4",
     "oid": "tissu-matelasse-magical+4",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [],
     "special_property": [],
@@ -2297,6 +2336,7 @@
     "material": null,
     "name": "Armure matelassée +4, d'action libre",
     "oid": "tissu-matelasse-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -2385,6 +2425,7 @@
     "material": null,
     "name": "Armure matelassée +4, de défense",
     "oid": "tissu-matelasse-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -2443,6 +2484,7 @@
     "material": null,
     "name": "Armure matelassée +4, de défense supérieure",
     "oid": "tissu-matelasse-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -2492,6 +2534,7 @@
     "material": null,
     "name": "Armure matelassée +4, de natation",
     "oid": "tissu-matelasse-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -2551,6 +2594,7 @@
     "material": null,
     "name": "Armure matelassée +4, de l'ombre",
     "oid": "tissu-matelasse-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -2610,6 +2654,7 @@
     "material": null,
     "name": "Armure matelassée +4, de protection",
     "oid": "tissu-matelasse-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -2670,6 +2715,7 @@
     "material": null,
     "name": "Armure matelassée +4, de résistance à la magie",
     "oid": "tissu-matelasse-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -2738,6 +2784,7 @@
     "material": null,
     "name": "Armure matelassée +4, de résistance au feu",
     "oid": "tissu-matelasse-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -2796,6 +2843,7 @@
     "material": null,
     "name": "Armure matelassée +4, de résistance au froid",
     "oid": "tissu-matelasse-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -2854,6 +2902,7 @@
     "material": null,
     "name": "Armure matelassée +4, de résistance à l'acide",
     "oid": "tissu-matelasse-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -2912,6 +2961,7 @@
     "material": null,
     "name": "Armure matelassée +4, de résistance à la foudre",
     "oid": "tissu-matelasse-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -2956,6 +3006,7 @@
     "material": null,
     "name": "Armure matelassée, d'action libre",
     "oid": "tissu-matelasse-free-action+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -3048,6 +3099,7 @@
     "material": null,
     "name": "Armure matelassée, de défense",
     "oid": "tissu-matelasse-defense+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -3111,6 +3163,7 @@
     "material": null,
     "name": "Armure matelassée, de défense supérieure",
     "oid": "tissu-matelasse-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -3165,6 +3218,7 @@
     "material": null,
     "name": "Armure matelassée, de natation",
     "oid": "tissu-matelasse-swimming+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -3228,6 +3282,7 @@
     "material": null,
     "name": "Armure matelassée, de l'ombre",
     "oid": "tissu-matelasse-shadow+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -3291,6 +3346,7 @@
     "material": null,
     "name": "Armure matelassée, de protection",
     "oid": "tissu-matelasse-protective+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -3356,6 +3412,7 @@
     "material": null,
     "name": "Armure matelassée, de résistance à la magie",
     "oid": "tissu-matelasse-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -3428,6 +3485,7 @@
     "material": null,
     "name": "Armure matelassée, de résistance au feu",
     "oid": "tissu-matelasse-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -3491,6 +3549,7 @@
     "material": null,
     "name": "Armure matelassée, de résistance au froid",
     "oid": "tissu-matelasse-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -3554,6 +3613,7 @@
     "material": null,
     "name": "Armure matelassée, de résistance à l'acide",
     "oid": "tissu-matelasse-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -3617,6 +3677,7 @@
     "material": null,
     "name": "Armure matelassée, de résistance à la foudre",
     "oid": "tissu-matelasse-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -3665,6 +3726,7 @@
     "material": null,
     "name": "Armure de cuir",
     "oid": "cuir",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies.",
     "skill": [
       {
@@ -3719,6 +3781,7 @@
     "material": null,
     "name": "Armure de cuir, de qualité",
     "oid": "cuir-quality+0",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [
       {
@@ -3773,6 +3836,7 @@
     "material": null,
     "name": "Armure de cuir +1",
     "oid": "cuir-magical+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [
       {
@@ -3832,6 +3896,7 @@
     "material": null,
     "name": "Armure de cuir +1, d'action libre",
     "oid": "cuir-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -3929,6 +3994,7 @@
     "material": null,
     "name": "Armure de cuir +1, de défense",
     "oid": "cuir-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -3997,6 +4063,7 @@
     "material": null,
     "name": "Armure de cuir +1, de défense supérieure",
     "oid": "cuir-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -4056,6 +4123,7 @@
     "material": null,
     "name": "Armure de cuir +1, de natation",
     "oid": "cuir-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -4124,6 +4192,7 @@
     "material": null,
     "name": "Armure de cuir +1, de l'ombre",
     "oid": "cuir-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -4192,6 +4261,7 @@
     "material": null,
     "name": "Armure de cuir +1, de protection",
     "oid": "cuir-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -4262,6 +4332,7 @@
     "material": null,
     "name": "Armure de cuir +1, de résistance à la magie",
     "oid": "cuir-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -4339,6 +4410,7 @@
     "material": null,
     "name": "Armure de cuir +1, de résistance au feu",
     "oid": "cuir-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -4407,6 +4479,7 @@
     "material": null,
     "name": "Armure de cuir +1, de résistance au froid",
     "oid": "cuir-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -4475,6 +4548,7 @@
     "material": null,
     "name": "Armure de cuir +1, de résistance à l'acide",
     "oid": "cuir-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -4543,6 +4617,7 @@
     "material": null,
     "name": "Armure de cuir +1, de résistance à la foudre",
     "oid": "cuir-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -4597,6 +4672,7 @@
     "material": null,
     "name": "Armure de cuir +2",
     "oid": "cuir-magical+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [],
     "special_property": [],
@@ -4646,6 +4722,7 @@
     "material": null,
     "name": "Armure de cuir +2, d'action libre",
     "oid": "cuir-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -4734,6 +4811,7 @@
     "material": null,
     "name": "Armure de cuir +2, de défense",
     "oid": "cuir-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -4792,6 +4870,7 @@
     "material": null,
     "name": "Armure de cuir +2, de défense supérieure",
     "oid": "cuir-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -4841,6 +4920,7 @@
     "material": null,
     "name": "Armure de cuir +2, de natation",
     "oid": "cuir-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -4900,6 +4980,7 @@
     "material": null,
     "name": "Armure de cuir +2, de l'ombre",
     "oid": "cuir-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -4959,6 +5040,7 @@
     "material": null,
     "name": "Armure de cuir +2, de protection",
     "oid": "cuir-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -5019,6 +5101,7 @@
     "material": null,
     "name": "Armure de cuir +2, de résistance à la magie",
     "oid": "cuir-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -5087,6 +5170,7 @@
     "material": null,
     "name": "Armure de cuir +2, de résistance au feu",
     "oid": "cuir-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -5145,6 +5229,7 @@
     "material": null,
     "name": "Armure de cuir +2, de résistance au froid",
     "oid": "cuir-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -5203,6 +5288,7 @@
     "material": null,
     "name": "Armure de cuir +2, de résistance à l'acide",
     "oid": "cuir-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -5261,6 +5347,7 @@
     "material": null,
     "name": "Armure de cuir +2, de résistance à la foudre",
     "oid": "cuir-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -5305,6 +5392,7 @@
     "material": null,
     "name": "Armure de cuir +3",
     "oid": "cuir-magical+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [],
     "special_property": [],
@@ -5354,6 +5442,7 @@
     "material": null,
     "name": "Armure de cuir +3, d'action libre",
     "oid": "cuir-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -5442,6 +5531,7 @@
     "material": null,
     "name": "Armure de cuir +3, de défense",
     "oid": "cuir-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -5500,6 +5590,7 @@
     "material": null,
     "name": "Armure de cuir +3, de défense supérieure",
     "oid": "cuir-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -5549,6 +5640,7 @@
     "material": null,
     "name": "Armure de cuir +3, de natation",
     "oid": "cuir-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -5608,6 +5700,7 @@
     "material": null,
     "name": "Armure de cuir +3, de l'ombre",
     "oid": "cuir-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -5667,6 +5760,7 @@
     "material": null,
     "name": "Armure de cuir +3, de protection",
     "oid": "cuir-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -5727,6 +5821,7 @@
     "material": null,
     "name": "Armure de cuir +3, de résistance à la magie",
     "oid": "cuir-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -5795,6 +5890,7 @@
     "material": null,
     "name": "Armure de cuir +3, de résistance au feu",
     "oid": "cuir-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -5853,6 +5949,7 @@
     "material": null,
     "name": "Armure de cuir +3, de résistance au froid",
     "oid": "cuir-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -5911,6 +6008,7 @@
     "material": null,
     "name": "Armure de cuir +3, de résistance à l'acide",
     "oid": "cuir-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -5969,6 +6067,7 @@
     "material": null,
     "name": "Armure de cuir +3, de résistance à la foudre",
     "oid": "cuir-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -6013,6 +6112,7 @@
     "material": null,
     "name": "Armure de cuir +4",
     "oid": "cuir-magical+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [],
     "special_property": [],
@@ -6062,6 +6162,7 @@
     "material": null,
     "name": "Armure de cuir +4, d'action libre",
     "oid": "cuir-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -6150,6 +6251,7 @@
     "material": null,
     "name": "Armure de cuir +4, de défense",
     "oid": "cuir-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -6208,6 +6310,7 @@
     "material": null,
     "name": "Armure de cuir +4, de défense supérieure",
     "oid": "cuir-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -6257,6 +6360,7 @@
     "material": null,
     "name": "Armure de cuir +4, de natation",
     "oid": "cuir-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -6316,6 +6420,7 @@
     "material": null,
     "name": "Armure de cuir +4, de l'ombre",
     "oid": "cuir-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -6375,6 +6480,7 @@
     "material": null,
     "name": "Armure de cuir +4, de protection",
     "oid": "cuir-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -6435,6 +6541,7 @@
     "material": null,
     "name": "Armure de cuir +4, de résistance à la magie",
     "oid": "cuir-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -6503,6 +6610,7 @@
     "material": null,
     "name": "Armure de cuir +4, de résistance au feu",
     "oid": "cuir-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -6561,6 +6669,7 @@
     "material": null,
     "name": "Armure de cuir +4, de résistance au froid",
     "oid": "cuir-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -6619,6 +6728,7 @@
     "material": null,
     "name": "Armure de cuir +4, de résistance à l'acide",
     "oid": "cuir-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -6677,6 +6787,7 @@
     "material": null,
     "name": "Armure de cuir +4, de résistance à la foudre",
     "oid": "cuir-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -6721,6 +6832,7 @@
     "material": null,
     "name": "Armure de cuir, d'action libre",
     "oid": "cuir-free-action+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -6813,6 +6925,7 @@
     "material": null,
     "name": "Armure de cuir, de défense",
     "oid": "cuir-defense+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -6876,6 +6989,7 @@
     "material": null,
     "name": "Armure de cuir, de défense supérieure",
     "oid": "cuir-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -6930,6 +7044,7 @@
     "material": null,
     "name": "Armure de cuir, de natation",
     "oid": "cuir-swimming+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -6993,6 +7108,7 @@
     "material": null,
     "name": "Armure de cuir, de l'ombre",
     "oid": "cuir-shadow+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -7056,6 +7172,7 @@
     "material": null,
     "name": "Armure de cuir, de protection",
     "oid": "cuir-protective+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -7121,6 +7238,7 @@
     "material": null,
     "name": "Armure de cuir, de résistance à la magie",
     "oid": "cuir-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -7193,6 +7311,7 @@
     "material": null,
     "name": "Armure de cuir, de résistance au feu",
     "oid": "cuir-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -7256,6 +7375,7 @@
     "material": null,
     "name": "Armure de cuir, de résistance au froid",
     "oid": "cuir-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -7319,6 +7439,7 @@
     "material": null,
     "name": "Armure de cuir, de résistance à l'acide",
     "oid": "cuir-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -7382,6 +7503,7 @@
     "material": null,
     "name": "Armure de cuir, de résistance à la foudre",
     "oid": "cuir-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -7430,6 +7552,7 @@
     "material": null,
     "name": "Armure cuir renforcé",
     "oid": "cuir-renforce",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes.",
     "skill": [
       {
@@ -7484,6 +7607,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de qualité",
     "oid": "cuir-renforce-quality+0",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [
       {
@@ -7538,6 +7662,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1",
     "oid": "cuir-renforce-magical+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [
       {
@@ -7597,6 +7722,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, d'action libre",
     "oid": "cuir-renforce-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -7694,6 +7820,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de défense",
     "oid": "cuir-renforce-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -7762,6 +7889,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de défense supérieure",
     "oid": "cuir-renforce-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -7821,6 +7949,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de natation",
     "oid": "cuir-renforce-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -7889,6 +8018,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de l'ombre",
     "oid": "cuir-renforce-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -7957,6 +8087,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de protection",
     "oid": "cuir-renforce-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -8027,6 +8158,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de résistance à la magie",
     "oid": "cuir-renforce-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -8104,6 +8236,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de résistance au feu",
     "oid": "cuir-renforce-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -8172,6 +8305,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de résistance au froid",
     "oid": "cuir-renforce-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -8240,6 +8374,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de résistance à l'acide",
     "oid": "cuir-renforce-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -8308,6 +8443,7 @@
     "material": null,
     "name": "Armure cuir renforcé +1, de résistance à la foudre",
     "oid": "cuir-renforce-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -8362,6 +8498,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2",
     "oid": "cuir-renforce-magical+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [
       {
@@ -8421,6 +8558,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, d'action libre",
     "oid": "cuir-renforce-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -8518,6 +8656,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de défense",
     "oid": "cuir-renforce-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -8586,6 +8725,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de défense supérieure",
     "oid": "cuir-renforce-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -8645,6 +8785,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de natation",
     "oid": "cuir-renforce-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -8713,6 +8854,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de l'ombre",
     "oid": "cuir-renforce-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -8781,6 +8923,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de protection",
     "oid": "cuir-renforce-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -8851,6 +8994,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de résistance à la magie",
     "oid": "cuir-renforce-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -8928,6 +9072,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de résistance au feu",
     "oid": "cuir-renforce-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -8996,6 +9141,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de résistance au froid",
     "oid": "cuir-renforce-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -9064,6 +9210,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de résistance à l'acide",
     "oid": "cuir-renforce-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -9132,6 +9279,7 @@
     "material": null,
     "name": "Armure cuir renforcé +2, de résistance à la foudre",
     "oid": "cuir-renforce-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -9186,6 +9334,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3",
     "oid": "cuir-renforce-magical+3",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [],
     "special_property": [],
@@ -9235,6 +9384,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, d'action libre",
     "oid": "cuir-renforce-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -9323,6 +9473,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de défense",
     "oid": "cuir-renforce-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -9381,6 +9532,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de défense supérieure",
     "oid": "cuir-renforce-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -9430,6 +9582,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de natation",
     "oid": "cuir-renforce-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -9489,6 +9642,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de l'ombre",
     "oid": "cuir-renforce-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -9548,6 +9702,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de protection",
     "oid": "cuir-renforce-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -9608,6 +9763,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de résistance à la magie",
     "oid": "cuir-renforce-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -9676,6 +9832,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de résistance au feu",
     "oid": "cuir-renforce-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -9734,6 +9891,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de résistance au froid",
     "oid": "cuir-renforce-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -9792,6 +9950,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de résistance à l'acide",
     "oid": "cuir-renforce-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -9850,6 +10009,7 @@
     "material": null,
     "name": "Armure cuir renforcé +3, de résistance à la foudre",
     "oid": "cuir-renforce-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -9894,6 +10054,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4",
     "oid": "cuir-renforce-magical+4",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [],
     "special_property": [],
@@ -9943,6 +10104,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, d'action libre",
     "oid": "cuir-renforce-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -10031,6 +10193,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de défense",
     "oid": "cuir-renforce-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -10089,6 +10252,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de défense supérieure",
     "oid": "cuir-renforce-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -10138,6 +10302,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de natation",
     "oid": "cuir-renforce-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -10197,6 +10362,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de l'ombre",
     "oid": "cuir-renforce-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -10256,6 +10422,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de protection",
     "oid": "cuir-renforce-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -10316,6 +10483,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de résistance à la magie",
     "oid": "cuir-renforce-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -10384,6 +10552,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de résistance au feu",
     "oid": "cuir-renforce-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -10442,6 +10611,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de résistance au froid",
     "oid": "cuir-renforce-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -10500,6 +10670,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de résistance à l'acide",
     "oid": "cuir-renforce-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -10558,6 +10729,7 @@
     "material": null,
     "name": "Armure cuir renforcé +4, de résistance à la foudre",
     "oid": "cuir-renforce-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -10602,6 +10774,7 @@
     "material": null,
     "name": "Armure cuir renforcé, d'action libre",
     "oid": "cuir-renforce-free-action+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -10694,6 +10867,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de défense",
     "oid": "cuir-renforce-defense+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -10757,6 +10931,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de défense supérieure",
     "oid": "cuir-renforce-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -10811,6 +10986,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de natation",
     "oid": "cuir-renforce-swimming+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -10874,6 +11050,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de l'ombre",
     "oid": "cuir-renforce-shadow+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -10937,6 +11114,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de protection",
     "oid": "cuir-renforce-protective+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -11002,6 +11180,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de résistance à la magie",
     "oid": "cuir-renforce-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -11074,6 +11253,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de résistance au feu",
     "oid": "cuir-renforce-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -11137,6 +11317,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de résistance au froid",
     "oid": "cuir-renforce-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -11200,6 +11381,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de résistance à l'acide",
     "oid": "cuir-renforce-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -11263,6 +11445,7 @@
     "material": null,
     "name": "Armure cuir renforcé, de résistance à la foudre",
     "oid": "cuir-renforce-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -11311,6 +11494,7 @@
     "material": null,
     "name": "Chemise de mailles",
     "oid": "chemise-de-mailles",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps.",
     "skill": [
       {
@@ -11365,6 +11549,7 @@
     "material": null,
     "name": "Chemise de mailles, de qualité",
     "oid": "chemise-de-mailles-quality+0",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [
       {
@@ -11419,6 +11604,7 @@
     "material": null,
     "name": "Chemise de mailles +1",
     "oid": "chemise-de-mailles-magical+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [
       {
@@ -11478,6 +11664,7 @@
     "material": null,
     "name": "Chemise de mailles +1, d'action libre",
     "oid": "chemise-de-mailles-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -11575,6 +11762,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de défense",
     "oid": "chemise-de-mailles-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -11643,6 +11831,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de défense supérieure",
     "oid": "chemise-de-mailles-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -11702,6 +11891,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de natation",
     "oid": "chemise-de-mailles-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -11770,6 +11960,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de l'ombre",
     "oid": "chemise-de-mailles-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -11838,6 +12029,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de protection",
     "oid": "chemise-de-mailles-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -11908,6 +12100,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de résistance à la magie",
     "oid": "chemise-de-mailles-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -11985,6 +12178,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de résistance au feu",
     "oid": "chemise-de-mailles-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -12053,6 +12247,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de résistance au froid",
     "oid": "chemise-de-mailles-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -12121,6 +12316,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de résistance à l'acide",
     "oid": "chemise-de-mailles-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -12189,6 +12385,7 @@
     "material": null,
     "name": "Chemise de mailles +1, de résistance à la foudre",
     "oid": "chemise-de-mailles-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -12243,6 +12440,7 @@
     "material": null,
     "name": "Chemise de mailles +2",
     "oid": "chemise-de-mailles-magical+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [
       {
@@ -12302,6 +12500,7 @@
     "material": null,
     "name": "Chemise de mailles +2, d'action libre",
     "oid": "chemise-de-mailles-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -12399,6 +12598,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de défense",
     "oid": "chemise-de-mailles-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -12467,6 +12667,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de défense supérieure",
     "oid": "chemise-de-mailles-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -12526,6 +12727,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de natation",
     "oid": "chemise-de-mailles-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -12594,6 +12796,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de l'ombre",
     "oid": "chemise-de-mailles-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -12662,6 +12865,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de protection",
     "oid": "chemise-de-mailles-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -12732,6 +12936,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de résistance à la magie",
     "oid": "chemise-de-mailles-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -12809,6 +13014,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de résistance au feu",
     "oid": "chemise-de-mailles-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -12877,6 +13083,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de résistance au froid",
     "oid": "chemise-de-mailles-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -12945,6 +13152,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de résistance à l'acide",
     "oid": "chemise-de-mailles-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -13013,6 +13221,7 @@
     "material": null,
     "name": "Chemise de mailles +2, de résistance à la foudre",
     "oid": "chemise-de-mailles-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -13067,6 +13276,7 @@
     "material": null,
     "name": "Chemise de mailles +3",
     "oid": "chemise-de-mailles-magical+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [
       {
@@ -13126,6 +13336,7 @@
     "material": null,
     "name": "Chemise de mailles +3, d'action libre",
     "oid": "chemise-de-mailles-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -13223,6 +13434,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de défense",
     "oid": "chemise-de-mailles-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -13291,6 +13503,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de défense supérieure",
     "oid": "chemise-de-mailles-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -13350,6 +13563,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de natation",
     "oid": "chemise-de-mailles-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -13418,6 +13632,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de l'ombre",
     "oid": "chemise-de-mailles-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -13486,6 +13701,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de protection",
     "oid": "chemise-de-mailles-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -13556,6 +13772,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de résistance à la magie",
     "oid": "chemise-de-mailles-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -13633,6 +13850,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de résistance au feu",
     "oid": "chemise-de-mailles-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -13701,6 +13919,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de résistance au froid",
     "oid": "chemise-de-mailles-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -13769,6 +13988,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de résistance à l'acide",
     "oid": "chemise-de-mailles-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -13837,6 +14057,7 @@
     "material": null,
     "name": "Chemise de mailles +3, de résistance à la foudre",
     "oid": "chemise-de-mailles-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -13891,6 +14112,7 @@
     "material": null,
     "name": "Chemise de mailles +4",
     "oid": "chemise-de-mailles-magical+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [],
     "special_property": [],
@@ -13940,6 +14162,7 @@
     "material": null,
     "name": "Chemise de mailles +4, d'action libre",
     "oid": "chemise-de-mailles-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -14028,6 +14251,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de défense",
     "oid": "chemise-de-mailles-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -14086,6 +14310,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de défense supérieure",
     "oid": "chemise-de-mailles-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
@@ -14135,6 +14360,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de natation",
     "oid": "chemise-de-mailles-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -14194,6 +14420,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de l'ombre",
     "oid": "chemise-de-mailles-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -14253,6 +14480,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de protection",
     "oid": "chemise-de-mailles-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [],
     "special_property": [
@@ -14313,6 +14541,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de résistance à la magie",
     "oid": "chemise-de-mailles-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -14381,6 +14610,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de résistance au feu",
     "oid": "chemise-de-mailles-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [],
     "special_property": [],
@@ -14439,6 +14669,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de résistance au froid",
     "oid": "chemise-de-mailles-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [],
     "special_property": [],
@@ -14497,6 +14728,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de résistance à l'acide",
     "oid": "chemise-de-mailles-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [],
     "special_property": [],
@@ -14555,6 +14787,7 @@
     "material": null,
     "name": "Chemise de mailles +4, de résistance à la foudre",
     "oid": "chemise-de-mailles-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [],
     "special_property": [],
@@ -14599,6 +14832,7 @@
     "material": null,
     "name": "Chemise de mailles, d'action libre",
     "oid": "chemise-de-mailles-free-action+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -14691,6 +14925,7 @@
     "material": null,
     "name": "Chemise de mailles, de défense",
     "oid": "chemise-de-mailles-defense+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -14754,6 +14989,7 @@
     "material": null,
     "name": "Chemise de mailles, de défense supérieure",
     "oid": "chemise-de-mailles-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -14808,6 +15044,7 @@
     "material": null,
     "name": "Chemise de mailles, de natation",
     "oid": "chemise-de-mailles-swimming+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -14871,6 +15108,7 @@
     "material": null,
     "name": "Chemise de mailles, de l'ombre",
     "oid": "chemise-de-mailles-shadow+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -14934,6 +15172,7 @@
     "material": null,
     "name": "Chemise de mailles, de protection",
     "oid": "chemise-de-mailles-protective+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -14999,6 +15238,7 @@
     "material": null,
     "name": "Chemise de mailles, de résistance à la magie",
     "oid": "chemise-de-mailles-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -15071,6 +15311,7 @@
     "material": null,
     "name": "Chemise de mailles, de résistance au feu",
     "oid": "chemise-de-mailles-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -15134,6 +15375,7 @@
     "material": null,
     "name": "Chemise de mailles, de résistance au froid",
     "oid": "chemise-de-mailles-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -15197,6 +15439,7 @@
     "material": null,
     "name": "Chemise de mailles, de résistance à l'acide",
     "oid": "chemise-de-mailles-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -15260,6 +15503,7 @@
     "material": null,
     "name": "Chemise de mailles, de résistance à la foudre",
     "oid": "chemise-de-mailles-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -15308,6 +15552,7 @@
     "material": null,
     "name": "Cotte de mailles",
     "oid": "cotte-de-mailles",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps.",
     "skill": [
       {
@@ -15362,6 +15607,7 @@
     "material": null,
     "name": "Cotte de mailles, de qualité",
     "oid": "cotte-de-mailles-quality+0",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [
       {
@@ -15416,6 +15662,7 @@
     "material": null,
     "name": "Cotte de mailles +1",
     "oid": "cotte-de-mailles-magical+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [
       {
@@ -15475,6 +15722,7 @@
     "material": null,
     "name": "Cotte de mailles +1, d'action libre",
     "oid": "cotte-de-mailles-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -15572,6 +15820,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de défense",
     "oid": "cotte-de-mailles-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -15640,6 +15889,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de défense supérieure",
     "oid": "cotte-de-mailles-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -15699,6 +15949,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de natation",
     "oid": "cotte-de-mailles-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -15767,6 +16018,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de l'ombre",
     "oid": "cotte-de-mailles-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -15835,6 +16087,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de protection",
     "oid": "cotte-de-mailles-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -15905,6 +16158,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de résistance à la magie",
     "oid": "cotte-de-mailles-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -15982,6 +16236,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de résistance au feu",
     "oid": "cotte-de-mailles-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -16050,6 +16305,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de résistance au froid",
     "oid": "cotte-de-mailles-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -16118,6 +16374,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de résistance à l'acide",
     "oid": "cotte-de-mailles-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -16186,6 +16443,7 @@
     "material": null,
     "name": "Cotte de mailles +1, de résistance à la foudre",
     "oid": "cotte-de-mailles-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -16240,6 +16498,7 @@
     "material": null,
     "name": "Cotte de mailles +2",
     "oid": "cotte-de-mailles-magical+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [
       {
@@ -16299,6 +16558,7 @@
     "material": null,
     "name": "Cotte de mailles +2, d'action libre",
     "oid": "cotte-de-mailles-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -16396,6 +16656,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de défense",
     "oid": "cotte-de-mailles-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -16464,6 +16725,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de défense supérieure",
     "oid": "cotte-de-mailles-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -16523,6 +16785,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de natation",
     "oid": "cotte-de-mailles-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -16591,6 +16854,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de l'ombre",
     "oid": "cotte-de-mailles-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -16659,6 +16923,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de protection",
     "oid": "cotte-de-mailles-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -16729,6 +16994,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de résistance à la magie",
     "oid": "cotte-de-mailles-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -16806,6 +17072,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de résistance au feu",
     "oid": "cotte-de-mailles-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -16874,6 +17141,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de résistance au froid",
     "oid": "cotte-de-mailles-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -16942,6 +17210,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de résistance à l'acide",
     "oid": "cotte-de-mailles-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -17010,6 +17279,7 @@
     "material": null,
     "name": "Cotte de mailles +2, de résistance à la foudre",
     "oid": "cotte-de-mailles-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -17064,6 +17334,7 @@
     "material": null,
     "name": "Cotte de mailles +3",
     "oid": "cotte-de-mailles-magical+3",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [
       {
@@ -17123,6 +17394,7 @@
     "material": null,
     "name": "Cotte de mailles +3, d'action libre",
     "oid": "cotte-de-mailles-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -17220,6 +17492,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de défense",
     "oid": "cotte-de-mailles-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -17288,6 +17561,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de défense supérieure",
     "oid": "cotte-de-mailles-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -17347,6 +17621,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de natation",
     "oid": "cotte-de-mailles-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -17415,6 +17690,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de l'ombre",
     "oid": "cotte-de-mailles-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -17483,6 +17759,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de protection",
     "oid": "cotte-de-mailles-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -17553,6 +17830,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de résistance à la magie",
     "oid": "cotte-de-mailles-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -17630,6 +17908,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de résistance au feu",
     "oid": "cotte-de-mailles-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -17698,6 +17977,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de résistance au froid",
     "oid": "cotte-de-mailles-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -17766,6 +18046,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de résistance à l'acide",
     "oid": "cotte-de-mailles-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -17834,6 +18115,7 @@
     "material": null,
     "name": "Cotte de mailles +3, de résistance à la foudre",
     "oid": "cotte-de-mailles-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -17888,6 +18170,7 @@
     "material": null,
     "name": "Cotte de mailles +4",
     "oid": "cotte-de-mailles-magical+4",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [
       {
@@ -17947,6 +18230,7 @@
     "material": null,
     "name": "Cotte de mailles +4, d'action libre",
     "oid": "cotte-de-mailles-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -18044,6 +18328,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de défense",
     "oid": "cotte-de-mailles-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -18112,6 +18397,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de défense supérieure",
     "oid": "cotte-de-mailles-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -18171,6 +18457,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de natation",
     "oid": "cotte-de-mailles-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -18239,6 +18526,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de l'ombre",
     "oid": "cotte-de-mailles-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -18307,6 +18595,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de protection",
     "oid": "cotte-de-mailles-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -18377,6 +18666,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de résistance à la magie",
     "oid": "cotte-de-mailles-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -18454,6 +18744,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de résistance au feu",
     "oid": "cotte-de-mailles-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -18522,6 +18813,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de résistance au froid",
     "oid": "cotte-de-mailles-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -18590,6 +18882,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de résistance à l'acide",
     "oid": "cotte-de-mailles-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -18658,6 +18951,7 @@
     "material": null,
     "name": "Cotte de mailles +4, de résistance à la foudre",
     "oid": "cotte-de-mailles-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -18712,6 +19006,7 @@
     "material": null,
     "name": "Cotte de mailles, d'action libre",
     "oid": "cotte-de-mailles-free-action+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -18804,6 +19099,7 @@
     "material": null,
     "name": "Cotte de mailles, de défense",
     "oid": "cotte-de-mailles-defense+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -18867,6 +19163,7 @@
     "material": null,
     "name": "Cotte de mailles, de défense supérieure",
     "oid": "cotte-de-mailles-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -18921,6 +19218,7 @@
     "material": null,
     "name": "Cotte de mailles, de natation",
     "oid": "cotte-de-mailles-swimming+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -18984,6 +19282,7 @@
     "material": null,
     "name": "Cotte de mailles, de l'ombre",
     "oid": "cotte-de-mailles-shadow+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -19047,6 +19346,7 @@
     "material": null,
     "name": "Cotte de mailles, de protection",
     "oid": "cotte-de-mailles-protective+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -19112,6 +19412,7 @@
     "material": null,
     "name": "Cotte de mailles, de résistance à la magie",
     "oid": "cotte-de-mailles-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -19184,6 +19485,7 @@
     "material": null,
     "name": "Cotte de mailles, de résistance au feu",
     "oid": "cotte-de-mailles-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -19247,6 +19549,7 @@
     "material": null,
     "name": "Cotte de mailles, de résistance au froid",
     "oid": "cotte-de-mailles-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -19310,6 +19613,7 @@
     "material": null,
     "name": "Cotte de mailles, de résistance à l'acide",
     "oid": "cotte-de-mailles-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -19373,6 +19677,7 @@
     "material": null,
     "name": "Cotte de mailles, de résistance à la foudre",
     "oid": "cotte-de-mailles-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -19421,6 +19726,7 @@
     "material": null,
     "name": "Demi-plaque",
     "oid": "demi-plaque",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant.",
     "skill": [
       {
@@ -19475,6 +19781,7 @@
     "material": null,
     "name": "Demi-plaque, de qualité",
     "oid": "demi-plaque-quality+0",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [
       {
@@ -19529,6 +19836,7 @@
     "material": null,
     "name": "Demi-plaque +1",
     "oid": "demi-plaque-magical+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [
       {
@@ -19588,6 +19896,7 @@
     "material": null,
     "name": "Demi-plaque +1, d'action libre",
     "oid": "demi-plaque-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -19685,6 +19994,7 @@
     "material": null,
     "name": "Demi-plaque +1, de défense",
     "oid": "demi-plaque-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -19753,6 +20063,7 @@
     "material": null,
     "name": "Demi-plaque +1, de défense supérieure",
     "oid": "demi-plaque-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -19812,6 +20123,7 @@
     "material": null,
     "name": "Demi-plaque +1, de natation",
     "oid": "demi-plaque-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -19880,6 +20192,7 @@
     "material": null,
     "name": "Demi-plaque +1, de l'ombre",
     "oid": "demi-plaque-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -19948,6 +20261,7 @@
     "material": null,
     "name": "Demi-plaque +1, de protection",
     "oid": "demi-plaque-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -20018,6 +20332,7 @@
     "material": null,
     "name": "Demi-plaque +1, de résistance à la magie",
     "oid": "demi-plaque-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -20095,6 +20410,7 @@
     "material": null,
     "name": "Demi-plaque +1, de résistance au feu",
     "oid": "demi-plaque-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -20163,6 +20479,7 @@
     "material": null,
     "name": "Demi-plaque +1, de résistance au froid",
     "oid": "demi-plaque-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -20231,6 +20548,7 @@
     "material": null,
     "name": "Demi-plaque +1, de résistance à l'acide",
     "oid": "demi-plaque-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -20299,6 +20617,7 @@
     "material": null,
     "name": "Demi-plaque +1, de résistance à la foudre",
     "oid": "demi-plaque-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -20353,6 +20672,7 @@
     "material": null,
     "name": "Demi-plaque +2",
     "oid": "demi-plaque-magical+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [
       {
@@ -20412,6 +20732,7 @@
     "material": null,
     "name": "Demi-plaque +2, d'action libre",
     "oid": "demi-plaque-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -20509,6 +20830,7 @@
     "material": null,
     "name": "Demi-plaque +2, de défense",
     "oid": "demi-plaque-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -20577,6 +20899,7 @@
     "material": null,
     "name": "Demi-plaque +2, de défense supérieure",
     "oid": "demi-plaque-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -20636,6 +20959,7 @@
     "material": null,
     "name": "Demi-plaque +2, de natation",
     "oid": "demi-plaque-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -20704,6 +21028,7 @@
     "material": null,
     "name": "Demi-plaque +2, de l'ombre",
     "oid": "demi-plaque-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -20772,6 +21097,7 @@
     "material": null,
     "name": "Demi-plaque +2, de protection",
     "oid": "demi-plaque-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -20842,6 +21168,7 @@
     "material": null,
     "name": "Demi-plaque +2, de résistance à la magie",
     "oid": "demi-plaque-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -20919,6 +21246,7 @@
     "material": null,
     "name": "Demi-plaque +2, de résistance au feu",
     "oid": "demi-plaque-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -20987,6 +21315,7 @@
     "material": null,
     "name": "Demi-plaque +2, de résistance au froid",
     "oid": "demi-plaque-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -21055,6 +21384,7 @@
     "material": null,
     "name": "Demi-plaque +2, de résistance à l'acide",
     "oid": "demi-plaque-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -21123,6 +21453,7 @@
     "material": null,
     "name": "Demi-plaque +2, de résistance à la foudre",
     "oid": "demi-plaque-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -21177,6 +21508,7 @@
     "material": null,
     "name": "Demi-plaque +3",
     "oid": "demi-plaque-magical+3",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [
       {
@@ -21236,6 +21568,7 @@
     "material": null,
     "name": "Demi-plaque +3, d'action libre",
     "oid": "demi-plaque-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -21333,6 +21666,7 @@
     "material": null,
     "name": "Demi-plaque +3, de défense",
     "oid": "demi-plaque-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -21401,6 +21735,7 @@
     "material": null,
     "name": "Demi-plaque +3, de défense supérieure",
     "oid": "demi-plaque-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -21460,6 +21795,7 @@
     "material": null,
     "name": "Demi-plaque +3, de natation",
     "oid": "demi-plaque-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -21528,6 +21864,7 @@
     "material": null,
     "name": "Demi-plaque +3, de l'ombre",
     "oid": "demi-plaque-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -21596,6 +21933,7 @@
     "material": null,
     "name": "Demi-plaque +3, de protection",
     "oid": "demi-plaque-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -21666,6 +22004,7 @@
     "material": null,
     "name": "Demi-plaque +3, de résistance à la magie",
     "oid": "demi-plaque-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -21743,6 +22082,7 @@
     "material": null,
     "name": "Demi-plaque +3, de résistance au feu",
     "oid": "demi-plaque-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -21811,6 +22151,7 @@
     "material": null,
     "name": "Demi-plaque +3, de résistance au froid",
     "oid": "demi-plaque-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -21879,6 +22220,7 @@
     "material": null,
     "name": "Demi-plaque +3, de résistance à l'acide",
     "oid": "demi-plaque-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -21947,6 +22289,7 @@
     "material": null,
     "name": "Demi-plaque +3, de résistance à la foudre",
     "oid": "demi-plaque-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -22001,6 +22344,7 @@
     "material": null,
     "name": "Demi-plaque +4",
     "oid": "demi-plaque-magical+4",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [
       {
@@ -22060,6 +22404,7 @@
     "material": null,
     "name": "Demi-plaque +4, d'action libre",
     "oid": "demi-plaque-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -22157,6 +22502,7 @@
     "material": null,
     "name": "Demi-plaque +4, de défense",
     "oid": "demi-plaque-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -22225,6 +22571,7 @@
     "material": null,
     "name": "Demi-plaque +4, de défense supérieure",
     "oid": "demi-plaque-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -22284,6 +22631,7 @@
     "material": null,
     "name": "Demi-plaque +4, de natation",
     "oid": "demi-plaque-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -22352,6 +22700,7 @@
     "material": null,
     "name": "Demi-plaque +4, de l'ombre",
     "oid": "demi-plaque-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -22420,6 +22769,7 @@
     "material": null,
     "name": "Demi-plaque +4, de protection",
     "oid": "demi-plaque-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -22490,6 +22840,7 @@
     "material": null,
     "name": "Demi-plaque +4, de résistance à la magie",
     "oid": "demi-plaque-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -22567,6 +22918,7 @@
     "material": null,
     "name": "Demi-plaque +4, de résistance au feu",
     "oid": "demi-plaque-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -22635,6 +22987,7 @@
     "material": null,
     "name": "Demi-plaque +4, de résistance au froid",
     "oid": "demi-plaque-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -22703,6 +23056,7 @@
     "material": null,
     "name": "Demi-plaque +4, de résistance à l'acide",
     "oid": "demi-plaque-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -22771,6 +23125,7 @@
     "material": null,
     "name": "Demi-plaque +4, de résistance à la foudre",
     "oid": "demi-plaque-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -22825,6 +23180,7 @@
     "material": null,
     "name": "Demi-plaque, d'action libre",
     "oid": "demi-plaque-free-action+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -22917,6 +23273,7 @@
     "material": null,
     "name": "Demi-plaque, de défense",
     "oid": "demi-plaque-defense+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -22980,6 +23337,7 @@
     "material": null,
     "name": "Demi-plaque, de défense supérieure",
     "oid": "demi-plaque-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -23034,6 +23392,7 @@
     "material": null,
     "name": "Demi-plaque, de natation",
     "oid": "demi-plaque-swimming+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -23097,6 +23456,7 @@
     "material": null,
     "name": "Demi-plaque, de l'ombre",
     "oid": "demi-plaque-shadow+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -23160,6 +23520,7 @@
     "material": null,
     "name": "Demi-plaque, de protection",
     "oid": "demi-plaque-protective+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -23225,6 +23586,7 @@
     "material": null,
     "name": "Demi-plaque, de résistance à la magie",
     "oid": "demi-plaque-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -23297,6 +23659,7 @@
     "material": null,
     "name": "Demi-plaque, de résistance au feu",
     "oid": "demi-plaque-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -23360,6 +23723,7 @@
     "material": null,
     "name": "Demi-plaque, de résistance au froid",
     "oid": "demi-plaque-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -23423,6 +23787,7 @@
     "material": null,
     "name": "Demi-plaque, de résistance à l'acide",
     "oid": "demi-plaque-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -23486,6 +23851,7 @@
     "material": null,
     "name": "Demi-plaque, de résistance à la foudre",
     "oid": "demi-plaque-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -23534,6 +23900,7 @@
     "material": null,
     "name": "Plaque complète",
     "oid": "plaque-complete",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant.",
     "skill": [
       {
@@ -23590,6 +23957,7 @@
     "material": null,
     "name": "Plaque complète, de qualité",
     "oid": "plaque-complete-quality+0",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure est de qualité et réduit le malus de DEX de 1.",
     "skill": [
       {
@@ -23646,6 +24014,7 @@
     "material": null,
     "name": "Plaque complète +1",
     "oid": "plaque-complete-magical+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1.",
     "skill": [
       {
@@ -23707,6 +24076,7 @@
     "material": null,
     "name": "Plaque complète +1, d'action libre",
     "oid": "plaque-complete-magical+1-free-action+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -23806,6 +24176,7 @@
     "material": null,
     "name": "Plaque complète +1, de défense",
     "oid": "plaque-complete-magical+1-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -23876,6 +24247,7 @@
     "material": null,
     "name": "Plaque complète +1, de défense supérieure",
     "oid": "plaque-complete-magical+1-reinforced-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -23937,6 +24309,7 @@
     "material": null,
     "name": "Plaque complète +1, de natation",
     "oid": "plaque-complete-magical+1-swimming+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -24007,6 +24380,7 @@
     "material": null,
     "name": "Plaque complète +1, de l'ombre",
     "oid": "plaque-complete-magical+1-shadow+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -24077,6 +24451,7 @@
     "material": null,
     "name": "Plaque complète +1, de protection",
     "oid": "plaque-complete-magical+1-protective+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -24149,6 +24524,7 @@
     "material": null,
     "name": "Plaque complète +1, de résistance à la magie",
     "oid": "plaque-complete-magical+1-magical-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -24228,6 +24604,7 @@
     "material": null,
     "name": "Plaque complète +1, de résistance au feu",
     "oid": "plaque-complete-magical+1-fire-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -24298,6 +24675,7 @@
     "material": null,
     "name": "Plaque complète +1, de résistance au froid",
     "oid": "plaque-complete-magical+1-cold-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -24368,6 +24746,7 @@
     "material": null,
     "name": "Plaque complète +1, de résistance à l'acide",
     "oid": "plaque-complete-magical+1-acid-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -24438,6 +24817,7 @@
     "material": null,
     "name": "Plaque complète +1, de résistance à la foudre",
     "oid": "plaque-complete-magical+1-lightning-resistance+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +1. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -24494,6 +24874,7 @@
     "material": null,
     "name": "Plaque complète +2",
     "oid": "plaque-complete-magical+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2.",
     "skill": [
       {
@@ -24555,6 +24936,7 @@
     "material": null,
     "name": "Plaque complète +2, d'action libre",
     "oid": "plaque-complete-magical+2-free-action+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -24654,6 +25036,7 @@
     "material": null,
     "name": "Plaque complète +2, de défense",
     "oid": "plaque-complete-magical+2-defense+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -24724,6 +25107,7 @@
     "material": null,
     "name": "Plaque complète +2, de défense supérieure",
     "oid": "plaque-complete-magical+2-reinforced-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -24785,6 +25169,7 @@
     "material": null,
     "name": "Plaque complète +2, de natation",
     "oid": "plaque-complete-magical+2-swimming+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -24855,6 +25240,7 @@
     "material": null,
     "name": "Plaque complète +2, de l'ombre",
     "oid": "plaque-complete-magical+2-shadow+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -24925,6 +25311,7 @@
     "material": null,
     "name": "Plaque complète +2, de protection",
     "oid": "plaque-complete-magical+2-protective+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -24997,6 +25384,7 @@
     "material": null,
     "name": "Plaque complète +2, de résistance à la magie",
     "oid": "plaque-complete-magical+2-magical-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -25076,6 +25464,7 @@
     "material": null,
     "name": "Plaque complète +2, de résistance au feu",
     "oid": "plaque-complete-magical+2-fire-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -25146,6 +25535,7 @@
     "material": null,
     "name": "Plaque complète +2, de résistance au froid",
     "oid": "plaque-complete-magical+2-cold-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -25216,6 +25606,7 @@
     "material": null,
     "name": "Plaque complète +2, de résistance à l'acide",
     "oid": "plaque-complete-magical+2-acid-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -25286,6 +25677,7 @@
     "material": null,
     "name": "Plaque complète +2, de résistance à la foudre",
     "oid": "plaque-complete-magical+2-lightning-resistance+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +2. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -25342,6 +25734,7 @@
     "material": null,
     "name": "Plaque complète +3",
     "oid": "plaque-complete-magical+3",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3.",
     "skill": [
       {
@@ -25403,6 +25796,7 @@
     "material": null,
     "name": "Plaque complète +3, d'action libre",
     "oid": "plaque-complete-magical+3-free-action+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -25502,6 +25896,7 @@
     "material": null,
     "name": "Plaque complète +3, de défense",
     "oid": "plaque-complete-magical+3-defense+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -25572,6 +25967,7 @@
     "material": null,
     "name": "Plaque complète +3, de défense supérieure",
     "oid": "plaque-complete-magical+3-reinforced-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -25633,6 +26029,7 @@
     "material": null,
     "name": "Plaque complète +3, de natation",
     "oid": "plaque-complete-magical+3-swimming+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -25703,6 +26100,7 @@
     "material": null,
     "name": "Plaque complète +3, de l'ombre",
     "oid": "plaque-complete-magical+3-shadow+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -25773,6 +26171,7 @@
     "material": null,
     "name": "Plaque complète +3, de protection",
     "oid": "plaque-complete-magical+3-protective+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -25845,6 +26244,7 @@
     "material": null,
     "name": "Plaque complète +3, de résistance à la magie",
     "oid": "plaque-complete-magical+3-magical-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -25924,6 +26324,7 @@
     "material": null,
     "name": "Plaque complète +3, de résistance au feu",
     "oid": "plaque-complete-magical+3-fire-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -25994,6 +26395,7 @@
     "material": null,
     "name": "Plaque complète +3, de résistance au froid",
     "oid": "plaque-complete-magical+3-cold-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -26064,6 +26466,7 @@
     "material": null,
     "name": "Plaque complète +3, de résistance à l'acide",
     "oid": "plaque-complete-magical+3-acid-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -26134,6 +26537,7 @@
     "material": null,
     "name": "Plaque complète +3, de résistance à la foudre",
     "oid": "plaque-complete-magical+3-lightning-resistance+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +3. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -26190,6 +26594,7 @@
     "material": null,
     "name": "Plaque complète +4",
     "oid": "plaque-complete-magical+4",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4.",
     "skill": [
       {
@@ -26251,6 +26656,7 @@
     "material": null,
     "name": "Plaque complète +4, d'action libre",
     "oid": "plaque-complete-magical+4-free-action+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -26350,6 +26756,7 @@
     "material": null,
     "name": "Plaque complète +4, de défense",
     "oid": "plaque-complete-magical+4-defense+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -26420,6 +26827,7 @@
     "material": null,
     "name": "Plaque complète +4, de défense supérieure",
     "oid": "plaque-complete-magical+4-reinforced-defense+6",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -26481,6 +26889,7 @@
     "material": null,
     "name": "Plaque complète +4, de natation",
     "oid": "plaque-complete-magical+4-swimming+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -26551,6 +26960,7 @@
     "material": null,
     "name": "Plaque complète +4, de l'ombre",
     "oid": "plaque-complete-magical+4-shadow+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -26621,6 +27031,7 @@
     "material": null,
     "name": "Plaque complète +4, de protection",
     "oid": "plaque-complete-magical+4-protective+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -26693,6 +27104,7 @@
     "material": null,
     "name": "Plaque complète +4, de résistance à la magie",
     "oid": "plaque-complete-magical+4-magical-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -26772,6 +27184,7 @@
     "material": null,
     "name": "Plaque complète +4, de résistance au feu",
     "oid": "plaque-complete-magical+4-fire-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -26842,6 +27255,7 @@
     "material": null,
     "name": "Plaque complète +4, de résistance au froid",
     "oid": "plaque-complete-magical+4-cold-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -26912,6 +27326,7 @@
     "material": null,
     "name": "Plaque complète +4, de résistance à l'acide",
     "oid": "plaque-complete-magical+4-acid-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -26982,6 +27397,7 @@
     "material": null,
     "name": "Plaque complète +4, de résistance à la foudre",
     "oid": "plaque-complete-magical+4-lightning-resistance+5",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure magique offre un bonus de DEF de +4. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {
@@ -27038,6 +27454,7 @@
     "material": null,
     "name": "Plaque complète, d'action libre",
     "oid": "plaque-complete-free-action+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Dans cette armure on ne peut pas être entravé pas magie.",
     "skill": [
       {
@@ -27132,6 +27549,7 @@
     "material": null,
     "name": "Plaque complète, de défense",
     "oid": "plaque-complete-defense+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduit de 2 tous les DM subits.",
     "skill": [
       {
@@ -27197,6 +27615,7 @@
     "material": null,
     "name": "Plaque complète, de défense supérieure",
     "oid": "plaque-complete-reinforced-defense+2",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduit de 4 tous les DM subits.",
     "skill": [
       {
@@ -27253,6 +27672,7 @@
     "material": null,
     "name": "Plaque complète, de natation",
     "oid": "plaque-complete-swimming+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure apporte un bonus de +5 au tests de natation.",
     "skill": [
       {
@@ -27318,6 +27738,7 @@
     "material": null,
     "name": "Plaque complète, de l'ombre",
     "oid": "plaque-complete-shadow+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure donne un bonus de +5 aux tests de discrétion.",
     "skill": [
       {
@@ -27383,6 +27804,7 @@
     "material": null,
     "name": "Plaque complète, de protection",
     "oid": "plaque-complete-protective+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure divise par 2 les DM des coups critiques et des attaques sournoises.",
     "skill": [
       {
@@ -27450,6 +27872,7 @@
     "material": null,
     "name": "Plaque complète, de résistance à la magie",
     "oid": "plaque-complete-magical-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure apporte un bonus de +5 pour resister à la magie.",
     "skill": [
       {
@@ -27524,6 +27947,7 @@
     "material": null,
     "name": "Plaque complète, de résistance au feu",
     "oid": "plaque-complete-fire-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduis les dégats de feu de 10.",
     "skill": [
       {
@@ -27589,6 +28013,7 @@
     "material": null,
     "name": "Plaque complète, de résistance au froid",
     "oid": "plaque-complete-cold-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduis les dégats de froid de 10.",
     "skill": [
       {
@@ -27654,6 +28079,7 @@
     "material": null,
     "name": "Plaque complète, de résistance à l'acide",
     "oid": "plaque-complete-acid-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduis les dégats d'acide de 10.",
     "skill": [
       {
@@ -27719,6 +28145,7 @@
     "material": null,
     "name": "Plaque complète, de résistance à la foudre",
     "oid": "plaque-complete-lightning-resistance+1",
+    "quantity": -1,
     "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduis les dégats de foudre de 10.",
     "skill": [
       {

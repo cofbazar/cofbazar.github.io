@@ -10,8 +10,8 @@ Vue.component('cofbazar-card-iconified-special-property', {
       <div class="isproperty-container" v-for="isp in isproperties ">
         <img v-if="isp.icon" class="isproperty-icon"
              v-bind:src="'images/card/icon-special-property-' + isp.name + '.png'">
-        <label v-else class="isproperty-text">[{{ isp.name }}]</label>
-        <label class="isproperty-text">: {{ isp.value }}</label>
+        <label v-else class="isproperty-text">[{{ isp.name }}]: </label>
+        <label class="isproperty-text">{{ isp.value }}</label>
       </div>
     </div>`
 });
@@ -54,19 +54,20 @@ Vue.component('cofbazar-card-flavor', {
     </div>`
 });
 
-Vue.component('cofbazar-card-big-slot', {
-  props: ['use'],
+Vue.component('cofbazar-card-quantity', {
+  props: ['quantity'],
   methods: {
-    isBigSlot(u) {
-      return((u != null) && ((u == 0) || (u > 5)));
+    hasQuantity(q) {
+      return((q != null) && (q >= 0));
     },
-    hasBigSlotLabel(u) {
-      return((u != null) && (u > 5));
+    hasQuantityLimit(q) {
+      return((q != null) && (q > 0));
     },
   },
   template: 
-    `<div v-if="isBigSlot(use)" class="big-slot-container">
-      <label v-if="hasBigSlotLabel(use)" class="big-slot-container">{{ use }}</label>
+    `<div v-if="hasQuantity(quantity)" class="quantity-container">
+      <label v-if="hasQuantityLimit(quantity)" class="quantity-container">{{ quantity }}</label>
+      <label v-else class="quantity-container">quantité</label>
     </div>`
 });
 
@@ -75,6 +76,9 @@ Vue.component('cofbazar-card-attack', {
     methods: {
       hasAttack(a) {
         return(a != null);
+      },
+      hasAttackName(a) {
+        return((a != null) && (a.name != null));
       },
       attackModToStr: function(a) {
         if (a != null) {
@@ -127,6 +131,7 @@ Vue.component('cofbazar-card-attack', {
         <div class="attack-container">
           <img class="section-bullet" src="images/card/attack-bullet.png"/>
           <img class="attack-icon" v-bind:src="'images/card/attack-' + attack.atype + '.png'"/>
+          <label v-if="hasAttackName(attack)" class="attack-name">{{ attack.name }}</label>
           <label class="attack-modifier">{{ attackModToStr(attack) }}</label>
           <div class="damage-container" v-for="dm in attack.damages.base">
             <label class="damage-modifier">{{ damageToStr(dm) }}</label>
@@ -192,7 +197,7 @@ Vue.component('cofbazar-card-defense', {
       </div>
       <div class="defense-limitation-container" v-for="def in defense">
         <label v-if="hasDefenseLimitation(def)" 
-              class="defense-limitation">(*) {{ def.limitation }}</label>
+               class="defense-limitation">(*) {{ def.limitation }}</label>
       </div>      
     </div>`
 });
@@ -263,18 +268,18 @@ Vue.component('cofbazar-card-special-property', {
     </div>`
 });
 
-Vue.component('cofbazar-card-small-slots', {
+Vue.component('cofbazar-card-use', {
   props: ['use'],
   methods: {
-    hasSmallSlots(u) {
-      return((u != null) && (u > 0) && (u <= 5));
+    hasUse(u) {
+      return((u != null) && (u > 1));
     },
   },
   template: 
-    `<div v-if="hasSmallSlots(use)" class="section-container">
+    `<div v-if="hasUse(use)" class="section-container">
       <label class="section-title">Utilisations :</label>
-      <div class="small-slots-container">
-        <div class="small-slot-container" v-for="u in use"></div>
+      <div class="uses-container">
+        <div class="use-container" v-for="u in use"></div>
       </div>
     </div>`
 });

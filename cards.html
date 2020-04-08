@@ -63,9 +63,9 @@
                     <cofbazar-card-flavor 
                       v-bind:flavors="item.flavor">
                     </cofbazar-card-flavor>
-                    <cofbazar-card-big-slot
-                      v-bind:use="item.use">
-                    </cofbazar-card-big-slot>
+                    <cofbazar-card-quantity
+                      v-bind:quantity="item.quantity">
+                    </cofbazar-card-quantity>
                   </div>
                 </div>
                 <div class="item-description-container">
@@ -83,9 +83,9 @@
                 <cofbazar-card-special-property 
                   v-bind:sproperties="item.special_property">
                 </cofbazar-card-special-property>
-                <cofbazar-card-small-slots
+                <cofbazar-card-use
                   v-bind:use="item.use">
-                </cofbazar-card-small-slots>
+                </cofbazar-card-use>
               </div>
               <cofbazar-card-footer 
                 v-bind:item="item">

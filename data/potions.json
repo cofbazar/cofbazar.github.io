@@ -3062,13 +3062,13 @@
         "ftype": "mineur"
       }
     ],
-    "full_description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.",
+    "full_description": "Pendant [5 + Mod. d’INT] tours, la personne qui boit cette potion prend l’apparence de la mort. Elle est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci la prennent pour l’un des leurs). Elle retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.",
     "magical_level": "mineur",
     "name": "Potion mineure, Masque mortuaire",
     "oid": "potion-masque-mortuaire-mineur",
     "quantity": 1,
     "range": null,
-    "short_description": "Le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs).",
+    "short_description": "La personne qui boit cette potion prend l’apparence de la mort. Elle est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci la prennent pour l’un des leurs).",
     "skill": null,
     "special_property": [
       "DM de froid divisé par 2"
@@ -3158,13 +3158,13 @@
         "ftype": "mineur"
       }
     ],
-    "full_description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.",
+    "full_description": "La personne qui boit cette potion peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.",
     "magical_level": "mineur",
     "name": "Potion mineure, Pattes d’araignée",
     "oid": "potion-pattes-daraignee-mineur",
     "quantity": 1,
     "range": null,
-    "short_description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts.",
+    "short_description": "La personne qui boit cette potion peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts.",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -3244,13 +3244,13 @@
         "ftype": "mineur"
       }
     ],
-    "full_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
+    "full_description": "Des ailes divines poussent dans le dos de la personne qui boit cette potion, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
     "magical_level": "mineur",
     "name": "Potion mineure, Ailes célestes",
     "oid": "potion-ailes-celestes-mineur",
     "quantity": 1,
     "range": null,
-    "short_description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal.",
+    "short_description": "Des ailes divines poussent dans le dos de la personne qui boit cette potion, qui peut voler à une vitesse équivalente à deux fois son déplacement normal.",
     "skill": null,
     "special_property": [
       "Vol stationnaire (action de mouvement)"
@@ -3334,13 +3334,13 @@
         "ftype": "mineur"
       }
     ],
-    "full_description": "Quand le Prêtre lance ce sort, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15. S’ils échouent, ils ne peuvent pas l’attaquer. Les effets de ce sort durent [5 + Mod de SAG] tours, mais s’il tente la moindre attaque, le sort prend fin immédiatement.",
+    "full_description": "Quand la personne boit cette potion, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15. S’ils échouent, ils ne peuvent pas l’attaquer. Les effets de ce sort durent [5 + Mod de SAG] tours, mais s’il tente la moindre attaque, le sort prend fin immédiatement.",
     "magical_level": "mineur",
     "name": "Potion mineure, Sanctuaire",
     "oid": "potion-sanctuaire-mineur",
     "quantity": 1,
     "range": null,
-    "short_description": "Quand le Prêtre lance ce sort, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15.",
+    "short_description": "Quand la personne boit cette potion, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15.",
     "skill": null,
     "special_property": [
       "Fin si action d'attaque"

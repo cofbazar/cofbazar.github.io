@@ -3405,8 +3405,8 @@
             "__type__": "Mod",
             "count": 1,
             "die": 6,
-            "label": null,
-            "limitation": "par rang dans la voie",
+            "label": "(par rang dans la voie)",
+            "limitation": null,
             "mtype": null,
             "target": "feu"
           }
@@ -3428,9 +3428,12 @@
     "name": "Feu grégeois",
     "oid": "http://co-drs.org/capacites/feu-gregeois/",
     "range": null,
-    "short_description": "Le Forgesort lance la fiole grâce à une action d’attaque (réussite automatique). Le contenu explose en pojetant du feu autour du point d'impact.",
+    "short_description": "Le Forgesort lance la fiole et le contenu explose en projetant du feu.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Test DEX > 10 + [INT]: DM / 2",
+      "Réussite automatique"
+    ],
     "way_rank": 2,
     "wid": "http://co-drs.org/voies/voie-des-elixirs/"
   },
@@ -7349,7 +7352,7 @@
         ]
       },
       "mod": 0,
-      "name": null,
+      "name": "(décharge)",
       "range": {
         "__type__": "Range",
         "unit": "m",
@@ -7368,7 +7371,7 @@
     "name": "Sous tension",
     "oid": "http://co-drs.org/capacites/sous-tension/",
     "range": null,
-    "short_description": "L’Ensorceleur se charge d’énergie électrique. Toute créature qui le blesse ou le touche reçoit une décharge. Il peut également délivrer une décharge électrique.",
+    "short_description": "L’Ensorceleur se charge d’énergie électrique. Toute créature qui le blesse ou le touche reçoit une décharge provoquant 1d6 DM. Il peut également délivrer une décharge électrique.",
     "skill": null,
     "special_property": [],
     "way_rank": 2,

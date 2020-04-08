@@ -98,6 +98,9 @@ Vue.component('cofbazar-card-attack', {
       hasDamageLimitation(d) {
           return(d.limitation != null);
       },
+      hasDamageLabel(d) {
+          return(d.label != null);
+      },
       hasDamageImage(d) {
           return(
             (d.target != null) && 
@@ -144,7 +147,8 @@ Vue.component('cofbazar-card-attack', {
             <img v-if="hasDamageImage(dm)" class="damage-icon" 
                 v-bind:src="'images/card/damage-' + dm.target + '.png'"/>
             <label v-if="hasDamageText(dm)" class="damage-text-modifier">[{{ dm.target }}]</label>
-            <label class="damage-limitation" v-if="hasDamageLimitation(dm)">)*</label>      
+            <label class="damage-limitation" v-if="hasDamageLimitation(dm)">)*</label>
+            <label class="damage-label" v-if="hasDamageLabel(dm)">{{ dm.label }}</label>      
           </div>
         </div>
         <div class="damage-limitation-container" 

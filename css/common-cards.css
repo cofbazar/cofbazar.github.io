@@ -216,6 +216,12 @@ label.damage-limitation {
   padding-left: 1px;
 }
 
+label.damage-label {
+  font-size: 7px;
+  font-family: 'Times New Roman';
+  padding-left: 2px;
+}
+
 div.damage-limitation-container {
   display: flex;
   flex-direction: row;

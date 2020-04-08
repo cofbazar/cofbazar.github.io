@@ -1932,7 +1932,7 @@
         ]
       },
       "mod": 0,
-      "name": null,
+      "name": "(décharge)",
       "range": {
         "__type__": "Range",
         "unit": "m",
@@ -1966,7 +1966,7 @@
     "oid": "potion-sous-tension-mineur",
     "quantity": 1,
     "range": null,
-    "short_description": "La personne qui boit cette potion se charge d’énergie électrique. Toute créature qui la blesse ou la touche reçoit une décharge. Elle peut également délivrer une décharge électrique.",
+    "short_description": "En buvant cette potion on se charge d’énergie électrique. Toute créature qui vous blesse ou vous touche reçoit une décharge provoquant 1d6 DM.",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -2011,7 +2011,7 @@
         ]
       },
       "mod": 0,
-      "name": null,
+      "name": "(décharge)",
       "range": {
         "__type__": "Range",
         "unit": "m",
@@ -2045,7 +2045,7 @@
     "oid": "potion-sous-tension-moyen",
     "quantity": 1,
     "range": null,
-    "short_description": "La personne qui boit cette potion se charge d’énergie électrique. Toute créature qui la blesse ou la touche reçoit une décharge. Elle peut également délivrer une décharge électrique.",
+    "short_description": "En buvant cette potion on se charge d’énergie électrique. Toute créature qui vous blesse ou vous touche reçoit une décharge provoquant 1d6 DM.",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -2349,8 +2349,8 @@
             "__type__": "Mod",
             "count": 1,
             "die": 6,
-            "label": null,
-            "limitation": "par rang dans la voie",
+            "label": "(par rang dans la voie)",
+            "limitation": null,
             "mtype": null,
             "target": "feu"
           }
@@ -2387,9 +2387,12 @@
     "oid": "potion-feu-gregeois-mineur",
     "quantity": 1,
     "range": null,
-    "short_description": "La personne lance la fiole grâce à une action d’attaque (réussite automatique). Le contenu explose en pojetant du feu autour du point d'impact.",
+    "short_description": "La personne lance la fiole et le contenu explose en pojetant du feu.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Test DEX > 10 + [INT]: DM / 2",
+      "Réussite automatique"
+    ],
     "usable_by": [],
     "use": 1,
     "way_rank": 2,
@@ -2419,8 +2422,8 @@
             "__type__": "Mod",
             "count": 1,
             "die": 6,
-            "label": null,
-            "limitation": "par rang dans la voie",
+            "label": "(par rang dans la voie)",
+            "limitation": null,
             "mtype": null,
             "target": "feu"
           }
@@ -2457,9 +2460,12 @@
     "oid": "potion-feu-gregeois-moyen",
     "quantity": 1,
     "range": null,
-    "short_description": "La personne lance la fiole grâce à une action d’attaque (réussite automatique). Le contenu explose en pojetant du feu autour du point d'impact.",
+    "short_description": "La personne lance la fiole et le contenu explose en pojetant du feu.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Test DEX > 10 + [INT]: DM / 2",
+      "Réussite automatique"
+    ],
     "usable_by": [],
     "use": 3,
     "way_rank": 2,

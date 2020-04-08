@@ -240,7 +240,7 @@ var areaSize = new Vue({
       text: areaText(area),
       value: area['name'],
     })),
-    areaPriceMax: defaultAreaPriceMax,
+    areaPriceMax: itemFilter["areaPriceMax"],
   },
   watch: {
     selected: function (v) {
@@ -251,6 +251,8 @@ var areaSize = new Vue({
       saveFilter(itemFilter);
       console.log("selectedArea : " + JSON.stringify(selectedArea));
       this.areaPriceMax = Number(selectedArea['cost-max']);
+      itemFilter["areaPriceMax"] = areaSize.areaPriceMax;
+      saveFilter(itemFilter);
       if (this.areaPriceMax < 0.0) {
         itemPrice.max = itemData.cofFullData.maxPrice(itemFilter); 
       } else {

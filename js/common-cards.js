@@ -1,14 +1,16 @@
 Vue.component('cofbazar-card-iconified-special-property', {
   props: ['isproperties'],
   methods: {
-    hasISProperty(p) {
-      return(p.length > 0);
+    hasISPIcon(isp) {
+      if (isp != null) {
+        return(isp.icon);
+      }
     },
   },
   template:
     `<div class="isproperties-container">
       <div class="isproperty-container" v-for="isp in isproperties ">
-        <img v-if="isp.icon" class="isproperty-icon"
+        <img v-if="hasISPIcon(isp)" class="isproperty-icon"
              v-bind:src="'images/card/icon-special-property-' + isp.name + '.png'">
         <label v-else class="isproperty-text">[{{ isp.name }}]: </label>
         <label class="isproperty-text">{{ isp.value }}</label>

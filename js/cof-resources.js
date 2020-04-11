@@ -3,7 +3,7 @@ var itemList = new Vue({
     data: {
         helpCategories: [
             "flavors", "flavors-material", "flavors-potion", "attacks", "damages",
-            "defenses", "rds", "skills", "special-properties", 
+            "defenses", "rds", "skills", "special-properties", "creatures",
             "guis", "character-sheet"
         ],
         cf: cofConfig

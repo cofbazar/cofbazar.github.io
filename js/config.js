@@ -167,6 +167,16 @@ var cofConfig = {
     "prefix": "icon-special-property-",
     "label": "Compétences"
   },
+  "creatures": {
+    "data": [
+      {"name": "init", "label": "Initiative", "iconify": true, "textify": false},
+      {"name": "DEF", "label": "Défense", "iconify": true, "textify": false},
+      {"name": "PV", "label": "Point de vie", "iconify": true, "textify": false},
+      {"name": "attack-melee", "label": "Attaque au contact", "iconify": true, "textify": false},
+    ],
+    "prefix": "icon-special-property-",
+    "label": "Créatures"
+  },
   "special-properties": {
     "data": [
       {"name": "area", "label": "Zone d'effet"},

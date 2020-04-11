@@ -41,6 +41,23 @@ var itemList = new Vue({
             }
           )
         }
+        if (item.creature != null) {
+          item.creature.filter(m => 
+              (m.label == "monster") && (m.target == "monster-name")
+            ).forEach(c => {
+              isproperties.push({"name": c.count, "value": "", "icon": false});
+            }
+          )
+        }
+        if (item.creature != null) {
+          item.creature.filter(m => 
+              (m.label == "monster") && 
+              (getNames(cofConfig['creatures']['data'].filter(c => c.iconify)).includes(m.target))
+            ).forEach(c => {
+              isproperties.push({"name": c.target, "value": (c.mtype == null ? "" :  c.mtype) + c.count, "icon": true});
+            }
+          )
+        }
         if (item.range != null) {
           isproperties.push(
             {"name": "range", "value": item.range.value + " " + item.range.unit, "icon": true}
@@ -86,10 +103,10 @@ var itemList = new Vue({
             !(s.label === "Test" && 
               getNames(cofConfig['skills']['data'].filter(sk => sk.iconify)).includes(s.target)) &&
             !(s.label === "Test" &&
-              getNames(cofConfig['abilities']['data']).includes(s.target)
-          )).forEach(skill => 
+              getNames(cofConfig['abilities']['data']).includes(s.target))
+          ).forEach(skill => 
             item.special_property.push(
-              skill.label + " " + skill.target + " : " + skill.mtype + skill.count + (skill.die == null? "" : "d" + skill.die)
+              skill.label + (skill.target == null? "" : " " + skill.target) + ": " + skill.mtype + skill.count + (skill.die == null? "" : "d" + skill.die)
             )
           );
         }

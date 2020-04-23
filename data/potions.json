@@ -1,6 +1,7 @@
 [
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-soins-legers",
@@ -11,6 +12,7 @@
       "value": 50
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -21,11 +23,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Soins légers",
     "oid": "potion-soins-legers-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.",
     "skill": null,
     "special_property": [
@@ -42,6 +47,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-soins-legers",
@@ -52,6 +58,7 @@
       "value": 150
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -62,11 +69,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Soins légers",
     "oid": "potion-soins-legers-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.",
     "skill": null,
     "special_property": [
@@ -83,6 +93,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-soins-moderes",
@@ -93,6 +104,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -103,11 +115,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion récupère alors [2d8 + niveau] PV perdus.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Soins modérés",
     "oid": "potion-soins-moderes-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion récupère alors [2d8 + niveau] PV perdus.",
     "skill": null,
     "special_property": [
@@ -124,6 +139,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-soins-moderes",
@@ -134,6 +150,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -144,11 +161,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion récupère alors [2d8 + niveau] PV perdus.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Soins modérés",
     "oid": "potion-soins-moderes-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion récupère alors [2d8 + niveau] PV perdus.",
     "skill": null,
     "special_property": [
@@ -165,6 +185,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-delivrance",
@@ -175,6 +196,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -185,11 +207,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales (douleur, mutilation, poisons etc.).",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Délivrance",
     "oid": "potion-delivrance-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales.",
     "skill": null,
     "special_property": [],
@@ -204,6 +229,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-delivrance",
@@ -214,6 +240,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -224,11 +251,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales (douleur, mutilation, poisons etc.).",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Délivrance",
     "oid": "potion-delivrance-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion annule les pénalités infligées par les sorts, les malédictions, la pétrification et les effets de capacités spéciales.",
     "skill": null,
     "special_property": [],
@@ -243,6 +273,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-detection-de-linvisible",
@@ -253,6 +284,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -267,7 +299,9 @@
       }
     ],
     "full_description": "Pendant [5 + Mod. de CHA] tours, la personne qui boit cette potion détecte les créatures invisibles ou cachées à moins de 30 mètres et détecte si un sort de Clairvoyance affecte l’endroit. Aveuglé, ce sort lui permet de voir normalement.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Détection de l’invisible",
     "oid": "potion-detection-de-linvisible-mineur",
     "quantity": 1,
@@ -276,6 +310,7 @@
       "unit": "m",
       "value": 30
     },
+    "scenario": null,
     "short_description": "La personne qui boit cette potion détecte les créatures invisibles ou cachées et si un sort de Clairvoyance affecte l’endroit.",
     "skill": null,
     "special_property": [
@@ -294,6 +329,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-detection-de-linvisible",
@@ -304,6 +340,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -318,7 +355,9 @@
       }
     ],
     "full_description": "Pendant [5 + Mod. de CHA] tours, la personne qui boit cette potion détecte les créatures invisibles ou cachées à moins de 30 mètres et détecte si un sort de Clairvoyance affecte l’endroit. Aveuglé, ce sort lui permet de voir normalement.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Détection de l’invisible",
     "oid": "potion-detection-de-linvisible-moyen",
     "quantity": 1,
@@ -327,6 +366,7 @@
       "unit": "m",
       "value": 30
     },
+    "scenario": null,
     "short_description": "La personne qui boit cette potion détecte les créatures invisibles ou cachées et si un sort de Clairvoyance affecte l’endroit.",
     "skill": null,
     "special_property": [
@@ -345,6 +385,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-agrandissement",
@@ -355,6 +396,7 @@
       "value": 50
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -369,11 +411,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Agrandissement",
     "oid": "potion-agrandissement-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours.",
     "skill": [
       {
@@ -409,6 +454,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-agrandissement",
@@ -419,6 +465,7 @@
       "value": 150
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -432,12 +479,15 @@
         "ftype": "moyen"
       }
     ],
-    "full_description": "La personne qui boit cette potion voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.",
+    "full_description": "La personne qui boit cette potion voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Elle gagne +2 aux DM au contact et aux tests de FOR. Pataud, elle subit un malus de -2 aux tests de DEX.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Agrandissement",
     "oid": "potion-agrandissement-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours.",
     "skill": [
       {
@@ -473,6 +523,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-gazeuse",
@@ -483,6 +534,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -497,11 +549,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion prend la consistance d’un gaz. Elle se déplace au ras du sol (si elle chute, elle le fait au ralenti) à une vitesse de 10 m par tour. elle peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Elle ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Forme gazeuse",
     "oid": "potion-forme-gazeuse-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion se transforme en gaz. Elle se déplace au ras du sol et ne peut utiliser aucune capacité.",
     "skill": null,
     "special_property": [
@@ -520,6 +575,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-gazeuse",
@@ -530,6 +586,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -544,11 +601,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion prend la consistance d’un gaz. Elle se déplace au ras du sol (si elle chute, elle le fait au ralenti) à une vitesse de 10 m par tour. elle peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Elle ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Forme gazeuse",
     "oid": "potion-forme-gazeuse-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion se transforme en gaz. Elle se déplace au ras du sol et ne peut utiliser aucune capacité.",
     "skill": null,
     "special_property": [
@@ -567,6 +627,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-hate",
@@ -577,6 +638,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -591,11 +653,14 @@
       }
     ],
     "full_description": "Pendant [1d6 + Mod. d’INT] tours, la personne qui boit cette potion voit son métabolisme s’accélérer. A partir du tour suivant, elle obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, elle ne peut toujours accomplir qu’une seule action limitée par tour.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Hâte",
     "oid": "potion-hate-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion voit son métabolisme s’accélérer. A partir du tour suivant, elle obtient une action supplémentaire par tour.",
     "skill": null,
     "special_property": [
@@ -613,6 +678,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-hate",
@@ -623,6 +689,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -637,11 +704,14 @@
       }
     ],
     "full_description": "Pendant [1d6 + Mod. d’INT] tours, la personne qui boit cette potion voit son métabolisme s’accélérer. A partir du tour suivant, elle obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, ellel ne peut toujours accomplir qu’une seule action limitée par tour.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Hâte",
     "oid": "potion-hate-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion voit son métabolisme s’accélérer. A partir du tour suivant, elle obtient une action supplémentaire par tour.",
     "skill": null,
     "special_property": [
@@ -659,6 +729,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-protection-contre-les-elements",
@@ -669,6 +740,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -720,11 +792,14 @@
       }
     ],
     "full_description": "Pendant [5 + Mod. d’INT] tours, la personne qui boit cette potion retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Protection contre les éléments",
     "oid": "potion-protection-contre-les-elements-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion retranche 2 à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
     "skill": null,
     "special_property": [],
@@ -739,6 +814,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-protection-contre-les-elements",
@@ -749,6 +825,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -800,11 +877,14 @@
       }
     ],
     "full_description": "Pendant [5 + Mod. d’INT] tours, la personne qui boit cette potion retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Protection contre les éléments",
     "oid": "potion-protection-contre-les-elements-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion retranche 2 à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.",
     "skill": null,
     "special_property": [],
@@ -819,6 +899,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-respiration-aquatique",
@@ -829,6 +910,7 @@
       "value": 800
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -843,11 +925,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut respirer sous l’eau pendant 10 minutes.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Respiration aquatique",
     "oid": "potion-respiration-aquatique-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut respirer sous l’eau pendant 10 minutes.",
     "skill": null,
     "special_property": [],
@@ -862,6 +947,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-respiration-aquatique",
@@ -872,6 +958,7 @@
       "value": 2400
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -886,11 +973,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut respirer sous l’eau pendant 10 minutes.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Respiration aquatique",
     "oid": "potion-respiration-aquatique-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut respirer sous l’eau pendant 10 minutes.",
     "skill": null,
     "special_property": [],
@@ -905,6 +995,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-armure-de-mage",
@@ -915,6 +1006,7 @@
       "value": 50
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -939,11 +1031,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion fait apparaître un nuage magique argenté qui la protège contre les attaques adverses. Elle bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Armure de mage",
     "oid": "potion-armure-de-mage-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion fait apparaître un nuage magique argenté qui la protège contre les attaques adverses.",
     "skill": null,
     "special_property": [],
@@ -958,6 +1053,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-armure-de-mage",
@@ -968,6 +1064,7 @@
       "value": 150
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -992,11 +1089,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion fait apparaître un nuage magique argenté qui la protège contre les attaques adverses. Elle bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Armure de mage",
     "oid": "potion-armure-de-mage-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion fait apparaître un nuage magique argenté qui la protège contre les attaques adverses.",
     "skill": null,
     "special_property": [],
@@ -1011,6 +1111,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-chute-ralentie",
@@ -1021,6 +1122,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1031,7 +1133,9 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut chuter de 6 mètres par rang dans la Voie sans subir de dégâts. Si la chute est supérieure à cette hauteur, elle est réduite d’autant.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Chute ralentie",
     "oid": "potion-chute-ralentie-mineur",
     "quantity": 1,
@@ -1040,6 +1144,7 @@
       "unit": "m",
       "value": 6
     },
+    "scenario": null,
     "short_description": "La personne qui boit cette potion voit sa chute ralentie et ne subit aucun dégât jusqu'a 6m de hauteur par rang dans la voie. Au delà, sa chute est réduite d'autant.",
     "skill": null,
     "special_property": [],
@@ -1054,6 +1159,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-chute-ralentie",
@@ -1064,6 +1170,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1074,7 +1181,9 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut chuter de 6 mètres par rang dans la Voie sans subir de dégâts. Si la chute est supérieure à cette hauteur, elle est réduite d’autant.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Chute ralentie",
     "oid": "potion-chute-ralentie-moyen",
     "quantity": 1,
@@ -1083,6 +1192,7 @@
       "unit": "m",
       "value": 6
     },
+    "scenario": null,
     "short_description": "La personne qui boit cette potion voit sa chute ralentie et ne subit aucun dégât jusqu'a 6m de hauteur par rang dans la voie. Au delà, sa chute est réduite d'autant.",
     "skill": null,
     "special_property": [],
@@ -1097,6 +1207,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-invisibilite",
@@ -1107,6 +1218,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1121,11 +1233,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si la personne attaque ou utilise une capacité limitée, elle redevient visible.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Invisibilité",
     "oid": "potion-invisibilite-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion se rend invisible et personne ne peut plus détecter sa présence ou lui porter d’attaque.",
     "skill": null,
     "special_property": [
@@ -1142,6 +1257,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-invisibilite",
@@ -1152,6 +1268,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1166,11 +1283,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si la personne attaque ou utilise une capacité limitée, elle redevient visible.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Invisibilité",
     "oid": "potion-invisibilite-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion se rend invisible et personne ne peut plus détecter sa présence ou lui porter d’attaque.",
     "skill": null,
     "special_property": [
@@ -1187,6 +1307,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-vol",
@@ -1197,6 +1318,7 @@
       "value": 800
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1211,11 +1333,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Vol",
     "oid": "potion-vol-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut voler. Sa vitesse de déplacement est la même qu’au sol.",
     "skill": null,
     "special_property": [],
@@ -1230,6 +1355,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-vol",
@@ -1240,6 +1366,7 @@
       "value": 2400
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1254,11 +1381,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Vol",
     "oid": "potion-vol-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut voler. Sa vitesse de déplacement est la même qu’au sol.",
     "skill": null,
     "special_property": [],
@@ -1273,6 +1403,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-langage-des-animaux",
@@ -1283,6 +1414,7 @@
       "value": 50
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1293,11 +1425,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Langage des animaux",
     "oid": "potion-langage-des-animaux-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut communiquer avec les animaux qui se comportent avec elle de façon amicale, en général. L'échange est primitif et limité à l’intelligence de l’animal.",
     "skill": [
       {
@@ -1322,6 +1457,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-langage-des-animaux",
@@ -1332,6 +1468,7 @@
       "value": 150
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1342,11 +1479,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Langage des animaux",
     "oid": "potion-langage-des-animaux-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut communiquer avec les animaux qui se comportent avec elle de façon amicale, en général. L'échange est primitif et limité à l’intelligence de l’animal.",
     "skill": [
       {
@@ -1371,6 +1511,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-masque-du-predateur",
@@ -1381,6 +1522,7 @@
       "value": 800
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1395,11 +1537,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Masque du prédateur",
     "oid": "potion-masque-du-predateur-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion prend les traits d’un fauve ou d’un loup.",
     "skill": null,
     "special_property": [
@@ -1417,6 +1562,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-masque-du-predateur",
@@ -1427,6 +1573,7 @@
       "value": 2400
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1441,11 +1588,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Masque du prédateur",
     "oid": "potion-masque-du-predateur-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion prend les traits d’un fauve ou d’un loup.",
     "skill": null,
     "special_property": [
@@ -1463,6 +1613,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-animale",
@@ -1473,6 +1624,7 @@
       "value": 1250
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1483,11 +1635,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Elle conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Forme animale",
     "oid": "potion-forme-animale-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut prendre la forme d’un animal de sa taille (ou plus petit). Elle conserve ses PV et acquiert les Carac. et les capacités naturelles de la forme choisie.",
     "skill": null,
     "special_property": [
@@ -1504,6 +1659,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-animale",
@@ -1514,6 +1670,7 @@
       "value": 3750
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1524,11 +1681,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Elle conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Forme animale",
     "oid": "potion-forme-animale-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut prendre la forme d’un animal de sa taille (ou plus petit). Elle conserve ses PV et acquiert les Carac. et les capacités naturelles de la forme choisie.",
     "skill": null,
     "special_property": [
@@ -1545,6 +1705,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-marche-sylvestre",
@@ -1555,6 +1716,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1569,11 +1731,14 @@
       }
     ],
     "full_description": "Non seulement la personne qui boit cette potion ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, elle obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions. L'effet dure 24H.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Marche sylvestre",
     "oid": "potion-marche-sylvestre-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion ne subit aucune pénalité de déplacement en terrain difficile et obtient un bonus lors d’un combat dans ces conditions.",
     "skill": null,
     "special_property": [
@@ -1591,6 +1756,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-marche-sylvestre",
@@ -1601,6 +1767,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1615,11 +1782,14 @@
       }
     ],
     "full_description": "Non seulement la personne qui boit cette potion ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, elle obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions. L'effet dure 24H.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Marche sylvestre",
     "oid": "potion-marche-sylvestre-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion ne subit aucune pénalité de déplacement en terrain difficile et obtient un bonus lors d’un combat dans ces conditions.",
     "skill": null,
     "special_property": [
@@ -1637,6 +1807,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-darbre",
@@ -1647,6 +1818,7 @@
       "value": 800
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1661,11 +1833,14 @@
       }
     ],
     "full_description": "Une fois par combat, la personne qui boit cette potion peut se transformer en arbre de petite taille (environ 4 m de hauteur) pendant [5 + Mod. de SAG] tours. Il prend les mêmes Caractéristiques que l’arbre animé, mais conserve ses propres PV. Sous cette forme, il ne peut pas parler mais peut utiliser les sorts des voies du protecteur et des végétaux.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Forme d’arbre",
     "oid": "potion-forme-darbre-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Une fois par combat, la personne qui boit cette potion peut se transformer en arbre de petite taille. Elle conserve ses propres PV. Elle peut utiliser les sorts des voies du protecteur et des végétaux si elle les connaît.",
     "skill": null,
     "special_property": [
@@ -1682,6 +1857,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-darbre",
@@ -1692,6 +1868,7 @@
       "value": 2400
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1706,11 +1883,14 @@
       }
     ],
     "full_description": "Une fois par combat, la personne qui boit cette potion peut se transformer en arbre de petite taille (environ 4 m de hauteur) pendant [5 + Mod. de SAG] tours. Il prend les mêmes Caractéristiques que l’arbre animé, mais conserve ses propres PV. Sous cette forme, il ne peut pas parler mais peut utiliser les sorts des voies du protecteur et des végétaux.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Forme d’arbre",
     "oid": "potion-forme-darbre-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Une fois par combat, la personne qui boit cette potion peut se transformer en arbre de petite taille. Elle conserve ses propres PV. Elle peut utiliser les sorts des voies du protecteur et des végétaux si elle les connaît.",
     "skill": null,
     "special_property": [
@@ -1727,6 +1907,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-peau-decorce",
@@ -1737,6 +1918,7 @@
       "value": 50
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1751,11 +1933,14 @@
       }
     ],
     "full_description": "La peau de la personne qui boit cette potion prend la consistance de l’écorce. Elle gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Peau d’écorce",
     "oid": "potion-peau-decorce-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La peau de la personne qui boit cette potion prend la consistance de l’écorce. Elle gagne alors un bonus en défense.",
     "skill": null,
     "special_property": [
@@ -1772,6 +1957,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-peau-decorce",
@@ -1782,6 +1968,7 @@
       "value": 150
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1796,11 +1983,14 @@
       }
     ],
     "full_description": "La peau de la personne qui boit cette potion prend la consistance de l’écorce. Elle gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Peau d’écorce",
     "oid": "potion-peau-decorce-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La peau de la personne qui boit cette potion prend la consistance de l’écorce. Elle gagne alors un bonus en défense.",
     "skill": null,
     "special_property": [
@@ -1817,6 +2007,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-clairvoyance",
@@ -1827,6 +2018,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1837,11 +2029,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’elle reste concentré (action limitée à chaque tour). Les créatures présentes ont droit à un test de SAG difficulté [12 + Mod. de CHA] : en cas de réussite, elles se sentent observées.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Clairvoyance",
     "oid": "potion-clairvoyance-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut voir et entendre ce qui se passe dans un lieu qu’elle connait, tant qu’elle reste concentrée. Les créatures présentes peuvent se sentir observées.",
     "skill": null,
     "special_property": [
@@ -1859,6 +2054,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-clairvoyance",
@@ -1869,6 +2065,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -1879,11 +2076,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’elle reste concentré (action limitée à chaque tour). Les créatures présentes ont droit à un test de SAG difficulté [12 + Mod. de CHA] : en cas de réussite, elles se sentent observées.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Clairvoyance",
     "oid": "potion-clairvoyance-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut voir et entendre ce qui se passe dans un lieu qu’elle connait, tant qu’elle reste concentrée. Les créatures présentes peuvent se sentir observées.",
     "skill": null,
     "special_property": [
@@ -1901,6 +2101,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -1947,6 +2148,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -1961,11 +2163,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui la blesse ou la touche reçoit une décharge infligeant 1d6 DM. Elle peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Sous tension",
     "oid": "potion-sous-tension-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "En buvant cette potion on se charge d’énergie électrique. Toute créature qui vous blesse ou vous touche reçoit une décharge provoquant 1d6 DM.",
     "skill": null,
     "special_property": [],
@@ -1980,6 +2185,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2026,6 +2232,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2040,11 +2247,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui la blesse ou la touche reçoit une décharge infligeant 1d6 DM. Elle peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Sous tension",
     "oid": "potion-sous-tension-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "En buvant cette potion on se charge d’énergie électrique. Toute créature qui vous blesse ou vous touche reçoit une décharge provoquant 1d6 DM.",
     "skill": null,
     "special_property": [],
@@ -2059,6 +2269,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-etheree",
@@ -2069,6 +2280,7 @@
       "value": 1250
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2083,11 +2295,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, elle peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Forme éthérée",
     "oid": "potion-forme-etheree-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "En buvant cette potion, La personne (et son équipement) deviennent translucides et intangibles. Ils peuvent passer à travers murs et obstacles.",
     "skill": null,
     "special_property": [
@@ -2104,6 +2319,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-forme-etheree",
@@ -2114,6 +2330,7 @@
       "value": 3750
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2128,11 +2345,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, elle peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Forme éthérée",
     "oid": "potion-forme-etheree-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "En buvant cette potion, La personne (et son équipement) deviennent translucides et intangibles. Ils peuvent passer à travers murs et obstacles.",
     "skill": null,
     "special_property": [
@@ -2149,6 +2369,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-imitation",
@@ -2159,6 +2380,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2173,11 +2395,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut prendre l’apparence d’une créature de taille proche (+ ou – 50 cm) qu’il voit au moment de boire la potion. Durée [5 + Mod. de CHA] minutes. Toucher la personne (une attaque ou non) met fin au sort.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Imitation",
     "oid": "potion-imitation-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut prendre l’apparence d’une créature de taille proche (+/- 50cm) qu’il voit au moment de l’incantation.",
     "skill": null,
     "special_property": [
@@ -2194,6 +2419,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-imitation",
@@ -2204,6 +2430,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2218,11 +2445,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut prendre l’apparence d’une créature de taille proche (+ ou – 50 cm) qu’il voit au moment de boire la potion. Durée [5 + Mod. de CHA] minutes. Toucher la personne (une attaque ou non) met fin au sort.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Imitation",
     "oid": "potion-imitation-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut prendre l’apparence d’une créature de taille proche (+/- 50cm) qu’il voit au moment de l’incantation.",
     "skill": null,
     "special_property": [
@@ -2239,6 +2469,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-fortifiant",
@@ -2249,6 +2480,7 @@
       "value": 50
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2263,11 +2495,14 @@
       }
     ],
     "full_description": "Un breuvage étrange qui guérit [1d4 + rang] PV et permet de gagner un bonus de +3 aux [rang +1] prochains tests de réussite effectués (dans une limite de temps de 12 heures).",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Fortifiant",
     "oid": "potion-fortifiant-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Un breuvage étrange qui guérit et permet de gagner un bonus aux [rang +1] prochains tests de réussite effectués.",
     "skill": null,
     "special_property": [
@@ -2285,6 +2520,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-fortifiant",
@@ -2295,6 +2531,7 @@
       "value": 150
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2309,11 +2546,14 @@
       }
     ],
     "full_description": "Un breuvage étrange qui guérit [1d4 + rang] PV et permet de gagner un bonus de +3 aux [rang +1] prochains tests de réussite effectués (dans une limite de temps de 12 heures).",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Fortifiant",
     "oid": "potion-fortifiant-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Un breuvage étrange qui guérit et permet de gagner un bonus aux [rang +1] prochains tests de réussite effectués.",
     "skill": null,
     "special_property": [
@@ -2331,6 +2571,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2372,6 +2613,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -2382,11 +2624,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion lance la fiole à une distance maximum de 10 m, grâce à une action d’attaque (réussite automatique). Le contenu explose dans un rayon de 3 m en infligeant 1d6 DM par rang dans la voie. Un test de DEX difficulté [10 + Mod. d’INT] réussi permet aux victimes de diviser les DM par 2.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Feu grégeois",
     "oid": "potion-feu-gregeois-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne lance la fiole et le contenu explose en pojetant du feu.",
     "skill": null,
     "special_property": [
@@ -2404,6 +2649,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2445,6 +2691,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -2455,11 +2702,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion lance la fiole à une distance maximum de 10 m, grâce à une action d’attaque (réussite automatique). Le contenu explose dans un rayon de 3 m en infligeant 1d6 DM par rang dans la voie. Un test de DEX difficulté [10 + Mod. d’INT] réussi permet aux victimes de diviser les DM par 2.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Feu grégeois",
     "oid": "potion-feu-gregeois-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne lance la fiole et le contenu explose en pojetant du feu.",
     "skill": null,
     "special_property": [
@@ -2477,6 +2727,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-elixir-de-guerison",
@@ -2487,6 +2738,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -2497,11 +2749,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Élixir de guérison",
     "oid": "potion-elixir-de-guerison-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
     "skill": null,
     "special_property": [
@@ -2519,6 +2774,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-elixir-de-guerison",
@@ -2529,6 +2785,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [
@@ -2539,11 +2796,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Élixir de guérison",
     "oid": "potion-elixir-de-guerison-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
     "skill": null,
     "special_property": [
@@ -2561,6 +2821,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-flou",
@@ -2571,6 +2832,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2585,11 +2847,14 @@
       }
     ],
     "full_description": "Pendant [1d4 + Mod. d’INT] tours, le corps de la personne qui boit cette potion devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Flou",
     "oid": "potion-flou-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Le corps de la personne qui boit cette potion devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
     "skill": null,
     "special_property": [
@@ -2607,6 +2872,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-flou",
@@ -2617,6 +2883,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2631,11 +2898,14 @@
       }
     ],
     "full_description": "Pendant [1d4 + Mod. d’INT] tours, le corps de la personne qui boit cette potion devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Flou",
     "oid": "potion-flou-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Le corps de la personne qui boit cette potion devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.",
     "skill": null,
     "special_property": [
@@ -2653,6 +2923,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2695,6 +2966,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2709,11 +2981,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion acquiert une beauté fascinante pour [5 + Mod. d’INT] tours. Il gagne un bonus de +5 aux tests de CHA ainsi qu’une attaque de contact nécessitant un test d’attaque magique et qui inflige [1d4 + Mod. de CHA] DM. Ces DM sont transformés en PV, au bénéfice du Nécromancien (sans dépasser son score max de PV).",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Aspect de la succube",
     "oid": "potion-aspect-de-la-succube-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion acquiert une beauté fascinante.",
     "skill": [
       {
@@ -2740,6 +3015,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2782,6 +3058,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2796,11 +3073,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion acquiert une beauté fascinante pour [5 + Mod. d’INT] tours. Il gagne un bonus de +5 aux tests de CHA ainsi qu’une attaque de contact nécessitant un test d’attaque magique et qui inflige [1d4 + Mod. de CHA] DM. Ces DM sont transformés en PV, au bénéfice du Nécromancien (sans dépasser son score max de PV).",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Aspect de la succube",
     "oid": "potion-aspect-de-la-succube-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion acquiert une beauté fascinante.",
     "skill": [
       {
@@ -2827,6 +3107,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2869,6 +3150,7 @@
       "value": 800
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2883,11 +3165,14 @@
       }
     ],
     "full_description": "Le Nécromancien prend l’apparence d’un démon pendant [5 + Mod. d’INT] tours. Il gagne + 2 en attaque au contact, en DEF et à tous les tests physiques (FOR, DEX, CON). Il peut faire deux attaques de griffe à 1d6+4 DM à chaque tour, en action limitée (une seule en action d’attaque). Ne se cumule pas avec l’Aspect de la succube.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Aspect du démon",
     "oid": "potion-aspect-du-demon-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Cette potion permet de prendre l’apparence d’un démon.",
     "skill": [
       {
@@ -2933,6 +3218,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": {
       "__type__": "Attack",
@@ -2975,6 +3261,7 @@
       "value": 2400
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -2989,11 +3276,14 @@
       }
     ],
     "full_description": "Le Nécromancien prend l’apparence d’un démon pendant [5 + Mod. d’INT] tours. Il gagne + 2 en attaque au contact, en DEF et à tous les tests physiques (FOR, DEX, CON). Il peut faire deux attaques de griffe à 1d6+4 DM à chaque tour, en action limitée (une seule en action d’attaque). Ne se cumule pas avec l’Aspect de la succube.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Aspect du démon",
     "oid": "potion-aspect-du-demon-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Cette potion permet de prendre l’apparence d’un démon.",
     "skill": [
       {
@@ -3039,6 +3329,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-masque-mortuaire",
@@ -3049,6 +3340,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3069,11 +3361,14 @@
       }
     ],
     "full_description": "Pendant [5 + Mod. d’INT] tours, la personne qui boit cette potion prend l’apparence de la mort. Elle est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci la prennent pour l’un des leurs). Elle retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Masque mortuaire",
     "oid": "potion-masque-mortuaire-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion prend l’apparence de la mort. Elle est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci la prennent pour l’un des leurs).",
     "skill": null,
     "special_property": [
@@ -3090,6 +3385,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-masque-mortuaire",
@@ -3100,6 +3396,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3120,11 +3417,14 @@
       }
     ],
     "full_description": "Pendant [5 + Mod. d’INT] tours, la personne qui boit cette potion prend l’apparence de la mort. Elle est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci la prennent pour l’un des leurs). Elle retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Masque mortuaire",
     "oid": "potion-masque-mortuaire-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion prend l’apparence de la mort. Elle est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci la prennent pour l’un des leurs).",
     "skill": null,
     "special_property": [
@@ -3141,6 +3441,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-pattes-daraignee",
@@ -3151,6 +3452,7 @@
       "value": 200
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -3165,11 +3467,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Pattes d’araignée",
     "oid": "potion-pattes-daraignee-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts.",
     "skill": null,
     "special_property": [],
@@ -3184,6 +3489,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-pattes-daraignee",
@@ -3194,6 +3500,7 @@
       "value": 600
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -3208,11 +3515,14 @@
       }
     ],
     "full_description": "La personne qui boit cette potion peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Pattes d’araignée",
     "oid": "potion-pattes-daraignee-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "La personne qui boit cette potion peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts.",
     "skill": null,
     "special_property": [],
@@ -3227,6 +3537,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-ailes-celestes",
@@ -3237,6 +3548,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -3251,11 +3563,14 @@
       }
     ],
     "full_description": "Des ailes divines poussent dans le dos de la personne qui boit cette potion, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Ailes célestes",
     "oid": "potion-ailes-celestes-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Des ailes divines poussent dans le dos de la personne qui boit cette potion, qui peut voler à une vitesse équivalente à deux fois son déplacement normal.",
     "skill": null,
     "special_property": [
@@ -3272,6 +3587,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-ailes-celestes",
@@ -3282,6 +3598,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -3296,11 +3613,14 @@
       }
     ],
     "full_description": "Des ailes divines poussent dans le dos de la personne qui boit cette potion, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Ailes célestes",
     "oid": "potion-ailes-celestes-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Des ailes divines poussent dans le dos de la personne qui boit cette potion, qui peut voler à une vitesse équivalente à deux fois son déplacement normal.",
     "skill": null,
     "special_property": [
@@ -3317,6 +3637,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-sanctuaire",
@@ -3327,6 +3648,7 @@
       "value": 450
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -3341,11 +3663,14 @@
       }
     ],
     "full_description": "Quand la personne boit cette potion, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15. S’ils échouent, ils ne peuvent pas l’attaquer. Les effets de ce sort durent [5 + Mod de SAG] tours, mais s’il tente la moindre attaque, le sort prend fin immédiatement.",
+    "hands": 0,
     "magical_level": "mineur",
+    "material": null,
     "name": "Potion mineure, Sanctuaire",
     "oid": "potion-sanctuaire-mineur",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Quand la personne boit cette potion, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15.",
     "skill": null,
     "special_property": [
@@ -3362,6 +3687,7 @@
   },
   {
     "__type__": "Potion",
+    "ability": null,
     "area": null,
     "attack": null,
     "base_item": "potion-sanctuaire",
@@ -3372,6 +3698,7 @@
       "value": 1350
     },
     "count": 1,
+    "creature": null,
     "defense": null,
     "duration": {
       "__type__": "Duration",
@@ -3386,11 +3713,14 @@
       }
     ],
     "full_description": "Quand la personne boit cette potion, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15. S’ils échouent, ils ne peuvent pas l’attaquer. Les effets de ce sort durent [5 + Mod de SAG] tours, mais s’il tente la moindre attaque, le sort prend fin immédiatement.",
+    "hands": 0,
     "magical_level": "moyen",
+    "material": null,
     "name": "Potion moyenne, Sanctuaire",
     "oid": "potion-sanctuaire-moyen",
     "quantity": 1,
     "range": null,
+    "scenario": null,
     "short_description": "Quand la personne boit cette potion, tous les adversaires qui veulent l’attaquer doivent d’abord réussir un test de SAG difficulté 15.",
     "skill": null,
     "special_property": [

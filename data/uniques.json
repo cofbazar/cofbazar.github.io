@@ -1,0 +1,7112 @@
+[
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "etoile-d-honneur-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L’étoile d'honneur en argent est une décoration qui symbolise le patriotisme de son porteur. Elle accorde un bonus de +2 à tous les tests de CHA face aux représentants de l’autorité dans la Principauté d’Arly et +1 avec les citoyens ordinaires. Elle comporte des entrelacs complexes qui la rendent très difficile à reproduire et un enchantement spécial qui produit une lumière bleutée (couleur de la Principauté) lorsque les mots « Pour la gloire d’Arly » sont prononcés en la tenant dans la main.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Étoile d'honneur, en argent",
+    "oid": "etoile-d-honneur-en-argent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le problème de Twemby",
+        "numbering": "1",
+        "title": "Le sanctuaire"
+      }
+    ],
+    "short_description": "L’étoile d'honneur en argent est une décoration qui symbolise le patriotisme de son porteur. Elle comporte des motifs complexes très difficile à reproduire et produit une lumière bleutée lorsque les mots « Pour la gloire d’Arly » sont prononcés en la tenant dans la main.",
+    "skill": null,
+    "special_property": [
+      "Test (CHA): +2 contre représentant de l'autorité d'Arly ou citoyen ordinaire"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "croquis-grossier-homme-gant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "un croquis grossier, il représente un elfe dont l’une des mains est énorme et émet des rayons ardents.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Croquis grossier, du shaman orque",
+    "oid": "croquis-grossier-homme-gant",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La bataille de vireux",
+        "numbering": "3",
+        "title": "Fort Boueux"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "un croquis grossier, il représente un elfe dont l’une des mains est énorme et émet des rayons ardents.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chocolat-elbion",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le chocolat d'Elbion est un met inconnu, mais savoureux. Il accorde un bonus de +2 sur un test au choix du joueur dans un délai de 10 minutes après que le personnage l'ai dégusté.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Chocolat, d'Elbion",
+    "oid": "chocolat-elbion",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "Une nuit à Clairval",
+        "numbering": "2",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Le chocolat d'Elbion est un met inconnu, mais savoureux. Il accorde un bonus de +2 sur un test au choix du joueur dans un délai de 10 minutes après que le personnage l'ai dégusté.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "costume-sur-mesure-de-albik",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magnifique costume taillé sur mesure par Albik de Clairval.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Costume sur mesure, d'Albik",
+    "oid": "costume-sur-mesure-de-albik",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "Amis pour la vie",
+        "numbering": "5",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Un magnifique costume taillé sur mesure par Albik de Clairval.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "planche-de-chene",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une planche bien solide en chêne.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Planche de chêne",
+    "oid": "planche-de-chene",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage dans la boue",
+        "numbering": "1",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "Une planche bien solide en chêne.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "roue-de-chariot",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une roue de chariot, bien utile en cas de panne.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Roue de chariot",
+    "oid": "roue-de-chariot",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage dans la boue",
+        "numbering": "1",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "Une roue de chariot, bien utile en cas de panne.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 10
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "scie-a-bois",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une scie à bois manuelle qui viendra à bout de n'importe qu'elle planche moyennant un peu d'huile de coude.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Scie a bois",
+    "oid": "scie-a-bois",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage dans la boue",
+        "numbering": "1",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "Une scie à bois manuelle qui viendra à bout de n'importe qu'elle planche moyennant un peu d'huile de coude.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-quartz",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Quelques jolis morceaux de quartz. Ces morceaux sont sans grande valeur, sauf pour un collectionneur.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Morceaux de quartz",
+    "oid": "stone-quartz",
+    "quantity": 5,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "Baston chez les Crânes-creux",
+        "numbering": "4",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Quelques jolis morceaux de quartz. Ces morceaux sont sans grande valeur, sauf pour un collectionneur.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-ambre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'ambre est une résine végétale sécrétée par des conifères il y a des millions d'années et qui s'est fossilisée.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Ambre",
+    "oid": "stone-ambre",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le problème de Twemby",
+        "numbering": "1",
+        "title": "Le Sanctuaire"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "L'ambre est une résine végétale sécrétée par des conifères il y a des millions d'années et qui s'est fossilisée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-emeraude",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L’émeraude est un minéral, dont la couleur verte provient de traces de chrome, de vanadium et parfois de fer. L'émeraude est, avec le diamant, le saphir et le rubis, l'une des quatre pierres précieuses.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Émeraude",
+    "oid": "stone-emeraude",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "L’émeraude est un minéral, dont la couleur verte provient de traces de chrome, de vanadium et parfois de fer. L'émeraude est, avec le diamant, le saphir et le rubis, l'une des quatre pierres précieuses.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-amethyste",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'améthyste est une variété de quartz violet dont la teinte est due aux traces de fer. Ce minéral est utilisé en joaillerie et classé comme pierre fine.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Améthyste",
+    "oid": "stone-amethyste",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "L'améthyste est une variété de quartz violet dont la teinte est due aux traces de fer. Ce minéral est utilisé en joaillerie et classé comme pierre fine.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-rubis",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le rubis est la variété rouge de la famille minérale du corindon. Sa couleur est causée principalement par la présence d'atomes de chrome. Le rubis est une pierre gemme presqu'aussi dure que le diamant.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Rubis",
+    "oid": "stone-rubis",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Le rubis est la variété rouge de la famille minérale du corindon. Sa couleur est causée principalement par la présence d'atomes de chrome. Le rubis est une pierre gemme presqu'aussi dure que le diamant.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-diamant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le diamant est un minéral transparent composé de cristaux de carbone pur. Cette pierre précieuse est connue pour être le minéral le plus dur qui soit.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Rubis",
+    "oid": "stone-diamant",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Le diamant est un minéral transparent composé de cristaux de carbone pur. Cette pierre précieuse est connue pour être le minéral le plus dur qui soit.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-alexandrite",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'alexandrite est d'éclat vitreux. Sa couleur change avec l'éclairage : bleu-vert à la lumière du jour, rose-rouge au feu de bois.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Alexandrite",
+    "oid": "stone-alexandrite",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "L'alexandrite est d'éclat vitreux. Sa couleur change avec l'éclairage : bleu-vert à la lumière du jour, rose-rouge au feu de bois.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-jaspe",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le jaspe peut avoir plusieurs aspects : tacheté, rubané, rouge, à taches rouges sur fond vert, noir, etc.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Jaspe",
+    "oid": "stone-jaspe",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La Vallée des Songes",
+        "numbering": "2",
+        "title": "La Vallée des Songes"
+      }
+    ],
+    "short_description": "Le jaspe peut avoir plusieurs aspects : tacheté, rubané, rouge, à taches rouges sur fond vert, noir, etc.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-perle",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Perle",
+    "oid": "stone-perle",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-perle-rare",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Perle rare",
+    "oid": "stone-perle-rare",
+    "quantity": 1,
+    "range": null,
+    "scenario": [],
+    "short_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-petite-perle",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Petite perle",
+    "oid": "stone-petite-perle",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-topaze-orientale",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La topaze est une espèce minérale pouvant contenir des traces de fer, chrome, magnésium et titane.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Topaze orientale",
+    "oid": "stone-topaze-orientale",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La Vallée des Songes",
+        "numbering": "2",
+        "title": "La Vallée des Songes"
+      }
+    ],
+    "short_description": "La topaze est une espèce minérale pouvant contenir des traces de fer, chrome, magnésium et titane.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-carnelian",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La carnélian est une variété de calcédoines rouges. Elle est principalement utilisée pour l'orfêvrerie.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carnélian",
+    "oid": "stone-carnelian",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La Vallée des Songes",
+        "numbering": "2",
+        "title": "La Vallée des Songes"
+      }
+    ],
+    "short_description": "La carnélian est une variété de calcédoines rouges. Elle est principalement utilisée pour l'orfêvrerie.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-hematite",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L’Hématite est une pierre fine sombre et complétement opaque aux reflets argentés. Sa couleur se rapproche du gris acier. Certains spécimens ont une couleur presque noire.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Hématite",
+    "oid": "stone-hematite",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La Vallée des Songes",
+        "numbering": "2",
+        "title": "La Vallée des Songes"
+      }
+    ],
+    "short_description": "L’Hématite est une pierre fine sombre et complétement opaque aux reflets argentés. Sa couleur se rapproche du gris acier. Certains spécimens ont une couleur presque noire.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "flute-d-amarange",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une jolie flûte richement décorée.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flûte, d'Amarange",
+    "oid": "flute-d-amarange",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une jolie flûte richement décorée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "flute-de-pan-en-ivoire",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une jolie flûte de pan en ivoire plaquée de nacre.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flûte de pan, en ivoire",
+    "oid": "flute-de-pan-en-ivoire",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une jolie flûte de pan en ivoire plaquée de nacre.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "peigne-a-cheveux-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un très beau peigne à cheveux en argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Peigne à cheveux, en argent",
+    "oid": "peigne-a-cheveux-en-argent",
+    "quantity": 5,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un très beau peigne à cheveux en argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bouteille-en-cristal-avec-verre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une bouteille en cristal avec 6 verres assortis.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bouteille et verres, en cristal",
+    "oid": "bouteille-en-cristal-avec-verre",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une bouteille en cristal avec 6 verres assortis.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.4
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "grimoire-ancien-pantheon-des-dieux",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un grimoire ancien présentant le panthéon des dieux en assez mauvais état.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Grimoire ancien",
+    "oid": "grimoire-ancien-pantheon-des-dieux",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un grimoire ancien présentant le panthéon des dieux en assez mauvais état.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "paire-de-lorgnons",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une paire de lorgnons.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Paire de lorgnons",
+    "oid": "paire-de-lorgnons",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une paire de lorgnons.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "ancien-tableau-aigle",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Il s’agit d’un ancien tableau représentant un aigle.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Tableau ancien",
+    "oid": "ancien-tableau-aigle",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Il s’agit d’un ancien tableau représentant un aigle.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "luth-d-amarange",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un luth de très bonne qualité.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Luth, d'Amarange",
+    "oid": "luth-d-amarange",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un luth de très bonne qualité.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-de-500-pieces-d-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une cassette contenant 500 pièces d'argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cassette de pièces, d'argent",
+    "oid": "cassette-de-500-pieces-d-argent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une cassette contenant 500 pièces d'argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-de-450-pieces-d-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une cassette contenant 450 pièces d'argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cassette de pièces, d'argent",
+    "oid": "cassette-de-450-pieces-d-argent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une cassette contenant 450 pièces d'argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-de-50-pieces-d-or",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une cassette contenant 50 pièces d'or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cassette de pièces, d'or",
+    "oid": "cassette-de-50-pieces-d-or",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une cassette contenant 50 pièces d'or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-de-275-pieces-d-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 275.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une cassette contenant 275 pièces d'argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cassette de pièces, d'argent",
+    "oid": "cassette-de-275-pieces-d-argent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une cassette contenant 275 pièces d'argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-de-75-pieces-d-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 75.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une cassette contenant 75 pièces d'argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cassette de pièces, d'argent",
+    "oid": "cassette-de-75-pieces-d-argent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une cassette contenant 75 pièces d'argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-de-81-pieces-d-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 81.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une cassette contenant 81 pièces d'argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cassette de pièces, d'argent",
+    "oid": "cassette-de-81-pieces-d-argent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une cassette contenant 81 pièces d'argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "tonnelet-de-vin",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un tonnelet de bon vin des Marches du Piémont.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un tonnelet de vin",
+    "oid": "tonnelet-de-vin",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Un tonnelet de bon vin des Marches du Piémont.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "vetements-sombres",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des vêtements sombres qui vous permettrons de vous fondre dans les ombres une fois la nuit tombée.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Vêtements sombres",
+    "oid": "vetements-sombres",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Des vêtements sombres qui vous permettrons de vous fondre dans les ombres une fois la nuit tombée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "Autorisation-port-arme-capitaine-angus",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette autorisation du Capitaine Angus contient le message suivant : « Le porteur de cette autorisation ainsi que tous ses compagnons sont autorisés à pouvoir porter des armes en ville de 17h00 à 6h00 et de procéder à une enquête approfondie chez le sieur Emarin Grisant dont on craint la disparition ».",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Autorisation, du Capitaine Angus",
+    "oid": "Autorisation-port-arme-capitaine-angus",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Cette autorisation du Capitaine Angus contient le message suivant : « Le porteur de cette autorisation ainsi que tous ses compagnons sont autorisés à pouvoir porter des armes en ville de 17h00 à 6h00 et de procéder à une enquête approfondie chez le sieur Emarin Grisant dont on craint la disparition ».",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "recette-tarte-aux-pommes-emarin-grisant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Recette de la tarte aux pommes: Faites la pâte avec du beurre, de la farine et de l'eau. Malaxez puis faites-en une boule que vous laisserez reposer au moins une heure. Pendant ce temps épluchez des pommes et coupez les en morceaux. Lorsque la pâte est prête, étalez la dans un moule et disposez les morceaux de pommes dessus. Faites cuire 35 min puis dégustez la tiède !",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Tarte aux pommes, d'Emarin Grisant",
+    "oid": "recette-tarte-aux-pommes-emarin-grisant",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Recette de la tarte aux pommes: Faites la pâte avec du beurre, de la farine et de l'eau. Malaxez puis faites-en une boule que vous laisserez reposer au moins une heure. Pendant ce temps épluchez des pommes et coupez les en morceaux. Lorsque la pâte est prête, étalez la dans un moule et disposez les morceaux de pommes dessus. Faites cuire 35 min puis dégustez la tiède !",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "lettre-secrete-d-emarin-grisant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "« Cher collègue, je suis actuellement prisonnier au Pic d’Andalf. Aidez-moi et vous serez récompensé pour votre peine. Attention ! Mes ravisseurs sont doués de pouvoirs magiques. Libérez-moi et leurs richesses seront vôtres si vous savez ne pas trop ébruiter l’affaire. ― Emarin Grisant ».",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Lettre secrète, d'Emarin Grisant",
+    "oid": "lettre-secrete-d-emarin-grisant",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "« Cher collègue, je suis actuellement prisonnier au Pic d’Andalf. Aidez-moi et vous serez récompensé pour votre peine. Attention ! Mes ravisseurs sont doués de pouvoirs magiques. Libérez-moi et leurs richesses seront vôtres si vous savez ne pas trop ébruiter l’affaire. ― Emarin Grisant ».",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "symbole-beni-d-abalath",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un symoble béni du culte d’Abalath, le dieu des Secrets et des Complots.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Symbole béni, d'Abalath",
+    "oid": "symbole-beni-d-abalath",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Un symoble béni du culte d’Abalath, le dieu des Secrets et des Complots.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "sacs-en-toile",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un sac en toile vide pouvant contenir environ 50 litres.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Sac en toile",
+    "oid": "sacs-en-toile",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Un sac en toile vide pouvant contenir environ 50 litres.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carnet-de-compte-de-sifmo",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le carnet de Sifmo contient les revenus de ses activités mois par mois : 1ère Année : 1er mois: 5000 pa, 2ième mois: 5000 pa, 3ième mois: 5000 pa, 4ième mois: 5000 pa, 5ième mois: 5000 pa, 6ième mois: 5000 pa",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carnet de compte, de Sifmo",
+    "oid": "carnet-de-compte-de-sifmo",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Le carnet de Sifmo contient les revenus de ses activités mois par mois : 1ère Année : 1er mois: 5000 pa, 2ième mois: 5000 pa, 3ième mois: 5000 pa, 4ième mois: 5000 pa, 5ième mois: 5000 pa, 6ième mois: 5000 pa",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "liasse-de-comptes-d-amarange",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une liasse de comptes contenant l’ensemble des opérations. Les sommes en jeux sont hallucinantes et feraient pâlir d’envie un dragon. elles font état de 100 000 pa et toutes les grandes villes des Marches sont concernées.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carnet de compte, d'Amarange",
+    "oid": "liasse-de-comptes-d-amarange",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une liasse de comptes contenant l’ensemble des opérations. Les sommes en jeux sont hallucinantes et feraient pâlir d’envie un dragon. elles font état de 100 000 pa et toutes les grandes villes des Marches sont concernées.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "batonnet-metallique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un bâtonnet métallique qui procure un bonus de +2 en attaque et +2 aux dégâts pour les sorts d’électricité lorsqu’il est pointé sur la cible.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Bâtonnet métallique, d'Annita de Caurel",
+    "oid": "batonnet-metallique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un bâtonnet métallique qui procure un bonus en attaque et aux dégâts pour les sorts d’électricité lorsqu’il est pointé sur la cible.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2 (sorts de d'électricité)",
+      "DM: +2 (sorts de d'électricité)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "briquet-magique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un briquet magique qui procure un bonus de +2 en attaque et +2 aux dégâts pour les sorts de feu lorsqu’il est pointé sur la cible.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Briquet magique, d'Annita de Caurel",
+    "oid": "briquet-magique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un briquet magique qui procure un bonus en attaque et aux dégâts pour les sorts de feu lorsqu’il est pointé sur la cible.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2 (sorts de feu)",
+      "DM: +2 (sorts de feu)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "materiel-ecriture-parchemin",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des composants et une bouteille d'encre pour écrire des parchemeins.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Nécessaire à parchemin, composants et encre",
+    "oid": "materiel-ecriture-parchemin",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Des composants et une bouteille d'encre pour écrire des parchemeins.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "livre-de-sort",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un livre pour inscrire des sorts",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Livre de sort",
+    "oid": "livre-de-sort",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un livre pour inscrire des sorts",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "boule-de-cristal",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise cette boule de cristal peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’il reste concentré (action limitée à chaque tour). Les créatures présentes ont droit à un test de SAG difficulté [12 + Mod. de CHA] : en cas de réussite, elles se sentent observées.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Boule de cristal, d'Amarange le Bel",
+    "oid": "boule-de-cristal",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "La personne qui utilise cette boule de cristal peut voir et entendre ce qui se passe dans un lieu qu’il connait, tant qu’il reste concentrée. Les créatures présentes peuvent se sentir observées.",
+    "skill": null,
+    "special_property": [
+      "Rester concentrer (L) / tour",
+      "Test SAG (observé): 12+[CHA]",
+      "Utilisation: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "magnum-de-brandy-de-ferrance",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 20.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magnum d'eau-de-vie de vin. Celui-ci provient de la ville de Ferrance, ce qui en fait une bouteille très appréciée par les amateurs de spiritueux.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Magnum de brandy, de Ferrance",
+    "oid": "magnum-de-brandy-de-ferrance",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un magnum d'eau-de-vie de vin. Celui-ci provient de la ville de Ferrance, ce qui en fait une bouteille très appréciée par les amateurs de spiritueux.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "sac-sans-fond",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un sac dans lequel on peut entreposer 50 kg de matériel par rang dans la voie, tandis que le sac semble toujours ne peser qu’un kilo. Le sac ne fonctionne pas si on tente d’y mettre une créature vivante. Le sac est de plus capable de fournir au Forgesort les objets qu’il désire. Il peut en retirer une pelle, une corde, une épée ou tout objet dont la valeur ne dépasse pas 20 pa, le poids 50 kg, la circonférence 1 m et le volume 1 m3. Pas plus de 20 pa de valeur d’objet créés par le sac sans fond ne peuvent exister simultanément. Ces objets ont hélas la propriété de disparaître au bout d’une heure. De ce fait, la nourriture magique retirée du sac ne nourrit pas vraiment celui qui la consomme.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Sac sans fond",
+    "oid": "sac-sans-fond",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un sac un sac pour y mettre du matériel. Le sac peut aussi fournir les objets qu’il désire de moins de 20 pa, 50 kg, 1m3 ou 1m de circonférence. Pas plus de 20 pa d’objets créés peuvent exister à la fois. Ils disparaissent au bout d’une heure.",
+    "skill": null,
+    "special_property": [
+      "Le sac pèse 1kg (même plein)",
+      "50Kg / rang dans la voie",
+      "Ne peut contenir de créature vivante"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "torque-de-andra-mortemine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un torque en argent gravé d'un motif de poisson.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Torque, d'Andra Mortemine",
+    "oid": "torque-de-andra-mortemine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage dans la boue",
+        "numbering": "1",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "Un torque en argent gravé d'un motif de poisson.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Bracer",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "torque-de-julius-mortemine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un torque en argent gravé d'un motif de poisson.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Torque, de Julius Mortemine",
+    "oid": "torque-de-julius-mortemine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le problème de Twemby",
+        "numbering": "1",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Un torque en argent gravé d'un motif de poisson.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "elixir-de-soin",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une petite fiole en métal contenant trois gorgées d'un élixir qui permet de soigner les blessures. Chaque gorgée de cet élixir soigne [1d8+5 PV].",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Élixir de soin",
+    "oid": "elixir-de-soin",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "La chasse au gobelin",
+        "numbering": "3",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Une petite fiole en métal contenant trois gorgées d'un élixir qui permet de soigner les blessures.",
+    "skill": null,
+    "special_property": [
+      "Soigne: 1d8 + 5 PV"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fiole-de-poison",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une petite fiole en métal contenant une dose de poison à boire ou pour enduire une arme tranchante. La personne qui ingére le poison ou qui reçoit une blessure sanglante d'une arme enduite de ce poison se voit infliger 1d8+5 DM.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Fiole de poison",
+    "oid": "fiole-de-poison",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "Baston chez les Crânes-creux",
+        "numbering": "4",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Une petite fiole en métal contenant une dose de poison à boire ou pour enduire une arme tranchante.",
+    "skill": null,
+    "special_property": [
+      "DM: 1d8 + 5"
+    ],
+    "usable_by": [],
+    "use": 1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "poison-narcotique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "h",
+      "value": 1
+    },
+    "flavor": [],
+    "full_description": "Un poison violent qui affaibli celui qui l'ingère. Une seule dose de ce poison est nécessaire pour empoisonner jusqu'à 12 personnes pendant 1 heure.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Poison narcotique",
+    "oid": "poison-narcotique",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un poison violent qui affaibli celui qui l'ingère. Une seule dose de ce poison est nécessaire pour empoisonner jusqu'à 12 personnes.",
+    "skill": null,
+    "special_property": [
+      "Effet après 10 min",
+      "Test CON < 15: Affaibli (1d12)"
+    ],
+    "usable_by": [],
+    "use": 1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "flacon-de-sang-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un petit flacon une contenant une dose de poison rapide pour enduire une arme. La personne qui reçoit une blessure sanglante d'une arme enduite de ce poison se voit infliger 2d6 DM s'il rate un test de CON de difficulté 10.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flacon de sang feu",
+    "oid": "flacon-de-sang-feu",
+    "quantity": 3,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un petit flacon une contenant une dose de poison rapide pour enduire une arme tranchante ou pointue.",
+    "skill": null,
+    "special_property": [
+      "DM: 2d6 (si empoisonné)",
+      "Empoisonné: Test CON < 10"
+    ],
+    "usable_by": [],
+    "use": 1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-fort-d-assaut",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Une potion à enduire sur une arme de contact qui augmente de +1d6 lesdégâts occasionnés pendant 10 tours.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion de fort d'assaut",
+    "oid": "potion-fort-d-assaut",
+    "quantity": 2,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une potion à enduire sur une arme de contact qui augmente de façon importante les dégâts occasionnés.",
+    "skill": null,
+    "special_property": [
+      "DM: +1d6 (arme de contact)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-de-force-des-geants",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Une potion à enduire sur une arme de contact qui augmente de +1d6 lesdégâts occasionnés pendant 10 tours.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion de force, de géant",
+    "oid": "potion-de-force-des-geants",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une fois bue, cette potion procure, pour un petit laps de temps, un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2 (contact)",
+      "DM: +2 (contact)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "flasque-de-fer-jarraseen",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une flasque de fer couverte de signes magiques et fermé par un bouchon hermétique en fer.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flasque de fer",
+    "oid": "flasque-de-fer-jarraseen",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une flasque de fer couverte de signes magiques et fermé par un bouchon hermétique en fer.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "huile-etheree",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui boit cette huile et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, elle peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Huile éthérée",
+    "oid": "huile-etheree",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "En buvant cette huile, La personne (et son équipement) deviennent translucides et intangibles. Ils peuvent passer à travers murs et obstacles.",
+    "skill": null,
+    "special_property": [
+      "Aucun DM physique subit"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 5,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-levitation",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "En se concentrant, la personne qui boit cette potion peut « léviter » à une vitesse de 10 m par tour.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Potion - Lévitation",
+    "oid": "potion-levitation",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "En se concentrant, la personne qui boit cette potion peut « léviter » à une vitesse de 10 m par tour.",
+    "skill": null,
+    "special_property": [
+      "Déplacement: 10 m / tour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-message-lointain",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle peut entendre sa réponse immédiatement. La portée est de 100 Km et le personnage doit connaître la cible ou la voir.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Parchemin - Message lointain",
+    "oid": "spell-message-lointain",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "km",
+      "value": 100
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La bataille de vireux",
+        "numbering": "3",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle doit connaître la cible ou la voir et peut entendre sa réponse immédiatement.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
+    "base_item": "spell-fleche-enflammee",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort choisit une cible située à moins de 30 mètres. Si sonattaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Parchemin - Flèche enflammée",
+    "oid": "spell-fleche-enflammee",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort choisit une cible à distance. Si son attaque magique réussit, la cible encaisse des dégâts et la flèche enflamme ses vêtements le tour suivant.",
+    "skill": null,
+    "special_property": [
+      "DM feu: 1d6 / tr",
+      "Fin sur un résultat de 1 ou 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-invisibilite",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": "1d6+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si la personne attaque ou utilise une capacité limitée, elle redevient visible.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Parchemin - Invisibilité",
+    "oid": "spell-invisibilite",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort se rend invisible et personne ne peut plus détecter sa présence ou lui porter d’attaque.",
+    "skill": null,
+    "special_property": [
+      "Visible si action limité ou attaque"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-telekinesie",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort peut déplacer dans les airs un objet inerte ou une cible volontaire (par exemple elle-même) dont le poids n’excède pas 50 kg par Rang, à une portée de 20 m et pendant [5+Mod. de CHA] tours. L’objet peut être déplacé de 10 m par tour au prix d’une action de mouvement. Il est possible de faire tomber un objet sur une cible surprise (DM 1d6 tous les 50 kg).",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Parchemin - Télékinésie",
+    "oid": "spell-telekinesie",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": "20"
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort peut déplacer dans les airs un objet inerte ou une cible volontaire. Il est possible de faire tomber un objet sur une cible surprise qui subit alors des dégâts.",
+    "skill": null,
+    "special_property": [
+      "Poids maximum: 50kg / rang",
+      "Déplacement: 10m / tr (mouvement)",
+      "DM: 1d6 / 50kg"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-mirage",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": "5+[CHA]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée). Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie (portée 500 m). Divisez ces paramètres par 10 si l’illusion est animée. Interagir avec l’illusion la fait disparaître.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Parchemin - Mirage",
+    "oid": "spell-mirage",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 500
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort crée une illusion visuelle et sonore immobile. Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie. Divisez ces paramètres par 10 si l’illusion est animée.",
+    "skill": null,
+    "special_property": [
+      "Durée: 5+[CHA] si illusion animée",
+      "Fin si interraction"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 2,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 10
+    },
+    "attack": null,
+    "base_item": "spell-tenebres",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Parchemin - Ténèbres",
+    "oid": "spell-tenebres",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort invoque une zone fixe de ténèbres magiques. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-pattes-daraignee",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Parchemin - Pattes d’araignée",
+    "oid": "spell-pattes-daraignee",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds. S’il reste immobile, il peut lancer des sorts.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 2,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-strangulation",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "En réussissant un test d’attaque magique (portée 20 m), la personne qui lance ce sort étouffe une créature vivante et lui inflige [1d6 + Mod. d’INT] DM par tour pendant [rang] tours pourvu qu’il maintienne sa concentration par une action limitée. La victime subit un malus égal au nombre de tours d’effet de la Strangulation (-1 au premier tour, -2 au second, etc.) à tous ses tests. Si la victime sort du champ de vision du Nécromancien, le sort prend fin.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Parchemin - Strangulation",
+    "oid": "spell-strangulation",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Monastir",
+        "numbering": "3",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "En réussissant un test d’attaque magique, la personne qui lance ce sort étouffe une créature vivante pourvu qu’elle maintienne sa concentration. Elle s'affaiblie alors un peu plus chaque tour. Si la victime sort du champ de vision du Nécromancien, le sort prend fin.",
+    "skill": null,
+    "special_property": [
+      "DM: 1d6 / tour",
+      "Concentration (L)",
+      "Tests (cible): -1 / tr"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-murmure-dans-le-vent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle peut entendre sa réponse immédiatement. La portée est de 100m par rang dans la voie et le personnage doit connaître la cible ou la voir.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Parchemin - Murmures dans le vent",
+    "oid": "spell-murmure-dans-le-vent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle doit connaître la cible ou la voir et peut entendre sa réponse immédiatement.",
+    "skill": null,
+    "special_property": [
+      "Portée: 100m / rang dans la voie"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "spell-asphyxie",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1+[INT]"
+    },
+    "flavor": [],
+    "full_description": "Si la personne qui utilise ce parchemin réussit son test d’attaque magique (avec une portée de 20 m), la créature ciblée est privée d’air. La victime étouffe progressivement et subit 1d6 DM par tour pendant [1+Mod. d’INT] tours.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Parchemin - Asphyxie",
+    "oid": "spell-asphyxie",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Avec une attaque magique, la personne qui utilise ce parchemin prive la créature ciblée d’air. La victime étouffe progressivement et subit des dégâts à chaque tour.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-forme-gazeuse",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1d4+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin prend la consistance d’un gaz. Elle se déplace au ras du sol (si elle chute, elle le fait au ralenti) à une vitesse de 10 m par tour. elle peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Elle ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Parchemin - Forme gazeuse",
+    "oid": "spell-forme-gazeuse",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin se transforme en gaz. Elle se déplace au ras du sol et ne peut utiliser aucune capacité.",
+    "skill": null,
+    "special_property": [
+      "Chute ralentie : 10m / tour",
+      "Aucun DM, sauf DM de sort de zone",
+      "Déplacement : 10m / tour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 2,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-respiration-aquatique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin peut respirer sous l’eau pendant 10 minutes.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Parchemin - Respiration aquatique",
+    "oid": "spell-respiration-aquatique",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin peut respirer sous l’eau pendant 10 minutes.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-vol",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": "1d6+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Parchemin - Vol",
+    "oid": "spell-vol",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin peut voler. Sa vitesse de déplacement est la même qu’au sol.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "MagicalWand",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 50
+    },
+    "attack": null,
+    "base_item": "magic-wand-defoliation",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise cette baguette tue toute végétation ordinaire (non magique) dans un rayon de 50 mètres autour d'elle ou inflige 4d6 DM à une créature végétale sans aucune sauvegarde.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Baguette - Défoliation",
+    "oid": "magic-wand-defoliation",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "L'utilisateur de cette baguette tue toute végétation ordinaire (non magique) autour de lui ou inflige des dégâts à une créature végétale (pas de sauvegarde).",
+    "skill": null,
+    "special_property": [
+      "Attaque: 4d6 (créature végétale)"
+    ],
+    "usable_by": [],
+    "use": 12,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-longue-de-kolik",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "laenk"
+      }
+    ],
+    "full_description": "Une épée longue de belle facture pourvue d'une lame en laënk et ornée d'un rubis sur le pommeau qui éclaire dans l'obscurité dans un rayon de 3 mètres. Elle procure un bonus de +1 en attaque et inflige 1d8 de dégâts.",
+    "hands": 1,
+    "magical_level": null,
+    "material": "laenk",
+    "name": "Épée longue, de Kolik",
+    "oid": "epee-longue-de-kolik",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "Baston chez les Crânes-creux",
+        "numbering": "4",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Une épée longue de belle facture pourvue d'une lame en laënk et ornée d'un rubis sur le pommeau. Cette lame éclaire dans l'obscurité.",
+    "skill": null,
+    "special_property": [
+      "Lumière: 3m"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "tranchoir-a-2-mains-d-ogre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Bien affuté, ce tranchoir permettra de découper en rondelles tous vos ennemis. Il inflige 2d6 DM mais nécessite au minimum une force de 14.",
+    "hands": 2,
+    "magical_level": null,
+    "material": null,
+    "name": "Tranchoir",
+    "oid": "tranchoir-a-2-mains-d-ogre",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Bien affuté, ce tranchoir permettra de découper en rondelles tous vos ennemis.",
+    "skill": null,
+    "special_property": [
+      "Force minimum > 14"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "dague-sacrificielle-de-grundush",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1260.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "gorndar"
+      }
+    ],
+    "full_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir. Elle n’octroie aucun bonus magique, mais toute victime d’une blessure par cette lame doit réussir un test de CON difficulté 10 ou être Affaibli pendant un tour (d12 à tous les tests). Cette dague est clairement d'origine maléfique.",
+    "hands": 1,
+    "magical_level": null,
+    "material": "gorndar",
+    "name": "Dague sacrificielle, de Grundush",
+    "oid": "dague-sacrificielle-de-grundush",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir.",
+    "skill": null,
+    "special_property": [
+      "Test CON <= 10 (si attaque réussie): Affaibli (d12) pendant 1 tour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-courte-de-qualite-en-fer-froid",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1260.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "cold-iron"
+      }
+    ],
+    "full_description": "Une épée courte de qualité qui permet d'attaquer avec un bonus de +1 et pourvue d'une lame en ferd froid. Cette épée inflige 1d6 de dégâts qui sont multipliés par 2 contre le fées et les démons.",
+    "hands": 1,
+    "magical_level": null,
+    "material": "cold-iron",
+    "name": "Épée courte de qualité, en fer froid",
+    "oid": "epee-courte-de-qualite-en-fer-froid",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": null,
+        "chapter": "Baston chez les Crânes-creux",
+        "numbering": "4",
+        "title": "Retour à clairval"
+      }
+    ],
+    "short_description": "Une épée courte de qualité pourvue d'une lame en ferd froid.",
+    "skill": null,
+    "special_property": [
+      "DM: x2 (fées et démons)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "rapiere-elfique-+1-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "silver"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Une rapière +1 en argent, décorée de magnifiques entrelacs elfiques et d’une garde qui semble faite de dentelle d’acier (mais très solide). Cette arme inflige 1d6 dégâts qui sont doublé contre les lycanthropes. L'arme ignore également la RD d'une telle créature.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": "silver",
+    "name": "Rapière elfique +1, en argent",
+    "oid": "rapiere-elfique-+1-en-argent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Une rapière en argent, décorée de magnifiques entrelacs elfiques et d’une garde qui semble faite de dentelle d’acier (mais très solide).",
+    "skill": null,
+    "special_property": [
+      "DM: x2 (sensible à l'argent)",
+      "RD: ignoré (sensible à l'agent)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "baton-en-bois-+1-magique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un bâton +1 (bonus en attaque au contact et aux DM, mais aussi en attaque magique) en simple bois noir rehaussé de deux cercles d’or fin. Il inflige donc 1d4 +1 DM.",
+    "hands": 2,
+    "magical_level": 1,
+    "material": "wood",
+    "name": "Bâton +1, en bois noir",
+    "oid": "baton-en-bois-+1-magique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Un bâton magique en simple bois noir rehaussé de deux cercles d’or fin. Ce baton procure un bonus en attaque au contract, aux dégâts mais aussi en attaque magique.",
+    "skill": null,
+    "special_property": [
+      "Attaque magique: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 10,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "baton-lance-+1",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un bâton-lance +1 avec une lame en forme de feuille, une arme elfique utilisée par certains guerriers magiciens de ce peuple (DM 1d10 à 2 mains).",
+    "hands": 2,
+    "magical_level": 1,
+    "material": "wood",
+    "name": "Bâton-lance +1",
+    "oid": "baton-lance-+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Un bâton-lance avec une lame en forme de feuille, une arme elfique utilisée par certains guerriers magiciens de ce peuple.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "hache-en-durium-de-urgashn",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3270.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "quality"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "La hache en durium d'Urgashn est une arme de qualité qui permet de tailler en pièces même les plus gros durs à cuire. Elle inflige 2d8 dégâts.",
+    "hands": 2,
+    "magical_level": 1,
+    "material": "durium",
+    "name": "Hâche en durium, d'Urgashn",
+    "oid": "hache-en-durium-de-urgashn",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "La hache en durium d'Urgashn est une arme de qualité qui permet de tailler en pièces même les plus gros durs à cuire.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 10,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-longue-en-durium-de-urgashn",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3270.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "quality"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "L'épée en durium d'Urgashn est une arme de qualité qui permet de tailler en pièces même les plus gros durs à cuire. Elle inflige 1d10 dégâts.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": "durium",
+    "name": "Épée longue en durium, d'Urgashn",
+    "oid": "epee-longue-en-durium-de-urgashn",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "L'épée en durium d'Urgashn est une arme de qualité qui permet de tailler en pièces même les plus gros durs à cuire.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "rapiere-+2-de-parade",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Une rapière spécialement faite pour parer les coups qui apporte un bonus de +2 en défense. Elle est magique et apporte un bonus de +2 en attaque et aux dégâts",
+    "hands": 1,
+    "magical_level": 4,
+    "material": "silver",
+    "name": "Rapière de parade +2, d'Amarange le Bel",
+    "oid": "rapiere-+2-de-parade",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une rapière spécialement faite pour parer les coups.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Boots",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "boots-sprint",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une fois par combat, la personne qui porte ces bottes peut effectuer un déplacement supplémentaire gratuit de 20 mètres à n’importe quel moment du tour.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Bottes de vitesse",
+    "oid": "boots-sprint",
+    "quantity": -1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": null,
+    "short_description": "Une fois par combat, la personne qui porte ces bottes peut effectuer un déplacement supplémentaire gratuit à n’importe quel moment du tour.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Boots",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "boots-course-des-airs",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui porte ces bottes défie les lois de la pesanteur et peut se déplacer sur des surfaces qui ne devraient pas supporter son poids. Il peut se déplacer sur l’eau, la neige, le feuillage des arbres ou courir sur un mur vertical. Il doit commencer et terminer son déplacement sur une surface normale.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Bottes de cuir souple",
+    "oid": "boots-course-des-airs",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "La personne qui porte ces bottes défie les lois de la pesanteur et peut se déplacer sur des surfaces qui ne devraient pas supporter son poids. Il peut se déplacer sur l’eau, la neige, le feuillage des arbres ou courir sur un mur vertical. Il doit commencer et terminer son déplacement sur une surface normale.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "helmet-murmure-dans-le-vent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "RD",
+        "limitation": "Seulement contre les critiques",
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui porte ce casque à nasal chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle peut entendre sa réponse immédiatement. La portée est de 100m par rang dans la voie et le personnage doit connaître la cible ou la voir. Ce casque offre une RD de 6 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -6 a tous les tests de SAG destinés à simuler la perception, détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Casque - Murmures dans le vent",
+    "oid": "helmet-murmure-dans-le-vent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Ce casque à nasal permet de chuchoter un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle doit connaître la cible ou la voir et peut entendre sa réponse immédiatement.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
+    "special_property": [
+      "Portée: 100m / rang dans la voie"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bandeau-intelligence",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce bandeau robe apporte un bonus de +1 au Mod. d'intelligence de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Bandeau, d'intelligence +1",
+    "oid": "bandeau-intelligence+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce bandeau apporte un bonus au Mod. d'intelligence de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[INT]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bandeau-intelligence",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce bandeau robe apporte un bonus de +2 au Mod. d'intelligence de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Bandeau, d'intelligence +2",
+    "oid": "bandeau-intelligence+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce bandeau apporte un bonus au Mod. d'intelligence de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[INT]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bandeau-intelligence",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce bandeau robe apporte un bonus de +3 au Mod. d'intelligence de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Bandeau, d'intelligence +3",
+    "oid": "bandeau-intelligence+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce bandeau apporte un bonus au Mod. d'intelligence de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[INT]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bandeau-intelligence",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce bandeau robe apporte un bonus de +4 au Mod. d'intelligence de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Bandeau, d'intelligence +4",
+    "oid": "bandeau-intelligence+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce bandeau apporte un bonus au Mod. d'intelligence de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[INT]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "serre-tete-sagesse",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce serre-tête robe apporte un bonus de +1 au Mod. de sagesse de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Serre-tête, de sagesse +1",
+    "oid": "serre-tete-sagesse+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce serre-tête apporte un bonus au Mod. de sagesse de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[SAG]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "serre-tete-sagesse",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce serre-tête robe apporte un bonus de +2 au Mod. de sagesse de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Serre-tête, de sagesse +2",
+    "oid": "serre-tete-sagesse+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce serre-tête apporte un bonus au Mod. de sagesse de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[SAG]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "serre-tete-sagesse",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce serre-tête robe apporte un bonus de +3 au Mod. de sagesse de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Serre-tête, de sagesse +3",
+    "oid": "serre-tete-sagesse+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce serre-tête apporte un bonus au Mod. de sagesse de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[SAG]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "serre-tete-sagesse",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ce serre-tête robe apporte un bonus de +4 au Mod. de sagesse de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Serre-tête, de sagesse +4",
+    "oid": "serre-tete-sagesse+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ce serre-tête apporte un bonus au Mod. de sagesse de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[SAG]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "serre-tete-en-or-parnesir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 15000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magnifique serre-tête en or blanc représentant un aigle. Le mot Parnesir est gravé à l’intérieur et il faut le faut prononcer pour activer ses pouvoirs. Une fois activé et porté, il confère un bonus de +5 aux tests de perception basés sur la SAG et un bonus de +2 en attaque et +1 aux DM quand on tire à l’arc en le portant. Ces bonus sont cumulables avec d’autres bonus éventuels.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Serre-Tête en or",
+    "oid": "serre-tete-en-or-parnesir",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un magnifique serre-tête en or blanc représentant un aigle. Le mot Parnesir est gravé à l’intérieur.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "perception"
+      }
+    ],
+    "special_property": [
+      "Attaque: +2 (arc)",
+      "DM: +2 (arc)",
+      "Bonus cumulables d'autres"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "robe-charisme",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete robe apporte un bonus de +1 au Mod. de charisme de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Robe, de charisme +1",
+    "oid": "robe-charisme+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CHA]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "robe-charisme",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete robe apporte un bonus de +2 au Mod. de charisme de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Robe, de charisme +2",
+    "oid": "robe-charisme+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CHA]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "robe-charisme",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete robe apporte un bonus de +3 au Mod. de charisme de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Robe, de charisme +3",
+    "oid": "robe-charisme+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CHA]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "robe-charisme",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete robe apporte un bonus de +4 au Mod. de charisme de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Robe, de charisme +4",
+    "oid": "robe-charisme+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CHA]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "amulet-charme",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une amulette de charme qui donne à son porteur un bonus pour tous les sorts de charme.",
+    "hands": 0,
+    "magical_level": null,
+    "material": "gold",
+    "name": "Amulette de charme, d'Amarange le Bel",
+    "oid": "amulet-charme",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Une amulette de charme qui donne à son porteur un bonus pour tous les sorts de charme.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +5 (sort de charme)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "amulet-constitution",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete amulette apporte un bonus de +1 au Mod. de constitution de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Amulette, de constitution +1",
+    "oid": "amulet-constitution+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CON]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "amulet-constitution",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete amulette apporte un bonus de +2 au Mod. de constitution de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Amulette, de constitution +2",
+    "oid": "amulet-constitution+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CON]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "amulet-constitution",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete amulette apporte un bonus de +3 au Mod. de constitution de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Amulette, de constitution +3",
+    "oid": "amulet-constitution+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CON]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "amulet-constitution",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete amulette apporte un bonus de +4 au Mod. de constitution de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Amulette, de constitution +4",
+    "oid": "amulet-constitution+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[CON]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "collier-de-charisme",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un magnifique médaillon d’argent décoré d’un rubis. Ce collier apporte un bonus de +1 au Mod. de Charisme.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Collier de charisme +1",
+    "oid": "collier-de-charisme",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Un magnifique médaillon d’argent décoré d’un rubis. Ce collier apporte un bonus de +1 au Mod. de Charisme.",
+    "skill": null,
+    "special_property": [
+      "[CHA]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-dexterite",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +1 au Mod. de dextérité de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Gantelets, de dextérité +1",
+    "oid": "gloves-dexterite+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de dextérité de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-dexterite",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +2 au Mod. de dextérité de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Gantelets, de dextérité +2",
+    "oid": "gloves-dexterite+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de dextérité de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-dexterite",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +3 au Mod. de dextérité de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Gantelets, de dextérité +3",
+    "oid": "gloves-dexterite+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de dextérité de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-dexterite",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +4 au Mod. de dextérité de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Gantelets, de dextérité +4",
+    "oid": "gloves-dexterite+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de dextérité de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +1 au Mod. de force de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Gantelets, de force +1",
+    "oid": "gloves-force+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +2 au Mod. de force de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Gantelets, de force +2",
+    "oid": "gloves-force+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +3 au Mod. de force de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Gantelets, de force +3",
+    "oid": "gloves-force+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces gantelets apportent un bonus de +4 au Mod. de force de la personne qui les porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Gantelets, de force +4",
+    "oid": "gloves-force+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
+    "skill": null,
+    "special_property": [
+      "[DEX]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "belt-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete ceinture apporte un bonus de +1 au Mod. de force de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Ceinture de force +1",
+    "oid": "belt-force+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[FOR]: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "belt-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete ceinture apporte un bonus de +2 au Mod. de force de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Ceinture de force +2",
+    "oid": "belt-force+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[FOR]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "belt-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete ceinture apporte un bonus de +3 au Mod. de force de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Ceinture de force +3",
+    "oid": "belt-force+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[FOR]: +3"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "belt-force",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete ceinture apporte un bonus de +4 au Mod. de force de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Ceinture de force +4",
+    "oid": "belt-force+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[FOR]: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "protective-gold-ring-+1",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un anneau de protection en or qui procure un bonus de +1 en DEF. Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": "gold",
+    "name": "Anneau de protection +1, en or",
+    "oid": "protective-gold-ring-+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Un anneau de protection en or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bague-en-agate-de-manahim",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une bague en agate représentant un serpent qui se mord la queue.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bague en agate, de Manahim",
+    "oid": "bague-en-agate-de-manahim",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une bague en agate représentant un serpent qui se mord la queue.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": "lightning"
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "CHA"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": "(décharge)",
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 10
+      }
+    },
+    "base_item": "ring-sous-tension",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui utilise le pouvoir de cet anneau (maximum 3 fois par jour)se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui la blesse ou la touche reçoit une décharge infligeant 1d6 DM. Elle peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Anneau en fer, de poigne électrique",
+    "oid": "ring-sous-tension",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Cet anneau est chargé d’énergie électrique. Toute créature qui vous blesse ou vous touche reçoit une décharge provoquant 1d6 DM.",
+    "skill": null,
+    "special_property": [
+      "Utilisation: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 2,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bouclier-de-protection-feu-de-karoom",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Un bouclier qui porte le symbole de Thürdim (Arshran) et protège du feu. Il procure une défense de +1 et divise les DM  souffle ou de zone par 2.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": null,
+    "name": "Bouclier de protection, de Karoom",
+    "oid": "bouclier-de-protection-feu-de-karoom",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La bataille de vireux",
+        "numbering": "3",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "Un bouclier qui porte le symbole de Thürdim (Arshran) et protège du feu.",
+    "skill": null,
+    "special_property": [
+      "DM feu (souffle, zone) / 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche-de-guerre-elfique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ces flêches de guerre elfiques procurent un petit bonus de +1 aux dégâts, mais ne sont utilisables qu'avec un arc long.  Il en reste 5 dans ce carqois.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêches de guerre elfique",
+    "oid": "fleche-de-guerre-elfique",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le Sanctuaire de Trenner",
+        "numbering": "3",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Cinq flêches de guerre elfiques qui procurent un petit bonus aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "DM: +1",
+      "Uniquement avec un arc long"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche-meutriere",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 240.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des flêches meutrières qui infligent d'importants dégâts supplémentaires. Il en reste 4 dans ce carqois.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêche meurtrière",
+    "oid": "fleche-meutriere",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Des flêches meutrières qui infligent d'importants dégâts supplémentaires.",
+    "skill": null,
+    "special_property": [
+      "DM: +2d6"
+    ],
+    "usable_by": [],
+    "use": 4,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau-meutrier",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 240.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des carreaux meutriers qui infligent d'importants dégâts supplémentaires. Il en reste 4 dans ce lot.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreau meurtrier",
+    "oid": "carreau-meutrier",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Des carreaux meutriers qui infligent d'importants dégâts supplémentaires.",
+    "skill": null,
+    "special_property": [
+      "DM: +2d6"
+    ],
+    "usable_by": [],
+    "use": 4,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts de +1. Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Flêche +1",
+    "oid": "fleche+1",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +1",
+      "DM: +1"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts de +2. Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Flêche +2",
+    "oid": "fleche+2",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2",
+      "DM: +2"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts de +3. Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Flêche +3",
+    "oid": "fleche+3",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +3",
+      "DM: +3"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts de +4. Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Flêche +4",
+    "oid": "fleche+4",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +4",
+      "DM: +4"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts de +1. Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Bille +1",
+    "oid": "bille+1",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +1",
+      "DM: +1"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts de +2. Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Bille +2",
+    "oid": "bille+2",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2",
+      "DM: +2"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts de +3. Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Bille +3",
+    "oid": "bille+3",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +3",
+      "DM: +3"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts de +4. Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Bille +4",
+    "oid": "bille+4",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +4",
+      "DM: +4"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts de +1. Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Carreau +1",
+    "oid": "carreau+1",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +1",
+      "DM: +1"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 450
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts de +2. Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Carreau +2",
+    "oid": "carreau+2",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2",
+      "DM: +2"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts de +3. Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Carreau +3",
+    "oid": "carreau+3",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +3",
+      "DM: +3"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Magical",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts de +4. Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Carreau +4",
+    "oid": "carreau+4",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux magiques apportent un bonus à l'attaque et aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +4",
+      "DM: +4"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  }
+]

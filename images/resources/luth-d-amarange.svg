@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="luth-d-amarange.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/plic/Téléchargements/luth-d-amarange.png"
+   inkscape:export-xdpi="24"
+   inkscape:export-ydpi="24">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1356"
+     inkscape:window-height="775"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="0.82035435"
+     inkscape:cx="185.32976"
+     inkscape:cy="183.25273"
+     inkscape:window-x="2070"
+     inkscape:window-y="266"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <g
+     class=""
+     transform="translate(0,0)"
+     style="touch-action: none;"
+     id="g10">
+    <g
+       id="g8">
+      <path
+         d="m 491.938,18.813 -17.72,2.375 -89.374,11.968 -6.22,0.844 -1.562,6.094 -18.5,72.156 -147.39239,149.34734 C 130.0682,233.87544 48.270436,301.002 21.883141,348.35214 c -15.6079996,35.885 -11.856,90.43748 17.328401,122.79237 33.367542,37.95488 105.088078,41.53445 136.683078,21.13245 C 240.72461,423.25176 274.98625,356.1482 250.904,300.22 l 146,-147.22 18.938,1.375 6.156,0.438 2.813,-5.5 6.125,-11.907 25.03,11.906 8.034,-16.874 -24.53,-11.656 7.655,-14.874 25.844,12.28 8.03,-16.874 L 455.686,89.284 464,73.155 491.03,86 499.063,69.125 472.53,56.53 483.75,34.72 Z"
+         class=""
+         id="path2"
+         inkscape:connector-curvature="0"
+         style="fill:#b57204;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+         sodipodi:nodetypes="ccccccccccccccccccccccccccccc" />
+      <path
+         d="M367.406 129.813L380.626 142.906L180.406 344.781C178.85 342.798 177.179 340.883 175.344 339.064C172.694 336.436 169.851 334.104 166.874 332.064L367.406 129.814Z"
+         class="selected"
+         fill="#9b9b9b"
+         fill-opacity="1"
+         stroke="#4a4a4a"
+         stroke-opacity="1"
+         stroke-width="10"
+         id="path4" />
+      <path
+         d="M131.936 339.906C142.85 339.86 153.773 344 162.186 352.344C179.02 369.034 179.124 395.92 162.436 412.75C145.751 429.58 118.863 429.69 102.031 413C85.201 396.31 85.095 369.424 101.781 352.594C110.126 344.179 121.026 339.954 131.938 339.906Z"
+         class=""
+         fill="#8b572a"
+         fill-opacity="1"
+         stroke="#4a4a4a"
+         stroke-opacity="1"
+         stroke-width="10"
+         id="path6" />
+    </g>
+  </g>
+</svg>

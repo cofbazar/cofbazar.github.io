@@ -24,9 +24,20 @@ var cofConfig = {
       {"name": "Robe", "label": "Robes", "description": "Robe de mage", "file": "robes.json", "icon": "robes.png"},
       {"name": "Shield", "label": "Boucliers", "description": "Bouclier", "file": "shields.json", "icon": "shields.png"},
       {"name": "Spell", "label": "Parchemins", "description": "Parchemin", "file": "spells.json", "icon": "spells.png"},
-      {"name": "Weapon", "label": "Armes", "description": "Armes", "file": "weapons.json", "icon": "weapons.png"},
-    ]
+      {"name": "Weapon", "label": "Armes", "description": "Arme", "file": "weapons.json", "icon": "weapons.png"},
+      {"name": "Unique", "label": "Objets uniques", "description": "Objet unique", "file": "uniques.json", "icon": "uniques.png"},
+      {"name": "Bullet", "label": "Munitions", "description": "Munition", "file": "bullets.json", "icon": "bullets.png"},
+      {"name": "Amulet", "label": "Amulettes", "description": "Amulette", "file": "amulets.json", "icon": "amulets.png"},
+      {"name": "Gloves", "label": "Gantelets", "description": "Gantelets", "file": "gloves.json", "icon": "gloves.png"},
+      {"name": "Boots", "label": "Bottes", "description": "Bottes", "file": "boots.json", "icon": "boots.png"},
+      {"name": "Belt", "label": "Ceintures", "description": "Ceinture", "file": "belts.json", "icon": "belts.png"},
+    ],
   },
+  "modes": [
+    {"name": "default", "label": "Normal"},
+    {"name": "low-fantasy", "label": "Low fantasy"},
+    {"name": "quest", "label": "Quêtes (MJ only)"},
+  ],
   "units": {
     "cost": "pa",
     "people": "h"
@@ -115,6 +126,7 @@ var cofConfig = {
       {"name": "dragon-scourge", "label": "Objet fléau des dragons"},
       {"name": "goblin-scourge", "label": "Objet fléau des gobelins"},
       {"name": "quality", "label": "Objet de qualité"},
+      {"name": "twemby", "label": "Objet des maîtres-artisans de twemby"},
       {"name": "magical", "label": "Objet magique"},
       {"name": "free-action", "label": "Objet de libre action"},
       {"name": "defense", "label": "Objet de défense"},
@@ -149,6 +161,7 @@ var cofConfig = {
       {"name": "silver", "label": "Objet en argent"},
       {"name": "sombracier", "label": "Objet en sombracier"},
       {"name": "xylene", "label": "Objet en xylène"},
+      {"name": "gorndar", "label": "Objet en Gor'N'Dar"},
     ],
     "prefix": "flavor-",
     "label": "Variante de matériaux"

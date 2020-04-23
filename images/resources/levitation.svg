@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="levitation.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18">
+    <radialGradient
+       id="gradient-3">
+      <stop
+         id="stop829"
+         stop-opacity="1"
+         stop-color="#8b572a"
+         offset="0%" />
+      <stop
+         id="stop831"
+         stop-opacity="1"
+         stop-color="#b57204"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-7">
+      <stop
+         id="stop834"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop836"
+         stop-opacity="1"
+         stop-color="#e7e7e7"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-8">
+      <stop
+         id="stop839"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop841"
+         stop-opacity="1"
+         stop-color="#e5e5e5"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-9">
+      <stop
+         id="stop844"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop846"
+         stop-opacity="1"
+         stop-color="#e7e7e7"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-10">
+      <stop
+         id="stop849"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop851"
+         stop-opacity="1"
+         stop-color="#e9e9e9"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-11">
+      <stop
+         id="stop854"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop856"
+         stop-opacity="1"
+         stop-color="#eaeaea"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-12">
+      <stop
+         id="stop859"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop861"
+         stop-opacity="1"
+         stop-color="#e4e4e4"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-13">
+      <stop
+         id="stop864"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop866"
+         stop-opacity="1"
+         stop-color="#e7e7e7"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-14">
+      <stop
+         id="stop869"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop871"
+         stop-opacity="1"
+         stop-color="#e7e7e7"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-15">
+      <stop
+         id="stop874"
+         stop-opacity="1"
+         stop-color="#c9c9c9"
+         offset="0%" />
+      <stop
+         id="stop876"
+         stop-opacity="1"
+         stop-color="#e7e7e7"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1282"
+     inkscape:window-height="879"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="0.45091868"
+     inkscape:cx="139.88642"
+     inkscape:cy="698.06783"
+     inkscape:window-x="2373"
+     inkscape:window-y="81"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg14" />
+  <g
+     id="g960">
+    <ellipse
+       ry="22.413357"
+       rx="254.82388"
+       cy="487.23447"
+       cx="256.39203"
+       id="path827"
+       style="opacity:1;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:24.57540512;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       class=""
+       transform="matrix(0.39461017,0,0,0.13195441,251.25185,378.17751)"
+       id="g885">
+      <g
+         id="g883">
+        <path
+           style="fill:#c9c9c9;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 164.672,15.316 c -4.24,-0.02 -8.52,-0.008 -12.848,0.032 356.973,34.267 149.668,296.606 -133.02,225.675 v 29.272 c 208.715,52.028 406.9,-83.077 335.225,-186.316 74.252,54.5 10.927,228.767 -217.44,261.272 80.052,-17.795 151.75,-58.013 188.793,-112.78 v -0.003 c -76.777,75.27 -199.896,99.73 -306.61,83.514 v 38.547 l 0.03,0.003 v 29.983 c 103.604,17.95 230.47,-10.83 317.05,-98.192 -64.335,91.95 -198.984,149.52 -317.05,142.64 v 62.942 C 398.408,491.783 590.073,234.433 449.346,98 540.244,253.644 329.481,436.862 141.226,437.258 392.92,399.278 523.24,116.29 322.532,33.352 278.847,22.092 226.428,15.592 164.672,15.316 Z"
+           class="selected"
+           id="path881" />
+      </g>
+    </g>
+    <g
+       class=""
+       transform="matrix(-0.38770382,0,0,0.13195441,253.89952,378.17751)"
+       id="g885-3">
+      <g
+         id="g883-6">
+        <path
+           style="fill:#c9c9c9;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 164.672,15.316 c -4.24,-0.02 -8.52,-0.008 -12.848,0.032 356.973,34.267 149.668,296.606 -133.02,225.675 v 29.272 c 208.715,52.028 406.9,-83.077 335.225,-186.316 74.252,54.5 10.927,228.767 -217.44,261.272 80.052,-17.795 151.75,-58.013 188.793,-112.78 v -0.003 c -76.777,75.27 -199.896,99.73 -306.61,83.514 v 38.547 l 0.03,0.003 v 29.983 c 103.604,17.95 230.47,-10.83 317.05,-98.192 -64.335,91.95 -198.984,149.52 -317.05,142.64 v 62.942 C 398.408,491.783 590.073,234.433 449.346,98 540.244,253.644 329.481,436.862 141.226,437.258 392.92,399.278 523.24,116.29 322.532,33.352 278.847,22.092 226.428,15.592 164.672,15.316 Z"
+           class="selected"
+           id="path881-7" />
+      </g>
+    </g>
+    <g
+       id="g12"
+       transform="matrix(0.78256378,0,0,0.78256378,64.917046,28.370178)"
+       class="">
+      <g
+         id="g10">
+        <path
+           style="fill:#dbc6a8;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           id="path2"
+           class=""
+           d="m 271.9,25.85 c -18.4,0 -36,16.73 -39.2,40.97 -3.4,25.83 11.3,47.48 30.9,49.88 19.7,2.4 39.5,-14.9 43,-40.77 3.5,-25.86 -11.5,-47.43 -31,-49.85 -1.2,-0.15 -2.5,-0.23 -3.7,-0.23 z" />
+        <path
+           style="fill:#8b572a;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           id="path4"
+           class=""
+           d="m 233.7,121.6 c -38,6.3 -75.2,41.9 -94,66 -11.5,33.4 -14.5,66.7 -20.7,100 l 28.2,-0.8 c 6.6,-25.2 8.2,-51.9 21,-75.4 14.8,-8.2 26.9,-20.6 38.4,-33.8 -6.4,32.9 -14,72.3 -13.2,101.8 29.8,70.9 95.7,140.4 133,206.4 l 29.9,-24.3 C 327.5,405.8 298.8,355.1 262,301.3 c 2.1,-7.1 43.3,-163.5 28,-171.9 -20.2,9 -40.9,6 -56.3,-7.8 z" />
+        <path
+           style="fill:#b57204;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           id="path6"
+           class=""
+           d="m 305.6,180.2 c -3.1,17.8 -5.3,35.1 -10,52.8 4.5,5.4 7.5,10.5 14.3,15.3 26,15.3 52,26.3 78,36.7 l 9.2,-29.9 -77.5,-37.6 c -4.3,-12.5 -7.9,-25.2 -14,-37.3 z" />
+        <path
+           style="fill:#b57204;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           id="path8"
+           class="selected"
+           d="m 187.1,310.1 c -5.1,25 -9.8,50.2 -11.6,76.5 -15.9,31.7 -35.7,51.6 -60.5,76.4 l 30,23.2 c 23.1,-25 49.9,-47 66.7,-73.8 l 14,-42.6 C 210,350.8 197.3,331 187.1,310.1 Z" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -7,6 +7,7 @@ Les ressources utilisées pour ce site :
   * Du site contenant le Document de Référence Système pour Choniques Oubliées Fantasy ([DRS](http://co-drs.org/))
 * Les icônes : ([Game-icons.net](https://game-icons.net/)))
 * Les images : Des feuilles de personnages ([nooblieeschroniques](http://nooblieeschroniques.fr))
+* Les images dans le réperoire blackbook, contiennent des images issues des livres Anathazerïn et de l'édition deluxe du hors-série casus belli #1. Ces images sont la propriété de Black Book Editions. 
 
 Mentions légales
 ----------------

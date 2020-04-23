@@ -1010,17 +1010,48 @@
   {
     "__type__": "Capacity",
     "area": null,
-    "attack": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1+[INT]"
+    },
     "full_description": "Si le magicien réussit son test d’attaque magique (avec une portée de 20 m), la créature ciblée est privée d’air. La victime étouffe progressivement et subit 1d6 DM par tour pendant [1+Mod. d’INT] tours.",
     "limited": true,
     "name": "Asphyxie",
     "oid": "http://co-drs.org/capacites/asphyxie/",
-    "range": null,
-    "short_description": "Si le magicien réussit son test d’attaque magique, la créature ciblée est privée d’air.",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "short_description": "Avec une attaque magique, le magicien prive la créature ciblée d’air. La victime étouffe progressivement et subit des dégâts à chaque tour.",
     "skill": null,
     "special_property": [],
     "way_rank": 1,
@@ -3908,7 +3939,43 @@
   {
     "__type__": "Capacity",
     "area": null,
-    "attack": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
     "count": 1,
     "creature": null,
     "defense": null,
@@ -3918,9 +3985,12 @@
     "name": "Flèche enflammée",
     "oid": "http://co-drs.org/capacites/fleche-enflammee/",
     "range": null,
-    "short_description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements.",
+    "short_description": "Le Magicien lance ce sort choisit une cible à distance. Si son attaque magique réussit, la cible encaisse des dégâts et la flèche enflamme ses vêtements le tour suivant.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "DM feu: 1d6 / tr",
+      "Fin sur un résultat de 1 ou 2"
+    ],
     "way_rank": 3,
     "wid": "http://co-drs.org/voies/voie-de-la-magie-destructrice/"
   },
@@ -5258,7 +5328,9 @@
     "range": null,
     "short_description": "En se concentrant, le Moine peut « léviter » à une vitesse de 10 m par tour.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Déplacement: 10 m / tour"
+    ],
     "way_rank": 4,
     "wid": "http://co-drs.org/voies/voie-du-vent/"
   },
@@ -5732,15 +5804,26 @@
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": "5+[CHA]"
+    },
     "full_description": "L’Ensorceleur crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée). Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie (portée 500 m). Divisez ces paramètres par 10 si l’illusion est animée. Interagir avec l’illusion la fait disparaître.",
     "limited": true,
     "name": "Mirage",
     "oid": "http://co-drs.org/capacites/mirage/",
-    "range": null,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 500
+    },
     "short_description": "L’Ensorceleur crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée).",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Durée: 5+[CHA] si illusion animée",
+      "Fin si interraction"
+    ],
     "way_rank": 2,
     "wid": "http://co-drs.org/voies/voie-des-illusions/"
   },
@@ -5890,9 +5973,11 @@
     "name": "Murmures dans le vent",
     "oid": "http://co-drs.org/capacites/murmures-dans-le-vent/",
     "range": null,
-    "short_description": "L’Ensorceleur chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Il peut entendre sa réponse immédiatement.",
+    "short_description": "L’Ensorceleur  chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle doit connaître la cible ou la voir et peut entendre sa réponse immédiatement.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Portée: 100m / rang dans la voie"
+    ],
     "way_rank": 1,
     "wid": "http://co-drs.org/voies/voie-de-l-air/"
   },
@@ -7532,9 +7617,13 @@
     "name": "Sac sans fond",
     "oid": "http://co-drs.org/capacites/sac-sans-fond/",
     "range": null,
-    "short_description": "Le Forgesort possède un sac dans lequel il peut entreposer 50 kg de matériel par rang dans la voie, tandis que le sac semble toujours ne peser qu’un kilo.",
+    "short_description": "Le Forgesort possède un sac pour y mettre du matériel. Le sac peut aussi fournir les objets qu’il désire de moins de 20 pa, 50 kg, 1m3 ou 1m de circonférence. Pas plus de 20 pa d’objets créés peuvent exister à la fois. Ils disparaissent au bout d’une heure.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Le sac pèse 1kg (même plein)",
+      "50Kg / rang dans la voie",
+      "Ne peut contenir de créature vivante"
+    ],
     "way_rank": 3,
     "wid": "http://co-drs.org/voies/voie-des-artefacts/"
   },
@@ -8056,8 +8145,12 @@
     "limited": false,
     "name": "Sprint",
     "oid": "http://co-drs.org/capacites/sprint/",
-    "range": null,
-    "short_description": "Une fois par combat, le Voleur peut effectuer un déplacement supplémentaire gratuit de 20 mètres à n’importe quel moment du tour.",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "short_description": "Une fois par combat, le Voleur peut effectuer un déplacement supplémentaire gratuit à n’importe quel moment du tour.",
     "skill": null,
     "special_property": [],
     "way_rank": 1,
@@ -8075,10 +8168,18 @@
     "limited": true,
     "name": "Strangulation",
     "oid": "http://co-drs.org/capacites/strangulation/",
-    "range": null,
-    "short_description": "En réussissant un test d’attaque magique, le Nécromancien étouffe une créature vivante pourvu qu’il maintienne sa concentration.",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "short_description": "En réussissant un test d’attaque magique, le Nécromancien étouffe une créature vivante pourvu qu’il maintienne sa concentration. Elle s'affaiblie alors un peu plus chaque tour. Si la victime sort du champ de vision du Nécromancien, le sort prend fin.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "DM: 1d6 / tour",
+      "Concentration (L)",
+      "Tests (cible): -1 / tr"
+    ],
     "way_rank": 3,
     "wid": "http://co-drs.org/voies/voie-de-la-sombre-magie/"
   },
@@ -8260,15 +8361,27 @@
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
     "full_description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire (par exemple lui-même) dont le poids n’excède pas 50 kg par Rang, à une portée de 20 m et pendant [5+Mod. de CHA] tours. L’objet peut être déplacé de 10 m par tour au prix d’une action de mouvement. Il est possible de faire tomber un objet sur une cible surprise (DM 1d6 tous les 50 kg).",
     "limited": true,
     "name": "Télékinésie",
     "oid": "http://co-drs.org/capacites/telekinesie/",
-    "range": null,
-    "short_description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire.",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": "20"
+    },
+    "short_description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire. Il est possible de faire tomber un objet sur une cible surprise qui subit alors des dégâts.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Poids maximum: 50kg / rang",
+      "Déplacement: 10m / tr (mouvement)",
+      "DM: 1d6 / 50kg"
+    ],
     "way_rank": 3,
     "wid": "http://co-drs.org/voies/voie-de-l-air/"
   },
@@ -8312,12 +8425,20 @@
   },
   {
     "__type__": "Capacity",
-    "area": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 10
+    },
     "attack": null,
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[INT]"
+    },
     "full_description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.",
     "limited": true,
     "name": "Ténèbres",

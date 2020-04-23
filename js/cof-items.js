@@ -1,5 +1,5 @@
 // default filter values
-var defaultFantasyMode = "high";
+var defaultModeType = "default";
 var defaultItemType = ['Armor'];
 var defaultAreaSize = "village";
 var defaultArea = cofConfig['areas']['data'].find(area => area['name'] === defaultAreaSize);
@@ -15,11 +15,11 @@ var defaultItemPriceMaxRange = Number(defaultArea['cost-max']);
 var defaultSortKeys = [{key: 'cost', dir: 0},
                        {key: 'name', dir: 0},
                        {key: 'tlabel', dir: 0}];
-
+                       
 // Item filter data
 var defaultFilter = {
-  "fantasyMode": defaultFantasyMode,
-  "type": defaultItemType,
+  "modeType": defaultModeType,
+  "itemType": defaultItemType,
   "areaSize": defaultAreaSize,
   "areaPriceMax": defaultAreaPriceMax,
   "price": {
@@ -59,8 +59,12 @@ var itemData = new Vue({
       console.time("COF data loaded");
       arrayOfResponses.forEach(a => {
         //Add icon type and label type to data
-        itype = cofConfig['items']['data'].find(t => t['name'] === a[0]['__type__']);
+        //itype = cofConfig['items']['data'].find(t => t['name'] === a[0]['__type__']);
         a.map(item => {
+          if (item.cost === null) {
+            console.log("Item (" + JSON.stringify(item.cost) + "): " + item.oid);
+          }
+          itype = cofConfig['items']['data'].find(t => t['name'] === item['__type__']);
           item['ticon'] = itype['icon'];
           item['tlabel'] = itype['label'];
           item['tdescription'] = itype['description'];
@@ -77,7 +81,7 @@ var itemData = new Vue({
       /*maxCofDataPrice = this.cofFullData.maxPrice();
       notSelectedArea = {"name": "notSelected", "cost-max" : maxCofDataPrice};*/
       appSeparator.allItems = this.cofFullData.length;
-      itemList.itemsListData = filterItemsList(this.cofFullData, itemFilter);
+      itemList.itemsListData = this.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
     console.timeEnd("Initialization");
     });
@@ -90,8 +94,8 @@ var itemSettings = new Vue({
     resetFilters: function() {
       saveFilter(defaultFilter);
       itemFilter = loadFilter(defaultFilter);
-      itemFilter.fantasyMode = itemFilter["fantasyMode"];
-      itemType.checkedNames = itemFilter["type"];
+      itemModeType.modeType = itemFilter["modeType"];
+      itemType.checkedNames = itemFilter["itemType"];
       areaSize.selected = itemFilter["areaSize"];
       itemPrice.min = itemFilter["price"]["min"];
       itemPrice.max = itemFilter["price"]["max"];
@@ -109,23 +113,24 @@ var itemSettings = new Vue({
 });
 
 
-var itemFantasy = new Vue({
-  el: '#item-fantasy',
+var itemModeType = new Vue({
+  el: '#item-mode-type',
   data: {
-    fantasyMode: itemFilter["fantasyMode"],
+    modeType: itemFilter["modeType"],
+    modes: cofConfig['modes']
   },
   watch: {
-    fantasyMode: function (v) {
-      console.time("Fantasy mode checked(" + v + ")");
-      this.fantasyMode = v;
-      itemFilter["fantasyMode"] = this.fantasyMode;
+    modeType: function (v) {
+      console.time("Mode type checked(" + v + ")");
+      this.modeType = v;
+      itemFilter["modeType"] = this.modeType;
       saveFilter(itemFilter);
-      itemList.itemsListData = filterItemsList(itemData.cofFullData, itemFilter);
+      itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
       if (areaSize.areaPriceMax < 0.0) {
         itemPrice.max = itemData.cofFullData.maxPrice(itemFilter); 
       } 
-      console.timeEnd("Fantasy mode checked(" + v + ")");
+      console.timeEnd("Mode type checked(" + v + ")");
     }
   }
 });
@@ -133,8 +138,8 @@ var itemFantasy = new Vue({
 var itemType = new Vue({
   el: '#item-type',
   data: {
-    checkedNames: itemFilter["type"],
-    inputs: cofConfig['items']['data'].map(item => ({
+    checkedNames: itemFilter["itemType"],
+    inputs: cofConfig['items']['data'].filter(item => item.name != "Unique").map(item => ({
       value: item['name'],
       label: item['label'],
       icon:item['icon']
@@ -150,12 +155,13 @@ var itemType = new Vue({
   watch: {
     checkedNames: function (v) {
       console.time("Item type checked(" + v + ")");
-      itemFilter["type"] = this.checkedNames;
+      itemFilter["itemType"] = this.checkedNames;
       saveFilter(itemFilter);
-      itemList.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+      itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
       if (areaSize.areaPriceMax < 0.0) {
-        itemPrice.max = itemData.cofFullData.maxPrice(itemFilter); 
+        itemPrice.max = itemData.cofFullData.maxPrice(itemFilter);
+        //console.log("Set price max : " + itemPrice.max);
       } 
       console.timeEnd("Item type checked(" + v + ")");
     }
@@ -190,7 +196,7 @@ var itemPrice = new Vue({
       itemFilter["price"]["startMin"] = this.min;
       itemFilter["price"]["min"] = this.min;
       saveFilter(itemFilter);
-      itemList.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+      itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Max range(" + v + ")");
     }
@@ -224,7 +230,7 @@ var itemPrice = new Vue({
       itemFilter["price"]["startMin"] = this.minRange;
       itemFilter["price"]["startMax"] = this.maxRange;
       saveFilter(itemFilter);
-      itemList.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+      itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
       console.timeEnd("Update slider (" + handle + ", " + values[handle] + ")")
     });
@@ -249,7 +255,7 @@ var areaSize = new Vue({
       selectedArea = cofConfig['areas']['data'].find(area => area['name'] === v);
       itemFilter["areaSize"] = this.selected;
       saveFilter(itemFilter);
-      console.log("selectedArea : " + JSON.stringify(selectedArea));
+      //console.log("selectedArea : " + JSON.stringify(selectedArea));
       this.areaPriceMax = Number(selectedArea['cost-max']);
       itemFilter["areaPriceMax"] = areaSize.areaPriceMax;
       saveFilter(itemFilter);
@@ -325,7 +331,7 @@ var itemList = new Vue({
         this.userInputDescription = v;
         itemFilter["userInput"]["description"] = this.userInputDescription;
         saveFilter(itemFilter);
-        this.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+        this.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
         appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "'");
       }
@@ -336,7 +342,7 @@ var itemList = new Vue({
         this.userInputDescription = v;
         itemFilter["userInput"]["description"] = this.userInputDescription;
         saveFilter(itemFilter);
-        this.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+        this.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
         appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "' for mobile");
       }
@@ -347,7 +353,7 @@ var itemList = new Vue({
         this.userInputName = v;
         itemFilter["userInput"]["name"] = this.userInputName;
         saveFilter(itemFilter);
-        this.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+        this.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
         appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "'");
       }
@@ -358,7 +364,7 @@ var itemList = new Vue({
         this.userInputName = v;
         itemFilter["userInput"]["name"] = this.userInputName;
         saveFilter(itemFilter);
-        this.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+        this.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
         appSeparator.loadedItems = this.itemsListData.length;
         console.timeEnd("Filter data on '" + v + "' for mobile");
       }
@@ -407,7 +413,7 @@ var itemList = new Vue({
 
       itemList["sortKeys"] = this.sortKeys;
       saveFilter(itemFilter);
-      this.itemsListData = filterItemsList(itemData.cofFullData, itemFilter); 
+      this.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = this.itemsListData.length;
       console.timeEnd("Sorting (" + key + ")");
     },

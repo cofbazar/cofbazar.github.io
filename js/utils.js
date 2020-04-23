@@ -16,31 +16,15 @@ fetchData = () => {
 };
 
 Array.prototype.minPrice = function(filters) {
+  //console.log("maxPrice("+ JSON.stringify(filters) + ")");
   if (filters === undefined) {
     return this.reduce((min, o) =>
       o.cost.value < min ? o.cost.value : min, this[0].cost.value);
   } else {
-    return this.filters(item =>
-        filters['type'].includes(item['__type__']) && 
-        isMagicalItem(filters['fantasyMode'], item)
-      ).reduce((min, o) =>
-        o.cost.value < min ? o.cost.value : min, this[0].cost.value
-      );
-    }
-};
-
-Array.prototype.maxPrice = function(filters) {
-  console.log("maxPrice("+ JSON.stringify(filters) + ")");
-  if (filters === undefined) {
-    return this.reduce((max, o) =>
-      o.cost.value > max ? o.cost.value : max, this[0].cost.value);
-  } else {
-    return this.filter(item =>
-        filters['type'].includes(item['__type__']) && 
-        isMagicalItem(filters['fantasyMode'], item)
-      ).reduce((max, o) =>
-        o.cost.value > max ? o.cost.value : max, this[0].cost.value
-      );
+    return this.modeFilter(filters['modeType']).filter(item =>
+      filters['itemType'].includes(item['__type__'])).reduce((min, o) =>
+      o.cost.value < min ? o.cost.value : min, this[0].cost.value
+    );
   }
 };
 
@@ -79,47 +63,11 @@ Array.prototype.multiSort = function(keys) {
   })
 };
 
-function isMagicalItem(fantasyMode, item) {
-  //console.log('isMagicalItem(' + fantasyMode + ')')
-  if (fantasyMode === "high") {
-    return true;
-  } else {
-    //console.log('Magical level : ' + item['magical_level'])
-    if ((item['magical_level'] > 0) ||
-      ['Potion', 'MagicalWand', 'Spell'].includes(item['__type__'])) {
-      return false;
-    } else {
-      return true;
-    }
-  }
-};
-
-setItemsListData = function(dataList, itemTypeList, minCostValue, maxCostValue, 
-                            sortKeys, filterValue, fantasyMode) {
-  //console.log("setItemsListData(<fullData>, "+ itemTypeList + ", " +
-  //            minCostValue + ", " + maxCostValue + ", " + JSON.stringify(sortKeys) + 
-  //            ", " + filterValue + ", " + fantasyMode + ")");
-  if ((filterValue === undefined) || (filterValue === '')) {
-    return dataList.filter(item =>
-      itemTypeList.includes(item['__type__']) && isMagicalItem(fantasyMode, item) &&
-      item['cost']['value'] >= minCostValue &&
-      item['cost']['value'] <= maxCostValue).multiSort(sortKeys);
-  } else {
-    return dataList.filter(item =>
-      itemTypeList.includes(item['__type__']) && isMagicalItem(fantasyMode, item) &&
-      item['cost']['value'] >= minCostValue && 
-      item['cost']['value'] <= maxCostValue).multiSort(sortKeys).filter(item =>
-        (item['short_description'] + item['name'] + item['full_description']).noAccents().toLowerCase().includes(
-          filterValue.noAccents().toLowerCase()));
-  }
-};
-
-Array.prototype.nameFilter = function(name) {
-  
+Array.prototype.nameFilter = function(name) {  
   if ((name === undefined) || (name === '')) {
     return(this);
   } else {
-    console.log(name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase());
+    //console.log(name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase());
     return(this.filter(item => 
       item['name'].normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().search(
       ".*" + name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() + ".*") == 0));
@@ -137,11 +85,37 @@ Array.prototype.descriptionFilter = function(description) {
   }
 };
 
+Array.prototype.maxPrice = function(filters) {
+  //console.log("maxPrice("+ JSON.stringify(filters) + ")");
+  if (filters === undefined) {
+    return this.reduce((max, o) =>
+      o.cost.value > max ? o.cost.value : max, this[0].cost.value);
+  } else {
+    return this.modeFilter(filters['modeType']).filter(item =>
+      filters['itemType'].includes(item['__type__'])).reduce((max, o) =>
+      o.cost.value > max ? o.cost.value : max, this[0].cost.value);
+  }
+};
 
-filterItemsList = function(itemsList, filters) {
-  return itemsList.filter(item =>
-    filters['type'].includes(item['__type__']) && 
-    isMagicalItem(filters['fantasyMode'], item) &&
+Array.prototype.modeFilter = function(modeType) {
+  switch(modeType) {
+    case "default":
+      return(this.filter(item => item.category != "quest"));
+    case "low-fantasy":
+      return(this.filter(item => (
+        !(item['magical_level'] > 0) || 
+         (['Potion', 'MagicalWand', 'Spell'].includes(item['__type__']))
+      )));
+    case "quest":
+      return(this.filter(item => item.category == "quest"));
+    default:
+      return(this);
+  }
+}
+
+Array.prototype.filterItemsList = function(filters) {
+  return this.modeFilter(filters['modeType']).filter(item =>
+    filters['itemType'].includes(item['__type__']) &&
     item['cost']['value'] >= filters['price']['minRange'] &&
     item['cost']['value'] <= filters['price']['maxRange']
   ).nameFilter(filters['userInput']['name']

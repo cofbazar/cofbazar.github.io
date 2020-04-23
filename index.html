@@ -41,17 +41,13 @@
           </div>
         </div>
    
-        <!--  * Fantasy mode -->
-        <div id="item-fantasy">
-            <div class="item-fantasy-container">
-                <label class="item-fantasy">Fantasy :</label><br/>
-                <div class="item-fantasy-for">
-                  <label for="low">Low</label>
-                  <input type="radio" id="low" value="low" v-model="fantasyMode">
-                </div>
-                <div class="item-fantasy-for">
-                  <label for="high">High</label>
-                  <input type="radio" id="high" value="high" v-model="fantasyMode">
+        <!--  * Mode type-->
+        <div id="item-mode-type">
+            <div class="item-mode-type-container">
+                <label class="item-mode-type">Mode :</label><br/>
+                <div class="item-mode-type-for" v-for="mode in modes">
+                  <label v-bind:for="mode.name">{{ mode.label}}</label>
+                  <input type="radio" v-bind:id="mode.name" v-bind:value="mode.name" v-model="modeType">
                 </div>
               </div>
         </div>

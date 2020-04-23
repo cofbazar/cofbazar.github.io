@@ -1,6 +1,9 @@
 [
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": null,
     "cost": {
@@ -9,6 +12,7 @@
       "value": 2
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -20,18 +24,23 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens.",
+    "hands": 0,
     "magical_level": 0,
     "material": null,
     "name": "Robe de mage",
     "oid": "robe-of-wizard",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -40,6 +49,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": null,
     "cost": {
@@ -48,6 +60,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -59,6 +72,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -67,16 +81,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage +1",
     "oid": "robe-of-wizard-magical+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -85,6 +103,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -93,6 +114,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -104,6 +126,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -117,11 +140,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, d'action libre",
     "oid": "robe-of-wizard-magical+1-free-move+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -157,6 +183,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -165,6 +192,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -173,6 +203,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -193,6 +224,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -206,16 +238,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de défense",
     "oid": "robe-of-wizard-magical+1-defense+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -224,6 +260,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -232,6 +271,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -252,6 +292,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -265,16 +306,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +1, de défense supérieure",
     "oid": "robe-of-wizard-magical+1-higher-defense+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -283,6 +328,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -291,6 +339,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -302,6 +351,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -315,11 +365,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de natation",
     "oid": "robe-of-wizard-magical+1-swimming+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -335,6 +388,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -343,6 +397,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -351,6 +408,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -362,6 +420,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -375,11 +434,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de l'ombre",
     "oid": "robe-of-wizard-magical+1-shadow+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -395,6 +457,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -403,6 +466,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -411,6 +477,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -422,6 +489,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -435,11 +503,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de protection",
     "oid": "robe-of-wizard-magical+1-protective+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -447,6 +518,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -455,6 +527,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -463,6 +538,7 @@
       "value": 72000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -483,6 +559,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -496,16 +573,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 6,
     "material": null,
     "name": "Robe de mage +1, de resistance à la magie",
     "oid": "robe-of-wizard-magical+1-magical-resistance+6",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -514,6 +595,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -522,6 +606,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -542,6 +627,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -555,16 +641,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de resistance au feu",
     "oid": "robe-of-wizard-magical+1-fire-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -573,6 +663,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -581,6 +674,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -601,6 +695,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -614,16 +709,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de resistance au froid",
     "oid": "robe-of-wizard-magical+1-coldness-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -632,6 +731,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -640,6 +742,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -660,6 +763,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -673,16 +777,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de resistance à l'acide",
     "oid": "robe-of-wizard-magical+1-acid-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -691,6 +799,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -699,6 +810,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -719,6 +831,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -732,16 +845,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +1, de resistance à la foudre",
     "oid": "robe-of-wizard-magical+1-lightning-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +1. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -750,6 +867,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": null,
     "cost": {
@@ -758,6 +878,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -769,6 +890,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -777,16 +899,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage +2",
     "oid": "robe-of-wizard-magical+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -795,6 +921,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -803,6 +932,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -814,6 +944,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -827,11 +958,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, d'action libre",
     "oid": "robe-of-wizard-magical+2-free-move+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -867,6 +1001,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -875,6 +1010,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -883,6 +1021,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -903,6 +1042,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -916,16 +1056,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de défense",
     "oid": "robe-of-wizard-magical+2-defense+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -934,6 +1078,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -942,6 +1089,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -962,6 +1110,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -975,16 +1124,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +2, de défense supérieure",
     "oid": "robe-of-wizard-magical+2-higher-defense+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -993,6 +1146,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1001,6 +1157,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1012,6 +1169,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1025,11 +1183,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de natation",
     "oid": "robe-of-wizard-magical+2-swimming+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -1045,6 +1206,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1053,6 +1215,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1061,6 +1226,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1072,6 +1238,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1085,11 +1252,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de l'ombre",
     "oid": "robe-of-wizard-magical+2-shadow+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -1105,6 +1275,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1113,6 +1284,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1121,6 +1295,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1132,6 +1307,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1145,11 +1321,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de protection",
     "oid": "robe-of-wizard-magical+2-protective+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -1157,6 +1336,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1165,6 +1345,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1173,6 +1356,7 @@
       "value": 98000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1193,6 +1377,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1206,16 +1391,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 7,
     "material": null,
     "name": "Robe de mage +2, de resistance à la magie",
     "oid": "robe-of-wizard-magical+2-magical-resistance+7",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1224,6 +1413,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1232,6 +1424,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1252,6 +1445,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1265,16 +1459,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de resistance au feu",
     "oid": "robe-of-wizard-magical+2-fire-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1283,6 +1481,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1291,6 +1492,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1311,6 +1513,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1324,16 +1527,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de resistance au froid",
     "oid": "robe-of-wizard-magical+2-coldness-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1342,6 +1549,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1350,6 +1560,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1370,6 +1581,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1383,16 +1595,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de resistance à l'acide",
     "oid": "robe-of-wizard-magical+2-acid-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1401,6 +1617,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1409,6 +1628,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1429,6 +1649,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1442,16 +1663,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +2, de resistance à la foudre",
     "oid": "robe-of-wizard-magical+2-lightning-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +2. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1460,6 +1685,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": null,
     "cost": {
@@ -1468,6 +1696,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1479,6 +1708,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1487,16 +1717,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Robe de mage +3",
     "oid": "robe-of-wizard-magical+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1505,6 +1739,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1513,6 +1750,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1524,6 +1762,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1537,11 +1776,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, d'action libre",
     "oid": "robe-of-wizard-magical+3-free-move+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -1577,6 +1819,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1585,6 +1828,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1593,6 +1839,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1613,6 +1860,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1626,16 +1874,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de défense",
     "oid": "robe-of-wizard-magical+3-defense+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1644,6 +1896,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1652,6 +1907,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1672,6 +1928,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1685,16 +1942,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +3, de défense supérieure",
     "oid": "robe-of-wizard-magical+3-higher-defense+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1703,6 +1964,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1711,6 +1975,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1722,6 +1987,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1735,11 +2001,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de natation",
     "oid": "robe-of-wizard-magical+3-swimming+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -1755,6 +2024,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1763,6 +2033,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1771,6 +2044,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1782,6 +2056,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1795,11 +2070,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de l'ombre",
     "oid": "robe-of-wizard-magical+3-shadow+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -1815,6 +2093,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1823,6 +2102,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1831,6 +2113,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1842,6 +2125,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1855,11 +2139,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de protection",
     "oid": "robe-of-wizard-magical+3-protective+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -1867,6 +2154,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1875,6 +2163,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1883,6 +2174,7 @@
       "value": 128000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1903,6 +2195,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1916,16 +2209,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 8,
     "material": null,
     "name": "Robe de mage +3, de resistance à la magie",
     "oid": "robe-of-wizard-magical+3-magical-resistance+8",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1934,6 +2231,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -1942,6 +2242,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1962,6 +2263,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1975,16 +2277,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de resistance au feu",
     "oid": "robe-of-wizard-magical+3-fire-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1993,6 +2299,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2001,6 +2310,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2021,6 +2331,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2034,16 +2345,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de resistance au froid",
     "oid": "robe-of-wizard-magical+3-coldness-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2052,6 +2367,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2060,6 +2378,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2080,6 +2399,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2093,16 +2413,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de resistance à l'acide",
     "oid": "robe-of-wizard-magical+3-acid-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2111,6 +2435,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2119,6 +2446,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2139,6 +2467,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2152,16 +2481,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +3, de resistance à la foudre",
     "oid": "robe-of-wizard-magical+3-lightning-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +3. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2170,6 +2503,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": null,
     "cost": {
@@ -2178,6 +2514,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2189,6 +2526,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2197,16 +2535,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Robe de mage +4",
     "oid": "robe-of-wizard-magical+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2215,6 +2557,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2223,6 +2568,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2234,6 +2580,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2247,11 +2594,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, d'action libre",
     "oid": "robe-of-wizard-magical+4-free-move+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -2287,6 +2637,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2295,6 +2646,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2303,6 +2657,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2323,6 +2678,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2336,16 +2692,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de défense",
     "oid": "robe-of-wizard-magical+4-defense+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2354,6 +2714,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2362,6 +2725,7 @@
       "value": 72000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2382,6 +2746,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2395,16 +2760,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 6,
     "material": null,
     "name": "Robe de mage +4, de défense supérieure",
     "oid": "robe-of-wizard-magical+4-higher-defense+6",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2413,6 +2782,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2421,6 +2793,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2432,6 +2805,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2445,11 +2819,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de natation",
     "oid": "robe-of-wizard-magical+4-swimming+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -2465,6 +2842,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2473,6 +2851,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2481,6 +2862,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2492,6 +2874,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2505,11 +2888,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de l'ombre",
     "oid": "robe-of-wizard-magical+4-shadow+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -2525,6 +2911,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2533,6 +2920,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2541,6 +2931,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2552,6 +2943,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2565,11 +2957,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de protection",
     "oid": "robe-of-wizard-magical+4-protective+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -2577,6 +2972,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2585,6 +2981,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2593,6 +2992,7 @@
       "value": 162000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2613,6 +3013,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2626,16 +3027,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 9,
     "material": null,
     "name": "Robe de mage +4, de resistance à la magie",
     "oid": "robe-of-wizard-magical+4-magical-resistance+9",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2644,6 +3049,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2652,6 +3060,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2672,6 +3081,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2685,16 +3095,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de resistance au feu",
     "oid": "robe-of-wizard-magical+4-fire-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2703,6 +3117,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2711,6 +3128,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2731,6 +3149,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2744,16 +3163,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de resistance au froid",
     "oid": "robe-of-wizard-magical+4-coldness-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2762,6 +3185,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2770,6 +3196,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2790,6 +3217,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2803,16 +3231,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de resistance à l'acide",
     "oid": "robe-of-wizard-magical+4-acid-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2821,6 +3253,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2829,6 +3264,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2849,6 +3285,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2862,16 +3299,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage +4, de resistance à la foudre",
     "oid": "robe-of-wizard-magical+4-lightning-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe est magique et offre un bonus en DEF de +4. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2880,6 +3321,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2888,6 +3332,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2899,6 +3344,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2907,11 +3353,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, d'action libre",
     "oid": "robe-of-wizard-free-move+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -2947,6 +3396,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2955,6 +3405,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -2963,6 +3416,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2983,6 +3437,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2991,16 +3446,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de défense",
     "oid": "robe-of-wizard-defense+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3009,6 +3468,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3017,6 +3479,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3037,6 +3500,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3045,16 +3509,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Robe de mage, de défense supérieure",
     "oid": "robe-of-wizard-higher-defense+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3063,6 +3531,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3071,6 +3542,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3082,6 +3554,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3090,11 +3563,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de natation",
     "oid": "robe-of-wizard-swimming+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -3110,6 +3586,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3118,6 +3595,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3126,6 +3606,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3137,6 +3618,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3145,11 +3627,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de l'ombre",
     "oid": "robe-of-wizard-shadow+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -3165,6 +3650,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3173,6 +3659,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3181,6 +3670,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3192,6 +3682,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3200,11 +3691,14 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de protection",
     "oid": "robe-of-wizard-protective+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -3212,6 +3706,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3220,6 +3715,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3228,6 +3726,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3248,6 +3747,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3256,16 +3756,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Robe de mage, de resistance à la magie",
     "oid": "robe-of-wizard-magical-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3274,6 +3778,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3282,6 +3789,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3302,6 +3810,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3310,16 +3819,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de resistance au feu",
     "oid": "robe-of-wizard-fire-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3328,6 +3841,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3336,6 +3852,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3356,6 +3873,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3364,16 +3882,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de resistance au froid",
     "oid": "robe-of-wizard-coldness-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3382,6 +3904,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3390,6 +3915,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3410,6 +3936,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3418,16 +3945,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de resistance à l'acide",
     "oid": "robe-of-wizard-acid-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3436,6 +3967,9 @@
   },
   {
     "__type__": "Robe",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-of-wizard",
     "category": "Magique",
     "cost": {
@@ -3444,6 +3978,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3464,6 +3999,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3472,16 +4008,20 @@
       }
     ],
     "full_description": "Le bonus de la robe de mage ne se cumule pas avec le bonus d'armure. Elle est en général utilisé par les magiciens. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Robe de mage, de resistance à la foudre",
     "oid": "robe-of-wizard-lightning-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Robe de mage. Cette robe permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",

@@ -40,7 +40,7 @@ img.item-settings-reset {
 
 
 /* * Filter */
-div.item-fantasy-container {
+div.item-mode-type-container {
   border-radius: 8px;
   border: 3px solid #ae9a87;
   padding: 5px;
@@ -48,11 +48,11 @@ div.item-fantasy-container {
   min-height: 60px;
 }
 
-label.item-fantasy {
+label.item-mode-typ {
   font-weight: bold;
 }
 
-div.item-fantasy-for {
+div.item-mode-type-for {
   padding-left: 5px;
   display: flex;
   justify-content: space-between;

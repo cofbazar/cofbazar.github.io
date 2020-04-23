@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="scie-a-bois.svg"
+   inkscape:export-filename="/home/plic/Téléchargements/scie-a-bois.png"
+   inkscape:export-xdpi="24"
+   inkscape:export-ydpi="24"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1237"
+     inkscape:window-height="842"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="2429"
+     inkscape:window-y="191"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <g
+     class=""
+     transform="matrix(1.0736051,0,0,1.0725582,-19.064788,-8.5910832)"
+     id="g10">
+    <g
+       id="g8">
+      <path
+         d="m 430,34.438 -296.563,238.5 20,20.437 3.844,3.906 -1.718,5.22 -6.718,20.22 42.906,46.374 32.78,-34.97 5.75,-27.937 26.532,-6.468 4.063,-24.814 24.188,-5.312 1.593,-22.156 26.22,-7.532 3.03,-20.78 22.125,-6.064 6.47,-21.562 21.75,-8.5 6.25,-18.28 17.5,-7.095 4.22,-16.125 17.53,-7.063 3.5,-15.5 17.28,-6.624 3.845,-17.188 15.844,-3.813 2.5,-17.187 14.5,-0.97 16.874,-18 z"
+         class=""
+         id="path2"
+         inkscape:connector-curvature="0"
+         style="fill:#c9c9c9;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+      <path
+         d="M 113.03,277.813 28.938,339 c 15.382,51.32 48.128,92.382 86.876,130.906 L 187.47,391.031 132,331.064 l -3.594,-3.907 1.656,-5.062 6.688,-20.063 -23.72,-24.217 z"
+         class="selected"
+         id="path4"
+         inkscape:connector-curvature="0"
+         style="fill:#b57204;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+      <path
+         d="m 95.25,309.906 5.25,5.688 63.78,69.375 5.657,6.124 -5.718,6.094 -37.814,40.53 -13.187,14.094 -2.314,-19.156 C 106.261,394.598 90.681,367.495 58.029,351.249 L 44.219,344.374 57,335.72 88.844,314.22 Z"
+         class=""
+         id="path6"
+         inkscape:connector-curvature="0"
+         style="fill:#8b572a;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

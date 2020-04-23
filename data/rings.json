@@ -1,6 +1,9 @@
 [
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": null,
     "cost": {
@@ -9,6 +12,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -20,6 +24,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -28,16 +33,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau +1",
     "oid": "protective-ring-magical+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -46,6 +55,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -54,6 +66,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -65,6 +78,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -78,11 +92,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, d'action libre",
     "oid": "protective-ring-magical+1-free-move+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -118,6 +135,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -126,6 +144,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -134,6 +155,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -154,6 +176,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -167,16 +190,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de défense",
     "oid": "protective-ring-magical+1-defense+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -185,6 +212,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -193,6 +223,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -213,6 +244,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -226,16 +258,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +1, de défense supérieure",
     "oid": "protective-ring-magical+1-higher-defense+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -244,6 +280,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -252,6 +291,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -263,6 +303,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -276,11 +317,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de natation",
     "oid": "protective-ring-magical+1-swimming+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -296,6 +340,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -304,6 +349,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -312,6 +360,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -323,6 +372,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -336,11 +386,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de l'ombre",
     "oid": "protective-ring-magical+1-shadow+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -356,6 +409,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -364,6 +418,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -372,6 +429,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -383,6 +441,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -396,11 +455,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de protection",
     "oid": "protective-ring-magical+1-protective+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -408,6 +470,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -416,6 +479,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -424,6 +490,7 @@
       "value": 72000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -444,6 +511,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -457,16 +525,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 6,
     "material": null,
     "name": "Anneau +1, de resistance à la magie",
     "oid": "protective-ring-magical+1-magical-resistance+6",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -475,6 +547,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -483,6 +558,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -503,6 +579,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -516,16 +593,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de resistance au feu",
     "oid": "protective-ring-magical+1-fire-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -534,6 +615,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -542,6 +626,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -562,6 +647,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -575,16 +661,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de resistance au froid",
     "oid": "protective-ring-magical+1-coldness-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -593,6 +683,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -601,6 +694,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -621,6 +715,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -634,16 +729,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de resistance à l'acide",
     "oid": "protective-ring-magical+1-acid-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -652,6 +751,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -660,6 +762,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -680,6 +783,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -693,16 +797,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +1, de resistance à la foudre",
     "oid": "protective-ring-magical+1-lightning-resistance+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +1. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -711,6 +819,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": null,
     "cost": {
@@ -719,6 +830,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -730,6 +842,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -738,16 +851,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau +2",
     "oid": "protective-ring-magical+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -756,6 +873,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -764,6 +884,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -775,6 +896,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -788,11 +910,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, d'action libre",
     "oid": "protective-ring-magical+2-free-move+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -828,6 +953,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -836,6 +962,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -844,6 +973,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -864,6 +994,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -877,16 +1008,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de défense",
     "oid": "protective-ring-magical+2-defense+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -895,6 +1030,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -903,6 +1041,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -923,6 +1062,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -936,16 +1076,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +2, de défense supérieure",
     "oid": "protective-ring-magical+2-higher-defense+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -954,6 +1098,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -962,6 +1109,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -973,6 +1121,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -986,11 +1135,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de natation",
     "oid": "protective-ring-magical+2-swimming+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -1006,6 +1158,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1014,6 +1167,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1022,6 +1178,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1033,6 +1190,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1046,11 +1204,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de l'ombre",
     "oid": "protective-ring-magical+2-shadow+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -1066,6 +1227,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1074,6 +1236,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1082,6 +1247,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1093,6 +1259,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1106,11 +1273,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de protection",
     "oid": "protective-ring-magical+2-protective+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -1118,6 +1288,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1126,6 +1297,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1134,6 +1308,7 @@
       "value": 98000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1154,6 +1329,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1167,16 +1343,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 7,
     "material": null,
     "name": "Anneau +2, de resistance à la magie",
     "oid": "protective-ring-magical+2-magical-resistance+7",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1185,6 +1365,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1193,6 +1376,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1213,6 +1397,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1226,16 +1411,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de resistance au feu",
     "oid": "protective-ring-magical+2-fire-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1244,6 +1433,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1252,6 +1444,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1272,6 +1465,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1285,16 +1479,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de resistance au froid",
     "oid": "protective-ring-magical+2-coldness-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1303,6 +1501,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1311,6 +1512,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1331,6 +1533,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1344,16 +1547,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de resistance à l'acide",
     "oid": "protective-ring-magical+2-acid-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1362,6 +1569,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1370,6 +1580,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1390,6 +1601,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1403,16 +1615,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +2, de resistance à la foudre",
     "oid": "protective-ring-magical+2-lightning-resistance+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +2. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1421,6 +1637,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": null,
     "cost": {
@@ -1429,6 +1648,7 @@
       "value": 18000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1440,6 +1660,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1448,16 +1669,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3.",
+    "hands": 0,
     "magical_level": 3,
     "material": null,
     "name": "Anneau +3",
     "oid": "protective-ring-magical+3",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1466,6 +1691,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1474,6 +1702,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1485,6 +1714,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1498,11 +1728,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, d'action libre",
     "oid": "protective-ring-magical+3-free-move+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -1538,6 +1771,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1546,6 +1780,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1554,6 +1791,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1574,6 +1812,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1587,16 +1826,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de défense",
     "oid": "protective-ring-magical+3-defense+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1605,6 +1848,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1613,6 +1859,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1633,6 +1880,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1646,16 +1894,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +3, de défense supérieure",
     "oid": "protective-ring-magical+3-higher-defense+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1664,6 +1916,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1672,6 +1927,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1683,6 +1939,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1696,11 +1953,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de natation",
     "oid": "protective-ring-magical+3-swimming+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -1716,6 +1976,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1724,6 +1985,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1732,6 +1996,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1743,6 +2008,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1756,11 +2022,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de l'ombre",
     "oid": "protective-ring-magical+3-shadow+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -1776,6 +2045,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1784,6 +2054,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1792,6 +2065,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1803,6 +2077,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1816,11 +2091,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de protection",
     "oid": "protective-ring-magical+3-protective+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -1828,6 +2106,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1836,6 +2115,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1844,6 +2126,7 @@
       "value": 128000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1864,6 +2147,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1877,16 +2161,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 8,
     "material": null,
     "name": "Anneau +3, de resistance à la magie",
     "oid": "protective-ring-magical+3-magical-resistance+8",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1895,6 +2183,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1903,6 +2194,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1923,6 +2215,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1936,16 +2229,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de resistance au feu",
     "oid": "protective-ring-magical+3-fire-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -1954,6 +2251,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -1962,6 +2262,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -1982,6 +2283,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -1995,16 +2297,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de resistance au froid",
     "oid": "protective-ring-magical+3-coldness-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2013,6 +2319,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2021,6 +2330,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2041,6 +2351,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2054,16 +2365,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de resistance à l'acide",
     "oid": "protective-ring-magical+3-acid-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2072,6 +2387,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2080,6 +2398,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2100,6 +2419,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2113,16 +2433,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +3, de resistance à la foudre",
     "oid": "protective-ring-magical+3-lightning-resistance+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +3. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2131,6 +2455,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": null,
     "cost": {
@@ -2139,6 +2466,7 @@
       "value": 32000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2150,6 +2478,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2158,16 +2487,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4.",
+    "hands": 0,
     "magical_level": 4,
     "material": null,
     "name": "Anneau +4",
     "oid": "protective-ring-magical+4",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2176,6 +2509,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2184,6 +2520,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2195,6 +2532,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2208,11 +2546,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, d'action libre",
     "oid": "protective-ring-magical+4-free-move+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -2248,6 +2589,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2256,6 +2598,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2264,6 +2609,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2284,6 +2630,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2297,16 +2644,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de défense",
     "oid": "protective-ring-magical+4-defense+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2315,6 +2666,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2323,6 +2677,7 @@
       "value": 72000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2343,6 +2698,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2356,16 +2712,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 6,
     "material": null,
     "name": "Anneau +4, de défense supérieure",
     "oid": "protective-ring-magical+4-higher-defense+6",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2374,6 +2734,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2382,6 +2745,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2393,6 +2757,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2406,11 +2771,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de natation",
     "oid": "protective-ring-magical+4-swimming+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -2426,6 +2794,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2434,6 +2803,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2442,6 +2814,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2453,6 +2826,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2466,11 +2840,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de l'ombre",
     "oid": "protective-ring-magical+4-shadow+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -2486,6 +2863,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2494,6 +2872,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2502,6 +2883,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2513,6 +2895,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2526,11 +2909,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de protection",
     "oid": "protective-ring-magical+4-protective+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -2538,6 +2924,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2546,6 +2933,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2554,6 +2944,7 @@
       "value": 162000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2574,6 +2965,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2587,16 +2979,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 9,
     "material": null,
     "name": "Anneau +4, de resistance à la magie",
     "oid": "protective-ring-magical+4-magical-resistance+9",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2605,6 +3001,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2613,6 +3012,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2633,6 +3033,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2646,16 +3047,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de resistance au feu",
     "oid": "protective-ring-magical+4-fire-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2664,6 +3069,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2672,6 +3080,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2692,6 +3101,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2705,16 +3115,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de resistance au froid",
     "oid": "protective-ring-magical+4-coldness-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2723,6 +3137,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2731,6 +3148,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2751,6 +3169,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2764,16 +3183,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de resistance à l'acide",
     "oid": "protective-ring-magical+4-acid-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2782,6 +3205,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2790,6 +3216,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2810,6 +3237,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2823,16 +3251,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau +4, de resistance à la foudre",
     "oid": "protective-ring-magical+4-lightning-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau est magique et offre un bonus en DEF de +4. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2841,6 +3273,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2849,6 +3284,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2860,6 +3296,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2868,11 +3305,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie. Il obtient également un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, d'action libre",
     "oid": "protective-ring-free-move+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Dans cette robe, le personnage ne peut être ralenti, immobilisé ou paralysé par magie.",
     "skill": [
       {
@@ -2908,6 +3348,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2916,6 +3357,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2924,6 +3368,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2944,6 +3389,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -2952,16 +3398,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau réduit de 2 tous les DM subits.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de défense",
     "oid": "protective-ring-defense+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau réduit de 2 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -2970,6 +3420,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -2978,6 +3431,7 @@
       "value": 8000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -2998,6 +3452,7 @@
         "target": "rd"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3006,16 +3461,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau réduit de 4 tous les DM subits.",
+    "hands": 0,
     "magical_level": 2,
     "material": null,
     "name": "Anneau, de défense supérieure",
     "oid": "protective-ring-higher-defense+2",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau réduit de 4 tous les DM subits.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3024,6 +3483,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3032,6 +3494,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3043,6 +3506,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3051,11 +3515,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau apporte un bonus de +5 aux test de natation.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de natation",
     "oid": "protective-ring-swimming+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau apporte un bonus de +5 aux test de natation.",
     "skill": [
       {
@@ -3071,6 +3538,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3079,6 +3547,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3087,6 +3558,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3098,6 +3570,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3106,11 +3579,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau apporte un bonus +5 aux test de discrétion (DEX).",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de l'ombre",
     "oid": "protective-ring-shadow+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau apporte un bonus +5 aux test de discrétion.",
     "skill": [
       {
@@ -3126,6 +3602,7 @@
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3134,6 +3611,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3142,6 +3622,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3153,6 +3634,7 @@
         "target": ""
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3161,11 +3643,14 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau divise par 2 les DM des coups critiques et des attaques sournoises.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de protection",
     "oid": "protective-ring-protective+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau réduit les dégats critiques",
     "skill": [],
     "special_property": [
@@ -3173,6 +3658,7 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3181,6 +3667,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3189,6 +3678,7 @@
       "value": 50000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3209,6 +3699,7 @@
         "target": "magical"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3217,16 +3708,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau apporte un bonnus de +5 en DEF ou aux tests pour résister à la magie.",
+    "hands": 0,
     "magical_level": 5,
     "material": null,
     "name": "Anneau, de resistance à la magie",
     "oid": "protective-ring-magical-resistance+5",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau apporte un bonus de +5 en DEF pour résister à la magie.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3235,6 +3730,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3243,6 +3741,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3263,6 +3762,7 @@
         "target": "fire"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3271,16 +3771,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de resistance au feu",
     "oid": "protective-ring-fire-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le feu.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3289,6 +3793,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3297,6 +3804,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3317,6 +3825,7 @@
         "target": "coldness"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3325,16 +3834,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de resistance au froid",
     "oid": "protective-ring-coldness-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par le froid.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3343,6 +3856,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3351,6 +3867,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3371,6 +3888,7 @@
         "target": "acid"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3379,16 +3897,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de resistance à l'acide",
     "oid": "protective-ring-acid-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par l'acide.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3397,6 +3919,9 @@
   },
   {
     "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "protective-ring",
     "category": "Magique",
     "cost": {
@@ -3405,6 +3930,7 @@
       "value": 2000
     },
     "count": 1,
+    "creature": null,
     "defense": [
       {
         "__type__": "Mod",
@@ -3425,6 +3951,7 @@
         "target": "lightning"
       }
     ],
+    "duration": null,
     "flavor": [
       {
         "__type__": "Flavor",
@@ -3433,16 +3960,20 @@
       }
     ],
     "full_description": "Le bonus de l'anneau de protection ne se cumule pas avec le bonus des capes de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
+    "hands": 0,
     "magical_level": 1,
     "material": null,
     "name": "Anneau, de resistance à la foudre",
     "oid": "protective-ring-lightning-resistance+1",
     "quantity": -1,
+    "range": null,
+    "scenario": null,
     "short_description": "Anneau de protection. Cet anneau permet de réduire de 10 DM les dếgats occasionnés par la foudre.",
     "skill": [],
     "special_property": [],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",

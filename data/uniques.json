@@ -674,6 +674,52 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "stone-agate",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L’agate se caractérise par des successions de couleurs ou de tons différents, c'est une pierre fine.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Agate",
+    "oid": "stone-agate",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "L’agate se caractérise par des successions de couleurs ou de tons différents, c'est une pierre fine.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "stone-jaspe",
     "category": "quest",
     "cost": {

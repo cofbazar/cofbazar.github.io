@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg33"
+   sodipodi:docname="agate.svg"
+   inkscape:export-filename="/home/plic/Téléchargements/agate.png"
+   inkscape:export-xdpi="24"
+   inkscape:export-ydpi="24"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1374"
+     inkscape:window-height="925"
+     id="namedview35"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="2317"
+     inkscape:window-y="120"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg33" />
+  <defs
+     id="defs17">
+    <radialGradient
+       id="gradient-4"
+       gradientTransform="scale(1.4123726,0.70802845)"
+       cx="183.59705"
+       cy="547.69938"
+       fx="183.59705"
+       fy="547.69938"
+       r="152.94416"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#4a90e2"
+         stop-opacity="1"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#1b589f"
+         stop-opacity="1"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-5"
+       gradientTransform="scale(1.3126934,0.76179254)"
+       cx="123.33421"
+       cy="467.71264"
+       fx="123.33421"
+       fy="467.71264"
+       r="69.704017"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#4a90e2"
+         stop-opacity="1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#4e78a9"
+         stop-opacity="1"
+         id="stop9" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-6"
+       gradientTransform="scale(1.3367607,0.74807706)"
+       cx="158.76439"
+       cy="503.69143"
+       fx="158.76439"
+       fy="503.69143"
+       r="84.884304"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#4a90e2"
+         stop-opacity="1"
+         id="stop12" />
+      <stop
+         offset="100%"
+         stop-color="#446e9f"
+         stop-opacity="1"
+         id="stop14" />
+    </radialGradient>
+  </defs>
+  <g
+     id="g858"
+     transform="matrix(1.1295062,0,0,1.22257,-33.581926,-214.30968)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#gradient-4);stroke:#4a4a4a;stroke-width:10;stroke-opacity:1"
+       id="path23"
+       class="selected"
+       d="m 204.8,284.5 c -22.3,-0.1 -44.3,3.4 -65.2,12.2 -57.09,24.2 -85.37,48.5 -90.55,75.7 -2.58,13.6 1.58,26.9 9.74,38.2 8.16,11.3 20.17,21.1 34.67,29.9 58.04,35.1 156.94,55.3 222.24,49.6 26.6,-2.3 62.7,-7 93.7,-18.4 15.4,-5.8 29.7,-13.2 40.8,-23.4 11,-10.3 18.8,-23.7 20,-39.7 v -0.1 c 1,-14.1 -4.2,-26.7 -12.6,-36.5 -8.4,-9.8 -19.8,-17.4 -32.3,-23.8 -25.1,-12.9 -55.1,-21.3 -76.5,-29.3 -44,-16.5 -94.8,-34.2 -144,-34.4 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#gradient-5)"
+       id="path25"
+       class=""
+       d="m 216,303.2 c 12.3,0.8 24.9,2.6 37.4,5.2 -70.8,23.9 -127.7,59.7 -171.65,101 -4.55,-4.4 -8.4,-8.9 -11.35,-14 39,-36.4 87.3,-68.4 145.6,-92.2 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#gradient-6)"
+       id="path27"
+       class=""
+       d="m 274.3,313.3 c 17.4,4.6 34.7,10.3 51.4,16.3 C 254,360.8 187.1,395.4 133.4,440.3 120.6,435 109.4,429 98.76,422.6 149.3,377.6 209.9,343.2 274.3,313.3 Z" />
+  </g>
+</svg>

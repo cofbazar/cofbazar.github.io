@@ -947,7 +947,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 100.0
+      "value": 50.0
     },
     "count": 1,
     "creature": null,

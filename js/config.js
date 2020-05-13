@@ -162,6 +162,11 @@ var cofConfig = {
       {"name": "sombracier", "label": "Objet en sombracier"},
       {"name": "xylene", "label": "Objet en xylène"},
       {"name": "gorndar", "label": "Objet en Gor'N'Dar"},
+      {"name": "naesk", "label": "Objet en fibre de Naësk"},
+      {"name": "dragon-rouge", "label": "Objet en écaille de dragon rouge"},
+      {"name": "dragon-noir", "label": "Objet en écaille de dragon noir"},
+      {"name": "dragon-bleu", "label": "Objet en écaille de dragon bleu"},
+      {"name": "dragon-blanc", "label": "Objet en écaille de dragon blanc"},
     ],
     "prefix": "flavor-",
     "label": "Variante de matériaux"

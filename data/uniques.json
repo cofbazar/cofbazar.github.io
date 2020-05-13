@@ -7154,5 +7154,1665 @@
     "use": 5,
     "way_rank": -1,
     "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "silver"
+      }
+    ],
+    "full_description": "Ces carreaux sont en argent et doublent les dégâts contre les lycanthropes et autres créatures sensibles à l'argent. Le carreau ignore également la RD d'une telle créature. Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreaux, en Argent alchimique",
+    "oid": "projectile-silver-carreau-silver",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux doublent les dégâts contre les lycanthropes.",
+    "skill": null,
+    "special_property": [
+      "RD: ignoré (sensible à l'agent)",
+      "DM: x2 (sensible à l'argent)"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "silver"
+      }
+    ],
+    "full_description": "Ces flêches sont en argent et doublent les dégâts contre les lycanthropes et autres créatures sensibles à l'argent. La flêche ignore également la RD d'une telle créature. Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêches, en Argent alchimique",
+    "oid": "projectile-silver-fleche-silver",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches doublent les dégâts contre les lycanthropes.",
+    "skill": null,
+    "special_property": [
+      "RD: ignoré (sensible à l'agent)",
+      "DM: x2 (sensible à l'argent)"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "silver"
+      }
+    ],
+    "full_description": "Ces billes sont en argent et doublent les dégâts contre les lycanthropes et autres créatures sensibles à l'argent. La bille ignore également la RD d'une telle créature. Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Billes, en Argent alchimique",
+    "oid": "projectile-silver-bille-silver",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes doublent les dégâts contre les lycanthropes.",
+    "skill": null,
+    "special_property": [
+      "RD: ignoré (sensible à l'agent)",
+      "DM: x2 (sensible à l'argent)"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Ces carreaux sont en durium, un métal bleu sombre, très dur et particulièrement lourd. Les projectiles en durium voient leur portée maximum divisée par deux.Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreaux, en durium",
+    "oid": "projectile-durium-carreau-durium",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux sont en durium, un métal lourd qui limitent leur portée.",
+    "skill": null,
+    "special_property": [
+      "Portée maximum / 2",
+      "DM: +2"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Ces flêches sont en durium, un métal bleu sombre, très dur et particulièrement lourd. Les projectiles en durium voient leur portée maximum divisée par deux.Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêches, en durium",
+    "oid": "projectile-durium-fleche-durium",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches sont en durium, un métal lourd qui limitent leur portée.",
+    "skill": null,
+    "special_property": [
+      "Portée maximum / 2",
+      "DM: +2"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 150
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Ces billes sont en durium, un métal bleu sombre, très dur et particulièrement lourd. Les projectiles en durium voient leur portée maximum divisée par deux.Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Billes, en durium",
+    "oid": "projectile-durium-bille-durium",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes sont en durium, un métal lourd qui limitent leur portée.",
+    "skill": null,
+    "special_property": [
+      "Portée maximum / 2",
+      "DM: +2"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 550
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Ces carreaux sont en mythral, un métal très léger de couleur argent. Les projectiles en mythral voient leur portée maximum augmentée de 5 mètres. Lot de 5 carreaux.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreaux, en mythral",
+    "oid": "projectile-mythral-carreau-mythral",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces carreaux sont en mythral, un très léger qui augmente leur portée.",
+    "skill": null,
+    "special_property": [
+      "Portée maximum: +5m"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 550
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Ces flêches sont en mythral, un métal très léger de couleur argent. Les projectiles en mythral voient leur portée maximum augmentée de 5 mètres. Lot de 5 flêches.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêches, en mythral",
+    "oid": "projectile-mythral-fleche-mythral",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces flêches sont en mythral, un très léger qui augmente leur portée.",
+    "skill": null,
+    "special_property": [
+      "Portée maximum: +5m"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 550
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Ces billes sont en mythral, un métal très léger de couleur argent. Les projectiles en mythral voient leur portée maximum augmentée de 5 mètres. Lot de 5 billes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Billes, en mythral",
+    "oid": "projectile-mythral-bille-mythral",
+    "quantity": 1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Ces billes sont en mythral, un très léger qui augmente leur portée.",
+    "skill": null,
+    "special_property": [
+      "Portée maximum: +5m"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-blanc",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dragon-blanc"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Armure d'écailles, de dragon blanc juvénile.",
+    "oid": "armure-cuir-peau-dragon-blanc-juvenile",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon blanc juvénile qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-blanc",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "dragon-blanc"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Armure d'écailles, de dragon blanc jeune.",
+    "oid": "armure-cuir-peau-dragon-blanc-jeune",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon blanc jeune qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-blanc",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "dragon-blanc"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 6,
+    "material": null,
+    "name": "Armure d'écailles, de dragon blanc adulte.",
+    "oid": "armure-cuir-peau-dragon-blanc-adulte",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon blanc adulte qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-blanc",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "dragon-blanc"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 7,
+    "material": null,
+    "name": "Armure d'écailles, de dragon blanc ancien.",
+    "oid": "armure-cuir-peau-dragon-blanc-ancien",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon blanc ancien qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-rouge",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dragon-rouge"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Armure d'écailles, de dragon rouge juvénile.",
+    "oid": "armure-cuir-peau-dragon-rouge-juvenile",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon rouge juvénile qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-rouge",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "dragon-rouge"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Armure d'écailles, de dragon rouge jeune.",
+    "oid": "armure-cuir-peau-dragon-rouge-jeune",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon rouge jeune qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-rouge",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "dragon-rouge"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 6,
+    "material": null,
+    "name": "Armure d'écailles, de dragon rouge adulte.",
+    "oid": "armure-cuir-peau-dragon-rouge-adulte",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon rouge adulte qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-rouge",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "dragon-rouge"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 7,
+    "material": null,
+    "name": "Armure d'écailles, de dragon rouge ancien.",
+    "oid": "armure-cuir-peau-dragon-rouge-ancien",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon rouge ancien qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-noir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dragon-noir"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Armure d'écailles, de dragon noir juvénile.",
+    "oid": "armure-cuir-peau-dragon-noir-juvenile",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon noir juvénile qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-noir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "dragon-noir"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Armure d'écailles, de dragon noir jeune.",
+    "oid": "armure-cuir-peau-dragon-noir-jeune",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon noir jeune qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-noir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "dragon-noir"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 6,
+    "material": null,
+    "name": "Armure d'écailles, de dragon noir adulte.",
+    "oid": "armure-cuir-peau-dragon-noir-adulte",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon noir adulte qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-noir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "dragon-noir"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 7,
+    "material": null,
+    "name": "Armure d'écailles, de dragon noir ancien.",
+    "oid": "armure-cuir-peau-dragon-noir-ancien",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon noir ancien qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-bleu",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 0,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dragon-bleu"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Armure d'écailles, de dragon bleu juvénile.",
+    "oid": "armure-cuir-peau-dragon-bleu-juvenile",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon bleu juvénile qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-bleu",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "dragon-bleu"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Armure d'écailles, de dragon bleu jeune.",
+    "oid": "armure-cuir-peau-dragon-bleu-jeune",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon bleu jeune qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-bleu",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "dragon-bleu"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 6,
+    "material": null,
+    "name": "Armure d'écailles, de dragon bleu adulte.",
+    "oid": "armure-cuir-peau-dragon-bleu-adulte",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon bleu adulte qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-cuir-peau-dragon-bleu",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      },
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "dragon-bleu"
+      }
+    ],
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "hands": 0,
+    "magical_level": 7,
+    "material": null,
+    "name": "Armure d'écailles, de dragon bleu ancien.",
+    "oid": "armure-cuir-peau-dragon-bleu-ancien",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une armure de cuir en peau de dragon bleu ancien qui réduits les dégats élémentaires.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "robe-elfique-naesk",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "naesk"
+      }
+    ],
+    "full_description": "Cette robe en tissue elfique est faite en fibre de naësk. La naësk est une araignée géante dont le fil, une fois débarrassée de de sa substance collante, produit la fibre la plus résistante du monde connu. Elle confère un bonus de DEF de +1 et n'impose aucun malus pour le lancement des sorts ni de pénalité d'encombrement.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Robe, en tissu elfique",
+    "oid": "robe-tissu-elfique",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cette robe en tissue elfique est faite en fibre de naësk et n'impose aucun malus pour le lancement des sorts ni de pénalité d'encombrement.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "malandre-elfique",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 400
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "naesk"
+      }
+    ],
+    "full_description": "Cette tunique en tissue elfique est constituée de plusieurs couches de tissus en fibre de naësk. La naësk est une araignée géante dont le fil, une fois débarrassée de de sa substance collante, produit la fibre la plus résistante du monde connu. Elle confère un bonus de DEF de +2 et n'impose aucun malus pour le lancement des sorts ni de pénalité d'encombrement.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Malandre, en tissu elfique",
+    "oid": "malandre-elfique",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cette tunique en tissue elfique est constituée de plusieurs couches de tissus en fibre de naësk. Elle n'impose aucun malus pour le lancement des sorts ni de pénalité d'encombrement.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
   }
 ]

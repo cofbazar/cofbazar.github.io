@@ -4320,6 +4320,330 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "tissu-matelasse",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 400
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Armure matelassée, en durium",
+    "oid": "tissu-matelasse-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de tissus matelassés et battus. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "tissu-matelasse",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 400
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Armure matelassée, en dalberath",
+    "oid": "tissu-matelasse-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de tissus matelassés et battus. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "tissu-matelasse",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Armure matelassée, en mythral",
+    "oid": "tissu-matelasse-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de tissus matelassés et battus. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "tissu-matelasse",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Armure matelassée, en adamantium",
+    "oid": "tissu-matelasse-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de tissus matelassés et battus. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "tissu-matelasse",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 2. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Armure matelassée, en sombracier",
+    "oid": "tissu-matelasse-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de tissus matelassés et battus. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 2",
+      "Non affecté par un sort si d20 < RM"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "cuir",
     "category": null,
     "cost": {
@@ -8758,6 +9082,330 @@
       }
     ],
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 600
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Armure de cuir, en durium",
+    "oid": "cuir-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Armure de cuir, en dalberath",
+    "oid": "cuir-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Armure de cuir, en mythral",
+    "oid": "cuir-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 4000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Armure de cuir, en adamantium",
+    "oid": "cuir-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 5.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 4000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 4. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Armure de cuir, en sombracier",
+    "oid": "cuir-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir souple dont certaines parties ont été durcies. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 4",
+      "Non affecté par un sort si d20 < RM"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -13326,6 +13974,340 @@
       }
     ],
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir-renforce",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Armure cuir renforcé, en durium",
+    "oid": "cuir-renforce-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir-renforce",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Armure cuir renforcé, en dalberath",
+    "oid": "cuir-renforce-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir-renforce",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Armure cuir renforcé, en mythral",
+    "oid": "cuir-renforce-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir-renforce",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 6000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Armure cuir renforcé, en adamantium",
+    "oid": "cuir-renforce-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 7.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuir-renforce",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 6000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 6. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Armure cuir renforcé, en sombracier",
+    "oid": "cuir-renforce-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de cuir renforcée avec des rivets ou des pointes. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 6",
+      "Non affecté par un sort si d20 < RM"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -18010,6 +18992,340 @@
       }
     ],
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Chemise de mailles, en durium",
+    "oid": "chemise-de-mailles-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1600
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Chemise de mailles, en dalberath",
+    "oid": "chemise-de-mailles-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 4000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Chemise de mailles, en mythral",
+    "oid": "chemise-de-mailles-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Chemise de mailles, en adamantium",
+    "oid": "chemise-de-mailles-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 8. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Chemise de mailles, en sombracier",
+    "oid": "chemise-de-mailles-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 8",
+      "Non affecté par un sort si d20 < RM"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -22824,6 +24140,340 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "cotte-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Cotte de mailles, en durium",
+    "oid": "cotte-de-mailles-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 7,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cotte-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Cotte de mailles, en dalberath",
+    "oid": "cotte-de-mailles-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cotte-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Cotte de mailles, en mythral",
+    "oid": "cotte-de-mailles-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cotte-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Cotte de mailles, en adamantium",
+    "oid": "cotte-de-mailles-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cotte-de-mailles",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 10. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Cotte de mailles, en sombracier",
+    "oid": "cotte-de-mailles-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de d'anneaux métalliques qui protège l'ensemble du corps. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 10",
+      "Non affecté par un sort si d20 < RM"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "demi-plaque",
     "category": null,
     "cost": {
@@ -27610,6 +29260,340 @@
       }
     ],
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "demi-plaque",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1400
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 7,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Demi-plaque, en durium",
+    "oid": "demi-plaque-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "demi-plaque",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2400
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Demi-plaque, en dalberath",
+    "oid": "demi-plaque-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "demi-plaque",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 6000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Demi-plaque, en mythral",
+    "oid": "demi-plaque-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "demi-plaque",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 12000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Demi-plaque, en adamantium",
+    "oid": "demi-plaque-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "demi-plaque",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 12000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 12. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Demi-plaque, en sombracier",
+    "oid": "demi-plaque-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure, faite de plaques de métal, qui protège le haut du corps du combattant. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 7,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 12",
+      "Non affecté par un sort si d20 < RM"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -32532,6 +34516,350 @@
       }
     ],
     "special_property": [],
+    "usable_by": [
+      "Chevalier"
+    ],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "plaque-complete",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 9,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en durium, un métal bleu sombre très dur et particulièrement lourd. Elle augmente la DEF de +1 mais impose une pénalité d'armure de +2, ce qui n'est pas très avantageux.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "durium",
+    "name": "Plaque complète, en durium",
+    "oid": "plaque-complete-durium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure apporte un bonus en DEF, mais impose une forte pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 10,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [
+      "Chevalier"
+    ],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "plaque-complete",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "dalberath"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en dalberath, un métal de couleur blanche dont la particularité est de flotter. Cette armure constitue un parfait gilet de sauvetage.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Plaque complète, en dalberath",
+    "oid": "plaque-complete-dalberath+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure en dalberath fait un parfait gilet de sauvetage.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Permet de surnager"
+    ],
+    "usable_by": [
+      "Chevalier"
+    ],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "plaque-complete",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "dalberath",
+    "name": "Plaque complète, en mythral",
+    "oid": "plaque-complete-mythral+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure en mythral réduit la pénalité d'armure.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [
+      "Chevalier"
+    ],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "plaque-complete",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 16000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      },
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "adamantium"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en adamantium, un métal d'une duretée exceptionnellet. Son point de fusion particulièrement élevé le rend très difficile à forger. Cette armure confère à son porteur une réduction des DM égale à sa défense divisée oar 2 (arrondi au supérieur).",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "adamantium",
+    "name": "Plaque complète, en adamantium",
+    "oid": "plaque-complete-adamantium+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure réduit les dégâts subits.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [
+      "Chevalier"
+    ],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "plaque-complete",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 16000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "sombracier"
+      }
+    ],
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 16. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": "sombracier",
+    "name": "Plaque complète, en sombracier",
+    "oid": "plaque-complete-sombracier+0",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Armure composée de plaques de métal qui protège le corps du combattant. Cette armure octroie une résistance à la magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 9,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "RM (résistance à la magie) : 16",
+      "Non affecté par un sort si d20 < RM"
+    ],
     "usable_by": [
       "Chevalier"
     ],

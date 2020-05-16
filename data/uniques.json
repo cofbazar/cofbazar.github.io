@@ -6680,7 +6680,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6723,7 +6727,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6766,7 +6774,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6809,7 +6821,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6852,7 +6868,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6895,7 +6915,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6938,7 +6962,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -6981,7 +7009,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7024,7 +7056,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7067,7 +7103,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7110,7 +7150,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7153,7 +7197,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7196,7 +7244,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7239,7 +7291,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7282,7 +7338,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7325,7 +7385,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7368,7 +7432,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7411,7 +7479,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7453,7 +7525,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7495,7 +7571,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Bullet",
@@ -7537,7 +7617,11 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
-    "weight": null
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
   },
   {
     "__type__": "Armor",

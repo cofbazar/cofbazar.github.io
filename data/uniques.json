@@ -7197,6 +7197,7 @@
     "usable_by": [],
     "use": 5,
     "way_rank": -1,
+<<<<<<< HEAD
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -7622,6 +7623,9 @@
       "unit": "Kg",
       "value": 0.3
     }
+=======
+    "weight": null
+>>>>>>> e7c01b2b54117973a59045a3448b0c312c244a0d
   },
   {
     "__type__": "Armor",

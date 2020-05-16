@@ -4617,6 +4617,73 @@
     }
   },
   {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "dague-maudite",
+    "category": "Bazar du bizarre",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une arme blanche à simple ou double tranchant dont la pointe en forme de losange, et de préférence symétrique, améliore le pouvoir de perforation. Cette arme à une main inflige 1d4 dégâts. Cette dague possède une lame noire de conception spéciale qui se casse dans la blessure en cas de critique. Le morceau libéré s'enfonce dans les chairs de la victime en direction de ses organes vitaux et occasionne la perte de 1 point de CON par heure. Retirer le fragment de lame demande de réussir un test SAG de difficulté 20. Chaque échec provoquant la perte de 1d6 points de CON supplémentaire. Ensuite les points sont récupérés au rythme de 1 par jour. Ce type de dague est généralement accompagné de poison pour les assassinats, si la lame se brise la virulence du poison est augmentée et la difficulté du test de CON correspondant au poison est augmenté de +5. Une dague brisée devient inutilisable.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Dague maudite",
+    "oid": "dague-maudite",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Dague dont la lame se casse (critique). Retirer le fragment (test SAG >= 20) permet de récupérer les points perdus (1 / jour). Chaque échec enlève 1d6 points (CON). Si la lame est empoisonnée et se brise: test contre le poison: +5",
+    "skill": null,
+    "special_property": [
+      "-1 CON / heure (critique)",
+      "Inutilisable si cassée"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
     "__type__": "Boots",
     "ability": null,
     "area": null,

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="24"
+   inkscape:export-xdpi="24"
+   inkscape:export-filename="/home/plic/Téléchargements/sceptre-de-puissance-ogre-mage.png"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="sceptre-de-puissance-ogre-mage.svg"
+   id="svg40"
+   version="1.1"
+   style="height: 64px; width: 64px;"
+   viewBox="0 0 512 512">
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg40"
+     inkscape:window-maximized="0"
+     inkscape:window-y="27"
+     inkscape:window-x="2056"
+     inkscape:cy="115.26883"
+     inkscape:cx="-250.84366"
+     inkscape:zoom="0.42480469"
+     showgrid="false"
+     id="namedview42"
+     inkscape:window-height="1010"
+     inkscape:window-width="1584"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs12">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="132.36314"
+       fy="141.18735"
+       fx="464.17758"
+       cy="141.18735"
+       cx="464.17758"
+       gradientTransform="matrix(0.58228458,0,0,1.9143603,-16.36756,-12.175996)"
+       id="gradient-2">
+      <stop
+         id="stop2"
+         stop-opacity="1"
+         stop-color="#9b9b9b"
+         offset="0%" />
+      <stop
+         id="stop4"
+         stop-opacity="1"
+         stop-color="#4a4a4a"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       gradientTransform="matrix(1.0557947,0,0,1.0557947,-16.36756,-12.175996)"
+       gradientUnits="userSpaceOnUse"
+       r="60"
+       fy="89"
+       fx="256"
+       cy="89"
+       cx="256"
+       id="gradient-3">
+      <stop
+         id="stop7"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop9"
+         stop-opacity="1"
+         stop-color="#78121f"
+         offset="100%" />
+    </radialGradient>
+  </defs>
+  <g
+     transform="matrix(1,0,0,0.98069511,0,9.8744168)"
+     id="g920">
+    <path
+       d="m 253.91588,4.7167192 c -42.44294,0 -77.07301,34.6195078 -77.07301,77.0730128 0,33.996588 22.17169,62.925368 52.78974,73.166578 v 356.54187 h 48.56655 V 154.95631 c 30.61805,-10.24121 52.78974,-39.16999 52.78974,-73.166578 0,-42.453505 -34.63007,-77.0730128 -77.07302,-77.0730128 z"
+       class=""
+       fill="url(#gradient-2)"
+       id="path14"
+       style="fill:url(#gradient-2);stroke-width:1.05579" />
+    <path
+       d="m 253.91588,23.721024 c 32.20174,0 58.06871,25.888086 58.06871,58.068708 0,32.201738 -25.86697,58.068708 -58.06871,58.068708 -32.20174,0 -58.06871,-25.86697 -58.06871,-58.068708 0,-3.748071 0.31674,-7.411678 1.0558,-10.959149 5.49013,12.025502 17.63177,20.461302 31.67384,20.461302 19.10988,0 34.84123,-15.710226 34.84123,-34.841225 0,-14.010396 -8.44636,-26.173151 -20.48242,-31.694957 3.5897,-0.665151 7.1794,-1.034679 10.98026,-1.034679 z"
+       class=""
+       fill="url(#gradient-3)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="10.5579"
+       id="path16"
+       style="fill:url(#gradient-3)" />
+    <path
+       d="M 343.07156,6.7524264 C 352.696,72.425901 366.25244,131.69536 297.20347,166.53659 v 10.7691 c 58.80776,-15.62576 60.24095,-40.22649 79.83193,-88.976064 0.32847,-13.874941 0.68784,-50.598771 -33.96384,-81.5771996 z"
+       class=""
+       fill="#7ed321"
+       fill-opacity="1"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="10.5579"
+       id="path20"
+       sodipodi:nodetypes="ccccc"
+       style="fill:#800000" />
+    <path
+       d="M 406.53815,27.327122 C 405.93502,126.86094 362.66274,184.47308 297.20347,200.94347 v 12.24722 c 58.49102,-8.65751 110.91478,-59.51296 120.72071,-92.60827 7.07383,-14.67554 15.23691,-67.351115 -11.38603,-93.255298 z"
+       class=""
+       fill="#8b572a"
+       fill-opacity="1"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="10.5579"
+       id="path24"
+       sodipodi:nodetypes="ccccc"
+       style="fill:#800000" />
+    <path
+       d="m 244.41373,158.22927 c 3.16739,0.42232 6.33477,0.63348 9.50215,0.63348 3.16739,0 6.33477,-0.21116 9.50216,-0.63348 v 278.30748 h -19.00431 z"
+       class=""
+       fill="#8b572a"
+       fill-opacity="1"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="10.5579"
+       id="path26" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path20-3"
+       stroke-width="10.5579"
+       stroke-opacity="1"
+       stroke="#4a4a4a"
+       fill-opacity="1"
+       fill="#7ed321"
+       class=""
+       d="M 163.82548,7.6287558 C 154.20104,73.302227 140.6446,132.57168 209.69357,167.41291 v 10.7691 C 150.88581,162.55625 149.45262,137.95552 129.86164,89.205952 129.53317,75.331011 129.1738,38.607176 163.82548,7.6287558 Z"
+       style="fill:#800000" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path24-6"
+       stroke-width="10.5579"
+       stroke-opacity="1"
+       stroke="#4a4a4a"
+       fill-opacity="1"
+       fill="#8b572a"
+       class=""
+       d="M 100.35889,28.203446 C 100.96202,127.73726 144.2343,185.3494 209.69357,201.81979 v 12.24722 C 151.20255,205.4095 98.778794,154.55405 88.972864,121.45874 81.899034,106.7832 73.735954,54.107626 100.35889,28.203446 Z"
+       style="fill:#800000" />
+  </g>
+</svg>

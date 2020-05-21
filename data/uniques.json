@@ -345,6 +345,98 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "torque-de-andra-mortemine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un torque en argent gravé d'un motif de poisson.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Torque, d'Andra Mortemine",
+    "oid": "torque-de-andra-mortemine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage dans la boue",
+        "numbering": "1",
+        "title": "Fort Boueux"
+      }
+    ],
+    "short_description": "Un torque en argent gravé d'un motif de poisson.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "torque-de-julius-mortemine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un torque en argent gravé d'un motif de poisson.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Torque, de Julius Mortemine",
+    "oid": "torque-de-julius-mortemine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le problème de Twemby",
+        "numbering": "1",
+        "title": "Le Sanctuaire"
+      }
+    ],
+    "short_description": "Un torque en argent gravé d'un motif de poisson.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "stone-quartz",
     "category": "quest",
     "cost": {
@@ -2437,40 +2529,40 @@
     }
   },
   {
-    "__type__": "Bracer",
+    "__type__": "Material",
     "ability": null,
     "area": null,
     "attack": null,
-    "base_item": "torque-de-andra-mortemine",
+    "base_item": "petit-parchemin-camp-orque-1",
     "category": "quest",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 10.0
+      "value": 0.0
     },
     "count": 1,
     "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [],
-    "full_description": "Un torque en argent gravé d'un motif de poisson.",
+    "full_description": "Le message suivant est écrit sur ce petit parchemin : « Tuer le chevalier haut elfe aux cheveux d'argent de retour... ».",
     "hands": 0,
     "magical_level": null,
     "material": null,
-    "name": "Torque, d'Andra Mortemine",
-    "oid": "torque-de-andra-mortemine",
+    "name": "Petit parchemin",
+    "oid": "petit-parchemin-camp-orque-1",
     "quantity": -1,
     "range": null,
     "scenario": [
       {
         "__type__": "Scenario",
         "campaign": "Anathazerïn",
-        "chapter": "Voyage dans la boue",
-        "numbering": "1",
-        "title": "Fort Boueux"
+        "chapter": "e camp des Crocs-Brisés",
+        "numbering": "3",
+        "title": "La justices des Elfes"
       }
     ],
-    "short_description": "Un torque en argent gravé d'un motif de poisson.",
+    "short_description": "Le message suivant est écrit sur ce petit parchemin : « Tuer le chevalier haut elfe aux cheveux d'argent de retour... ».",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -2483,42 +2575,230 @@
     }
   },
   {
-    "__type__": "Bracer",
+    "__type__": "Material",
     "ability": null,
     "area": null,
     "attack": null,
-    "base_item": "torque-de-julius-mortemine",
+    "base_item": "petit-parchemin-camp-orque-2",
     "category": "quest",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 10.0
+      "value": 0.0
     },
     "count": 1,
     "creature": null,
     "defense": null,
     "duration": null,
     "flavor": [],
-    "full_description": "Un torque en argent gravé d'un motif de poisson.",
+    "full_description": "Le message suivant est écrit sur ce petit parchemin : « Envoyez collier oreilles otages cette fois... ».",
     "hands": 0,
     "magical_level": null,
     "material": null,
-    "name": "Torque, de Julius Mortemine",
-    "oid": "torque-de-julius-mortemine",
+    "name": "Petit parchemin",
+    "oid": "petit-parchemin-camp-orque-2",
     "quantity": -1,
     "range": null,
     "scenario": [
       {
         "__type__": "Scenario",
         "campaign": "Anathazerïn",
-        "chapter": "Le problème de Twemby",
-        "numbering": "1",
-        "title": "Le Sanctuaire"
+        "chapter": "e camp des Crocs-Brisés",
+        "numbering": "3",
+        "title": "La justices des Elfes"
       }
     ],
-    "short_description": "Un torque en argent gravé d'un motif de poisson.",
+    "short_description": "Le message suivant est écrit sur ce petit parchemin : « Envoyez collier oreilles otages cette fois... ».",
     "skill": null,
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "manche-de-hache",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Unm anche de hache bien solide en chêne.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Manche de hache",
+    "oid": "manche-de-hache",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Un manche de hache bien solide en chêne.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "clous",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un lot de 20 clous de bonne qualité.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Clous",
+    "oid": "clous",
+    "quantity": 20,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Un lot de 20 clous de bonne qualité.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bracelet-arbre-coeur",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Bracelet taillé dans le tronc de l’Arbre-Cœur, un signe que tout elfe reconnaîtra comme la plus haute distinction elfique: Gardiens de l’Arbre sacré.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bracelet, de l'Arbre-Coeur",
+    "oid": "bracelet-arbre-coeur",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Bracelet taillé dans le tronc de l’Arbre-Cœur, un signe que tout elfe reconnaîtra comme la plus haute distinction elfique: Gardiens de l’Arbre sacré.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "feuilles-de-mandragore",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Les feuilles de racine de mandragore femelle sont de grandes feuilles de forme hastée et aux reflets bleus. Elles peuvent être soit mangées (3d6 PV récupérés), soit plongées dans de l’eau bouillante. Dans ce cas, il faut recouvrir, les laisser infuser, puis découvrir, puis inspirer une grand bouffée des vapeurs qui se dégageront. Tous ceux qui inspirent ces effluves se sentiront revigorés (1D6 PV récupéré par feuille plongée dans l’eau bouillante, jusqu’à 8 personnages peuvent inspirer en même temps).",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Feuilles de racine, de mandragore femelle",
+    "oid": "feuilles-de-mandragore",
+    "quantity": 3,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Feuilles de racine de mandragore femelle.",
+    "skill": null,
+    "special_property": [
+      "Soin: 3d6 PV (si mangée)",
+      "Soin: 1d6 PV (si infusée)",
+      "Infusion: 8 personnes max"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -2971,6 +3251,156 @@
     "usable_by": [],
     "use": -1,
     "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-vol",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": "1d6+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui boit cette potion peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol. Effet secondaire : le personnage ne peut plus parler pendant toute la durée du vol. Il peut uniquement grogner comme un porc.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Potion de vol, de chez Coup-Double",
+    "oid": "potion-vol-coup-double",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "La personne qui boit cette potion peut voler. Sa vitesse de déplacement est la même qu’au sol. Effet secondaire : le personnage ne peut plus parler pendant toute la durée du vol. Il peut uniquement grogner comme un porc.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-invisibilite",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 300
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": "1d6+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui boit cette potion se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si la personne attaque ou utilise une capacité limitée, elle redevient visible. Effet secondaire : le personnage dégage le temps de son invisibilité une odeur semblable aux flatulences d’un gnome aux intestins très contrariés.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Potion d'invisibilité, de chez Coup-Double",
+    "oid": "potion-invisibilite-coup-double",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "La personne qui boit cette potion se rend invisible et personne ne peut plus détecter sa présence ou lui porter d’attaque.",
+    "skill": null,
+    "special_property": [
+      "Dégage une odeur nauséabonde"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-soins-legers",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus. Effet secondaire : tous les poils du personnage (cheveux, barbe, sourcils, avant-bras...) poussent de dix centimètres.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Potion de soins légers, de chez Coup-Double",
+    "oid": "potion-soins-legers-coup-double",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.Effet secondaire : tous les poils du personnage (cheveux, barbe, sourcils, avant-bras...) poussentde dix centimètres.",
+    "skill": null,
+    "special_property": [
+      "Soigne : 1d8 PV + niveau"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -3738,7 +4168,7 @@
     "duration": null,
     "flavor": [],
     "full_description": "La personne qui utilise cette baguette tue toute végétation ordinaire (non magique) dans un rayon de 50 mètres autour d'elle ou inflige 4d6 DM à une créature végétale sans aucune sauvegarde.",
-    "hands": 0,
+    "hands": 1,
     "magical_level": null,
     "material": null,
     "name": "Baguette - Défoliation",
@@ -3761,6 +4191,52 @@
     ],
     "usable_by": [],
     "use": 12,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "MagicalWand",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "sceptre-de-puissance-ogre-mage",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce septre de puissance permet de lancer les sorts de rang 1 par une action de mouvement et ceux de rang 2 par une action d’attaque. Il peut peut être utilisé une fois par jour et par niveau.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Sceptre de puissance, d'Ogre-mage",
+    "oid": "sceptre-de-puissance-ogre-mage",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Ce septre de puissance permet de lancer les sorts de rang 1 par une action de mouvement et ceux de rang 2 par une action d’attaque. Il peut peut être utilisé une fois par jour et par niveau.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
     "way_rank": -1,
     "weight": {
       "__type__": "Weight",
@@ -4668,7 +5144,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Dague dont la lame se casse (critique). Retirer le fragment (test SAG >= 20) permet de récupérer les points perdus (1 / jour). Chaque échec enlève 1d6 points (CON). Si la lame est empoisonnée et se brise: test contre le poison: +5",
+    "short_description": "Dague dont la lame se casse (critique). Retirer le fragment (test SAG >= 20) permet de récupérer les points perdus (1 / jour). Chaque échec enlève 1d6 points (CON). Si la lame est empoisonnée et se brise: test contre le poison: +5.",
     "skill": null,
     "special_property": [
       "-1 CON / heure (critique)",
@@ -4681,6 +5157,264 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "poison"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-courte-assassin-orque-noir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1805.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "krontaar"
+      }
+    ],
+    "full_description": "Une épée courte spécialement conçue pour les assassins et inflige 1d6 dégâts. La lame est en Kröntaâr, un métal corrompu qui provient du cratère de Krön, la capitale des orques. Il se dissout dans les blessures et empoisonne le sang de la victime en infligeant 1d6 dégâts de poison supplémentaires. Cette arme n’a qu’un nombre d’usages limité. Après chaque combat, lancer un d6: sur un résultat de 1 à 3, l’arme est trop abîmée pour être encore utilisée.",
+    "hands": 1,
+    "magical_level": null,
+    "material": "krontaar",
+    "name": "Épée courte, d'assassin",
+    "oid": "epee-courte-assassin-orque-noir",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Des ennemis partout",
+        "numbering": "1",
+        "title": "La justice des elfes"
+      }
+    ],
+    "short_description": "Une épée courte spécialement conçue pour les assassins qui inflige des dégâts de poison supplémentaires.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "dague-garde-turquoise",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une superbe dague pourvue d’une garde incrustée de turquoises. Elle bénéficie d'un bonus d'attaque de +1 et inflige 1d4 +1 dégâts.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Dague +1, incrustée de turquoises",
+    "oid": "dague-garde-turquoise",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Une superbe dague pourvue d’une garde incrustée de turquoises.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": []
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-elfique+2",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Une épée de facture elfique qui possède un bonus à l'attaque de +2 et inflique 1d8 +2 dégâts. Elle permet en outre d'utiliser son bonus de dextérité en attaque ou aux dégâts.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Épée elfique +2",
+    "oid": "epee-elfique+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le procès",
+        "numbering": "3",
+        "title": "La justice des elfes"
+      }
+    ],
+    "short_description": "Une épée de facture elfique qui permet d'utiliser son bonus de dextérité en attaque ou aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "Attaque ou DM: +[DEX]"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
     }
   },
   {
@@ -4769,6 +5503,52 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.3
+    }
+  },
+  {
+    "__type__": "Boots",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bottes-elfique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Bottes elfiques.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bottes elfique",
+    "oid": "bottes-elfique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le procès",
+        "numbering": "3",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Bottes elfiques.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
     }
   },
   {
@@ -6498,6 +7278,60 @@
     }
   },
   {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "ring-face-orque",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "h",
+      "value": "1d6"
+    },
+    "flavor": [],
+    "full_description": "Cet anneau permet de se transformer en orque pour une durée de 1d6 heure à chaque fois qu’il est enfilé. La personne garde toutes ses Carac. sauf le CHA dont le Mod. subit une pénalité de -2 pour toutes les autres races que les orques. Le PJ parle l’orque, mais ne sait plus parler le commun. On ne peut pas retirer l'anneau avant le temps imparti.",
+    "hands": 0,
+    "magical_level": -1,
+    "material": null,
+    "name": "Anneau de face d'orque",
+    "oid": "ring-face-orque",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Cet anneau permet de se transformer en orque pour une durée limitée. On ne peut pas retirer l'anneau avant le temps imparti.",
+    "skill": null,
+    "special_property": [
+      "[CHA]: -2 (contre autre que orque)",
+      "Language: orque",
+      "Ne peut plus parler le commun"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
     "__type__": "Shield",
     "ability": null,
     "area": null,
@@ -7683,6 +8517,58 @@
     ],
     "usable_by": [],
     "use": 5,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 3
+    },
+    "attack": null,
+    "base_item": "carreau-explosif-coup-double",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un carreau explosif fabriqué à partir d’un champignon très rare. Si le carreau touche, une explosion se déclenche dans une étrange fumée verdâtre, provoquant 3d6 DM sur la cible et dans un rayon de 3 mètres autour de l’impact.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreau explosif, de chez Coup-Double",
+    "oid": "carreau-explosif-coup-double",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Rejoindre la Thuléa",
+        "numbering": "2",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Un carreau explosif fabriqué à partir d’un champignon très rare et qui explose lorsqu'il touche sa cible.",
+    "skill": null,
+    "special_property": [
+      "Explosion: 3d6 DM "
+    ],
+    "usable_by": [],
+    "use": -1,
     "way_rank": -1,
     "weight": {
       "__type__": "Weight",
@@ -8964,6 +9850,92 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 1.0
+    }
+  },
+  {
+    "__type__": "Cloak",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cape-elfique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cape elfique.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cape elfique",
+    "oid": "cape-elfique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le procès",
+        "numbering": "3",
+        "title": "La justices des Elfes"
+      }
+    ],
+    "short_description": "Cape elfique.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Cloak",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cape-elfique-discretion",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cape elfique qui procure un bonus de discretion de +2 en forêt.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cape elfique, de discretion",
+    "oid": "cape-elfique-discretion",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Cape elfique qui permet de rester discrêt en forêt.",
+    "skill": null,
+    "special_property": [
+      "Discretion: +2 (en forêt)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
     }
   }
 ]

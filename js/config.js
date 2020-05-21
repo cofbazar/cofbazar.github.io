@@ -83,6 +83,7 @@ var cofConfig = {
       {"name": "punctured", "label": "Dégât perforant", "iconify": false},
       {"name": "sharp", "label": "Dégât tranchant", "iconify": false},
       {"name": "natural", "label": "Dégât naturel", "iconify": true},
+      {"name": "poison", "label": "Dégât de poison", "iconify": true},
     ],
     "prefix": "damage-",
     "label": "Dégats"

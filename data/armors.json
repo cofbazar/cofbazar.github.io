@@ -4325,7 +4325,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 400
+      "value": 202.0
     },
     "count": 1,
     "creature": null,
@@ -4389,7 +4389,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 400
+      "value": 402.0
     },
     "count": 1,
     "creature": null,
@@ -4455,7 +4455,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1000
+      "value": 1002.0
     },
     "count": 1,
     "creature": null,
@@ -4509,7 +4509,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 2000
+      "value": 2002.0
     },
     "count": 1,
     "creature": null,
@@ -4582,7 +4582,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 2000
+      "value": 10002.0
     },
     "count": 1,
     "creature": null,
@@ -4605,7 +4605,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 2. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "Une armure matelassée se compose de couches de tissus matelassés et battus. Elle procure un bonus de DEF +1. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 2.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -4627,7 +4627,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 2",
+      "RM (résistance à la magie) : 2.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [],
@@ -9101,7 +9101,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 600
+      "value": 404.0
     },
     "count": 1,
     "creature": null,
@@ -9165,7 +9165,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 804.0
     },
     "count": 1,
     "creature": null,
@@ -9231,7 +9231,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 2000
+      "value": 2004.0
     },
     "count": 1,
     "creature": null,
@@ -9285,7 +9285,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 4000
+      "value": 4004.0
     },
     "count": 1,
     "creature": null,
@@ -9358,7 +9358,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 4000
+      "value": 20004.0
     },
     "count": 1,
     "creature": null,
@@ -9381,7 +9381,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 4. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "La cuirasse et les protecteurs d'épaules de cette armure sont faits de cuir qui a été durci en étant bouilli dans de l'huile. Le reste de l'armure est fait de matériaux plus tendres et plus souples. Elle procure un bonus de DEF +2. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 4.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -9403,7 +9403,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 4",
+      "RM (résistance à la magie) : 4.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [],
@@ -13993,7 +13993,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 800
+      "value": 608.0
     },
     "count": 1,
     "creature": null,
@@ -14057,7 +14057,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1200
+      "value": 1208.0
     },
     "count": 1,
     "creature": null,
@@ -14123,7 +14123,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3000
+      "value": 3008.0
     },
     "count": 1,
     "creature": null,
@@ -14187,7 +14187,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 6000
+      "value": 6008.0
     },
     "count": 1,
     "creature": null,
@@ -14260,7 +14260,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 6000
+      "value": 30008.0
     },
     "count": 1,
     "creature": null,
@@ -14283,7 +14283,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 6. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "Fabriquée à partir de cuir résistant mais souple, l'armure de cuir clouté est renforcée avec des rivets ou des pointes. Elle procure un bonus de DEF +3. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 6.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -14305,7 +14305,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 6",
+      "RM (résistance à la magie) : 6.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [],
@@ -19011,7 +19011,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1000
+      "value": 815.0
     },
     "count": 1,
     "creature": null,
@@ -19075,7 +19075,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1600
+      "value": 1615.0
     },
     "count": 1,
     "creature": null,
@@ -19141,7 +19141,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 4000
+      "value": 4015.0
     },
     "count": 1,
     "creature": null,
@@ -19205,7 +19205,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 8000
+      "value": 8015.0
     },
     "count": 1,
     "creature": null,
@@ -19278,7 +19278,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 8000
+      "value": 40015.0
     },
     "count": 1,
     "creature": null,
@@ -19301,7 +19301,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 8. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 8.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -19323,7 +19323,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 8",
+      "RM (résistance à la magie) : 8.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [],
@@ -24145,7 +24145,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1200
+      "value": 1020.0
     },
     "count": 1,
     "creature": null,
@@ -24209,7 +24209,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 2000
+      "value": 2020.0
     },
     "count": 1,
     "creature": null,
@@ -24275,7 +24275,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 5000
+      "value": 5020.0
     },
     "count": 1,
     "creature": null,
@@ -24339,7 +24339,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 10000
+      "value": 10020.0
     },
     "count": 1,
     "creature": null,
@@ -24412,7 +24412,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 10000
+      "value": 50020.0
     },
     "count": 1,
     "creature": null,
@@ -24435,7 +24435,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 10. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la cotte de mailles comprend une couche de tissu matelassé porté sous la cotte pour éviter les frottements et amortir l'impact de coups. Elle protège l'ensemble du corps et procure un bonus de DEF +5. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 10.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -24457,7 +24457,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 10",
+      "RM (résistance à la magie) : 10.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [],
@@ -29279,7 +29279,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1400
+      "value": 1250.0
     },
     "count": 1,
     "creature": null,
@@ -29343,7 +29343,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 2400
+      "value": 2450.0
     },
     "count": 1,
     "creature": null,
@@ -29409,7 +29409,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 6000
+      "value": 6050.0
     },
     "count": 1,
     "creature": null,
@@ -29473,7 +29473,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 12000
+      "value": 12050.0
     },
     "count": 1,
     "creature": null,
@@ -29546,7 +29546,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 12000
+      "value": 60050.0
     },
     "count": 1,
     "creature": null,
@@ -29569,7 +29569,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 12. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattantà l'exception des jambes. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +6. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 12.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -29591,7 +29591,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 12",
+      "RM (résistance à la magie) : 12.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [],
@@ -34537,7 +34537,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 1800
+      "value": 1800.0
     },
     "count": 1,
     "creature": null,
@@ -34603,7 +34603,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 3200
+      "value": 3400.0
     },
     "count": 1,
     "creature": null,
@@ -34671,7 +34671,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 8000
+      "value": 8200.0
     },
     "count": 1,
     "creature": null,
@@ -34737,7 +34737,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 16000
+      "value": 16200.0
     },
     "count": 1,
     "creature": null,
@@ -34812,7 +34812,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 16000
+      "value": 80200.0
     },
     "count": 1,
     "creature": null,
@@ -34835,7 +34835,7 @@
         "ftype": "sombracier"
       }
     ],
-    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 16. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
+    "full_description": "Armure composée de grandes plaques de métal qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8. Cette armure est utilisable uniquement au départ par les chevaliers. Cette armure est faite en sombracier, un métal lourd presque noir imperméable à la magie. Ce métal très rare et recherché n'est absolument pas afecté par la magie. Il passe à travers tous les sorts de protection et ignore les bonus de magie des armures ou ceux accordés par des sorts. L'inconvénient majeur reste que cette armure n'est absolument pas affectée par les sorts dont le propriétaire bénéficie: s'il est invisible, l'armure semble flotter dans les airs, s'il est téléporté, alors l'armure reste sur place. Une armure en sombracier est lourde et augmente la pénalité d'encombrement de 1 point. Cependant, elle octroie une résistance à la magie élevée. Cette armure à un score de résistance à la magie (RM) de 16.0. Désormais à chaque fois que le personnage est la cible d'un sort (ou affecté par un sort de zone), il doit lancer un d20. Si le résultat est inférieur ou égal au score de RM, il n'est pas affecté.",
     "hands": 0,
     "magical_level": 0,
     "material": "sombracier",
@@ -34857,7 +34857,7 @@
       }
     ],
     "special_property": [
-      "RM (résistance à la magie) : 16",
+      "RM (résistance à la magie) : 16.0",
       "Non affecté par un sort si d20 < RM"
     ],
     "usable_by": [

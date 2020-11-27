@@ -437,7 +437,7 @@
     "ability": null,
     "area": null,
     "attack": null,
-    "base_item": "stone-quartz",
+    "base_item": "stone-morceaux-quartz",
     "category": "quest",
     "cost": {
       "__type__": "Cost",
@@ -454,7 +454,7 @@
     "magical_level": null,
     "material": null,
     "name": "Morceaux de quartz",
-    "oid": "stone-quartz",
+    "oid": "stone-morceaux-quartz",
     "quantity": 5,
     "range": null,
     "scenario": [
@@ -609,6 +609,13 @@
         "chapter": "Le Sanctuaire de Trenner",
         "numbering": "3",
         "title": "Le Sanctuaire"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
       }
     ],
     "short_description": "L'améthyste est une variété de quartz violet dont la teinte est due aux traces de fer. Ce minéral est utilisé en joaillerie et classé comme pierre fine.",
@@ -725,7 +732,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 10.0
+      "value": 100.0
     },
     "count": 1,
     "creature": null,
@@ -736,7 +743,7 @@
     "hands": 0,
     "magical_level": null,
     "material": null,
-    "name": "Alexandrite",
+    "name": "Alexandrite rare",
     "oid": "stone-alexandrite",
     "quantity": 1,
     "range": null,
@@ -839,6 +846,59 @@
         "chapter": "La Vallée des Songes",
         "numbering": "2",
         "title": "La Vallée des Songes"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le jaspe peut avoir plusieurs aspects : tacheté, rubané, rouge, à taches rouges sur fond vert, noir, etc.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-jaspe",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le jaspe peut avoir plusieurs aspects : tacheté, rubané, rouge, à taches rouges sur fond vert, noir, etc.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Petit jaspe",
+    "oid": "stone-petit-jaspe",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
       }
     ],
     "short_description": "Le jaspe peut avoir plusieurs aspects : tacheté, rubané, rouge, à taches rouges sur fond vert, noir, etc.",
@@ -885,6 +945,13 @@
         "chapter": "Voyage",
         "numbering": "1",
         "title": "Le Pic d'Andalf"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
       }
     ],
     "short_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
@@ -924,7 +991,15 @@
     "oid": "stone-perle-rare",
     "quantity": 1,
     "range": null,
-    "scenario": [],
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
     "short_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre.",
     "skill": null,
     "special_property": [],
@@ -1110,6 +1185,788 @@
       }
     ],
     "short_description": "L’Hématite est une pierre fine sombre et complétement opaque aux reflets argentés. Sa couleur se rapproche du gris acier. Certains spécimens ont une couleur presque noire.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-citrine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La citrine est une variété de quartz, dont la couleur jaune est due à la présence d'infimes quantités d'oxydes de fer dans le minéral.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Citrine",
+    "oid": "stone-citrine",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La citrine est une variété de quartz, dont la couleur jaune est due à la présence d'infimes quantités d'oxydes de fer dans le minéral.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-aigue-marine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'aigue-marine est une pierre transparente, de couleur bleu clair évoquant l'eau de mer, d'apparence proche de la topaze.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Aigue marine",
+    "oid": "stone-aigue-marine",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "L'aigue-marine est une pierre transparente, de couleur bleu clair évoquant l'eau de mer, d'apparence proche de la topaze.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-opale",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'opale est une pierre fine très spéciale et, contrairement aux autres minéraux, ses cristaux n'ont pas de forme particulière.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Opale",
+    "oid": "stone-opale",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "L'opale est une pierre fine très spéciale et, contrairement aux autres minéraux, ses cristaux n'ont pas de forme particulière.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-opale",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'opale est une pierre fine très spéciale et, contrairement aux autres minéraux, ses cristaux n'ont pas de forme particulière.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Petite opale",
+    "oid": "stone-petite-opale",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "L'opale est une pierre fine très spéciale et, contrairement aux autres minéraux, ses cristaux n'ont pas de forme particulière.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-chrysoprase",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La chrysoprase est une variété gemme dont la couleur varie du vert pomme au vert foncé.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Chrysoprase",
+    "oid": "stone-chrysoprase",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La chrysoprase est une variété gemme dont la couleur varie du vert pomme au vert foncé.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-peridot",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le péridot est une variété gemme de couleur verte qui est considérée comme ayant un pouvoir magique.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Péridot",
+    "oid": "stone-peridot",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le péridot est une variété gemme de couleur verte qui est considérée comme ayant un pouvoir magique.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-spinelle",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le spinelle est une espèce minérale de couleur rouge. C'est une pierre fine utilisée en joaillerie car elle ressemble au rubis.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Spinelle",
+    "oid": "stone-spinelle",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le spinelle est une espèce minérale de couleur rouge. C'est une pierre fine utilisée en joaillerie car elle ressemble au rubis.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-chrysoberyl",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le chrysobéryl est une espèce minérale peut être de différentes couleurs qui sont dues à de petites quantités de fer pour le jaune ou le vert pour la variété connue sous le nom d'alexandrite, qui est verte à la lumière du jour et rouge à la lumière artificielle.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Chrysobéryl",
+    "oid": "stone-chrysoberyl",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le chrysobéryl est une espèce minérale peut être de différentes couleurs qui sont dues à de petites quantités de fer pour le jaune ou le vert pour la variété connue sous le nom d'alexandrite, qui est verte à la lumière du jour et rouge à la lumière artificielle.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-onyx",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L’onyx est une agate dont les bandes sont circulaires et concentriques.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Onyx",
+    "oid": "stone-onyx",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "L’onyx est une agate dont les bandes sont circulaires et concentriques.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-topaze",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La topaze est un cristal utilisé en joaillerie, classée comme pierre fine. La topaze se présente en une large variété de couleurs à l'état naturel.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Topaze",
+    "oid": "stone-topaze",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La topaze est un cristal utilisé en joaillerie, classée comme pierre fine. La topaze se présente en une large variété de couleurs à l'état naturel.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-opale-de-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "l'opale de feu est une opale, transparente, jaune orange ou rouge, avec ou sans jeux de couleurs.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Opale de feu",
+    "oid": "stone-opale-de-feu",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "l'opale de feu est une opale, transparente, jaune orange ou rouge, avec ou sans jeux de couleurs.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-grenat",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Les grenats rassemblent plusieurs minéraux proches et forment un groupe dans lequel on retrouve des gemmes de toutes les couleurs. Les grenats rouges sont les plus célèbres, mais il existe également des grenats verts, oranges, violets et même des grenats bleus.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Grenat",
+    "oid": "stone-grenat",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Les grenats rassemblent plusieurs minéraux proches et forment un groupe dans lequel on retrouve des gemmes de toutes les couleurs. Les grenats rouges sont les plus célèbres, mais il existe également des grenats verts, oranges, violets et même des grenats bleus.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-pierre-de-sang",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une pierre qui donne des éclats de couleur de sang lorsqu’elle est disposée dans un vase rempli d’eau sous la lumière du soleil.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pierre de sang",
+    "oid": "stone-pierre-de-sang",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une pierre qui donne des éclats de couleur de sang lorsqu’elle est disposée dans un vase rempli d’eau sous la lumière du soleil.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-saphir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le saphir est une pierre précieuse. C'est une variété gemme pouvant présenter de multiples couleurs, sauf la couleur rouge qui désigne alors uniquement le rubis.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Saphir",
+    "oid": "stone-saphir",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le saphir est une pierre précieuse. C'est une variété gemme pouvant présenter de multiples couleurs, sauf la couleur rouge qui désigne alors uniquement le rubis.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-quartz",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le quartz rose se présente en grands cristaux à la fois roses et translucides.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Quartz",
+    "oid": "stone-quartz",
+    "quantity": 5,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le quartz rose se présente en grands cristaux à la fois roses et translucides.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-quartz-rose",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le quartz se présente sous la forme ou bien de grands cristaux incolores, colorés ou fumés, ou bien de cristaux microscopiques d'aspect translucide.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Quartz rose",
+    "oid": "stone-quartz-rose",
+    "quantity": 5,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le quartz se présente sous la forme ou bien de grands cristaux incolores, colorés ou fumés, ou bien de cristaux microscopiques d'aspect translucide.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-perle-noire",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre. La perle noire est considérée comme un véritable symbole de sagesse.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Perle noire",
+    "oid": "stone-perle-noire",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une perle est une concrétion calcaire, généralement de couleur blanche, fabriquée par certains mollusques. Quand un objet irritant passe à l'intérieur de la coquille, l'animal réagit en entourant l'objet d'une couche de nacre. La perle noire est considérée comme un véritable symbole de sagesse.",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -2007,6 +2864,52 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "lettre-officielle-de-nicolai",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une lette officielle munie du sceau de Nicolaï qui mandate sont possesseur pour escorter la caravane de soutien logistique jusqu'à Flerk.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Lettre officielle, de Nicolaï",
+    "oid": "lettre-officielle-de-nicolai",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une lette officielle munie du sceau de Nicolaï qui mandate sont possesseur pour escorter la caravane de soutien logistique jusqu'à Flerk.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "symbole-beni-d-abalath",
     "category": "quest",
     "cost": {
@@ -2511,7 +3414,15 @@
     "oid": "sac-sans-fond",
     "quantity": -1,
     "range": null,
-    "scenario": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
     "short_description": "Un sac un sac pour y mettre du matériel. Le sac peut aussi fournir les objets qu’il désire de moins de 20 pa, 50 kg, 1m3 ou 1m de circonférence. Pas plus de 20 pa d’objets créés peuvent exister à la fois. Ils disparaissent au bout d’une heure.",
     "skill": null,
     "special_property": [
@@ -2806,6 +3717,834 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "lanterne-elfique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une jolie lanterne réhaussée de petites pierres.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Lanterne elfique",
+    "oid": "lanterne-elfique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une jolie lanterne réhaussée de petites pierres.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "loupe",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une loupe.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Une loupe",
+    "oid": "loupe",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une loupe.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "symbole-maudit-d-azazel",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le symbole maudit d'Azazel, dieu de la Douleur et de la cruauté.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Symbole maudit, d'Azazel",
+    "oid": "symbole-maudit-d-azazel",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le symbole maudit d'Azazel, dieu de la Douleur et de la cruauté.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "petit-coffret-en-platine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un petit coffret en platine en très mauvais état.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Petit coffret, en platine",
+    "oid": "petit-coffret-en-platine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un petit coffret en platine en très mauvais état.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "tube-a-parchemin-en-ivoire",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 75.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un tube à parchemin en ivoire gravé.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Tube à parchemin, en ivoire",
+    "oid": "tube-a-parchemin-en-ivoire",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un tube à parchemin en ivoire gravé.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "manteau-en-peau-de-chat-sauvage",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 125.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un manteau en peau de chat sauvage.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Manteau, en peau de chat",
+    "oid": "manteau-en-peau-de-chat-sauvage",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un manteau en peau de chat sauvage.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fiole-encre-rare",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une fiole d'encre rare.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Fiole d'encre",
+    "oid": "fiole-encre-rare",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une fiole d'encre rare.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "collier-maison-eilserv",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un collier avec un baton cuivré, symbole de la maison Eilserv.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Collier, de la maison Eilserv",
+    "oid": "collier-maison-eilserv",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un collier avec un baton cuivré, symbole de la maison Eilserv.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "symbole-de-maedra",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le symbole de Maëdra déesse de l’Obéissance et des Insectes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Symbole, de Maëdra",
+    "oid": "symbole-de-maedra",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Le symbole de Maëdra déesse de l’Obéissance et des Insectes.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "collier-maison-kar-lothian",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un collier avec une rune, symbole de la maison Kar'Lothian.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Collier, de la maison Eilserv",
+    "oid": "collier-maison-kar-lothian",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un collier avec une rune, symbole de la maison Kar'Lothian.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bouteille-liqueur-orque",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une bouteille contenant de la liqueur assez sucrée mais très fruitée.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Une bouteille de liqueur",
+    "oid": "bouteille-liqueur-orque",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une bouteille contenant de la liqueur assez sucrée mais très fruitée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.75
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "lingot-or",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une petite barre d'or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un lingot d'or",
+    "oid": "lingot-or",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une petite barre d'or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gobelet-electrum",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un gobelet en électrum, un alliage composé d'or et d'argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un gobelet, en électrum",
+    "oid": "gobelet-electrum",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un gobelet en électrum, un alliage composé d'or et d'argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "couverts-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un service de couverts en argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Couverts, en argent",
+    "oid": "couverts-en-argent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un service de couverts en argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "assiette-porcelaine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une assiette en porcelaine.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Une assiette, en porcelaine",
+    "oid": "assiette-porcelaine",
+    "quantity": 20,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une assiette en porcelaine.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "mirroir-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 350.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un miroir d’argent au cadre plaqué or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un mirroir, en argent",
+    "oid": "mirroir-en-argent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un miroir d’argent au cadre plaqué or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "coupe-en-or",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 700.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une coupe en or serties de pierres précieuses.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Coupe en or.",
+    "oid": "coupe-en-or",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une coupe en or serties de pierres précieuses.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cassette-platine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 700.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une jolie petite boite en platine.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Une cassette , en platine.",
+    "oid": "cassette-platine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une jolie petite boite en platine.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
     }
   },
   {
@@ -3393,7 +5132,7 @@
         "title": "La justices des Elfes"
       }
     ],
-    "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.Effet secondaire : tous les poils du personnage (cheveux, barbe, sourcils, avant-bras...) poussentde dix centimètres.",
+    "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.Effet secondaire : tous les poils du personnage (cheveux, barbe, sourcils, avant-bras...) poussent de dix centimètres.",
     "skill": null,
     "special_property": [
       "Soigne : 1d8 PV + niveau"
@@ -3401,6 +5140,210 @@
     "usable_by": [],
     "use": -1,
     "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-de-resistance-au-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Une fois bue, cette potion divise par 2 tous les DM de feu reçus pendant 10 minutes",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion de résistance, au feu",
+    "oid": "potion-de-resistance-au-feu",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une fois bue, cette potion procure, pour un petit laps de temps, un bonus de résistance aux dégats de feu.",
+    "skill": null,
+    "special_property": [
+      "RD: DM feu / 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-antidote",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Cette potion peut être ingurgitée pour soigner un empoisonnement ou préventivement. Dans ce cas, elle donne un bonus de +5 aux tests de CON pour résister aux poisons et divise par deux les effets des poisons (DM ou durée) pendant 10 minutes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion d'antidote",
+    "oid": "potion-antidote",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cette potion peut être ingurgitée pour soigner ou prévenir un empoisonnement.",
+    "skill": null,
+    "special_property": [
+      "Préventif: +5 test CON",
+      "Préventif: DM poison / 2",
+      "Préventif: durée poison / 2"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-guerison",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui boit cette potion récupère tous ses PV. Elle est aussi guérie des poisons, maladies et affaiblissements de Caractéristiques.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Potion, de guérison",
+    "oid": "potion-guerison",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La personne qui boit cette potion récupère tous ses PV. Elle est aussi guérie des poisons, maladies et affaiblissements de Caractéristiques.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-de-resistance-acide",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Une fois bue, cette potion divise par 2 tous les DM d'acide' reçus pendant 10 minutes",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion de résistance, à l'acide",
+    "oid": "potion-de-resistance-acide",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une fois bue, cette potion procure, pour un petit laps de temps, un bonus de résistance aux dégats d'acide.",
+    "skill": null,
+    "special_property": [
+      "RD: DM acide / 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -4147,6 +6090,420 @@
     }
   },
   {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-nuees-de-criquets",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[SAG]"
+    },
+    "flavor": [],
+    "full_description": "En réussissant un test d’attaque magique (portée 20 m), la personne qui utilise ce parchemin libère sur sa cible une nuée de criquet affamés qui la dévorent à petit feu pendant [5 + Mod de SAG.] tours. La victime subit 2 points de DM par tour et un malus de -3 à toutes ses actions. Les DM de zone détruisent la nuée.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Parchemin - Nuées de criquets",
+    "oid": "spell-nuees-de-criquets",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Fleck",
+        "numbering": "2",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Sur une attaque magique réussie, la personne qui utilise ce parchemin libère sur sa cible une nuée de criquet affamés qui la dévorent à petit feu.",
+    "skill": null,
+    "special_property": [
+      "Destruction: DM de zone uniquement",
+      "Cible: malus -3 à toutes ses actions",
+      "Cible: 2 DM / tr"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-cercle-de-protection",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'utilisateur de ce parchemin peut tracer un cercle sur le sol pouvant contenir 3 personnes. Une fois par tour, lorsqu’un sort prend pour cible un personnage situé dans le cercle (par un test d’attaque magique), l'utilisateur de ce parchemin fait un test d’attaque magique en opposition à celui de l’adversaire. Si le test est réussi, le sort adverse est annulé et n’a aucun effet.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Parchemin - Cercle de protection",
+    "oid": "spell-cercle-de-protection",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Fleck",
+        "numbering": "2",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "L'utilisateur de ce parchemin peut tracer un cercle sur le sol pour se protéger des sorts adverses. Une fois par tour, lorsqu’un sort (attaque magique) prend pour cible un personnage situé dans le cercle, l'utilisateur fait un test d’attaque magique en opposition à celui de l’adversaire. En cas de succès le sort adverse n’a aucun effet.",
+    "skill": null,
+    "special_property": [
+      "Cercle: Peut contenir 3 personnes"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "SAG"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "spell-arme-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "Combat",
+      "value": ""
+    },
+    "flavor": [],
+    "full_description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul l'utilisateur de ce parchemin peut utiliser. Cette arme inflige [1d6 + Mod. de SAG] de DM. Contre les démons et les mort-vivants, elle offre un bonus de +2 en attaque et ajoute +1d6 aux DM.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Parchemin - Arme d’argent",
+    "oid": "spell-arme-argent",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul l'utilisateur de ce parchemin peut utiliser.",
+    "skill": null,
+    "special_property": [
+      "Démon: attaque +2, DM +1d6Mort vivant: attaque +2, DM +1d6"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 2,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": "10"
+    },
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "SAG"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "spell-foudres-divines",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La foudre frappe toutes les créatures désignées dans un rayon de 10 mètres autour de l'utilisateur de ce parchemin et leur inflige [1d6 + Mod. de SAG] de DM. L'utilisateur compare son test d’attaque magique à la DEF de chaque cible.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Parchemin - Foudres divines",
+    "oid": "spell-foudres-divines",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La foudre frappe toutes les créatures désignées autour de l'utilisateur de ce parchemin.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-teleportation",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 800
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par cette personne.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Parchemin - Téléportation",
+    "oid": "spell-teleportation",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": "10x[INT]"
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin disparaît et réapparaît à un autre endroit.",
+    "skill": null,
+    "special_property": [
+      "Lieu arrivée: en ligne de vue ou parfaitement connu"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 5,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
+    "base_item": "spell-desintegration",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière. Un test d’attaque magique réussi permet de toucher une créature et d’infliger [5d6 + Mod. d’INT] DM. Si l'utilisateur vise un objet porté par une créature, le jet d’attaque subit un malus de -5. Les objets magiques sont insensibles à ce sort, les objets normaux sont réduits en poussière. Aucun objet de plus de 50 kg ne peut être affecté par ce sort : inutile donc de tenter de creuser un tunnel par ce biais. En revanche, vous pourrez ainsi désintégrer une porte (ou même une pierre dans un mur).",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Parchemin - Désintégration",
+    "oid": "spell-desintegration",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "L'utilisateur projette un rayon mortel qui réduit la matière en un amas de poussière que la cible soit une créature ou un objet.",
+    "skill": null,
+    "special_property": [
+      "Petit objet: attaque -5",
+      "Objet magique: insensible",
+      "Impossible sur objet > 50 Kg"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 5,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "MagicalWand",
     "ability": null,
     "area": {
@@ -4192,6 +6549,99 @@
     "usable_by": [],
     "use": 12,
     "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "MagicalWand",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 10
+    },
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": "froid"
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "magic-wand-de-givre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2700
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1"
+    },
+    "flavor": [],
+    "full_description": "Le cône de affecte toute les créatures dans un cône approximatif de 20 mètres de long sur 10 mètres de large à son extrémité. Les victimes subissent [2d6+Mod d’INT] DM et sont Ralenties pour 1 tour si elles ratent un test de CON difficulté 13. Sinon, elles subissent seulement la moitié des DM et ne sont pas ralenties. Cette baguette contient 10 charges.",
+    "hands": 1,
+    "magical_level": 3,
+    "material": null,
+    "name": "Baguette - de givre",
+    "oid": "magic-wand-de-givre",
+    "quantity": 1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un cône de froid sort de la baguette et affecte les créatures prises à l'intérieur.",
+    "skill": null,
+    "special_property": [
+      "Test CON < 13: Ralenti",
+      "Test CON >= 12: DM / 2"
+    ],
+    "usable_by": [],
+    "use": 6,
+    "way_rank": 3,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -4428,7 +6878,7 @@
       "name": null,
       "range": null
     },
-    "base_item": "dague-sacrificielle-de-grundush",
+    "base_item": "dague-sacrificielle",
     "category": "quest",
     "cost": {
       "__type__": "Cost",
@@ -4450,8 +6900,8 @@
     "hands": 1,
     "magical_level": null,
     "material": "gorndar",
-    "name": "Dague sacrificielle, de Grundush",
-    "oid": "dague-sacrificielle-de-grundush",
+    "name": "Dague sacrificielle",
+    "oid": "dague-sacrificielle",
     "quantity": -1,
     "range": null,
     "scenario": [
@@ -4461,6 +6911,13 @@
         "chapter": "Le Sanctuaire de Trenner",
         "numbering": "3",
         "title": "Le Sanctuaire"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
       }
     ],
     "short_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir.",
@@ -5211,13 +7668,7 @@
     "creature": null,
     "defense": null,
     "duration": null,
-    "flavor": [
-      {
-        "__type__": "Flavor",
-        "count": 1,
-        "ftype": "krontaar"
-      }
-    ],
+    "flavor": [],
     "full_description": "Une épée courte spécialement conçue pour les assassins et inflige 1d6 dégâts. La lame est en Kröntaâr, un métal corrompu qui provient du cratère de Krön, la capitale des orques. Il se dissout dans les blessures et empoisonne le sang de la victime en infligeant 1d6 dégâts de poison supplémentaires. Cette arme n’a qu’un nombre d’usages limité. Après chaque combat, lancer un d6: sur un résultat de 1 à 3, l’arme est trop abîmée pour être encore utilisée.",
     "hands": 1,
     "magical_level": null,
@@ -5388,7 +7839,7 @@
     ],
     "full_description": "Une épée de facture elfique qui possède un bonus à l'attaque de +2 et inflique 1d8 +2 dégâts. Elle permet en outre d'utiliser son bonus de dextérité en attaque ou aux dégâts.",
     "hands": 1,
-    "magical_level": null,
+    "magical_level": 2,
     "material": null,
     "name": "Épée elfique +2",
     "oid": "epee-elfique+2",
@@ -5415,6 +7866,755 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "cimeterre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 12
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un cimeterre est un type de sabre lourd avec une lame courbée. Avec sa large lame celui-ci inflique 1d8 dégâts.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Cimeterre large",
+    "oid": "cimeterre-large",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un cimeterre est un type de sabre lourd avec une lame courbée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 12,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 3,
+      "name": null,
+      "range": null
+    },
+    "base_item": "faux",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "La faux est formée d'une longue lame effilée et arquée, fixée sur un manche en bois ou en métal, relativement long. Cette faux inflique 1d12 dégâts. Il faut au moins 12 en FOR pour manier cette faux.",
+    "hands": 2,
+    "magical_level": null,
+    "material": null,
+    "name": "Faux",
+    "oid": "faux",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "1",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "La faux est formée d'une longue lame effilée et arquée, fixée perpendiculairement sur un manche en bois ou en métal, relativement long.",
+    "skill": null,
+    "special_property": [
+      "Nécessite: FOR > 12"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 4.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": []
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-boutetroll",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette magnifique épée courte en bronze ressemble à un glaive celtique. Elle possède un bonus à l'attaque de +2 et inflique 1d6 +2 dégâts.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Boutetroll",
+    "oid": "epee-boutetroll",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cette magnifique épée courte en bronze ressemble à un glaive celtique.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": "Nécessite le mot de commande",
+            "mtype": "+",
+            "target": "fire"
+          }
+        ]
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-boutetroll",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Cette magnifique épée courte en bronze ressemble à un glaive celtique. Elle possède un bonus à l'attaque de +2 et inflique 1d6 +2 dégâts. Elle s’enflamme si le mot de commande « Kelorn » (« brûle » en elfe sombre) est prononcé et inflige alors 1d6 DM de feu supplémenantaires.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Boutetroll",
+    "oid": "epee-boutetroll-kelorn",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cette magnifique épée courte en bronze ressemble à un glaive celtique. Elle s’enflamme si le mot de commande « Kelorn » est prononcé.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "masse-serpent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette masse serpent inocule du poison à sa victime à chaque attaque. Elle doit faire un test de CON difficulté 12 ou sombrer dans l’inconscience immédiatement pour une durée de 1d6 minutes. La masse serpent ne prend vie qu’entre les mains d’une prêtresse de Maëdra.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Masse serpent",
+    "oid": "masse-serpent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cette masse serpent inocule du poison à sa victime à chaque attaque.",
+    "skill": null,
+    "special_property": [
+      "Test CON < 12: Inconscient",
+      "Utilisable: Prêtresse de Maëdra"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "dague-sacrificielle",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 3260.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "gorndar"
+      }
+    ],
+    "full_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir. Elle n’octroie aucun bonus magique, mais toute victime d’une blessure par cette lame doit réussir un test de CON difficulté 10 ou être Affaibli pendant un tour (d12 à tous les tests). Cette dague est clairement d'origine maléfique.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": "gorndar",
+    "name": "Dague sacrificielle +1",
+    "oid": "dague-sacrificielle+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir.",
+    "skill": null,
+    "special_property": [
+      "Test CON <= 10 (si attaque réussie): Affaibli (d12) pendant 1 tour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt",
+              "punctured"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": []
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "masse-sanglante",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette masse +1 est composée d’un manche de bois noir et d’une tête de mort en argent. Le crâne est couronné d’un cercle de fer aux pointes acérées. Les blessures causées par les pointes produisent un effet de saignement qui inflige +1d6 DM de saignement pendant 3 tours. Les DM de saignement de plusieurs blessures ne sont pas cumulables.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": null,
+    "name": "Masse sanglante +1",
+    "oid": "masse-sanglante+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cette masse +1 est composée d’un manche de bois noir et d’une tête de mort en argent courroné d'un cercle de fer aux pointes acérées.",
+    "skill": null,
+    "special_property": [
+      "Saignement: 1d6 pendant 3 tr",
+      "DM saignement non cumulable"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": -1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "masse-fantassin",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "La masse de fantassin est une arme contondante constituée d'une masse lourde accrochée au bout d'un long manche permettant de l'utiliser à cheval. Elle s'utilise à deux main et inflige 1d8 +1 dégâts mais avec un malus à l'attaque de -1 à cause de son long manche. Utilisée sur un cheval, après une action de mouvement, cette attaque est sans malus et inflige +1d8 dégats supplémentaires.",
+    "hands": 3,
+    "magical_level": null,
+    "material": null,
+    "name": "Masse +1, de fantassin",
+    "oid": "masse-de-fantassin+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "La masse de fantassin est constituée d'un long manche terminé par une lourde masse. Elle montre son potentiel lors de charges (mouvement + attaque) à cheval.",
+    "skill": null,
+    "special_property": [
+      "Charge cheval: une seule main",
+      "Charge cheval: pas de malus",
+      "Charge cheval: +1d8 DM"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "tranchegrand",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Une magnifique hache +2 à double tranchant de facture naine, décorée de runes. Tranchegrand est une faucheuse de géants : elle inflige +1d6 DM contre les créatures de taille grande et +2d6 contre celles de taille énorme ou supérieure!",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Tranchegrand",
+    "oid": "tranchegrand",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Une magnifique hache à double tranchant de facture naine, décorée de runes spécialement conçue pour tuer de grandes créatures.",
+    "skill": null,
+    "special_property": [
+      "Grande créature: +1d6 DM",
+      "Énorme créature: +2d6 DM"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.5
     }
   },
   {
@@ -5548,7 +8748,7 @@
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
-      "value": 0.0
+      "value": 0.2
     }
   },
   {
@@ -6063,6 +9263,82 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.1
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "heavy-helmet-silver",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 300.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "RD",
+        "limitation": "Seulement contre les critiques",
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un heaume magnifiquement sculpté et rehaussé d’argent. Le heaume est l'élément indispensable pour compléter une armure de demi-plaques. Il offre une RD de 8 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -8 a tous les tests de SAG destinés à simuler la perception, détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": null,
+    "name": "Heaume sculpté, en argent",
+    "oid": "heavy-helmet-silver",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un heaume sculpté et rehaussé d’argent qui protègera énormément la tête de l'aventurier mais réduira sa perception quasiment à néant.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
     }
   },
   {
@@ -7300,7 +10576,7 @@
     "flavor": [],
     "full_description": "Cet anneau permet de se transformer en orque pour une durée de 1d6 heure à chaque fois qu’il est enfilé. La personne garde toutes ses Carac. sauf le CHA dont le Mod. subit une pénalité de -2 pour toutes les autres races que les orques. Le PJ parle l’orque, mais ne sait plus parler le commun. On ne peut pas retirer l'anneau avant le temps imparti.",
     "hands": 0,
-    "magical_level": -1,
+    "magical_level": 2,
     "material": null,
     "name": "Anneau de face d'orque",
     "oid": "ring-face-orque",
@@ -7321,6 +10597,113 @@
       "[CHA]: -2 (contre autre que orque)",
       "Language: orque",
       "Ne peut plus parler le commun"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "ring-haute-magie",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce simple anneau d’argent donne un bonus de +2 à tous les tests d’attaque magique et augmente de +1d6 les DM de tous les sorts. Ce bonus est particulièrement déterminant lorsqu’il s’agit d’un sort qui inflige habituellement de faibles DM (comme projectile magique, par exemple).",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Anneau de haute magie",
+    "oid": "ring-haute-magie",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Ce simple anneau d’argent donne un bonus de à tous les tests d’attaque magique et augmente les DM de tous les sorts.",
+    "skill": null,
+    "special_property": [
+      "Attaque magique: +2",
+      "Sorts: +1d6 DM"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": {
+      "__type__": "Duration",
+      "unit": "m",
+      "value": "3"
+    },
+    "attack": null,
+    "base_item": "ring-sceau-de-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "h",
+      "value": "24"
+    },
+    "flavor": [],
+    "full_description": "Cet anneau d’or décoré d’un beau rubis permet d’apposer une rune de feu une fois par jour sur un objet qui se ferme (coffre, porte) pour une durée de 24 eures. Un test de SAG (trouver les pièges) difficulté 15 est nécessaire pour remarquer la rune rouge sur l'objet. S’il est ouvert, la rune explose et inflige 4d6 DM de Feu dans un rayon de 3 mètres. Un test de DEX difficulté 15 permet de diviser les DM par 2.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Sceau de feu",
+    "oid": "ring-sceau-de-feu",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cet anneau d’or décoré d’un beau rubis permet d’apposer une rune de feu qui se ferme.",
+    "skill": null,
+    "special_property": [
+      "Detection rune: test SAG >= 15",
+      "Ouverture : 4d6 DM de feu",
+      "Test DEX >= 15 : DM / 2"
     ],
     "usable_by": [],
     "use": -1,
@@ -7385,6 +10768,71 @@
     "skill": null,
     "special_property": [
       "DM feu (souffle, zone) / 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bouclier-a-pointes",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un très ancien bouclier à pointe de l’époque du Roi-Sorcier de Tor-Angul, fabriqué dans un métal d’un gris mat et sombre. Bouclier +2 et, si le bouclier est utilisé pour attaquer, il inflige 1d8 DM létaux (au lieu de 1d4 temporaires).",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Bouclier à pointes",
+    "oid": "bouclier-a-pointes",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Un très ancien bouclier à pointe fabriqué dans un métal d’un gris mat et sombre.",
+    "skill": null,
+    "special_property": [
+      "Attaque bouclier: 1d8",
+      "DM du bouclier létaux"
     ],
     "usable_by": [],
     "use": -1,
@@ -7530,6 +10978,58 @@
     "skill": null,
     "special_property": [
       "DM: +2d6"
+    ],
+    "usable_by": [],
+    "use": 4,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau-poison",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 240.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1d6"
+    },
+    "flavor": [],
+    "full_description": "Ces carreaux d’arbalète sont enduits de poison. La victime d’une attaque réussie doit faire un test de CON difficulté 12 ou sombrer dans l’inconscience en 1d6 tours pour une durée de 1d6 minutes",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreau empoisonné",
+    "oid": "carreau-poison",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Le sanctuaire",
+        "numbering": "2",
+        "title": "Le Pic d'Andalf"
+      }
+    ],
+    "short_description": "Ces carreaux d’arbalète sont enduits de poison. La victime d’une attaque réussie doit résister au poison ou ou sombrer petit à petit dans l’inconscience.",
+    "skill": null,
+    "special_property": [
+      "Inconscient: CON < 12"
     ],
     "usable_by": [],
     "use": 4,
@@ -8569,6 +12069,61 @@
     ],
     "usable_by": [],
     "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche-de-guerre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Ces flêches de guerre procurent un bonus de +2 aux dégâts, mais ne sont utilisables qu'avec un arc long.  Il en reste 5 dans ce carqois.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêches de guerre +2",
+    "oid": "fleche-de-guerre+2",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Cinq flêches de guerre qui procurent un bonus aux dégâts.",
+    "skill": null,
+    "special_property": [
+      "DM: +2",
+      "Uniquement avec un arc long"
+    ],
+    "usable_by": [],
+    "use": 5,
     "way_rank": -1,
     "weight": {
       "__type__": "Weight",
@@ -9749,12 +13304,278 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "chemise-de-maille-des-elfes-noirs",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2100
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir (pénalité de -2 de base). Elles peuvent être portées par les voleurs, les bardes, les rôdeurs ou les barbare comme s’il s’agissait d’armure de cuir (mais pas par les druides ou forgesorts, qui sont des lanceurs de sort). Cette armure est magique et offre un bonus de DEF de +1 et réduit de 1 les pénalités qu'elle inflige.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Chemise de mailles +1, des elfes noirs",
+    "oid": "chemise-de-maille-des-elfes-noirs+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Utilisable: voleur, barde rôdeur et barbare"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-maille-des-elfes-noirs",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8100
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir (pénalité de -2 de base). Elles peuvent être portées par les voleurs, les bardes, les rôdeurs ou les barbare comme s’il s’agissait d’armure de cuir (mais pas par les druides ou forgesorts, qui sont des lanceurs de sort). Cette armure est magique et offre un bonus de DEF de +2 et réduit de 2 les pénalités qu'elle inflige.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Chemise de mailles +2, des elfes noirs",
+    "oid": "chemise-de-maille-des-elfes-noirs+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir.",
+    "skill": null,
+    "special_property": [
+      "Utilisable: voleur, barde rôdeur et barbare"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-maille-des-elfes-noirs",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18100
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 7,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir (pénalité de -2 de base). Elles peuvent être portées par les voleurs, les bardes, les rôdeurs ou les barbare comme s’il s’agissait d’armure de cuir (mais pas par les druides ou forgesorts, qui sont des lanceurs de sort). Cette armure est magique et offre un bonus de DEF de +3 et réduit de 3 les pénalités qu'elle inflige.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Chemise de mailles +3, des elfes noirs",
+    "oid": "chemise-de-maille-des-elfes-noirs+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir.",
+    "skill": null,
+    "special_property": [
+      "Utilisable: voleur, barde rôdeur et barbare"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "chemise-de-maille-des-elfes-noirs",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32100
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir (pénalité de -2 de base). Elles peuvent être portées par les voleurs, les bardes, les rôdeurs ou les barbare comme s’il s’agissait d’armure de cuir (mais pas par les druides ou forgesorts, qui sont des lanceurs de sort). Cette armure est magique et offre un bonus de DEF de +4 et réduit de 4 les pénalités qu'elle inflige.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Chemise de mailles +4, des elfes noirs",
+    "oid": "chemise-de-maille-des-elfes-noirs+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée de Duïn",
+        "numbering": "3",
+        "title": "La bataille de Fleck"
+      }
+    ],
+    "short_description": "Les chemises de maille des elfes noirs sont si légères et souples qu’elles sont considérées comme des armures de cuir.",
+    "skill": null,
+    "special_property": [
+      "Utilisable: voleur, barde rôdeur et barbare"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 6.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-elfique-naesk",
     "category": "Bazar du bizarre",
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 200
+      "value": 200.0
     },
     "count": 1,
     "creature": null,
@@ -9808,7 +13629,7 @@
     "cost": {
       "__type__": "Cost",
       "unit": "pa",
-      "value": 400
+      "value": 400.0
     },
     "count": 1,
     "creature": null,

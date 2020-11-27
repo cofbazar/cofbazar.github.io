@@ -52,6 +52,222 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "petit-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un petit bouclier en métal qui occupe une main. Très maniable, il n'offre cependant que très peu de protection contre les projectiles. Il procure un bonus de DEF +1. Ce bouclier est magique et offre un bonus de DEF de +1.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": null,
+    "name": "Petit bouclier +1",
+    "oid": "petit-bouclier-magical+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un petit bouclier très maniable en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +1.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "petit-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un petit bouclier en métal qui occupe une main. Très maniable, il n'offre cependant que très peu de protection contre les projectiles. Il procure un bonus de DEF +1. Ce bouclier est magique et offre un bonus de DEF de +2.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Petit bouclier +2",
+    "oid": "petit-bouclier-magical+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un petit bouclier très maniable en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +2.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "petit-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un petit bouclier en métal qui occupe une main. Très maniable, il n'offre cependant que très peu de protection contre les projectiles. Il procure un bonus de DEF +1. Ce bouclier est magique et offre un bonus de DEF de +3.",
+    "hands": 1,
+    "magical_level": 3,
+    "material": null,
+    "name": "Petit bouclier +3",
+    "oid": "petit-bouclier-magical+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un petit bouclier très maniable en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +3.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "petit-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un petit bouclier en métal qui occupe une main. Très maniable, il n'offre cependant que très peu de protection contre les projectiles. Il procure un bonus de DEF +1. Ce bouclier est magique et offre un bonus de DEF de +4.",
+    "hands": 1,
+    "magical_level": 4,
+    "material": null,
+    "name": "Petit bouclier +4",
+    "oid": "petit-bouclier-magical+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un petit bouclier très maniable en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +4.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "grand-bouclier",
     "category": "Standard",
     "cost": {
@@ -84,6 +300,222 @@
     "range": null,
     "scenario": null,
     "short_description": "Un grand bouclier en métal qui occupe une main.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "grand-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre une bonne protection contre les projectiles. Il procure un bonus de DEF +2. Ce bouclier est magique et offre un bonus de DEF de +1.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": null,
+    "name": "Grand bouclier +1",
+    "oid": "grand-bouclier-magical+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +1.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "grand-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre une bonne protection contre les projectiles. Il procure un bonus de DEF +2. Ce bouclier est magique et offre un bonus de DEF de +2.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Grand bouclier +2",
+    "oid": "grand-bouclier-magical+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +2.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "grand-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre une bonne protection contre les projectiles. Il procure un bonus de DEF +2. Ce bouclier est magique et offre un bonus de DEF de +3.",
+    "hands": 1,
+    "magical_level": 3,
+    "material": null,
+    "name": "Grand bouclier +3",
+    "oid": "grand-bouclier-magical+3",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +3.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.0
+    }
+  },
+  {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "grand-bouclier",
+    "category": "Magique",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre une bonne protection contre les projectiles. Il procure un bonus de DEF +2. Ce bouclier est magique et offre un bonus de DEF de +4.",
+    "hands": 1,
+    "magical_level": 4,
+    "material": null,
+    "name": "Grand bouclier +4",
+    "oid": "grand-bouclier-magical+4",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Un grand bouclier en métal qui occupe une main. Ce bouclier offre un bonus de DEF de +4.",
     "skill": null,
     "special_property": [],
     "usable_by": [],

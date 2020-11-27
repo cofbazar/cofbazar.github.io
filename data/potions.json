@@ -2748,7 +2748,7 @@
         "ftype": "mineur"
       }
     ],
-    "full_description": "La personne qui boit cette potion peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "full_description": "Un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
     "hands": 0,
     "magical_level": "mineur",
     "material": null,
@@ -2757,7 +2757,7 @@
     "quantity": 1,
     "range": null,
     "scenario": null,
-    "short_description": "La personne qui boit cette potion peut préparer un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
+    "short_description": "Un élixir qui soigne [3d6 + Mod. d’INT] PV ou un empoisonnement.",
     "skill": null,
     "special_property": [
       "Soigne: 3d6 + [INT] PV",

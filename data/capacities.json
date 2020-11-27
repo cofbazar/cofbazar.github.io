@@ -571,11 +571,47 @@
   {
     "__type__": "Capacity",
     "area": null,
-    "attack": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "SAG"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "Combat",
+      "value": ""
+    },
     "full_description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul le Prêtre peut utiliser. Cette arme inflige [1d6 + Mod. de SAG] de DM. Contre les démons et les mort-vivants, elle offre un bonus de +2 en attaque et ajoute +1d6 aux DM.",
     "limited": true,
     "name": "Arme d’argent",
@@ -583,7 +619,9 @@
     "range": null,
     "short_description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul le Prêtre peut utiliser.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Démon: attaque +2, DM +1d6Mort vivant: attaque +2, DM +1d6"
+    ],
     "way_rank": 2,
     "wid": "http://co-drs.org/voies/voie-de-la-foi/"
   },
@@ -1990,9 +2028,11 @@
     "name": "Cercle de protection",
     "oid": "http://co-drs.org/capacites/cercle-de-protection/",
     "range": null,
-    "short_description": "Le Magicien peut tracer un cercle sur le sol pouvant contenir 3 personnes pour les protéger des sorts adverses.",
+    "short_description": "Le Magicien peut tracer un cercle sur le sol pour se protéger des sorts adverses. Une fois par tour, lorsqu’un sort (attaque magique) prend pour cible un personnage situé dans le cercle, le Magicien fait un test d’attaque magique en opposition à celui de l’adversaire. En cas de succès le sort adverse n’a aucun effet.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Cercle: Peut contenir 3 personnes"
+    ],
     "way_rank": 4,
     "wid": "http://co-drs.org/voies/voie-de-la-magie-protectrice/"
   },
@@ -2945,7 +2985,43 @@
   {
     "__type__": "Capacity",
     "area": null,
-    "attack": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 5,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
     "count": 1,
     "creature": null,
     "defense": null,
@@ -2954,10 +3030,18 @@
     "limited": true,
     "name": "Désintégration",
     "oid": "http://co-drs.org/capacites/desintegration/",
-    "range": null,
-    "short_description": "Le Magicien projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière.",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "short_description": "Le Magicien projette un rayon mortel qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière que la cible soit une créature ou un objet.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Petit objet: attaque -5",
+      "Objet magique: insensible",
+      "Impossible sur objet > 50 Kg"
+    ],
     "way_rank": 5,
     "wid": "http://co-drs.org/voies/voie-de-la-magie-des-arcanes/"
   },
@@ -4298,8 +4382,44 @@
   },
   {
     "__type__": "Capacity",
-    "area": null,
-    "attack": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": "10"
+    },
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": null
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "SAG"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
     "count": 1,
     "creature": null,
     "defense": null,
@@ -4309,7 +4429,7 @@
     "name": "Foudres divines",
     "oid": "http://co-drs.org/capacites/foudres-divines/",
     "range": null,
-    "short_description": "La foudre frappe toutes les créatures désignées dans un rayon de 10 mètres autour du Prêtre et leur inflige [1d6 + Mod. de SAG] de DM.",
+    "short_description": "La foudre frappe toutes les créatures désignées autour du prêtre qui compare son test d'attaque à la DEF de chaque cible.",
     "skill": null,
     "special_property": [],
     "way_rank": 4,
@@ -8397,10 +8517,16 @@
     "limited": true,
     "name": "Téléportation",
     "oid": "http://co-drs.org/capacites/teleportation/",
-    "range": null,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": "10x[INT]"
+    },
     "short_description": "Le Magicien disparaît et réapparaît à un autre endroit.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Lieu arrivée: en ligne de vue ou parfaitement connu"
+    ],
     "way_rank": 4,
     "wid": "http://co-drs.org/voies/voie-de-la-magie-des-arcanes/"
   },
@@ -8947,5 +9073,102 @@
     "special_property": [],
     "way_rank": 3,
     "wid": "http://co-drs.org/voies/voie-du-musicien/"
+  },
+  {
+    "__type__": "Capacity",
+    "area": null,
+    "attack": null,
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[SAG]"
+    },
+    "full_description": "Cette capacité remplace la capacité «Nuée d’insectes». En réussissant un test d’attaque magique (portée 20 m), le druide libère sur sa cible une nuée de criquet affamés qui la dévorent à petit feu pendant [5 + Mod de SAG.] tours. La victime subit 2 points de DM par tour et un malus de -3 à toutes ses actions. Les DM de zone détruisent la nuée.",
+    "limited": true,
+    "name": "Nuées de criquets",
+    "oid": "http://co-drs.org/capacites/nuees-de-criquets/",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "short_description": "Sur une attaque magique réussie, le druide libère sur sa cible une nuée de criquet affamés qui la dévorent à petit feu.",
+    "skill": null,
+    "special_property": [
+      "Destruction: DM de zone uniquement",
+      "Cible: malus -3 à toutes ses actions",
+      "Cible: 2 DM / tr"
+    ],
+    "way_rank": 1,
+    "wid": "unknown-id_voie-des-vermines"
+  },
+  {
+    "__type__": "Capacity",
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 10
+    },
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": "froid"
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1"
+    },
+    "full_description": "Le cône de affecte toute les créatures dans un cône approximatif de 20 mètres de long sur 10 mètres de large à son extrémité. Les victimes subissent [2d6+Mod d’INT] DM et sont Ralenties pour 1 tour si elles ratent un test de CON difficulté 13. Sinon, elles subissent seulement la moitié des DM et ne sont pas ralenties.",
+    "limited": true,
+    "name": "Cône de froid",
+    "oid": "http://co-drs.org/capacites/cone-de-froid/",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "short_description": "Un cône de froid qui sort des mains de l'ensorceleur et affecte toutes créatures prises à l'intérieure.",
+    "skill": null,
+    "special_property": [
+      "Test CON < 13: Ralenti",
+      "Test CON >= 12: DM / 2"
+    ],
+    "way_rank": 3,
+    "wid": "unknown-id_voie-du-gel"
   }
 ]

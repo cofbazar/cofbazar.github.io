@@ -4154,7 +4154,7 @@
     "hands": 0,
     "magical_level": null,
     "material": null,
-    "name": "Collier, de la maison Eilserv",
+    "name": "Collier, de la maison Kar'Lothian",
     "oid": "collier-maison-kar-lothian",
     "quantity": -1,
     "range": null,
@@ -7967,7 +7967,7 @@
         ],
         "other": []
       },
-      "mod": 3,
+      "mod": 0,
       "name": null,
       "range": null
     },
@@ -10030,7 +10030,7 @@
     "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
     "skill": null,
     "special_property": [
-      "[DEX]: +1"
+      "[FOR]: +1"
     ],
     "usable_by": [],
     "use": -1,
@@ -10076,7 +10076,7 @@
     "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
     "skill": null,
     "special_property": [
-      "[DEX]: +2"
+      "[FOR]: +2"
     ],
     "usable_by": [],
     "use": -1,
@@ -10122,7 +10122,7 @@
     "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
     "skill": null,
     "special_property": [
-      "[DEX]: +3"
+      "[FOR]: +3"
     ],
     "usable_by": [],
     "use": -1,
@@ -10168,7 +10168,7 @@
     "short_description": "Ces gantelets apportent un bonus au Mod. de force de la personne qui les porte.",
     "skill": null,
     "special_property": [
-      "[DEX]: +4"
+      "[FOR]: +4"
     ],
     "usable_by": [],
     "use": -1,

@@ -1,7 +1,9 @@
 // default filter values
 var defaultModeType = "default";
+var defaultAllInputs = false;
 var defaultItemType = ['Armor'];
 var defaultAreaSize = "village";
+var defaultScenario = { "campaign": "Toutes", "scenario": "Tous"}
 var defaultArea = cofConfig['areas']['data'].find(area => area['name'] === defaultAreaSize);
 var defaultAreaPriceMax = 1;
 var defaultUserInputName = undefined;
@@ -15,13 +17,16 @@ var defaultItemPriceMaxRange = Number(defaultArea['cost-max']);
 var defaultSortKeys = [{key: 'cost', dir: 0},
                        {key: 'name', dir: 0},
                        {key: 'tlabel', dir: 0}];
+var allTypes = cofConfig['items']['data'].filter(item => item.name != "Unique").map(item => item['name']).sort();
                        
 // Item filter data
 var defaultFilter = {
   "modeType": defaultModeType,
   "itemType": defaultItemType,
+  "allInputs": defaultAllInputs,
   "areaSize": defaultAreaSize,
   "areaPriceMax": defaultAreaPriceMax,
+  "scenario": defaultScenario,
   "price": {
     "min": defaultItemPriceMin,
     "max": defaultItemPriceMax,
@@ -83,7 +88,7 @@ var itemData = new Vue({
       appSeparator.allItems = this.cofFullData.length;
       itemList.itemsListData = this.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
-    console.timeEnd("Initialization");
+      console.timeEnd("Initialization");
     });
   }
 });
@@ -95,7 +100,11 @@ var itemSettings = new Vue({
       saveFilter(defaultFilter);
       itemFilter = loadFilter(defaultFilter);
       itemModeType.modeType = itemFilter["modeType"];
+      itemCampaign.displayFilter = itemFilter["modeType"] == 'quest';
+      itemCampaign.selectedCampaign = itemFilter["scenario"]["campaign"];
+      itemCampaign.selectedScenario = itemFilter["scenario"]["scenario"];
       itemType.checkedNames = itemFilter["itemType"];
+      itemType.allInputs = itemFilter["allInputs"];
       areaSize.selected = itemFilter["areaSize"];
       itemPrice.min = itemFilter["price"]["min"];
       itemPrice.max = itemFilter["price"]["max"];
@@ -131,6 +140,69 @@ var itemModeType = new Vue({
         itemPrice.max = itemData.cofFullData.maxPrice(itemFilter); 
       } 
       console.timeEnd("Mode type checked(" + v + ")");
+      if (this.modeType == 'quest') {
+        itemCampaign.displayFilter = true;
+      } else {
+        itemCampaign.displayFilter = false;
+      }
+    }
+  }
+});
+
+var itemCampaign = new Vue({
+  el: '#item-campaign',
+  data: {
+    displayFilter: itemFilter["modeType"] == 'quest',
+    selectedCampaign: itemFilter["scenario"]["campaign"],
+    optionsCampaign: cofConfig['campaigns'].map(campaign => ({
+      text: campaign['name'],
+      value: campaign['name'],
+    })),
+    selectedScenario: itemFilter["scenario"]["scenario"],
+    optionsScenario: cofConfig['campaigns'].find(c => c['name'] == itemFilter["scenario"]["campaign"])["scenarios"].map(scenario => ({
+      text: scenario,
+      value: scenario,
+    })),
+  },
+  watch: {
+    displayFilter: function (v) {
+      console.time("Display filter change (" + v + ")");
+      this.displayFilter = v
+      console.timeEnd("Display filter change (" + v + ")");
+    },
+    selectedCampaign: function (v) {
+      console.time("Campaign change (" + v + ")");
+      this.selectedCampaign = v;
+      itemFilter["scenario"]["campaign"] = this.selectedCampaign;
+      saveFilter(itemFilter);
+      scenarios = cofConfig['campaigns'].find(c => c['name'] == this.selectedCampaign)["scenarios"];
+      this.selectedScenario = scenarios[0];      
+      itemFilter["scenario"]["scenario"] = this.selectedScenario;
+      saveFilter(itemFilter);
+      this.optionsScenario = scenarios.map(scenario => ({
+        text: scenario,
+        value: scenario,
+      }));
+      itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
+      appSeparator.loadedItems = itemList.itemsListData.length;
+      if (areaSize.areaPriceMax < 0.0) {
+        itemPrice.max = itemData.cofFullData.maxPrice(itemFilter);
+        //console.log("Set price max : " + itemPrice.max);
+      }
+      console.timeEnd("Campaign change (" + v + ")");
+    },
+    selectedScenario: function (v) {
+      console.time("Scenario change (" + v + ")");
+      this.selectedScenario = v;
+      itemFilter["scenario"]["scenario"] = this.selectedScenario;
+      saveFilter(itemFilter);
+      itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
+      appSeparator.loadedItems = itemList.itemsListData.length;
+      if (areaSize.areaPriceMax < 0.0) {
+        itemPrice.max = itemData.cofFullData.maxPrice(itemFilter);
+        //console.log("Set price max : " + itemPrice.max);
+      }
+      console.timeEnd("Scenario change (" + v + ")");
     }
   }
 });
@@ -138,6 +210,7 @@ var itemModeType = new Vue({
 var itemType = new Vue({
   el: '#item-type',
   data: {
+    allInputs: itemFilter["allInputs"],
     checkedNames: itemFilter["itemType"],
     inputs: cofConfig['items']['data'].filter(item => item.name != "Unique").map(item => ({
       value: item['name'],
@@ -153,10 +226,40 @@ var itemType = new Vue({
       
   },
   watch: {
+    allInputs: function (v) {
+      console.time("All items type checked(" + v + ")");
+      if (v) {
+        if (!(this.checkedNames.equals(allTypes))) {
+          this.checkedNames = allTypes;
+          itemFilter["allInputs"] = true;
+          saveFilter(itemFilter);
+        }    
+      } else {
+        if (this.checkedNames.equals(allTypes)) {
+          this.checkedNames = defaultItemType;
+          itemFilter["allInputs"] = false;
+          saveFilter(itemFilter);
+        }
+      } 
+      console.timeEnd("All items type checked(" + v + ")");
+    },
     checkedNames: function (v) {
       console.time("Item type checked(" + v + ")");
-      itemFilter["itemType"] = this.checkedNames;
+      sortedv = [...v].sort();
+      itemFilter["itemType"] = sortedv;
       saveFilter(itemFilter);
+    // Comparer les 2 tableaux https://masteringjs.io/tutorials/fundamentals/compare-arrays
+      if ((sortedv.equals(allTypes)) && (!(this.allInputs)) ) {
+        console.log("All inputs checked");
+        this.allInputs = true;
+        itemFilter["allInputs"] = true;
+        saveFilter(itemFilter);
+      } 
+      if ((!(sortedv.equals(allTypes))) && (this.allInputs)) {
+        this.allInputs = false;
+        itemFilter["allInputs"] = false;
+        saveFilter(itemFilter);
+      }
       itemList.itemsListData = itemData.cofFullData.filterItemsList(itemFilter);
       appSeparator.loadedItems = itemList.itemsListData.length;
       if (areaSize.areaPriceMax < 0.0) {
@@ -260,7 +363,7 @@ var areaSize = new Vue({
       itemFilter["areaPriceMax"] = areaSize.areaPriceMax;
       saveFilter(itemFilter);
       if (this.areaPriceMax < 0.0) {
-        itemPrice.max = itemData.cofFullData.maxPrice(itemFilter); 
+        itemPrice.max = itemData.cofFullData.maxPrice(itemFilter);
       } else {
         itemPrice.max = this.areaPriceMax;
       }

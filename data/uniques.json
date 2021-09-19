@@ -4,6 +4,54 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "broche-sagesse+2",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magnifique broche en argent représentant une feuille de houx. Cette broche confère un bonus au Mod. de SAG de +2.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Broche en argent",
+    "oid": "broche-sagesse+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un magnifique broche en argent représentant une feuille de houx.",
+    "skill": null,
+    "special_property": [
+      "Mod. SAG: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "etoile-d-honneur-en-argent",
     "category": "quest",
     "cost": {
@@ -128,7 +176,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "Une nuit à Clairval",
         "numbering": "2",
         "title": "Retour à clairval"
@@ -184,7 +232,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "Amis pour la vie",
         "numbering": "5",
         "title": "Retour à clairval"
@@ -460,7 +508,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "Baston chez les Crânes-creux",
         "numbering": "4",
         "title": "Retour à clairval"
@@ -853,9 +901,62 @@
         "chapter": "La vallée de Duïn",
         "numbering": "3",
         "title": "La bataille de Fleck"
+      },
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
       }
     ],
     "short_description": "Le jaspe peut avoir plusieurs aspects : tacheté, rubané, rouge, à taches rouges sur fond vert, noir, etc.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-jade",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le jade est une pierre gemme très dure et tenace généralement de couleur verte.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Jade",
+    "oid": "stone-jade",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Le jade est une pierre gemme très dure et tenace généralement de couleur verte.",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -1983,6 +2084,236 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "pierre-de-mort",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une pierre magique qui semble posséder une puissante aura de mort",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pierre de Mort",
+    "oid": "pierre-de-mort",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une pierre magique qui semble posséder une puissante aura de mort.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "pierre-du-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une pierre magique qui semble irradier d'une puissante chaleur.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pierre du Feu",
+    "oid": "pierre-du-feu",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une pierre magique qui semble irradier d'une puissante chaleur.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "pierre-de-terre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une pierre magique d'où semble s'émananer de fines volutes empoisonnées.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pierre de Terre",
+    "oid": "pierre-de-terre",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une pierre magique d'où semble s'émananer de fines volutes empoisonnées.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "pierre-d-esprit",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une pierre magique fascinante dont il est difficile de détourner le regard.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pierre d'Esprit",
+    "oid": "pierre-d-esprit",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une pierre magique fascinante dont il est difficile de détourner le regard.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "pierre-de-vent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une pierre magique empreinte de tellement de puissance qu'elle semble vibrer.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pierre de Vent",
+    "oid": "pierre-de-vent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une pierre magique empreinte de tellement de puissance qu'elle semble vibrer.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "flute-d-amarange",
     "category": "quest",
     "cost": {
@@ -2673,6 +3004,102 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "sac-de-pommes",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 10.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un un grand sac rempli de pommes qui ont l'air très appétissantes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un grand sac de pommes",
+    "oid": "sac-de-pommes",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Forêt Sombre",
+        "numbering": "1",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un un grand sac rempli de pommes.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 10
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bourse-fruits-seches",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une bourse de fruits séchés aux propriétés magiques. Chaque bourse contient une quantité suffisante de baies pour prendre 5 repas. Chaque repas nourrit la personne pour 24 heures, permet de guérir 3d6 PV et soigne tout empoisonnement. Un personnage ne peut bénéficier de cet effet plus d’une fois par jour.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Une bourse contenant des fruits séchés",
+    "oid": "bourse-fruits-seches",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Forêt Sombre",
+        "numbering": "1",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une bourse avec des baies pour prendre 5 repas. Un repas nourrit la personne pour 24 heures, guerit les blessures et soigne tout empoisonnement.",
+    "skill": null,
+    "special_property": [
+      "Soigne: 3d6 PV",
+      "Soigne: Empoisonnement",
+      "Effet: 1 seule fois par jour"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "vetements-sombres",
     "category": "quest",
     "cost": {
@@ -2802,6 +3229,52 @@
       }
     ],
     "short_description": "Recette de la tarte aux pommes: Faites la pâte avec du beurre, de la farine et de l'eau. Malaxez puis faites-en une boule que vous laisserez reposer au moins une heure. Pendant ce temps épluchez des pommes et coupez les en morceaux. Lorsque la pâte est prête, étalez la dans un moule et disposez les morceaux de pommes dessus. Faites cuire 35 min puis dégustez la tiède !",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "recette-amphore-de-soin",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Sur cette plaquette de cire est gravée (en Uraqi) la methode utilisé par les Uraqi pour produire une amphore de soin. L'ingrédient principal semble être ... du sang humain ...",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Recette amphore de soin",
+    "oid": "recette-amphore-de-soin",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Sur cette plaquette de cire est gravée (en Uraqi) la methode utilisé par les Uraqi pour produire une amphore de soin. L'ingrédient principal semble être ... du sang humain ...",
     "skill": null,
     "special_property": [],
     "usable_by": [],
@@ -3341,6 +3814,62 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.3
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gland-de-pouvoir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "2d6+[SAG]"
+    },
+    "flavor": [],
+    "full_description": "Une fois par combat, la personne peut lancer un gland sur une cible (portée 10 m). En cas d’attaque à distance réussie, la victime se transforme en statue de bois pendant [2d6 + Mod. de SAG] tours. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 mais elle gagne une réduction des DM de 10. Le sort s’achève dès que la cible perd plus de 10 PV. S'il rate sa cible, il peut être récupéré avec un test de sagesse de difficulté 10 ou 20 selon la nature du sol.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Gland de pouvoir",
+    "oid": "gland-de-pouvoir",
+    "quantity": -1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 10
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Avec une attaque à distance réussie, celui qui lance ce gland transforme la victime en statue de bois. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 et il obtient une RD de 10. Le sort s’achève dès que la cible perd plus de 10 PV. En cas d'échec, on peut le récupérer avec un test de SAG de 10 ou 20 selon la nature du sol).",
+    "skill": null,
+    "special_property": [
+      "Utilisation: Une fois par combat"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
     }
   },
   {
@@ -4460,6 +4989,52 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "psyche-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 120.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magifique miroir en argent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un psyché, en argent",
+    "oid": "psyche-en-argent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un magifique miroir en argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "coupe-en-or",
     "category": "quest",
     "cost": {
@@ -4552,6 +5127,54 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "amphore-de-soin",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une poterie en forme de petite amphone contenant un liquide qui permet de soigner les blessures. La personne qui boit cette potion récupère alors [2d8 + niveau] PV perdus.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Petite amphore de soin",
+    "oid": "amphore-de-soin",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une petite amphone contenant un liquide qui permet de soigner les blessures.",
+    "skill": null,
+    "special_property": [
+      "Soigne: 2d8 PV + niveau"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "elixir-de-soin",
     "category": "quest",
     "cost": {
@@ -4575,7 +5198,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "La chasse au gobelin",
         "numbering": "3",
         "title": "Retour à clairval"
@@ -4623,7 +5246,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "Baston chez les Crânes-creux",
         "numbering": "4",
         "title": "Retour à clairval"
@@ -4633,6 +5256,61 @@
     "skill": null,
     "special_property": [
       "DM: 1d8 + 5"
+    ],
+    "usable_by": [],
+    "use": 1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": 3
+    },
+    "attack": null,
+    "base_item": "pot-acide",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un pot contenant un acide très puissant. Ce pot peut être jeté sur les adversaires pour les dissoudre. La créature visée et touchée perd 3d6 PV le premier tour, 2d6 PV le second et 1d6 PV au troisième tour. Toutes les créatures éclaboussées (3 mètres de diamètre) souffrent de 1d6 points de dégâts au premier tour uniquement.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pot d'acide",
+    "oid": "pot-acide",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un pot contenant un acide très puissant qui permet de cibler un ennemi et éclabousse ceux à proximité.",
+    "skill": null,
+    "special_property": [
+      "DM (creature): 3d6 (1er tour)",
+      "DM (creature): 2d6 (2ième tour)",
+      "DM (creature): 1d6 (3ième tour)",
+      "DM (zone): 1d6 (1er tour)"
     ],
     "usable_by": [],
     "use": 1,
@@ -5132,7 +5810,7 @@
         "title": "La justices des Elfes"
       }
     ],
-    "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus.Effet secondaire : tous les poils du personnage (cheveux, barbe, sourcils, avant-bras...) poussent de dix centimètres.",
+    "short_description": "La personne qui boit cette potion récupère alors [1d8 + niveau] PV perdus. Effet secondaire : tous les poils du personnage (cheveux, barbe, sourcils, avant-bras...) poussent de dix centimètres.",
     "skill": null,
     "special_property": [
       "Soigne : 1d8 PV + niveau"
@@ -5390,7 +6068,9 @@
     ],
     "short_description": "La personne qui utilise ce parchemin chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Elle doit connaître la cible ou la voir et peut entendre sa réponse immédiatement.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Portée: 100m / rang dans la voie"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": 1,
@@ -6504,6 +7184,492 @@
     }
   },
   {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-detection-de-linvisible",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
+    "flavor": [],
+    "full_description": "Pendant [5 + Mod. de CHA] tours, la personne qui utilise ce parchemin détecte les créatures invisibles ou cachées à moins de 30 mètres et détecte si un sort de Clairvoyance affecte l’endroit. Aveuglé, ce sort lui permet de voir normalement.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Parchemin - Détection de l’invisible",
+    "oid": "spell-detection-de-linvisible",
+    "quantity": -1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 30
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin détecte les créatures invisibles ou cachées et si un sort de Clairvoyance affecte l’endroit.",
+    "skill": null,
+    "special_property": [
+      "Détecte créature invisible ou cachée",
+      "Detecte sort de clairvoyance",
+      "Vue normale si aveuglé"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 2,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-clairvoyance",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin peut voir et entendre à distance ce qui se passe dans un lieu qu’il connait, tant qu’elle reste concentré (action limitée à chaque tour). Les créatures présentes ont droit à un test de SAG difficulté [12 + Mod. de CHA] : en cas de réussite, elles se sentent observées.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Parchemin - Clairvoyance",
+    "oid": "spell-clairvoyance",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin peut voir et entendre ce qui se passe dans un lieu qu’elle connait, tant qu’elle reste concentrée. Les créatures présentes peuvent se sentir observées.",
+    "skill": null,
+    "special_property": [
+      "Rester concentrer (L) / tour",
+      "Test SAG (observé): 12+[CHA]"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 3,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": "fire"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "spell-main-déployee",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort à ses mains qui deviennent brûlantes. Un jet de flamme affecte toutes les créatures au contact du porteur dans un arc de 180°. Elles subissent 3d6 DM ou la moitié si elles réussissent un test de DEX difficulté 12.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Main déployée (L)",
+    "oid": "spell-main-déployee",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un jet de flamme qui touche toutes les créatures au contact dans un arc de 180°.",
+    "skill": null,
+    "special_property": [
+      "Utilisable: 3 fois par jour",
+      "Test DEX >= 12: DM / 2"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-pointer-du-doigt",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui utilise ce parchemin choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire).",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Pointer du doigt (L)",
+    "oid": "spell-pointer-du-doigt",
+    "quantity": -1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 50
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui utilise ce parchemin peut cibler une cible qui encaisse alors automatiquement des dégâts.",
+    "skill": null,
+    "special_property": [
+      "DM (automatique): 1d4",
+      "Utilisable: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-paume-ouverte",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "1"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort peut immobiliser des personnes ou des monstres, la créature doit faire un test de SAG difficulté 15 ou être immobilisée pendant 1 tour (d12 et pas de déplacement).",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Paume ouverte (L)",
+    "oid": "spell-paume-ouverte",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort peut immobiliser des personnes ou des monstres.",
+    "skill": null,
+    "special_property": [
+      "Utilisable: 3 fois par jour",
+      "Immobilisé: d12 au lieu du d20",
+      "Test SAG < 15: Immobilisé"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-caresse-joue",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1250
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": "5+[INT]",
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[INT]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort obtient une réduction des DM égale à [5 + Mod. d’INT] pendant [5+ Mod. d’INT] tours ou jusqu’à ce que le sort ait absorbé 40 points de dégâts.",
+    "hands": 0,
+    "magical_level": 5,
+    "material": null,
+    "name": "Caresse sur la joue (L)",
+    "oid": "spell-caresse-joue",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort obtient une réduction des DM pendant plusiuers tours ou jusqu’à ce que le sort ait absorbé un certain nombre de dégâts.",
+    "skill": null,
+    "special_property": [
+      "Absorbe: 40 DM (maximum)",
+      "Utilisable: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 5,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-cercle-de-la-main",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort crée un mur de force indestructible (portée 10 m, maximum 5 m de haut et 10 m de long), ou bien une hémisphère de 3 m de rayon centrée sur lui-même. Le sort dure pendant [5 + Mod. de CHA] tours.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Cercle de la main (L)",
+    "oid": "spell-cercle-de-la-main",
+    "quantity": -1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 10
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui lance ce sort crée un mur de force indestructible (5m haut par 3m de long), ou bien une hémisphère centrée sur lui-même (3m de rayon).",
+    "skill": null,
+    "special_property": [
+      "Utilisable: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": {
+        "__type__": "Area",
+        "unit": "m",
+        "value": 6
+      },
+      "atype": "magical",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 6,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": "feu"
+          },
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": "(Échec: DM / 2)",
+            "limitation": null,
+            "mtype": "+",
+            "target": "INT"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
+    "base_item": "spell-coup-de-poing",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La personne qui lance ce sort crée un mur de force indestructible (portée 10 m, maximum 5 m de haut et 10 m de long), ou bien une hémisphère de 3 m de rayon centrée sur lui-même. Le sort dure pendant [5 + Mod. de CHA] tours.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Coup de poing (L)",
+    "oid": "spell-coup-de-poing",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une boule de feu blessant toutes personnes dans la zone d'effet.",
+    "skill": null,
+    "special_property": [
+      "Test DEX > 10 + [INT]: DM / 2",
+      "Utilisable: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": 3,
+    "way_rank": 4,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "MagicalWand",
     "ability": null,
     "area": {
@@ -6701,6 +7867,87 @@
     "attack": {
       "__type__": "Attack",
       "area": null,
+      "atype": "ranged",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": null,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "DEX"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 50
+      }
+    },
+    "base_item": "arbalete-automatique",
+    "category": "standard",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le forgesort fabrique une arbalète complexe qu'il est le seul à pouvoir utiliser. Elle est dotée d'un chargeur de 10 carraux et permet de tirer un carreau au prix d'une action de mouvement (il est donc possible de tirer plusieurs carreaux par tour). Elle inflige [2d4 + Mod de DEX] DM à une portée de 50 mètres. Il faut un tour complet pour la recharger.",
+    "hands": 2,
+    "magical_level": null,
+    "material": null,
+    "name": "Arbalète automatique, du forgesort",
+    "oid": "arbalete-automatique",
+    "quantity": -1,
+    "range": null,
+    "scenario": null,
+    "short_description": "Arbalète automatique du forgesort.",
+    "skill": null,
+    "special_property": [
+      "Attaque: Action mouvement",
+      "Capacité : 10 munitions",
+      "Rechargement: 1 tour"
+    ],
+    "usable_by": [],
+    "use": 5,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 9.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
       "atype": "melee",
       "critical": "20",
       "damages": {
@@ -6754,7 +8001,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "Baston chez les Crânes-creux",
         "numbering": "4",
         "title": "Retour à clairval"
@@ -6994,7 +8241,7 @@
     "scenario": [
       {
         "__type__": "Scenario",
-        "campaign": null,
+        "campaign": "Scénarios uniques",
         "chapter": "Baston chez les Crânes-creux",
         "numbering": "4",
         "title": "Retour à clairval"
@@ -7023,6 +8270,101 @@
       "area": null,
       "atype": "melee",
       "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "faucille-magique-en-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "silver"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Une magnifique faucille en argent gravée de runes druidiques. Il s’agit d’une faucille magique +1 (DM de base 1d6) qui inflige +1d6 DM contre les plantes.",
+    "hands": 1,
+    "magical_level": null,
+    "material": "silver",
+    "name": "Faucille magique, en argent",
+    "oid": "faucille-magique-en-argent",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Forêt Sombre",
+        "numbering": "1",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une magnifique faucille en argent gravée de runes druidiques.",
+    "skill": null,
+    "special_property": [
+      "DM: +1d6 contre les plantes"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "19-20",
       "damages": {
         "__type__": "Damage",
         "base": [
@@ -7189,6 +8531,95 @@
     "skill": null,
     "special_property": [
       "Attaque magique: +1"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "baton+2-de-defense",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 9000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un bâton magique +2 (bonus en attaque au contact et aux DM) en chêne. Ce bâton noueux procure également un bonus de DEF de +2. Il inflige donc 1d4 +2 DM.",
+    "hands": 2,
+    "magical_level": 2,
+    "material": "wood",
+    "name": "Bâton +2, de défense",
+    "oid": "baton+2-de-defense",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un bâton magique +2 en chêne. Ce bâton noueux procure également un bonus de défense.",
+    "skill": null,
+    "special_property": [
+      "DEF: +2"
     ],
     "usable_by": [],
     "use": -1,
@@ -7383,6 +8814,90 @@
           {
             "__type__": "Mod",
             "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "francisque+1-de-lancer",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette hache peut être lancée à une portée de 20 mètres et elle revient dans la main de son lanceur. Elle inflige 1d6 DM et le personnage peut ajouter son Mod. de FOR aux DM qu’il inflige lors d’une attaque à distance avec cette arme.",
+    "hands": 1,
+    "magical_level": 1,
+    "material": null,
+    "name": "Francisque +1, de lancer",
+    "oid": "francisque+1-de-lancer",
+    "quantity": -1,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 20
+    },
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cette hache peut être lancée et revient dans la main de son lanceur. Il peut alors ajouter son Mod. de FOR.",
+    "skill": null,
+    "special_property": [
+      "DM (distance) : +[FOR]",
+      "Revient dans la main de son lanceur"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
             "die": 10,
             "label": null,
             "limitation": null,
@@ -7459,7 +8974,7 @@
       "__type__": "Attack",
       "area": null,
       "atype": "melee",
-      "critical": "20",
+      "critical": "19-20",
       "damages": {
         "__type__": "Damage",
         "base": [
@@ -7523,7 +9038,7 @@
     "full_description": "Une rapière spécialement faite pour parer les coups qui apporte un bonus de +2 en défense. Elle est magique et apporte un bonus de +2 en attaque et aux dégâts",
     "hands": 1,
     "magical_level": 4,
-    "material": "silver",
+    "material": null,
     "name": "Rapière de parade +2, d'Amarange le Bel",
     "oid": "rapiere-+2-de-parade",
     "quantity": -1,
@@ -7540,6 +9055,96 @@
     "short_description": "Une rapière spécialement faite pour parer les coups.",
     "skill": null,
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "rapiere-+2-de-haute-dexterite",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette rapière magique de haute dextérité apporte un bonus de +2 a son Mod. de DEX. Elle est magique et apporte un bonus de +2 en attaque et aux dégâts",
+    "hands": 1,
+    "magical_level": 4,
+    "material": null,
+    "name": "Rapière +2, de haute dextérité",
+    "oid": "rapiere-+2-de-haute-dexterite",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Une rapière magique qui améliore la dextérité de son porteur.",
+    "skill": null,
+    "special_property": [
+      "[DEX] : +2"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -8297,6 +9902,196 @@
         "base": [
           {
             "__type__": "Mod",
+            "count": 2,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "masse-destruction-des-morts",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 20000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette masse magique semble annimée d'une énergie qui se transmets à son porteur lui permettant de faire des dégâts supplémentaires. Elle possede un bonus à l'attaque au contact de +2 et inflige 2d6 DM.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Masse +2, de destruction des morts",
+    "oid": "masse-destruction-des-morts",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cette masse magique semble annimée d'une énergie qui se transmets à son porteur lui permettant de faire des dégâts supplémentaires.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 3,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": [
+              "magical"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "fire"
+          }
+        ]
+      },
+      "mod": 3,
+      "name": null,
+      "range": null
+    },
+    "base_item": "etoile-du-matin+3-de-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "L'étoile du matin est une masse d'arme particulière constituée d'une masse lourde, présentant généralement des aspérités ou des lames, accrochée au bout d'un bâton plus ou moins long. Elle s'utilise à une main et inflige 1d6 dégâts. Cette arme est magique et offre un bonus de +3 en attaque et aux dégats. Cette arme fait des dégâts supplémentaires de +1d6 DM de feu.",
+    "hands": 1,
+    "magical_level": 5,
+    "material": null,
+    "name": "Étoile du matin +3, de feu",
+    "oid": "etoile-du-matin+3-de-feu",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "L'étoile du matin est une masse d'arme particulière constituée d'une masse lourde, présentant généralement des aspérités ou des lames Cette arme est magique avec un bonus de +3. Cette arme fait des dégâts supplémentaires de feu.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
             "count": 1,
             "die": 4,
             "label": null,
@@ -8680,7 +10475,7 @@
     "hands": 0,
     "magical_level": 3,
     "material": null,
-    "name": "Bottes de cuir souple",
+    "name": "Bottes de course, dans les airs",
     "oid": "boots-course-des-airs",
     "quantity": -1,
     "range": null,
@@ -8699,6 +10494,59 @@
     "usable_by": [],
     "use": -1,
     "way_rank": 3,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Boots",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "boots-marche-des-plans",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "3+[SAG]"
+    },
+    "flavor": [],
+    "full_description": "La personne qui porte ces bottes peut passer dans une dimension entre les plans d’existence où le temps et l’espace sont déformés. Il se déplace dans une sorte de brouillard gris où le paysage défile à toute vitesse une fois par jour et pour une durée maximale de [3 + Mod. de SAG] tours. Pour chaque tour de « Marche des plans », il se déplace en réalité de 10 km. Le lieu de sortie n’est cependant pas très précis et le MJ doit déterminer une position au hasard autour du point visé (à 1d6 km près).",
+    "hands": 0,
+    "magical_level": 4,
+    "material": null,
+    "name": "Bottes de sept lieues",
+    "oid": "boots-marche-des-plans",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "La personne qui porte ces bottes se déplace dans une dimension entre les plans d’existence où le paysage défile à toute vitesse. Le lieu de sortie n’est cependant pas très précis.",
+    "skill": null,
+    "special_property": [
+      "Déplacement: 10 km/tour (entre les plans)",
+      "Précision: 1d6 km (lieu visé)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": 4,
     "weight": {
       "__type__": "Weight",
       "unit": "Kg",
@@ -8742,6 +10590,60 @@
     "short_description": "Bottes elfiques.",
     "skill": null,
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Boots",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bottes-elfique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Bottes d'elfe qui apportent un bonus de plus 5 en discretion.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Bottes d'elfe",
+    "oid": "bottes-elfe",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Bottes d'elfe.",
+    "skill": null,
+    "special_property": [
+      "Discretion: +5"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -9291,7 +11193,13 @@
       }
     ],
     "duration": null,
-    "flavor": [],
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "silver"
+      }
+    ],
     "full_description": "Un heaume magnifiquement sculpté et rehaussé d’argent. Le heaume est l'élément indispensable pour compléter une armure de demi-plaques. Il offre une RD de 8 lorsque l'on subit un coup critique. Le port de de ce casque inflige une pénalité de -8 a tous les tests de SAG destinés à simuler la perception, détecter un bruit ou une créature cachée, échaper à une embuscade, etc.",
     "hands": 0,
     "magical_level": 0,
@@ -9332,6 +11240,148 @@
       }
     ],
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": "50"
+    },
+    "attack": null,
+    "base_item": "heaume-de-vision",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 300.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'heaume de vision accorde à son porteur la vision dans le noir (50 mètres) et à travers toute sorte de fumée ou de brume et un bonus de +5 à tous les tests de détection. Son porteur peut utiliser Détection de l’invisibilité et Clairvoyance trois fois par jour. Cet objet porte le symbole du Roi-Sorcier.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": null,
+    "name": "Heaume, de vision",
+    "oid": "heaume-de-vision",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Ce haume de vision, qui porte le symbole du Roi-Sorcier, permet de voir dans le noir la fumée ou la brume et donne un bonus aux tests de détection. Son porteur peut utiliser Détection de l’invisibilité et Clairvoyance 3 fois par jour.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "hearing"
+      }
+    ],
+    "special_property": [
+      "Vision dans le noir, brume et fumée"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": {
+      "__type__": "Area",
+      "unit": "m",
+      "value": "50"
+    },
+    "attack": null,
+    "base_item": "heaume-de-vision",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 300.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'heaume maudit de vision accorde à son porteur la vision dans le noir (50 mètres) et à travers toute sorte de fumée ou de brume et un bonus de +5 à tous les tests de détection. Son porteur peut utiliser Détection de l’invisibilité et Clairvoyance trois fois par jour. Le heaume pervertit progressivement l’esprit du porteur en déformant la réalité de ce qu’il perçoit (paroles, vision) pour le rendre maléfique. Cet objet porte le symbole du Roi-Sorcier.",
+    "hands": 0,
+    "magical_level": 0,
+    "material": null,
+    "name": "Heaume maudit, de vision",
+    "oid": "heaume-maudit-de-vision",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Ce haume maudit de vision, qui porte le symbole du Roi-Sorcier, permet de voir dans le noir la fumée ou la brume et donne un bonus aux tests de détection. Son porteur peut utiliser Détection de l’invisibilité et Clairvoyance 3 fois par jour. Il pervertit progressivement l’esprit déformant la réalité de ce qu’il perçoit pour le rendre maléfique.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "+",
+        "target": "hearing"
+      }
+    ],
+    "special_property": [
+      "Vision dans le noir, brume et fumée"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -9812,6 +11862,102 @@
     }
   },
   {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "talisman-de-protection-contre-le-poison",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "De ce manifique talismant semble se dégager une aura protectrice et bienveillante. Ce talimant procure une immunité totale contre tout type de poison.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Talisman de protection, contre le poison",
+    "oid": "talisman-de-protection-contre-le-poison",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "De ce manifique talismant semble se dégager une aura protectrice et bienveillante. Ce talimant procure une immunité totale contre tout type de poison.",
+    "skill": null,
+    "special_property": [
+      "Immunité: poison"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Amulet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "pendentif-aigle",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce pendentif représentant un aigle est un fétiche de guérison qui donne la capacitéde rang 1 de la voie du prêtre : Soins légers. Cette capacité est utilisable 3 fois par jour.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Pendentif, représentant un aigle",
+    "oid": "pendentif-aigle",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Ce pendentif représentant un aigle est un fétiche de guérison qui donne la capacité : Soins légers.",
+    "skill": null,
+    "special_property": [
+      "Soigne : 1d8 PV + niveauUtilisable: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "Gloves",
     "ability": null,
     "area": null,
@@ -10180,6 +12326,135 @@
     }
   },
   {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-einistar",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "L’Einistar, aussi nommé le Gardien de la cité de Lune et d’Or (Anathazerïn), est un gant en maille de mithral remontant jusqu’à moitié de l’avant-bras. Le métal dont il est fait renvoie des reflets nacrés quand il est en pleine lumière. L’Einistar comporte des sortes de bagues au niveau des phalanges. Assez discrètes, elles sont également en mithral et chacune d’entre elles porte une rune. L’Einistar s’adapte à tout type de main droite.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": "mythral",
+    "name": "L’Einistar, le gant de lumière",
+    "oid": "gloves-einistar",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "L’Einistar est aussi nommé le Gardien de la cité de Lune et d’Or (Anathazerïn). L’Einistar comporte des sortes de bagues au niveau des phalanges et chacune d’entre elles porte une rune. L’Einistar s’adapte à tout type de main droite.",
+    "skill": null,
+    "special_property": [
+      "Test de Caract. (tous): +2",
+      "Permanent: -10% PV (total)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gloves-einistar",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 4,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "L’Einistar, aussi nommé le Gardien de la cité de Lune et d’Or (Anathazerïn), est un gant en maille de mithral remontant jusqu’à moitié de l’avant-bras. Le métal dont il est fait renvoie des reflets nacrés quand il est en pleine lumière. L’Einistar comporte des sortes de bagues au niveau des phalanges. Assez discrètes, elles sont également en mithral et chacune d’entre elles porte une rune. L’Einistar s’adapte à tout type de main droite.",
+    "hands": 0,
+    "magical_level": 4,
+    "material": "mythral",
+    "name": "L’Einistar, le gant de lumière",
+    "oid": "gloves-einistar-mauvais",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "L’Einistar est aussi nommé le Gardien de la cité de Lune et d’Or (Anathazerïn). L’Einistar comporte des sortes de bagues au niveau des phalanges et chacune d’entre elles porte une rune. L’Einistar s’adapte à tout type de main droite.",
+    "skill": null,
+    "special_property": [
+      "Permanent: affaibli"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "Belt",
     "ability": null,
     "area": null,
@@ -10364,6 +12639,60 @@
     }
   },
   {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "belt-force-geant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cete ceinture en bronze décorée d’un large motif de taureau aux yeux de rubis apporte un bonus de +2 au Mod. de force de la personne qui la porte.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Ceinture de force de géant",
+    "oid": "belt-force-geant",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cete ceinture en bronze décorée d’un large motif de taureau aux yeux de rubis apporte un bonus au Mod. de force de la personne qui la porte.",
+    "skill": null,
+    "special_property": [
+      "[FOR]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "Ring",
     "ability": null,
     "area": null,
@@ -10410,6 +12739,237 @@
     "short_description": "Un anneau de protection en or.",
     "skill": null,
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "protective-elements",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "fire"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "lightning"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "coldness"
+      },
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "acid"
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un anneau de résistance aux éléments qui réduit de 5 points tous les DM de feu, d’électricité, de froid ou d’acide.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Anneau de résistance, aux éléments",
+    "oid": "protective-elements",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un anneau de résistance aux éléments qui réduit tous les DM de feu, d’électricité, de froid ou d’acide.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "puissance-des-arcanes",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un large anneau d’or couvert de runes. Cet anneau de puissance des arcanes de rang 1 et 2 double la durée ou les DM ou les soins produits par les sorts de rang 1 ou 2, trois fois par jour pour chaque rang)",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Anneau de puissance, des arcanes",
+    "oid": "puissance-des-arcanes",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cet anneau de puissance des arcanes double les effets de sorts de rang 1 et 2, 3 fois par jours.",
+    "skill": null,
+    "special_property": [
+      "Sort: rang 1 ou 2",
+      "DM x2 ou soin x2 ou durée x2",
+      "Utilisation: 3 fois par jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "puissance-des-arcanes-forgesort",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un large anneau d’or couvert de runes. Cet anneau de préparation des arcanes permet de préparer 3 potions pour les rangs 1 et 2 dont la durée ou les DM ou les soins produits sont doublés.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Anneau de préparation, des arcanes",
+    "oid": "puissance-des-arcanes-forgesort",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cet anneau de préparation des arcanes double les effets de 3 potions préparées  pour chaque rang 1 et 2.",
+    "skill": null,
+    "special_property": [
+      "Potion: rang 1 ou 2",
+      "DM x2 ou soin x2 ou durée x2",
+      "Quantité: 3 potions / rang"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "anneau-de-marche-sur-l-eau",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un anneau qui permet de marcher sur l'eau.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Anneau de marche, sur l'eau",
+    "oid": "anneau-de-marche-sur-l-eau",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Un anneau qui permet de marcher sur l'eau.",
+    "skill": null,
+    "special_property": [
+      "Permanent: Marcher sur l'eau"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -11912,7 +14472,7 @@
     "full_description": "Ces carreaux sont en mythral, un métal très léger de couleur argent. Les projectiles en mythral voient leur portée maximum augmentée de 5 mètres. Lot de 5 carreaux.",
     "hands": 0,
     "magical_level": null,
-    "material": null,
+    "material": "mythral",
     "name": "Carreaux, en mythral",
     "oid": "projectile-mythral-carreau-mythral",
     "quantity": 1,
@@ -11958,7 +14518,7 @@
     "full_description": "Ces flêches sont en mythral, un métal très léger de couleur argent. Les projectiles en mythral voient leur portée maximum augmentée de 5 mètres. Lot de 5 flêches.",
     "hands": 0,
     "magical_level": null,
-    "material": null,
+    "material": "mythral",
     "name": "Flêches, en mythral",
     "oid": "projectile-mythral-fleche-mythral",
     "quantity": 1,
@@ -12004,7 +14564,7 @@
     "full_description": "Ces billes sont en mythral, un métal très léger de couleur argent. Les projectiles en mythral voient leur portée maximum augmentée de 5 mètres. Lot de 5 billes.",
     "hands": 0,
     "magical_level": null,
-    "material": null,
+    "material": "mythral",
     "name": "Billes, en mythral",
     "oid": "projectile-mythral-bille-mythral",
     "quantity": 1,
@@ -13304,6 +15864,80 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "cuirasse-de-bronze+1",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2100
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "drow"
+      }
+    ],
+    "full_description": "Fait de plusieurs plaques de bronze rigides, cette cuirasse protègera par devant votre torse avec le plaston et par derrière votre dos avec la dossière. Elle protège donc l'ensemble du corps et procure un bonus de DEF +5. Cette armure est magique et offre un bonus de DEF de +1 et réduit de 1 les pénalités qu'elle inflige.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Cuirasse de bronze +1",
+    "oid": "cuirasse-de-bronze+1",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cuirrasse faite de plusieurs plaques de bronze rigides qui protègent l'ensemble du corps. Cette armure magique offre un bonus de DEF de +1.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Utilisable: voleur, barde rôdeur et barbare"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "chemise-de-maille-des-elfes-noirs",
     "category": "quest",
     "cost": {
@@ -13570,6 +16204,108 @@
     "ability": null,
     "area": null,
     "attack": null,
+    "base_item": "chemise-de-mailles",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 6015
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "free-action"
+      }
+    ],
+    "full_description": "Fait d'anneaux métalliques entrecroisés, la chemise de mailles est utilisée entre des couches de vêtements ou de cuir. Cette armure offre une protection modeste pour le haut du corps et permet au son provoqué par les anneaux frottant l'un contre l'autre d'être atténué par les couches de vêtements extérieures. Elle procure un bonus de DEF +4. Cette armure est magique et offre un bonus de DEF de +2 et réduit de 2 les pénalités qu'elle inflige. Cette armure est faite en mythral, un métal très léger de couleur argent. Cette armure voit sa pénalité d'armure réduite de 2 points. Dans cette armure le personnage ne peut pas être ralenti, immobilisé ou paralysé par la magie. Il obtient un bonus de +5 à tous les tests pour résister à ce type d'effet préjudiciable s'il s'agit d'une contrainte physique.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": "mythral",
+    "name": "Chemise de mailles +2, d'action libre en mythral",
+    "oid": "chemise-de-mailles+2-mythral-free-action",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Armure composée de d'anneaux métalliques qui protège surtout le haut du corps. Cette armure magique offre un bonus de DEF de +2, réduit la pénalité d'armure et dans cette armure on ne peut pas être entravé pas magie.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "slowdown-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "immobilized-resistance"
+      },
+      {
+        "__type__": "Mod",
+        "count": "5",
+        "die": null,
+        "label": "Test",
+        "limitation": "Contraintes physiques uniquement",
+        "mtype": "+",
+        "target": "paralysed-resistance"
+      }
+    ],
+    "special_property": [
+      "Immunité : ralenti, paralysé, immobilisé par la magie"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
     "base_item": "robe-elfique-naesk",
     "category": "Bazar du bizarre",
     "cost": {
@@ -13757,6 +16493,60 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.0
+    }
+  },
+  {
+    "__type__": "Cloak",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cape-elfique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cape d'elfe qui apporte un bonus de plus 5 en discretion.",
+    "hands": 0,
+    "magical_level": 1,
+    "material": null,
+    "name": "Cape d'elfe",
+    "oid": "cape-elfe",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Les jardins de Ma'ishar",
+        "numbering": "2",
+        "title": "Les jardins de l'Amertume"
+      }
+    ],
+    "short_description": "Cape d'elfe.",
+    "skill": null,
+    "special_property": [
+      "Discretion: +5"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
     }
   }
 ]

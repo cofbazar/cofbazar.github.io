@@ -21,7 +21,7 @@ Array.prototype.minPrice = function(filters) {
     return this.reduce((min, o) =>
       o.cost.value < min ? o.cost.value : min, this[0].cost.value);
   } else {
-    return this.modeFilter(filters['modeType']).filter(item =>
+    return this.modeFilter(filters['modeType'], filters['scenario']).filter(item =>
       filters['itemType'].includes(item['__type__'])).reduce((min, o) =>
       o.cost.value < min ? o.cost.value : min, this[0].cost.value
     );
@@ -37,6 +37,12 @@ function areaText(area) {
     //console.log("areaText(" + JSON.stringify(area) + ") = '" + text + "'");
     return text;
   }
+};
+
+Array.prototype.equals = function(other) {
+  return Array.isArray(other) &&
+    this.length === other.length &&
+    this.every((val, index) => val === other[index]);
 };
 
 Array.prototype.multiSort = function(keys) {
@@ -91,13 +97,13 @@ Array.prototype.maxPrice = function(filters) {
     return this.reduce((max, o) =>
       o.cost.value > max ? o.cost.value : max, this[0].cost.value);
   } else {
-    return this.modeFilter(filters['modeType']).filter(item =>
+    return this.modeFilter(filters['modeType'], filters['scenario']).filter(item =>
       filters['itemType'].includes(item['__type__'])).reduce((max, o) =>
       o.cost.value > max ? o.cost.value : max, this[0].cost.value);
   }
 };
 
-Array.prototype.modeFilter = function(modeType) {
+Array.prototype.modeFilter = function(modeType, scenario) {
   switch(modeType) {
     case "default":
       return(this.filter(item => item.category != "quest"));
@@ -107,14 +113,69 @@ Array.prototype.modeFilter = function(modeType) {
          (['Potion', 'MagicalWand', 'Spell'].includes(item['__type__']))
       )));
     case "quest":
-      return(this.filter(item => item.category == "quest"));
+      //console.log("Scenario values : "+JSON.stringify(scenario));
+      return(
+        this.filter(
+          item => item.category == "quest"
+        ).scenarioFilter(
+          scenario['campaign'], scenario['scenario'], 
+        ));
     default:
       return(this);
   }
 }
 
+Array.prototype.scenarioFilter = function(campaign, scenario) {
+  //console.log("scenarioFilter( '"+campaign+"', '"+scenario+"' )");
+  if (campaign == 'Toutes') {
+    console.log("All campaign, no filter");
+    return(this);
+  } else {
+    if (scenario == 'Tous') {
+      return(this.filter(item => {
+        if (('scenario' in item) && (item.scenario != null )) {
+          return(
+            item['scenario'].filter( s => {
+              // if (s['campaign'] == campaign) {
+              //   console.log( "'"+s['campaign']+"' == '"+campaign+"'");
+              // }
+              return (
+                ('campaign' in s) &&
+                (s['campaign'] == campaign)
+              )
+            }).length > 0
+          );
+        }
+        return(false);
+      }));
+    } else {
+      return(this.filter(item => {
+        if (('scenario' in item) && (item.scenario != null )) {
+          return(
+            item['scenario'].filter( s => {
+              // if (s['campaign'] == campaign) {
+              //   console.log( "'"+s['campaign']+"' == '"+campaign+"'");
+              //   if (s['title'] == scenario) {
+              //     console.log( "'"+s['title']+"' == '"+scenario+"'");
+              //   }
+              // }
+              return (
+                ('campaign' in s) &&
+                (s['campaign'] == campaign) &&
+                ('title' in s) &&
+                (s['title'] == scenario)
+              )
+            }).length > 0
+          );
+        }
+        return(false);
+      }));
+    }
+  }
+}
+
 Array.prototype.filterItemsList = function(filters) {
-  return this.modeFilter(filters['modeType']).filter(item =>
+  return this.modeFilter(filters['modeType'], filters['scenario']).filter(item =>
     filters['itemType'].includes(item['__type__']) &&
     item['cost']['value'] >= filters['price']['minRange'] &&
     item['cost']['value'] <= filters['price']['maxRange']

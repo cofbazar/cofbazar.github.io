@@ -52,9 +52,34 @@
               </div>
         </div>
 
+        <!--  * Campaign-->
+        <div v-if="displayFilter" id="item-campaign">
+          <div class="item-campaign-container">
+            <div class="item-bbox">
+              <label class="item-campaign">Campagne :</label><br/>
+              <select class="campaign-container" v-model="selectedCampaign">
+                <option disabled value="">Please select one</option>
+                <option v-for="option in optionsCampaign"
+                        v-bind:value="option.value">{{ option.text }}</option>
+              </select>
+            </div>
+            <div class="item-bbox">
+              <label class="item-campaign">Scenario :</label><br/>
+              <select class="campaign-container" v-model="selectedScenario">
+                <option disabled value="">Please select one</option>
+                <option v-for="option in optionsScenario"
+                        v-bind:value="option.value">{{ option.text }}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
         <!--  * Item type -->
         <div class="item-type-container" id="item-type">
-          <label class="item-type">Types :</label><br/>
+          <div class="item-type-box">
+            <input v-bind:value="allInputs" id="allInputs" type="checkbox" v-model="allInputs">
+            <label class="item-type">Types :</label><br/>
+          </div>
           <div class="item-type-subcontainer">
             <div class="item-type-input-container" v-for="input in inputs">
               <img class="input-ticon" v-bind:src="'images/item-type/' + input.icon"/>

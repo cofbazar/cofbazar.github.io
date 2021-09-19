@@ -38,6 +38,35 @@ var cofConfig = {
     {"name": "low-fantasy", "label": "Low fantasy"},
     {"name": "quest", "label": "Quêtes (MJ only)"},
   ],
+  "campaigns": [
+    {
+      "name": "Toutes",
+      "scenarios": [
+        "Tous"
+      ]
+    },
+    {
+      "name": "Scénarios uniques",
+      "scenarios": [
+        "Tous",
+        "Retour à clairval"
+      ]
+    },
+    { 
+      "name": "Anathazerïn", 
+      "scenarios": [
+        "Tous",
+        "Fort Boueux",
+        "Le sanctuaire",
+        "Les Faux Monnayeurs",
+        "Le Pic d'Andalf",
+        "La Vallée des songes",
+        "La justice des Elfes",
+        "La Battaille de Fleck",
+        "Les jardins de l'Amertume",
+    ]}
+
+  ],
   "units": {
     "cost": "pa",
     "people": "h"

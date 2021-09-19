@@ -4537,15 +4537,25 @@
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "2d6+[SAG]"
+    },
     "full_description": "Une fois par combat, le Druide peut lancer un gland sur une cible (portée 10 m). En cas d’attaque magique réussie, la victime se transforme en statue de bois pendant [2d6 + Mod. de SAG] tours. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 mais elle gagne une réduction des DM de 10. Le sort s’achève dès que la cible perd plus de 10 PV.",
     "limited": true,
     "name": "Gland de pouvoir",
     "oid": "http://co-drs.org/capacites/gland-de-pouvoir/",
-    "range": null,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 10
+    },
     "short_description": "Une fois par combat, le Druide peut lancer un gland sur une cible. En cas d’attaque magique réussie, la victime se transforme en statue de bois.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Utilisation: Une fois par combat"
+    ],
     "way_rank": 4,
     "wid": "http://co-drs.org/voies/voie-des-vegetaux/"
   },
@@ -5670,7 +5680,11 @@
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "3+[SAG]"
+    },
     "full_description": "Une fois par jour et pour une durée maximale de [3 + Mod. de SAG] tours, le Prêtre peut passer dans une dimension entre les plans d’existence où le temps et l’espace sont déformés. Il se déplace dans une sorte de brouillard gris où le paysage défile à toute vitesse. Pour chaque tour de « Marche des plans », il se déplace en réalité de 10 km. Le lieu de sortie n’est cependant pas très précis et le MJ doit déterminer une position au hasard autour du point visé (à 1d6 km près).",
     "limited": true,
     "name": "Marche des plans",
@@ -5678,7 +5692,10 @@
     "range": null,
     "short_description": "Une fois par jour, le Prêtre peut passer dans une dimension entre les plans d’existence où le temps et l’espace sont déformés.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Déplacement: 10 km/tour (entre les plans)",
+      "Précision: 1d6 km (lieu visé)"
+    ],
     "way_rank": 4,
     "wid": "http://co-drs.org/voies/voie-de-la-spiritualite/"
   },
@@ -6068,13 +6085,21 @@
     "count": 1,
     "creature": null,
     "defense": null,
-    "duration": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[CHA]"
+    },
     "full_description": "L’Ensorceleur crée un mur de force indestructible (portée 10 m, maximum 5 m de haut et 10 m de long), ou bien une hémisphère de 3 m de rayon centrée sur lui-même. Le sort dure pendant [5 + Mod. de CHA] tours.",
     "limited": true,
     "name": "Mur de force",
     "oid": "http://co-drs.org/capacites/mur-de-force/",
-    "range": null,
-    "short_description": "L’Ensorceleur crée un mur de force indestructible, ou bien une hémisphère centrée sur lui-même.",
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 10
+    },
+    "short_description": "L’Ensorceleur crée un mur de force indestructible (5m haut par 3m de long), ou bien une hémisphère centrée sur lui-même (3m de rayon).",
     "skill": null,
     "special_property": [],
     "way_rank": 3,
@@ -6501,8 +6526,22 @@
     "attack": null,
     "count": 1,
     "creature": null,
-    "defense": null,
-    "duration": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": "5+[INT]",
+        "die": null,
+        "label": "RD",
+        "limitation": null,
+        "mtype": null,
+        "target": "rd"
+      }
+    ],
+    "duration": {
+      "__type__": "Duration",
+      "unit": "tr",
+      "value": "5+[INT]"
+    },
     "full_description": "Le Magicien obtient une réduction des DM égale à [5 + Mod. d’INT] pendant [5+ Mod. d’INT] tours ou jusqu’à ce que le sort ait absorbé 40 points de dégâts.",
     "limited": true,
     "name": "Peau de pierre",
@@ -6510,7 +6549,9 @@
     "range": null,
     "short_description": "Le Magicien obtient une réduction des DM égale à [5 + Mod. d’INT] pendant [5+ Mod. d’INT] tours ou jusqu’à ce que le sort ait absorbé 40 points de dégâts.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "Absorbe: 40 DM (maximum)"
+    ],
     "way_rank": 5,
     "wid": "http://co-drs.org/voies/voie-de-la-magie-elementaire/"
   },
@@ -6969,10 +7010,16 @@
     "limited": true,
     "name": "Projectile magique",
     "oid": "http://co-drs.org/capacites/projectile-magique/",
-    "range": null,
+    "range": {
+      "__type__": "Range",
+      "unit": "m",
+      "value": 50
+    },
     "short_description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts.",
     "skill": null,
-    "special_property": [],
+    "special_property": [
+      "DM (automatique): 1d4"
+    ],
     "way_rank": 1,
     "wid": "http://co-drs.org/voies/voie-de-la-magie-destructrice/"
   },

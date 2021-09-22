@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="spell-cercle-de-la-main.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   inkscape:export-filename="/home/plic/Téléchargements/spell-cercle-de-la-main.png"
+   inkscape:export-xdpi="24"
+   inkscape:export-ydpi="24"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata48">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs46">
+    <radialGradient
+       id="gradient-2"
+       gradientTransform="scale(0.99730599,1.0027013)"
+       cx="265.71103"
+       cy="259.12267"
+       fx="265.71103"
+       fy="259.12267"
+       r="239.51962"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop818"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop820"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-3"
+       gradientTransform="scale(1.0701786,0.93442349)"
+       cx="310.52306"
+       cy="309.45111"
+       fx="310.52306"
+       fy="309.45111"
+       r="54.621731"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop823"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop825"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-4"
+       gradientTransform="scale(0.78611318,1.2720815)"
+       cx="544.91275"
+       cy="254.80429"
+       fx="544.91275"
+       fy="254.80429"
+       r="66.243526"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop828"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop830"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-5"
+       gradientTransform="scale(0.86976044,1.1497419)"
+       cx="317.93494"
+       cy="286.30618"
+       fx="317.93494"
+       fy="286.30618"
+       r="41.781893"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop833"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop835"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-6"
+       gradientTransform="scale(0.8166824,1.2244662)"
+       cx="468.88443"
+       cy="300.20756"
+       fx="468.88443"
+       fy="300.20756"
+       r="48.43909"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop838"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop840"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-7"
+       gradientTransform="scale(0.94944814,1.0532434)"
+       cx="319.02458"
+       cy="364.52817"
+       fx="319.02458"
+       fy="364.52817"
+       r="62.502533"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop843"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop845"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="gradient-8"
+       gradientTransform="scale(1.4226614,0.70290795)"
+       cx="267.82716"
+       cy="614.7519"
+       fx="267.82716"
+       fy="614.7519"
+       r="65.812317"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop848"
+         stop-opacity="1"
+         stop-color="#d0021b"
+         offset="0%" />
+      <stop
+         id="stop850"
+         stop-opacity="1"
+         stop-color="#f5a623"
+         offset="100%" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-1">
+      <stop
+         offset="0%"
+         stop-color="#c9c9c9"
+         stop-opacity="1"
+         id="stop1300" />
+      <stop
+         offset="100%"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="stop1302" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-2"
+       gradientTransform="scale(4.3142977,0.23178743)"
+       cx="59.344272"
+       cy="138.05753"
+       fx="59.344272"
+       fy="138.05753"
+       r="56.08587"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#9b9b9b"
+         stop-opacity="1"
+         id="stop1305" />
+      <stop
+         offset="100%"
+         stop-color="#4a4a4a"
+         stop-opacity="1"
+         id="stop1307" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-3"
+       gradientTransform="scale(1.2884599,0.77612037)"
+       cx="152.35401"
+       cy="119.13245"
+       fx="152.35401"
+       fy="119.13245"
+       r="53.774961"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1310" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1312" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-4"
+       gradientTransform="scale(1.1599243,0.86212519)"
+       cx="282.18689"
+       cy="106.08961"
+       fx="282.18689"
+       fy="106.08961"
+       r="46.713988"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1315" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1317" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-5"
+       gradientTransform="scale(1.1343974,0.88152528)"
+       cx="59.494086"
+       cy="106.443"
+       fx="59.494086"
+       fy="106.443"
+       r="46.966547"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1320" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1322" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-6"
+       gradientTransform="scale(1.1938336,0.83763768)"
+       cx="371.2771"
+       cy="117.75061"
+       fx="371.2771"
+       fy="117.75061"
+       r="45.866467"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1325" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1327" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-7"
+       gradientTransform="scale(0.92073781,1.0860855)"
+       cx="134.04715"
+       cy="99.492044"
+       fx="134.04715"
+       fy="99.492044"
+       r="28.159033"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1330" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1332" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-8"
+       gradientTransform="scale(0.6061725,1.6496954)"
+       cx="796.20606"
+       cy="108.20605"
+       fx="796.20606"
+       fy="108.20605"
+       r="25.342269"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1335" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1337" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-9"
+       gradientTransform="scale(1.19754,0.8350452)"
+       cx="335.12561"
+       cy="217.3001"
+       fx="335.12561"
+       fy="217.3001"
+       r="49.906995"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1340" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1342" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-10"
+       gradientTransform="scale(1.3017098,0.76822035)"
+       cx="206.37737"
+       cy="237.83401"
+       fx="206.37737"
+       fy="237.83401"
+       r="54.44225"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1345" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1347" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-11"
+       gradientTransform="scale(1.2692902,0.78784188)"
+       cx="94.47891"
+       cy="235.34694"
+       fx="94.47891"
+       fy="235.34694"
+       r="53.076868"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1350" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1352" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-12"
+       gradientTransform="scale(0.64505818,1.5502478)"
+       cx="48.687289"
+       cy="119.57142"
+       fx="48.687289"
+       fy="119.57142"
+       r="25.973483"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1355" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1357" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-13"
+       gradientTransform="scale(1.217333,0.8214679)"
+       cx="280.59148"
+       cy="336.32017"
+       fx="280.59148"
+       fy="336.32017"
+       r="57.190722"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1360" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1362" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-14"
+       gradientTransform="scale(1.2501276,0.79991832)"
+       cx="157.15571"
+       cy="344.88049"
+       fx="157.15571"
+       fy="344.88049"
+       r="56.576482"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1365" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1367" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-15"
+       gradientTransform="scale(0.97236254,1.028423)"
+       cx="469.75935"
+       cy="269.65759"
+       fx="469.75935"
+       fy="269.65759"
+       r="42.395302"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1370" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1372" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-16"
+       gradientTransform="scale(1.2173882,0.82143069)"
+       cx="57.393607"
+       cy="338.26612"
+       fx="57.393607"
+       fy="338.26612"
+       r="44.997306"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1375" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1377" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-17"
+       gradientTransform="scale(1.2433489,0.8042795)"
+       cx="346.5687"
+       cy="452.24126"
+       fx="346.5687"
+       fy="452.24126"
+       r="52.214047"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1380" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1382" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-18"
+       gradientTransform="scale(0.84705264,1.1805642)"
+       cx="53.523914"
+       cy="311.3934"
+       fx="53.523914"
+       fy="311.3934"
+       r="35.222722"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1385" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1387" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-19"
+       gradientTransform="scale(1.3221334,0.75635334)"
+       cx="118.10794"
+       cy="488.39488"
+       fx="118.10794"
+       fy="488.39488"
+       r="57.114966"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1390" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1392" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-20"
+       gradientTransform="scale(1.1841033,0.84452091)"
+       cx="248.4762"
+       cy="440.23529"
+       fx="248.4762"
+       fy="440.23529"
+       r="48.928285"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1395" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1397" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-21"
+       gradientTransform="scale(0.94536509,1.0577924)"
+       cx="487.26172"
+       cy="428.56751"
+       fx="487.26172"
+       fy="428.56751"
+       r="39.518889"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1400" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1402" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-22"
+       gradientTransform="scale(1.1109353,0.90014244)"
+       cx="360.77645"
+       cy="482.12394"
+       fx="360.77645"
+       fy="482.12394"
+       r="24.157546"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1405" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1407" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-23"
+       gradientTransform="scale(1.2626779,0.79196762)"
+       cx="65.539089"
+       cy="576.03272"
+       fx="65.539089"
+       fy="576.03272"
+       r="52.780873"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1410" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1412" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-24"
+       gradientTransform="scale(1.242489,0.80483607)"
+       cx="175.53482"
+       cy="566.47019"
+       fx="175.53482"
+       fy="566.47019"
+       r="51.022694"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1415" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1417" />
+    </radialGradient>
+    <radialGradient
+       id="delapouite-stone-wall-gradient-25"
+       gradientTransform="scale(1.32726,0.75343191)"
+       cx="266.19396"
+       cy="607.14068"
+       fx="266.19396"
+       fy="607.14068"
+       r="50.946741"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#d0021b"
+         stop-opacity="1"
+         id="stop1420" />
+      <stop
+         offset="100%"
+         stop-color="#702f37"
+         stop-opacity="1"
+         id="stop1422" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1489"
+     inkscape:window-height="911"
+     id="namedview44"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-271.18644"
+     inkscape:cy="62.915255"
+     inkscape:window-x="2404"
+     inkscape:window-y="139"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg42"
+     inkscape:pagecheckerboard="0" />
+  <path
+     d="m 97.286186,7.3441808 c -1.171344,0.00521 -2.340593,0.033523 -3.507738,0.083821 C 91.109915,7.5432502 88.452912,7.7779379 85.811624,8.1383516 64.682373,11.016422 44.785234,22.457462 30.991029,43.414888 5.2036408,82.599396 33.289714,146.11707 90.317843,146.11707 c 0.561575,0 1.108481,-0.0126 1.658536,-0.0231 v 0.73758 h 63.454811 c -11.27132,33.52057 -31.74365,69.77358 -54.95052,106.26965 -2.265153,3.56223 -4.456975,7.20617 -6.59012,10.90251 l 36.54217,37.43797 -58.947539,9.87261 C 37.195593,401.38214 42.756859,502.07585 122.06567,502.07585 v -0.002 l 9.75423,0.0692 c 24.96703,-0.5972 48.96178,-4.50307 64.25107,-13.50189 4.37316,-2.57528 7.99406,-5.48688 10.96642,-8.82176 h -33.99413 c -21.30003,6.2339 -42.74674,-7.27114 -49.65746,-27.15884 -9.38333,-26.9996 7.8788,-54.85832 33.3875,-63.33642 6.07989,-2.02209 12.28236,-2.96923 18.4031,-2.96923 v -0.42537 h 186.83887 c -0.5972,-46.52165 17.13012,-94.42523 51.53077,-132.01198 25.09799,-27.42497 44.03543,-63.51662 53.74773,-99.3715 l -43.19201,-26.12161 40.09812,-7.23551 -45.43936,-27.038355 h -0.005 l 0.002,-0.002 0.002,0.002 54.6142,-9.272272 C 467.89202,43.876925 443.15759,13.515217 392.31202,13.515217 346.33623,22.448028 221.62681,25.622602 145.38465,18.504432 129.78629,11.418741 113.38012,7.2697929 97.286186,7.3441808 Z"
+     class=""
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:#cccccc;fill-opacity:1;stroke:#4a4a4a;stroke-width:10.47714138;stroke-opacity:1" />
+  <path
+     d="m 103.896,36.547 c 13.137,0.043 27.407,3.804 41.247,10.63 l 0.033,-0.07 c 4.667,4.735 8.542,9.737 11.68,14.985 H 82.92 l 10.574,14.78 c 10.608,14.83 19.803,31.99 21.09,42.024 0.643,5.017 -0.11,7.167 -1.814,8.836 -1.705,1.67 -6.228,3.875 -15.99,3.875 -40.587,0 -56.878,-44.952 -41.012,-69.06 C 66.238,46.64 79.582,39.22 95.002,37.12 c 2.89,-0.395 5.863,-0.583 8.894,-0.573 z"
+     class=""
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="fill:#b3b3b3;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+  <path
+     d="m 118.5,80.78 h 46.28 c 4.275,15.734 3.656,33.07 -0.544,51.51 H 131.52 c 1.9,-5.027 2.268,-10.574 1.6,-15.77 -1.527,-11.913 -7.405,-24.065 -14.62,-35.74 z"
+     class=""
+     id="path6"
+     inkscape:connector-curvature="0"
+     style="fill:#b3b3b3;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+  <path
+     d="m 220.053,397.875 c 6.44,6.84 11.192,15.31 13.37,24.914 3.797,16.736 3.092,31.208 -1.767,43.204 -4.526,11.175 -12.576,19.79 -22.29,26 h 237.19 c 14.448,0 24.887,-5.678 32.2,-14.318 7.312,-8.64 11.2,-20.514 10.705,-32.352 -0.186,-4.473 -0.978,-8.913 -2.407,-13.18 l -69.91,-8.205 42.017,-20.528 c -8.32,-3.442 -18.64,-5.537 -31.375,-5.537 H 220.053 Z"
+     class="selected"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="fill:#e6e6e6;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+  <path
+     d="m 177.385,398.381 c -1.152,-0.003 -2.306,0.048 -3.457,0.153 -2.633,0.242 -5.256,0.775 -7.824,1.63 -15.11,5.02 -25.338,21.54 -20.11,36.583 3.673,10.57 15.347,17.71 25.654,13.938 l 1.555,-0.57 h 43.354 c 0.946,-6.36 0.754,-13.882 -1.358,-23.192 -3.71,-16.358 -20.543,-28.483 -37.815,-28.54 z"
+     class=""
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:#e6e6e6;fill-opacity:1;stroke:#4a4a4a;stroke-width:10;stroke-opacity:1" />
+  <g
+     font-size="42"
+     font-style="normal"
+     font-weight="bold"
+     class=""
+     transform="translate(620.5904,120.64171)"
+     style="font-style:normal;font-weight:bold;font-size:42px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle"
+     id="g40">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot858"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-290,-103)"><flowRegion
+         id="flowRegion860"><rect
+           id="rect862"
+           width="95.111855"
+           height="106.61732"
+           x="265.39276"
+           y="137.68883" /></flowRegion><flowPara
+         id="flowPara864" /></flowRoot>
+  </g>
+  <g
+     id="g1475"
+     transform="matrix(0.38593912,0,0,0.38593912,159.40821,148.79745)">
+    <path
+       d="m 18.08,23 0.1,18 H 494 V 23 Z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-2)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1427"
+       style="fill:url(#delapouite-stone-wall-gradient-2)" />
+    <path
+       d="M 254.3,54.93 133,61.6 l 30.1,68.5 98.1,-3.6 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-3)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1429"
+       style="fill:url(#delapouite-stone-wall-gradient-3)" />
+    <path
+       d="m 370.2,55.21 -92.9,0.53 3,71.96 96.8,-0.9 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-4)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1431"
+       style="fill:url(#delapouite-stone-wall-gradient-4)" />
+    <path
+       d="m 18.23,56.43 0.35,74.67 72.27,-2.4 24.35,-72.27 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-5)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1433"
+       style="fill:url(#delapouite-stone-wall-gradient-5)" />
+    <path
+       d="m 393,64.24 -0.5,47.16 15.7,21.5 85.8,-6.3 V 64.93 Z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-6)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1435"
+       style="fill:url(#delapouite-stone-wall-gradient-6)" />
+    <path
+       d="m 120.8,84.68 -17.6,49.82 41.1,-1 -8.2,-34.02 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-7)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1437"
+       style="fill:url(#delapouite-stone-wall-gradient-7)" />
+    <path
+       d="m 475.5,140.7 -4,75.5 22.5,-0.6 v -74.9 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-8)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1439"
+       style="fill:url(#delapouite-stone-wall-gradient-8)" />
+    <path
+       d="M 449.8,144.2 352.5,154.9 346,219 456.7,215.8 Z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-9)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1441"
+       style="fill:url(#delapouite-stone-wall-gradient-9)" />
+    <path
+       d="m 206,144.9 -4,75.5 126.1,-3.9 7,-71.1 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-10)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1443"
+       style="fill:url(#delapouite-stone-wall-gradient-10)" />
+    <path
+       d="m 60.67,147.6 -3.9,75.5 126.13,-3.9 -6.9,-71.6 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-11)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1445"
+       style="fill:url(#delapouite-stone-wall-gradient-11)" />
+    <path
+       d="m 18.67,149.1 0.33,72.4 24.77,-0.8 -6.9,-71.6 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-12)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1447"
+       style="fill:url(#delapouite-stone-wall-gradient-12)" />
+    <path
+       d="m 297.6,233.4 -21.6,43.8 2.1,42 128.7,-1.9 -7.6,-79.7 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-13)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1449"
+       style="fill:url(#delapouite-stone-wall-gradient-13)" />
+    <path
+       d="m 257.4,234.8 -127.2,6 8,69.5 124.7,6.6 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-14)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1451"
+       style="fill:url(#delapouite-stone-wall-gradient-14)" />
+    <path
+       d="m 494,237.9 -66.5,2.9 -7.5,75.8 74,-5.2 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-15)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1453"
+       style="fill:url(#delapouite-stone-wall-gradient-15)" />
+    <path
+       d="m 19.11,244.9 0.31,65.8 100.78,-3.1 -6.9,-62.7 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-16)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1455"
+       style="fill:url(#delapouite-stone-wall-gradient-16)" />
+    <path
+       d="m 489.4,326.1 -115.9,10.5 -3.3,65 121.5,-3.5 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-17)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1457"
+       style="fill:url(#delapouite-stone-wall-gradient-17)" />
+    <path
+       d="m 67.04,330.2 -47.52,2 0.34,72.9 51.1,-1.3 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-18)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1459"
+       style="fill:url(#delapouite-stone-wall-gradient-18)" />
+    <path
+       d="m 84.88,330.2 3.98,68.5 138.64,9.6 -3,-78.1 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-19)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1461"
+       style="fill:url(#delapouite-stone-wall-gradient-19)" />
+    <path
+       d="m 246.1,334.5 -5.5,69 107.5,5.4 -1,-73.5 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-20)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1463"
+       style="fill:url(#delapouite-stone-wall-gradient-20)" />
+    <path
+       d="m 431.5,415.6 -4,75.5 66.5,-0.6 v -73.8 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-21)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1465"
+       style="fill:url(#delapouite-stone-wall-gradient-21)" />
+    <path
+       d="m 421.7,416.8 -39,3.6 27.4,28 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-22)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1467"
+       style="fill:url(#delapouite-stone-wall-gradient-22)" />
+    <path
+       d="m 22.24,418.6 -2.13,40.6 0.16,34.8 H 145.4 v -68.9 l -46.56,-2.5 -18.4,14 L 68.56,421 Z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-23)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1469"
+       style="fill:url(#delapouite-stone-wall-gradient-23)" />
+    <path
+       d="m 270.2,418.9 -111.3,1.5 3.5,72.5 114.7,-2.4 z"
+       class=""
+       fill="url(#delapouite-stone-wall-gradient-24)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1471"
+       style="fill:url(#delapouite-stone-wall-gradient-24)" />
+    <path
+       d="m 371.4,423.2 -72.2,5.9 -8.9,62.1 125.6,0.6 -6.2,-27 z"
+       class="selected"
+       fill="url(#delapouite-stone-wall-gradient-25)"
+       stroke="#4a4a4a"
+       stroke-opacity="1"
+       stroke-width="8"
+       id="path1473"
+       style="fill:url(#delapouite-stone-wall-gradient-25)" />
+  </g>
+</svg>

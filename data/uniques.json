@@ -7318,7 +7318,7 @@
       "name": null,
       "range": null
     },
-    "base_item": "spell-main-déployee",
+    "base_item": "spell-main-deployee",
     "category": "quest",
     "cost": {
       "__type__": "Cost",
@@ -7335,7 +7335,7 @@
     "magical_level": null,
     "material": null,
     "name": "Main déployée (L)",
-    "oid": "spell-main-déployee",
+    "oid": "spell-main-deployee",
     "quantity": -1,
     "range": null,
     "scenario": [
@@ -9072,7 +9072,7 @@
       "__type__": "Attack",
       "area": null,
       "atype": "melee",
-      "critical": "20",
+      "critical": "19-20",
       "damages": {
         "__type__": "Damage",
         "base": [

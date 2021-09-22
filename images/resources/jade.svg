@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   style="height: 64px; width: 64px;"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="jade.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview38"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.2056723"
+     inkscape:cx="185.78846"
+     inkscape:cy="388.99459"
+     inkscape:window-width="1559"
+     inkscape:window-height="1087"
+     inkscape:window-x="2696"
+     inkscape:window-y="236"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs22">
+    <radialGradient
+       id="lorc-rock-gradient-2">
+      <stop
+         offset="0%"
+         stop-color="#00a36c"
+         stop-opacity="1"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#005637"
+         stop-opacity="1"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="lorc-rock-gradient-3">
+      <stop
+         offset="0%"
+         stop-color="#005637"
+         stop-opacity="1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#002316"
+         stop-opacity="1"
+         id="stop9" />
+    </radialGradient>
+    <radialGradient
+       id="lorc-rock-gradient-4">
+      <stop
+         offset="0%"
+         stop-color="#005637"
+         stop-opacity="1"
+         id="stop12" />
+      <stop
+         offset="100%"
+         stop-color="#002316"
+         stop-opacity="1"
+         id="stop14" />
+    </radialGradient>
+    <radialGradient
+       id="lorc-rock-gradient-5">
+      <stop
+         offset="0%"
+         stop-color="#005637"
+         stop-opacity="1"
+         id="stop17" />
+      <stop
+         offset="100%"
+         stop-color="#002316"
+         stop-opacity="1"
+         id="stop19" />
+    </radialGradient>
+  </defs>
+  <g
+     class=""
+     transform="translate(0,0)"
+     style=""
+     id="g34">
+    <g
+       id="g32">
+      <path
+         d="M228.813 23L68.75 72.28L39.5 182.095L87.03 160.875L97.47 156.22L99.97 167.375L108.72 206.5L115.125 235.03L93.375 215.5L77.655 201.375L49.437 233.719L190.094 369.719L199.75 329.029L207.28 297.155L217.687 328.218L272.407 491.81L432.343 465.5L478.093 262.562L393.53 113.844L228.814 23Z"
+         class=""
+         fill="url(#lorc-rock-gradient-2)"
+         stroke="#4a4a4a"
+         stroke-opacity="1"
+         stroke-width="8"
+         id="path24" />
+      <path
+         d="M171.125 72.875L143.312 112.781L140.062 186.221L112.875 97.281L171.125 72.876Z"
+         class=""
+         fill="url(#lorc-rock-gradient-3)"
+         stroke="#4a4a4a"
+         stroke-opacity="1"
+         stroke-width="8"
+         id="path26" />
+      <path
+         d="M188.969 166.281L302.093 321.531L407 355.407L299.625 354.563L188.969 226.563L188.969 166.283Z"
+         class=""
+         fill="url(#lorc-rock-gradient-4)"
+         stroke="#4a4a4a"
+         stroke-opacity="1"
+         stroke-width="8"
+         id="path28" />
+      <path
+         d="M79.312 330.25L219.437 483.375L213.874 417.5L79.311 330.25Z"
+         class="selected"
+         fill="url(#lorc-rock-gradient-5)"
+         stroke="#4a4a4a"
+         stroke-opacity="1"
+         stroke-width="8"
+         id="path30" />
+    </g>
+  </g>
+  <path
+     style="fill:#00301e;fill-opacity:1;stroke:#4a4a4a;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 37.418412,191.22875 97.47,156.22 l 17.655,78.81 -37.47,-33.655 -28.218,32.344 140.657,136 17.186,-72.564 57.04437,194.01064 -36.63361,-0.48342 L 213.874,417.5 79.312,330.25 35.683849,240.03988 Z"
+     id="path206"
+     sodipodi:nodetypes="ccccccccccccc" />
+</svg>

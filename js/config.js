@@ -64,6 +64,11 @@ var cofConfig = {
         "La justice des Elfes",
         "La Battaille de Fleck",
         "Les jardins de l'Amertume",
+        "La traversée de Dorn",
+        "Le pacte du Seigneur des cimes",
+        "Les secrets d’Anathazerïn",
+        "La pacification de Krön"
+        
     ]}
 
   ],

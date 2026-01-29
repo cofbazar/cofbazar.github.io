@@ -5123,6 +5123,1359 @@
     }
   },
   {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carte-du-pays-de-dorn",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Carte du pays de Dorn faite par le géographe Razmar",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carte du pays de Dorn",
+    "oid": "carte-du-pays-de-dorn",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Carte du pays de Dorn",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": null
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bracelet-de-communication",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce large bracelet de bronze couvre la moitié de l’avant-bras. Il est décoré d’unemultitude de petites pierres semi-précieuses (turquoise, ambre, etc.). En appuyant sur les bonnes pierres dans le bon ordre, il est possible d'établir une communication avec le porteur d’un bracelet similaire.Une penalité de -2 s'applique lors d'un echec pour composer le prochain code.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bracelet de communication",
+    "oid": "bracelet-de-communication",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Bracelet qui permet d'établir une communication avec le porteur d’un bracelet similaire. Une penalité de -2 s'applique lors d'un echec pour composer le prochain code",
+    "skill": null,
+    "special_property": [
+      "Test INT ≥ 10: Composer le code",
+      "Test INT ≥ 15: Utilisation"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bracelet-de-communication-unlocked",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce large bracelet de bronze couvre la moitié de l’avant-bras. Il est décoré d’unemultitude de petites pierres semi-précieuses (turquoise, ambre, etc.). En appuyant sur les bonnes pierres dans le bon ordre, il est possible d'établir une communication avec le porteur d’un bracelet similaire. Une penalité de -2 s'applique lors d'un echec pour composer le prochain code.Le bracelet peut produire l’effet de la capacité Sous tension trois fois par jour.La personne qui utilise le pouvoir de ce bracelet se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui la blesse ou la touche reçoit une décharge infligeant 1d6 DM. Elle peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bracelet de communication",
+    "oid": "bracelet-de-communication-unlocked",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Bracelet qui permet de communiquer avec un autre bracelet. Si échec, penalité de -2 pour composer le prochain code. Si chargé, toute créature qui fait des DM reçoit un 1d6 DM électrique.",
+    "skill": null,
+    "special_property": [
+      "Test INT ≥ 10: Composer le code",
+      "Test INT ≥ 15: Utilisation",
+      "Durée: [5 + Mod. de CHA] tours (Sous tension)",
+      "Utilisation: 3 / jour (Sous tension)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "trou-portable",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cet objet ressemble à un bouclier ordinaire en bois cerclé de métal. Il est circulaire et de belle taille et peut être utilisécomme un grand bouclier +1. S’il est posé au sol, son umbo (la pointe centrale) peut alors être tournée selon un code précis. Si la bonne séquence est exécutée, le bouclier s’ancre au sol par magie et il peut alors être ouvert comme le couvercle d’une trappe. Il faut un tour complet pour poser et activer le bouclier, un autre tour par personne qui souhaite y descendre et un dernier tour pour le refermer et le rendre invisible. A l'intérieur, il y a une pièce de petite taille. Elle permet d’héberger 6 personnes sur des couchettes (3 superposées), on y trouve un point d’eau, des toilettes derrière un rideau. Lorsque le bouclier est refermé, il devient automatiquement invisible. L’autonomie du trou portable est de 12 heures d’affilée ensuite la cachette dimensionnelle doit être vide et le bouclier porté normalement pendant au moins 6 heures avant de pouvoir servir à nouveau. Aucun sort de communication ou de voyage ne fonctionne depuis l’intérieur du trou portable. Tout objet qui y est laissé lorsque le bouclier est déplacé disparaît. Si un objet magique ou une personne y est enfermé, il est impossible de déplacer le bouclier. Lorsque le trou portable est refermé, un personnage dans le sas d’accès peut activer une sorte de périscope qui se déploie grâce aux poignées normalement utilisées pour tenir le bouclier. À l’extérieur, l’umbo périscopique monte jusqu’à une hauteur maximum de 2 mètres et pivote à 360°. Pendant la manœuvre, le bouclier reste invisible. Le périscope permet de voir mais pas d’entendre. Le bouclier possède une fonction d’autodestruction",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Trou portable",
+    "oid": "trou-portable",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Cet objet ressemble à un bouclier ordinaire en bois cerclé de métal",
+    "skill": null,
+    "special_property": [
+      "Activation: Pose + code (1 tour)",
+      "Entrée/Sortie: 1 tour/personne",
+      "Fermeture: 1 tour (invisible)",
+      "Capacité: 6 personnes (eau, WC)",
+      "Usage: 12h (6h repos après usage)",
+      "Periscope: Vue à 360°, max 2m",
+      "Fonction d'autodestruction"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "orbe-du-roi-sorcier",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce globe de métal noir mesure 25 centimètres de diamètre. Il est parfaitement sphérique et lisse. Il est impossible de savoir s’il est plein ou creux.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Orbe du Roi-Sorcier",
+    "oid": "orbe-du-roi-sorcier",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Ce globe de métal noir mesure 25 centimètres de diamètre. Il est parfaitement sphérique et lisse. Il est impossible de savoir s’il est plein ou creux.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 10.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "collier-de-glands",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un jolie collier de glands.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Collier de glands",
+    "oid": "collier-de-glands",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Un jolie collier de glands.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "collier-en-forme-de-fleur",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un superbe collier d’or et d’argent en forme de fleur.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Collier en forme de fleur",
+    "oid": "collier-en-forme-de-fleur",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Un superbe collier d’or et d’argent en forme de fleur.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "pot-onguent-parfum",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Plusieurs petits pots en terre cuite remplis d'onguents parfumés.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Onguents parfumés",
+    "oid": "pot-onguent-parfum",
+    "quantity": 5,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Plusieurs petits pots en terre cuite remplis d'onguents parfumés.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bracelet-en-or",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magifique bracelet en or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bracelet en or",
+    "oid": "bracelet-en-or",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Un bracelet en or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bracelet-fin-en-or",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magifique braceletfin en or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bracelet fin en or",
+    "oid": "bracelet-fin-en-or",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Un bracelet fin en or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "anneau-en-or",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 300.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magifique anneau en or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Anneau en or",
+    "oid": "anneau-en-or",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Un anneau en or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bague-en-platine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une magifique bague en platine.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bague en platine",
+    "oid": "bague-en-platine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Une bague en platine.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "anneau-de-nez",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un magnifique anneau de nez en or.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Anneau de nez",
+    "oid": "anneau-de-nez",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Un anneau de nez en or.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "peau-ours-blanc",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une immense peau d’ours blanc.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Peau d'ours blanc",
+    "oid": "peau-ours-blanc",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Une immense peau d’ours blanc.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-zircon",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le zircon est une pierre précieuse naturelle fascinante. Le zircon possède un éclat proche de celui du diamant et a la capacité de doubler les rayons lumineux qui le traversent.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Rubis",
+    "oid": "stone-zircon",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Le zircon est une pierre précieuse naturelle fascinante. Le zircon possède un éclat proche de celui du diamant et a la capacité de doubler les rayons lumineux qui le traversent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-gemme",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La gemme est une pierre issue des profondeurs de la Terre. Elle possède un éclat captivant et sa structure cristalline révèle des couleurs d'une intensité inégalée.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Gemme",
+    "oid": "stone-gemme",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "La gemme est une pierre issue des profondeurs de la Terre. Elle possède un éclat captivant et sa structure cristalline révèle des couleurs d'une intensité inégalée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "lingot-fer",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une petite barre en fer",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un lingot en fer",
+    "oid": "lingot-fer",
+    "quantity": 853,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Une petite barre en fer.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "lingot-argent",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 100.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une petite barre en argent",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un lingot en argent",
+    "oid": "lingot-argent",
+    "quantity": 24,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Une petite barre en argent.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "lingot-mithral",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une petite barre en mithral",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Un lingot en mithral",
+    "oid": "lingot-mithral",
+    "quantity": 2,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Une petite barre en mithral.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "huile-et-parfum",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un petit assortiment d'huiles corporelles, du savon et de divers parfums.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Huile et parfum",
+    "oid": "huile-et-parfum",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Un petit assortiment d'huiles corporelles, du savon et de divers parfums.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "broche-en-argent-araignee",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "une broche représentant une araignée d’argent, signe de distinction chez les drows.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Broche araignée d'argent",
+    "oid": "broche-en-argent-araignee",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "une broche représentant une araignée d’argent, signe de distinction chez les drows.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-turquoise",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 25.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La turquoise est une pierre opaque dont la couleur varie du bleu azur au vert pâle. Sa surface à l'éclat cireux est fréquemment parcourue de veines brunes ou noires formant une matrice rocheuse irrégulière.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Turquoise",
+    "oid": "stone-turquoise",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "La turquoise est une pierre opaque dont la couleur varie du bleu azur au vert pâle. Sa surface à l'éclat cireux est fréquemment parcourue de veines brunes ou noires formant une matrice rocheuse irrégulière.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "corne-des-serres-du-monde",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La Corne des Serres du monde est une magnifique corne rehaussée de mithral et de pierres précieuses. Elle est le symbole du pacte liant le peuple de Kerserac à celui des seigneurs des cimes.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "La Corne des Serres du monde",
+    "oid": "corne-des-serres-du-monde",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "La Corne des Serres du monde est une magnifique corne rehaussée de mithral et de pierres précieuses. Elle est le symbole du pacte liant le peuple de Kerserac à celui des seigneurs des cimes.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "broche-en-adamantium-araignee",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2500
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une broche en adamantium sertie de rubis représentant une araignée.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Broche araignée en adamantium",
+    "oid": "broche-en-adamantium-araignee",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Une broche en adamantium sertie de rubis représentant une araignée.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "stone-opale-noir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'opale noire est une pierre dont le corps sombre varie du gris anthracite au noir de jais. Sa surface à l'éclat vitreux est fréquemment parcourue de jeux de couleurs électriques, formant une mosaïque de reflets irisés qui s'animent selon l'angle de la lumière.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Opale noire",
+    "oid": "stone-opale-noir",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "L'opale noire est une pierre dont le corps sombre varie du gris anthracite au noir de jais. Sa surface à l'éclat vitreux est fréquemment parcourue de jeux de couleurs électriques, formant une mosaïque de reflets irisés qui s'animent selon l'angle de la lumière.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "luth-des-armes-dansantes",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce magnifique instrument de bois noir et d’argent permet d’utiliser la capacité Arme dansante (ensorceleur rang 4) trois fois par jour. Si un barde utilise l’instrument, deux armes sont invoquées à chaque fois que le pouvoir est utilisé et il obtient un bonus de +5 en attaque magique à chaque fois qu’il utilise le Luth pour lancer un sort.",
+    "hands": 2,
+    "magical_level": 4,
+    "material": "airain",
+    "name": "Luth des armes dansantes",
+    "oid": "luth-des-armes-dansantes",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Un magnifique instrument en bois noir.",
+    "skill": null,
+    "special_property": [
+      "Barde: +5 attaque magique avec le luth",
+      "Barde: 2 lames invoqués (au lieu d'une)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "collier-rune-maison-maedriss",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 125.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un superbe collier avec une rune, symbole de la Maison Maedriss.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Collier de la maison Maedriss",
+    "oid": "collier-rune-maison-maedriss",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Un superbe collier avec une rune, symbole de la Maison Maedriss.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bille-de-force",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "La bille de force doit être lancée au sol violemment (action de mouvement) pour fonctionner. En se brisant, elle invoque un mur de force hémisphérique, transparent et indestructible de 5 mètres de rayon centré sur le point d’impact. La durée est de 10 tours. Les billes peuvent être utilisées autant pour bloquer un adversaire puissant à l’intérieur que pour se protéger d’un trop grand nombre d’assaillants extérieurs.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Bille de force",
+    "oid": "bille-de-force",
+    "quantity": 3,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Syndoril",
+        "numbering": "1",
+        "title": "La pacification de Krön"
+      }
+    ],
+    "short_description": "Une bille de force qui invoque un mur de force hémisphérique, transparent et indestructible centré sur le point d’impact. Utile pour se protéger ou emprisonner.",
+    "skill": null,
+    "special_property": [
+      "Utiliser: action de mouvement",
+      "Mur de force: 5m de diamètre, pendant 10 tours",
+      "Personne ne peut sortir du mur de force"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Material",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "geolocalisateur",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cet objet ressemble à une boussole. Toutefois, son aiguille n’indique pas le Nord mais la direction dans laquelle se trouve celui dont quelques gouttes de sang ont été  déposées dans le réceptacle.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Géolocalisateur",
+    "oid": "geolocalisateur",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Syndoril",
+        "numbering": "1",
+        "title": "La pacification de Krön"
+      }
+    ],
+    "short_description": "Cet objet ressemble à une boussole. Toutefois, son aiguille n’indique pas le Nord mais la direction dans laquelle se trouve celui dont quelques gouttes de sang ont été  déposées dans le réceptacle.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "Potion",
     "ability": null,
     "area": null,
@@ -6018,6 +7371,219 @@
     "skill": null,
     "special_property": [
       "RD: DM acide / 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-souffle-du-dragon",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Une fois bue cette potion permet, par une action d’attaque,de produire un souffle de dragon. Ce souffle couvre une zone conique de 5 mètres de long sur 5 mètres de large à son extrémité et inflige 10d6 DM. Les victimes dans le cône d’effet peuvent diviser les DM infligés par 2 à condition de réussir un test de DEX difficulté 15.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion de résistance, à l'acide",
+    "oid": "potion-souffle-du-dragon",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Une fois bue cette potion permet, par une action d’attaque,de produire un souffle de dragon.",
+    "skill": null,
+    "special_property": [
+      "Zone: cone de 5m x 5m",
+      "DM : 10d6 (attaque réussie)",
+      "DM / 2 si test DEX ≥ 15"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-elixir-puissant-sante",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 50
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Un puissant élixir de santé. Une fois bue cette potion permet au personnage de gagner un bonus permanent de +1 au Mod. de CON",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Puissant élixir de santé",
+    "oid": "potion-elixir-puissant-sante",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "Les Faux Monnayeurs"
+      }
+    ],
+    "short_description": "Un puissant élixir de santé.",
+    "skill": null,
+    "special_property": [
+      "Effet permanent: +1 Mod. CON"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-furie-berserk",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette potion permet à celui qui la boit d'entrer en furie du berserk jusqu'à la fin du combat. Cela lui donne +3 en attaque et +2d6 aux DM pour une pénalité en DEF de -6. Pour sortir prématurément de cet état il faut réussir un test de difficulté de SAG de 16.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Potion de furie du berserk",
+    "oid": "potion-furie-berserk",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Cette potion permet à celui qui la boit d'entrer en furie du berserk jusqu'à la fin du combat.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +3",
+      "DM: +2d6",
+      "Pénalité: -6 DEF",
+      "Quitter la furie: test SAG ≥ 16"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Potion",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "potion-de-sang-arbre-coeur",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": {
+      "__type__": "Duration",
+      "unit": "min",
+      "value": 10
+    },
+    "flavor": [],
+    "full_description": "Cette potion soigne immédiatement toutes les blessures (les PV remontent à leur maximum), les infirmités, les maladies ou les poisons. Le bénéficiaire est immunisé aux poisons et aux maladies pendant une année complète. Pendant les prochaines 24 heures, il sera protégé des effets néfastes de la Pierre du Ciel du cratère de Krön, il régénère 5 PV par tour et reçoit un bonus de +5 en DEF et à tous les tests de résistance à la nécromancie. Mais l’effet principal de l’élixir, celui qui fait sa réputation, est d’augmenter l’espérance de vie d’un siècle complet. Cet effet ne peut être obtenu qu’une seule fois dans la vie d’un mortel.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Puissant élixir de santé",
+    "oid": "potion-de-sang-arbre-coeur",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Syndoril",
+        "numbering": "1",
+        "title": "La pacification de Krön"
+      }
+    ],
+    "short_description": "Cette potion soigne immédiatement toutes les blessures (PV au maximum), les infirmités, les maladies ou les poisons.",
+    "skill": null,
+    "special_property": [
+      "Immunité (poison et maladie): 1 an",
+      "Protection Pierre du Ciel: 24H",
+      "DEF: +5",
+      "Résistance à la nécromancie: +5",
+      "Espérance de vie: +1 siècle (1 / vie)"
     ],
     "usable_by": [],
     "use": -1,
@@ -7351,7 +8917,7 @@
     "skill": null,
     "special_property": [
       "Utilisable: 3 fois par jour",
-      "Test DEX >= 12: DM / 2"
+      "Test DEX ≥ 12: DM / 2"
     ],
     "usable_by": [],
     "use": 3,
@@ -7668,6 +9234,48 @@
       "unit": "Kg",
       "value": 0.1
     }
+  },
+  {
+    "__type__": "Spell",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "spell-quest",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 0.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce sort affecte une cible volontaire (elle peut être contrainte à accepter) lors d’un long rituel de 10 minutes. Le prêtre lui assigne une quête et, si la créature cesse de travailler à l’objectif fixé, elle se sent Affaiblie après un laps de temps de 24 heures. L’effet cesse si la créature reprend la quête et le sort prend fin si elle est menée à bien.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Quête (L)",
+    "oid": "spell-quest",
+    "quantity": 1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Ce sort affecte une cible volontaire (elle peut être contrainte à accepter) lors d’un long rituel de 10 minutes. Le prêtre lui assigne une quête et, si la créature cesse de travailler à l’objectif fixé, elle se sent Affaiblie après un laps de temps de 24 heures. L’effet cesse si la créature reprend la quête et le sort prend fin si elle est menée à bien.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": null
   },
   {
     "__type__": "MagicalWand",
@@ -8170,7 +9778,7 @@
     "short_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir.",
     "skill": null,
     "special_property": [
-      "Test CON <= 10 (si attaque réussie): Affaibli (d12) pendant 1 tour"
+      "Test CON ≤ 10 (si attaque réussie): Affaibli (d12) pendant 1 tour"
     ],
     "usable_by": [],
     "use": -1,
@@ -9206,7 +10814,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Dague dont la lame se casse (critique). Retirer le fragment (test SAG >= 20) permet de récupérer les points perdus (1 / jour). Chaque échec enlève 1d6 points (CON). Si la lame est empoisonnée et se brise: test contre le poison: +5.",
+    "short_description": "Dague dont la lame se casse (critique). Retirer le fragment (test SAG ≥ 20) permet de récupérer les points perdus (1 / jour). Chaque échec enlève 1d6 points (CON). Si la lame est empoisonnée et se brise: test contre le poison: +5.",
     "skill": null,
     "special_property": [
       "-1 CON / heure (critique)",
@@ -9375,6 +10983,90 @@
     "short_description": "Une superbe dague pourvue d’une garde incrustée de turquoises.",
     "skill": null,
     "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 4,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ],
+        "other": []
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "dague+2-sournoise",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Une superbe dague +2 d’attaque sournoise qui ajoute +2d6 aux DM des attaques exécutées dans les conditions d’une attaque sournoise. Si le personnage qui utilise cette dague à déjà la capacité d'attaque sournoise, cela ajoute +1d6 aux DM aux dégâts lorsqu'il utilise cette capacité.",
+    "hands": 1,
+    "magical_level": 3,
+    "material": null,
+    "name": "Dague +2, d'attaque sournoise",
+    "oid": "dague+2-sournoise",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Une dague qui ajoute des dégats aux attaques exécutées dans les conditions d’une attaque sournoise.",
+    "skill": null,
+    "special_property": [
+      "DM: +2d6 (attaque sournoise)",
+      "DM: +1d6 (capacité attaque sournoise)"
+    ],
     "usable_by": [],
     "use": -1,
     "way_rank": -1,
@@ -9902,6 +11594,174 @@
         "base": [
           {
             "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": "magical"
+          }
+        ]
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "masse+2-affaiblissment",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "fire"
+      }
+    ],
+    "full_description": "Une masse enchantée +2 qui inflige le sort d’affaiblissement à sa cible à chaqueattaque réussie. La cible subit alors un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Masse +2, d'affaiblissement",
+    "oid": "masse+2-affaiblissment",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Une masse enchantée qui inflige le sort d’affaiblissement à sa cible à chaqueattaque réussie",
+    "skill": null,
+    "special_property": [
+      "Effet: -2 en FOR (attaque au contact et DM)",
+      "Durée: [1d6 + Mod. d’INT] tours",
+      "Effets et durée non cumulables"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "falchion",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 12
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Un falchion est une épée à une main, qui se distingue par sa lame courbe et son tranchant unique sur un seul côté.Cette arme s'utilise à une main et inflige 1d6 dégâts",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Falchion",
+    "oid": "falchion",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Un falchion est une épée à une main, qui se distingue par sa lame courbe et son tranchant unique sur un seul côté.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
             "count": 2,
             "die": 6,
             "label": null,
@@ -10156,7 +12016,7 @@
     "short_description": "Une dague dont la garde en forme de tête de mort enserre une lame forgée dans un métal noir.",
     "skill": null,
     "special_property": [
-      "Test CON <= 10 (si attaque réussie): Affaibli (d12) pendant 1 tour"
+      "Test CON ≤ 10 (si attaque réussie): Affaibli (d12) pendant 1 tour"
     ],
     "usable_by": [],
     "use": -1,
@@ -10410,6 +12270,802 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 3.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "ranged",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": "Seulement contre orques et géants",
+            "mtype": "+",
+            "target": "giant"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
+    "base_item": "arc-court-grombarth",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "L'arc est une arme de trait à 2 mains destinée à lancer des flèches. Dans sa version courte, il permet d'envoyer un projectile jusqu'à 30m et inflige 1d6 dégâts. Cet arc possède la propriété Ennemi juré : il possede +2 en attaque et inflige +1d6 DM supplémentaires contre les orques et les géants.",
+    "hands": 2,
+    "magical_level": 2,
+    "material": null,
+    "name": "Arc court de Grombarth",
+    "oid": "arc-court-grombarth",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Cet arc possede la propriété Ennemi juré et ajoute un bonus d'attaque et de dégat supplémentaire face aux orques et aux géants",
+    "skill": null,
+    "special_property": [
+      "Ennemi juré: +2 en attaque contre orques et géants"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt",
+              "punctured"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "marteau-piolet-grombarth",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce marteau-piolet « famillial » est usé par les générations qui l'ont utilisé. Il  s'utilise aussi bien comme un marteau ou comme un piolet. Il inflige +1d6 Dégats contondants et perforants. Cette arme est magique et offre un bonus de +1 en attaque et aux dégats.",
+    "hands": 1,
+    "magical_level": null,
+    "material": null,
+    "name": "Marteau-piolet de Grombarth",
+    "oid": "marteau-piolet-grombarth",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Ce marteau-piolet s'utilise aussi bien comme un marteau ou comme un piolet. Cette arme est magique et offre un bonus en attaque et aux dégats.",
+    "skill": null,
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 8,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 2,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": [
+              "magical"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 2,
+      "name": null,
+      "range": null
+    },
+    "base_item": "hache+2-tonnerre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8032.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "quality"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "durium"
+      }
+    ],
+    "full_description": "Cette hâche tonnerre est une hache +2 qui peut délivrer 3d6 DM de foudre supplémentaires, dans un éclair bruyant et sur une attaque réussie, trois fois par jour. Le mot de commande est « Bleitz », soit « éclair » en orque.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": "durium",
+    "name": "Hâche tonnerre",
+    "oid": "hache+2-tonnerre",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Cette hâche tonnerre est une hache qui peut délivrer des dégâts de foudre supplémentaires.",
+    "skill": null,
+    "special_property": [
+      "DM +3d6 éléctrique (3/jour)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 3.5
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 3,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 0,
+      "name": null,
+      "range": null
+    },
+    "base_item": "masse-en-pierre",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 5
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette masse Masse en pierre de géant permet d'infliger de nombreux dégâts si on peut la brandir. Elle s'utilise à 2 mains et il faut au moins 18 en FOR pour pouvoir l'utiliser. Lors d'une attaque réussie, elle inflige 3d6 DM.",
+    "hands": 2,
+    "magical_level": null,
+    "material": null,
+    "name": "Masse en pierre de géant",
+    "oid": "masse-en-pierre",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Cette masse en pierre de géant permet d'infliger de nombreux dégâts si on peut la brandir.",
+    "skill": null,
+    "special_property": [
+      "Utilisation: FOR ≥ 18"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 10.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 3,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "blunt"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": [
+              "magical"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 1,
+      "name": null,
+      "range": null
+    },
+    "base_item": "fouet+1-de-douleur",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 2000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce fouet inflige des douleurs telle qu'il peut étourdir ceux qui sont la cible de ses coups.Ce fouet possède un bonus magique de +1 et inflige 1d6 + Mod. de DEX DM. La cible doit faire un test de CON de difficulté 12 ou être étourdie pendant 1 tour.",
+    "hands": 2,
+    "magical_level": 1,
+    "material": null,
+    "name": "Fouet de douleur, +1",
+    "oid": "fouet+1-de-douleur",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Ce fouet inflige des douleurs telle qu'il peut étourdir ceux qui sont la cible de ses coups",
+    "skill": null,
+    "special_property": [
+      "DM: +[DEX]",
+      "Etourdi: Test CON < 12"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 10.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "baton-mage+2-boule-de-feu",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 72000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un bâton de mage +2 qui ajouter des bonus en attaque magique et aux DM de tous les sorts. Il permet de lancer trois fois par jour un sort de Boule de feu (capacité de magicien, rang 4) infligeant 6d6 DM.",
+    "hands": 2,
+    "magical_level": 6,
+    "material": "wood",
+    "name": "Bâton de mage +2",
+    "oid": "baton-mage+2-boule-de-feu",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Un bâton de mage qui permet de lancer un sort de Boule de feu",
+    "skill": null,
+    "special_property": [
+      "Boule de feu (L): 3 /jour",
+      "DM (boule de feu): 6d6",
+      "Attaque magique: +2",
+      "DM sorts: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 3,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": [
+              "magical"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 3,
+      "name": null,
+      "range": null
+    },
+    "base_item": "epee-courte+3-de-vitesse",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 32000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Une épée courte +3 de vitesse qui permet de faire une attaque gratuite au contact à chaque tour au score d’Init du personnage +10.",
+    "hands": 1,
+    "magical_level": 4,
+    "material": null,
+    "name": "Épée courte +3, de vitesse",
+    "oid": "epee-courte+3-de-vitesse",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Une épée courte de vitesse qui permet de faire une attaque gratuite au contact.",
+    "skill": null,
+    "special_property": [
+      "Attaque gratuite: 1 / tourInit +10 (attaque gratuite)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "sceptre-de-pouvoir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce bâton d’airain est surmonté d’une pierre blanche luisante. Il permet de lancer les sorts de rang 1 à 4 de la Voie de la magie universelle, chacun trois fois par jour (L). Il faut être capable de lancer des sorts de rang au moins équivalent à la capacité utilisée. Si le porteur est déjà capable d’utiliser ces sorts, il peut les lancer par une action gratuite trois fois par jour (un sort par tour).",
+    "hands": 2,
+    "magical_level": 10,
+    "material": "airain",
+    "name": "Sceptre de pouvoir",
+    "oid": "sceptre-de-pouvoir",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Ce bâton d’airain est surmonté d’une pierre blanche luisante. Il faut être capable de lancer des sorts de rang au moins équivalent à la capacité utilisée.",
+    "skill": null,
+    "special_property": [
+      "Lumière (L): 3 /jour",
+      "Détection de la magie (L): 3 /jour",
+      "Invisibilité (L): 3 /jour",
+      "Vol (L): 3 /jour",
+      "Si possédé, gratuit: 1/tour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "ranged",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured"
+            ]
+          }
+        ],
+        "other": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": "Seulement contre orques et géants",
+            "mtype": "+",
+            "target": "giant"
+          }
+        ]
+      },
+      "mod": 0,
+      "name": null,
+      "range": {
+        "__type__": "Range",
+        "unit": "m",
+        "value": 30
+      }
+    },
+    "base_item": "arc-court-runique",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 98000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cet arc de bois blanc +3 porte une Rune de puissance (forgesort, rang 4, DM maximum une fois par combat). Il accorde la capacité Nuée de èches (L) trois fois par jour par une action limitée, le personnage peut tirer simultanément sur un maximum 5 cibles différentes dans une zone de 10 mètres de diamètres (un seul test d’attaque).",
+    "hands": 2,
+    "magical_level": 7,
+    "material": null,
+    "name": "Arc court runique",
+    "oid": "arc-court-runique",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Un arc en bois blanc avec une Rune de puissance.",
+    "skill": null,
+    "special_property": [
+      "DM maximum une fois par combat",
+      "Nuée de èches (L): 3 / jour, max 5 cibles, max 10m de portée"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Weapon",
+    "ability": null,
+    "area": null,
+    "attack": {
+      "__type__": "Attack",
+      "area": null,
+      "atype": "melee",
+      "critical": "20",
+      "damages": {
+        "__type__": "Damage",
+        "base": [
+          {
+            "__type__": "Mod",
+            "count": 1,
+            "die": 6,
+            "label": null,
+            "limitation": null,
+            "mtype": null,
+            "target": [
+              "punctured",
+              "sharp"
+            ]
+          },
+          {
+            "__type__": "Mod",
+            "count": 3,
+            "die": null,
+            "label": null,
+            "limitation": null,
+            "mtype": "+",
+            "target": [
+              "magical"
+            ]
+          }
+        ],
+        "other": []
+      },
+      "mod": 3,
+      "name": null,
+      "range": null
+    },
+    "base_item": "retribution-divine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 200000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette splendide arme +3 semble forgée dans de l’or pur. Lorsqu’un personnage s’en saisit, l’arme change de forme pour s’adapter parfaitement à la force et à la morphologie de celui-ci. Rapidement, le personnage prend conscience qu’avec un effort de volonté (action limitée, test de SAG difficulté 15), il peut modeler l’arme de son choix (de contact, à une ou à 2 mains) : masse, rapière, etc. Pour terminer, Rétribution divine permet à son porteur d’utiliser, trois fois par jour chacune, les capacités Ailes célestes et Foudres divines (prêtre, rang 3 et 4)",
+    "hands": [
+      1,
+      2
+    ],
+    "magical_level": 10,
+    "material": null,
+    "name": "Rétribution divine",
+    "oid": "retribution-divine",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Une splendide arme qui semble forgée dans de l’or pur.",
+    "skill": null,
+    "special_property": [
+      "Test SAG ≥ 15 : Arme de son choix",
+      "Ailes célestes: 3 / jour",
+      "Foudres divines: 3 / jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
     }
   },
   {
@@ -11392,6 +14048,146 @@
     }
   },
   {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "casque+1-def",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Ce casque +1 en DEF permet, une fois par combat, de diviser par 2 les DM d’une attaque.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Casque +1, de déviation",
+    "oid": "casque+1-def",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Ce casque +1 en DEF permet, une fois par combat, de diviser par 2 les DM d’une attaque.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "view"
+      },
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "hearing"
+      },
+      {
+        "__type__": "Mod",
+        "count": 1,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "embuscade"
+      }
+    ],
+    "special_property": [
+      "DM / 2 une fois par combat"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 1.0
+    }
+  },
+  {
+    "__type__": "Helmet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "beandeau-intellect",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": {
+      "__type__": "Flavor",
+      "count": 2,
+      "ftype": "magical"
+    },
+    "full_description": "Un bandeau de soie blanche rehaussé de fils d’or",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Bandeau d'intellect",
+    "oid": "beandeau-intellect",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Ce bandeau de soie blanche rehaussé de fils d’or accorde un bonus de +2 au Mod. d’INT de son porteur et lui permet de bénéficier de la capacité Grosse tête (Forgesort rang 1).",
+    "skill": null,
+    "special_property": [
+      "[INT]: +2",
+      "Test d’INT à la place de FOR",
+      "+2 test bricolage ou science"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "Robe",
     "ability": null,
     "area": null,
@@ -11414,7 +14210,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete robe apporte un bonus de +1 au Mod. de charisme de la personne qui la porte.",
+    "full_description": "Cette robe apporte un bonus de +1 au Mod. de charisme de la personne qui la porte.",
     "hands": 0,
     "magical_level": 2,
     "material": null,
@@ -11423,7 +14219,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "short_description": "Cette robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CHA]: +1"
@@ -11460,7 +14256,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete robe apporte un bonus de +2 au Mod. de charisme de la personne qui la porte.",
+    "full_description": "Cette robe apporte un bonus de +2 au Mod. de charisme de la personne qui la porte.",
     "hands": 0,
     "magical_level": 3,
     "material": null,
@@ -11469,7 +14265,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "short_description": "Cette robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CHA]: +2"
@@ -11506,7 +14302,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete robe apporte un bonus de +3 au Mod. de charisme de la personne qui la porte.",
+    "full_description": "Cette robe apporte un bonus de +3 au Mod. de charisme de la personne qui la porte.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -11515,7 +14311,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "short_description": "Cette robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CHA]: +3"
@@ -11552,7 +14348,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete robe apporte un bonus de +4 au Mod. de charisme de la personne qui la porte.",
+    "full_description": "Cette robe apporte un bonus de +4 au Mod. de charisme de la personne qui la porte.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -11561,7 +14357,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
+    "short_description": "Cette robe apporte un bonus au Mod. de charisme de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CHA]: +4"
@@ -11646,7 +14442,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete amulette apporte un bonus de +1 au Mod. de constitution de la personne qui la porte.",
+    "full_description": "Cette amulette apporte un bonus de +1 au Mod. de constitution de la personne qui la porte.",
     "hands": 0,
     "magical_level": 2,
     "material": null,
@@ -11655,7 +14451,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "short_description": "Cette amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CON]: +1"
@@ -11692,7 +14488,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete amulette apporte un bonus de +2 au Mod. de constitution de la personne qui la porte.",
+    "full_description": "Cette amulette apporte un bonus de +2 au Mod. de constitution de la personne qui la porte.",
     "hands": 0,
     "magical_level": 3,
     "material": null,
@@ -11701,7 +14497,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "short_description": "Cette amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CON]: +2"
@@ -11738,7 +14534,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete amulette apporte un bonus de +3 au Mod. de constitution de la personne qui la porte.",
+    "full_description": "Cette amulette apporte un bonus de +3 au Mod. de constitution de la personne qui la porte.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -11747,7 +14543,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "short_description": "Cette amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CON]: +3"
@@ -11784,7 +14580,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete amulette apporte un bonus de +4 au Mod. de constitution de la personne qui la porte.",
+    "full_description": "Cette amulette apporte un bonus de +4 au Mod. de constitution de la personne qui la porte.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -11793,7 +14589,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
+    "short_description": "Cette amulette apporte un bonus au Mod. de constitution de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[CON]: +4"
@@ -12455,6 +15251,65 @@
     }
   },
   {
+    "__type__": "Gloves",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "gants-de-guerison",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      },
+      {
+        "__type__": "Flavor",
+        "count": 1,
+        "ftype": "mythral"
+      }
+    ],
+    "full_description": "Le porteur de ces gants de velours rouge peut apposer les mains pour guérir une créature au contact. Chaque jour, il peut guérir un nombre de PV égal à son niveau multiplié par dix. Il lui faut une action de mouvement et il peut fractionner les soins entre plusieurs cibles à des moments différents.",
+    "hands": 0,
+    "magical_level": 2,
+    "material": null,
+    "name": "Gants de guérison",
+    "oid": "gants-de-guerison",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Le porteur de ces gants peur guérir une ou plusieurs créatures au contact en une ou plusieurs fois.",
+    "skill": null,
+    "special_property": [
+      "Soigne: 10 x [niveau] PV / jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
     "__type__": "Belt",
     "ability": null,
     "area": null,
@@ -12477,7 +15332,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete ceinture apporte un bonus de +1 au Mod. de force de la personne qui la porte.",
+    "full_description": "Cette ceinture apporte un bonus de +1 au Mod. de force de la personne qui la porte.",
     "hands": 0,
     "magical_level": 2,
     "material": null,
@@ -12486,7 +15341,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "short_description": "Cette ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[FOR]: +1"
@@ -12523,7 +15378,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete ceinture apporte un bonus de +2 au Mod. de force de la personne qui la porte.",
+    "full_description": "Cette ceinture apporte un bonus de +2 au Mod. de force de la personne qui la porte.",
     "hands": 0,
     "magical_level": 3,
     "material": null,
@@ -12532,7 +15387,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "short_description": "Cette ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[FOR]: +2"
@@ -12569,7 +15424,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete ceinture apporte un bonus de +3 au Mod. de force de la personne qui la porte.",
+    "full_description": "Cette ceinture apporte un bonus de +3 au Mod. de force de la personne qui la porte.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -12578,7 +15433,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "short_description": "Cette ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[FOR]: +3"
@@ -12615,7 +15470,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete ceinture apporte un bonus de +4 au Mod. de force de la personne qui la porte.",
+    "full_description": "Cette ceinture apporte un bonus de +4 au Mod. de force de la personne qui la porte.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -12624,7 +15479,7 @@
     "quantity": -1,
     "range": null,
     "scenario": null,
-    "short_description": "Cete ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
+    "short_description": "Cette ceinture apporte un bonus au Mod. de force de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[FOR]: +4"
@@ -12661,7 +15516,7 @@
         "ftype": "magical"
       }
     ],
-    "full_description": "Cete ceinture en bronze décorée d’un large motif de taureau aux yeux de rubis apporte un bonus de +2 au Mod. de force de la personne qui la porte.",
+    "full_description": "Cette ceinture en bronze décorée d’un large motif de taureau aux yeux de rubis apporte un bonus de +2 au Mod. de force de la personne qui la porte.",
     "hands": 0,
     "magical_level": 2,
     "material": null,
@@ -12678,10 +15533,164 @@
         "title": "Les jardins de l'Amertume"
       }
     ],
-    "short_description": "Cete ceinture en bronze décorée d’un large motif de taureau aux yeux de rubis apporte un bonus au Mod. de force de la personne qui la porte.",
+    "short_description": "Cette ceinture en bronze décorée d’un large motif de taureau aux yeux de rubis apporte un bonus au Mod. de force de la personne qui la porte.",
     "skill": null,
     "special_property": [
       "[FOR]: +2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "ceinture-endurance-de-ours+2",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 18000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 3,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Cette ceinture est pourvue d’une plaque ventrale en argent, gravée d’une tête d’ours. Cette ceinture apporte un bonus de +{item.magical_level} au Mod. de constitution de la personne qui la porte. Il gagne aussi la Capacité de Rage du berserk comme un barbare trois fois par jour. Si elle est portée par un personnage qui possède déjà cette capacité, la ceinture divise par 2 la pénalité de DEF associée à la rage ou la furie.",
+    "hands": 0,
+    "magical_level": 3,
+    "material": null,
+    "name": "Ceinture d'endurance de l'ours +2",
+    "oid": "ceinture-endurance-de-ours+2",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "La vallée des Norderem",
+        "numbering": "2",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Cette ceinture apporte un bonus au Mod. de CON et la capacité de rage du berserk.",
+    "skill": null,
+    "special_property": [
+      "[CON]: +2",
+      "Capacité: Rage du berserk (3/jours)",
+      "Pénalité DEF / 2 rage ou furie (si possède déjà la capacité)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.1
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "ceinture-escalade",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 1000.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Elle ressemble à une vieille ceinture de cuir usé, mais dans la boucle, se détache un crochet relié à un filin d’acier incassable d’une longueur de 100 mètres. Un bouton permet de dérouler le câble et un autre permet au contraire de l’enrouler, supportant un poids de 200 kilos. Au-dessus, ce mécanisme ne fonctionne pas.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Ceinture d’escalade",
+    "oid": "ceinture-escalade",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Une vieille ceinture de cuir usé, mais dans la boucle, se détache un crochet relié à un filin d’acier incassable.",
+    "skill": null,
+    "special_property": [
+      "Longueur: 100 m",
+      "Poids; max 200Kg"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.2
+    }
+  },
+  {
+    "__type__": "Belt",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "ceinture-du-temps",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 128000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette ceinture est constituée de 23 plaques de métal. Le porteur peut utiliser la capacité Hâte (magicien rang 3,7 tours) trois fois par jours par une action gratuite et la capacité Arrêt du temps (magicien rang 5, 7 tours) une fois par jour par une action limitée).",
+    "hands": 0,
+    "magical_level": 8,
+    "material": null,
+    "name": "Ceinture du temps",
+    "oid": "ceinture-du-temps",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Cette ceinture est constituée de 23 plaques de métal.",
+    "skill": null,
+    "special_property": [
+      "Capacité Hâte (gratuit), pendant 7 tours: 3/jour",
+      "Arrêt du temps (L), pendant 7 tours: 1/jour"
     ],
     "usable_by": [],
     "use": -1,
@@ -13261,9 +16270,70 @@
     "short_description": "Cet anneau d’or décoré d’un beau rubis permet d’apposer une rune de feu qui se ferme.",
     "skill": null,
     "special_property": [
-      "Detection rune: test SAG >= 15",
+      "Detection rune: test SAG ≥ 15",
       "Ouverture : 4d6 DM de feu",
-      "Test DEX >= 15 : DM / 2"
+      "Test DEX ≥ 15 : DM / 2"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Ring",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "anneau-des-rois",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 242000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 6,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": ""
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "L’Anneau des Rois est un anneau très simple, sans pierre précieuse, qui comporte deux larges bagues jumelées, l’une d’or et l’autre d’argent. Les deux sont couvertes de runes sur les deux faces. Il s’agit d'un anneau de protection +6 (DEF +6). L’anneau, lorsqu’il est porté par un elfe (et seulement dans ce cas), confère à son porteur le pouvoir d’influencer les elfes (drows compris). Le pouvoir de charme de l’Anneau des Rois s’exerce dans une zone de 30 mètres autour du porteur. Dans cette zone, les elfes affectés par son pouvoir peuvent être choisis par le porteur, mais, par défaut, ce sont ceux qui sont les plus proches de lui qui sont affectées en premier. L’anneau peut influencer un nombre total d’elfes dont le NC ne doit pas dépasser 50. Toutefois, aucun indivi du dont le NC est supérieur à 8 n’est affecté (si l’anneau est porté par un demi-elfe, son pouvoir est divisé par deux). Les elfes sous le pouvoir de l’anneau considèrent son porteur comme leur roi et seigneur légitime et ils lui obéissent du mieux possible, en fonction de leurs principes moraux et de leur éducation.",
+    "hands": 0,
+    "magical_level": 11,
+    "material": "gold",
+    "name": "Anneau des Rois",
+    "oid": "anneau-des-rois",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Un anneau très simple composé de 2 bagues jumelées.",
+    "skill": null,
+    "special_property": [
+      "Utilisable: Elfe, drow ou demi-elfe",
+      "Charme (elfe et drow): max 30 m",
+      "NC total affecté ≤ 50 (25 si demi-elfe)",
+      "Immunisé: NC ≥8"
     ],
     "usable_by": [],
     "use": -1,
@@ -13404,6 +16474,70 @@
     }
   },
   {
+    "__type__": "Shield",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "bouclier+2-metal-noir",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 8000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 2,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [
+      {
+        "__type__": "Flavor",
+        "count": 2,
+        "ftype": "magical"
+      }
+    ],
+    "full_description": "Un bouclier rond de métal noir +2. Toute créature qui le touche doit réussir un test de CON difficulté 10 ou être Affaibli pendant un tour (d12 à tous les tests). Ce bouclier est clairement d'origine maléfique.",
+    "hands": 1,
+    "magical_level": 2,
+    "material": null,
+    "name": "Bouclier +2, en métal noir",
+    "oid": "bouclier+2-metal-noir",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Un bouclier rond de métal noir",
+    "skill": null,
+    "special_property": [
+      "Affaibli: Test CON < 10 (toute créature qui touche le bouclier)"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 2
+    }
+  },
+  {
     "__type__": "Bullet",
     "ability": null,
     "area": null,
@@ -13493,6 +16627,153 @@
     ],
     "usable_by": [],
     "use": 4,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "fleche-tueuse-de-geant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 240.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des flêches tueuses qui infligent d'importants dégâts supplémentaires aux géants, ogres, ettins, cyclopes. Il en reste 12 dans ce carqois.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Flêche tueuse de géant",
+    "oid": "fleche-tueuse-de-geant",
+    "quantity": 12,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Des flêches tueuses qui infligent d'importants dégâts supplémentaires aux géants, ogres, ettins, cyclopes.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2 contre géants, ogres, ettins, cyclopes",
+      "DM: +2d6 contre géants, ogres, ettins, cyclopes"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau-tueur-de-geant",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 240.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des carreaux tueurs qui infligent d'importants dégâts supplémentaires aux géants, ogres, ettins, cyclopes. Il en reste 12 dans ce lot.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreau tueur de géant",
+    "oid": "carreau-tueur-de-geant",
+    "quantity": 12,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Préparatifs",
+        "numbering": "1",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Des carreaux tueurs qui infligent d'importants dégâts supplémentaires aux géants, ogres, ettins, cyclopes.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2 contre géants, ogres, ettins, cyclopes",
+      "DM: +2d6 contre géants, ogres, ettins, cyclopes"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.3
+    }
+  },
+  {
+    "__type__": "Bullet",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "carreau-tueur-de-vermine",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 240.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Des carreaux tueurs qui infligent d'importants dégâts supplémentaires aux aux insectes. Il en reste 10 dans ce lot.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Carreau tueur de vermine",
+    "oid": "carreau-tueur-de-vermine",
+    "quantity": 10,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Kerserac",
+        "numbering": "3",
+        "title": "Le pacte du Seigneur des cimes"
+      }
+    ],
+    "short_description": "Des carreaux tueurs qui infligent d'importants dégâts supplémentaires aux insectes.",
+    "skill": null,
+    "special_property": [
+      "Attaque: +2 contre insectes",
+      "DM: +2d6 contre insectes"
+    ],
+    "usable_by": [],
+    "use": -1,
     "way_rank": -1,
     "weight": {
       "__type__": "Weight",
@@ -14733,7 +18014,7 @@
         "ftype": "dragon-blanc"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon blanc juvénile. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -14806,7 +18087,7 @@
         "ftype": "dragon-blanc"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon blanc jeune. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -14879,7 +18160,7 @@
         "ftype": "dragon-blanc"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon blanc adulte. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 6,
     "material": null,
@@ -14952,7 +18233,7 @@
         "ftype": "dragon-blanc"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon blanc ancien. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 7,
     "material": null,
@@ -15025,7 +18306,7 @@
         "ftype": "dragon-rouge"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon rouge juvénile. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -15098,7 +18379,7 @@
         "ftype": "dragon-rouge"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon rouge jeune. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -15171,7 +18452,7 @@
         "ftype": "dragon-rouge"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon rouge adulte. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 6,
     "material": null,
@@ -15244,7 +18525,7 @@
         "ftype": "dragon-rouge"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon rouge ancien. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 7,
     "material": null,
@@ -15317,7 +18598,7 @@
         "ftype": "dragon-noir"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon noir juvénile. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -15390,7 +18671,7 @@
         "ftype": "dragon-noir"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon noir jeune. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -15463,7 +18744,7 @@
         "ftype": "dragon-noir"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon noir adulte. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 6,
     "material": null,
@@ -15536,7 +18817,7 @@
         "ftype": "dragon-noir"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon noir ancien. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 7,
     "material": null,
@@ -15609,7 +18890,7 @@
         "ftype": "dragon-bleu"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon bleu juvénile. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +3, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 4,
     "material": null,
@@ -15682,7 +18963,7 @@
         "ftype": "dragon-bleu"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon bleu jeune. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +4, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 5,
     "material": null,
@@ -15755,7 +19036,7 @@
         "ftype": "dragon-bleu"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon bleu adulte. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +5, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 6,
     "material": null,
@@ -15828,7 +19109,7 @@
         "ftype": "dragon-bleu"
       }
     ],
-    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon {flavor['color']} {flavor['age']}. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
+    "full_description": "Réalisée par un artisant, cette armure a été confectionnée en utilisant toutes les écailles les plus remarquables d'un dragon bleu ancien. Cette armure de qualité (pénalité d'encombrement réduite de 1) octroie en plus de son bonus de défense de +6, une réduction aux dégats élémentaires de correspondants au type du dragon (blanc/froid, rouge/feu, noir/acide ou bleu/électricité) et à son age (juvénile, jeune, adulte ou ancien.",
     "hands": 0,
     "magical_level": 7,
     "material": null,
@@ -16410,6 +19691,149 @@
     }
   },
   {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "armure-orientale-grande-taille",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 250.0
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Armure orientale de grande taille, composée de grandes plaques bleues de métal, qui protège le corps du combattant. Les plaques sont moulées de façons à ce qu’elles dévient les coups les plus faibles et leur épaisseur garantit un maximum de protection. Un combattant protégé par ce genre de protection intégrale est fortement encombré dans ses mouvements. Elle procure un bonus de DEF +8.",
+    "hands": 0,
+    "magical_level": null,
+    "material": null,
+    "name": "Armure orientale de grande taille",
+    "oid": "armure-orientale-grande-taille",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "Voyage",
+        "numbering": "2",
+        "title": "La traversée de Dorn"
+      }
+    ],
+    "short_description": "Armure orientale de grande taille, composée de grandes plaques bleues, qui protège le corps du combattant.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 8,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 25.0
+    }
+  },
+  {
+    "__type__": "Armor",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cuirasse-de-bronze",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 128000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": null,
+        "target": "def"
+      },
+      {
+        "__type__": "Mod",
+        "count": 3,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette cuirasse équivaut à une cotte de maille +3. Son porteur peut invoquer la capacité Peau de pierre (magicien, rang 5) trois fois par jour par une action limitée.",
+    "hands": 0,
+    "magical_level": 8,
+    "material": null,
+    "name": "Cuirasse de bronze",
+    "oid": "cuirasse-de-bronze",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Une somptueuse cuirasse en bronze.",
+    "skill": [
+      {
+        "__type__": "Mod",
+        "count": 5,
+        "die": null,
+        "label": "Test",
+        "limitation": null,
+        "mtype": "-",
+        "target": "DEX"
+      }
+    ],
+    "special_property": [
+      "Peau de pierre (L): 3 / jour"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 20.0
+    }
+  },
+  {
     "__type__": "Cloak",
     "ability": null,
     "area": null,
@@ -16547,6 +19971,114 @@
       "__type__": "Weight",
       "unit": "Kg",
       "value": 0.2
+    }
+  },
+  {
+    "__type__": "Cloak",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cape-passe-muraille",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 72000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": null,
+    "duration": null,
+    "flavor": [],
+    "full_description": "Le porteur de cette cape est immunisé aux effets de la condition Immobilisé (ou englué, retenu, etc.) et aux différentes formes de paralysie. Trois fois par jours, il peut utiliser la capacité Passe muraille (moine rang 5, maximum 3 mètres).",
+    "hands": 0,
+    "magical_level": 6,
+    "material": null,
+    "name": "Cape de passe muraille",
+    "oid": "cape-passe-muraille",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Le porteur de cette cape est immunisé aux effets de la condition Immobilisé.",
+    "skill": null,
+    "special_property": [
+      "Passe muraille (L): 3/j, max 3m",
+      "Immunité: Immobilisé, englué, etc."
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
+    }
+  },
+  {
+    "__type__": "Cloak",
+    "ability": null,
+    "area": null,
+    "attack": null,
+    "base_item": "cape-de-deplacement",
+    "category": "quest",
+    "cost": {
+      "__type__": "Cost",
+      "unit": "pa",
+      "value": 162000
+    },
+    "count": 1,
+    "creature": null,
+    "defense": [
+      {
+        "__type__": "Mod",
+        "count": 4,
+        "die": null,
+        "label": "DEF",
+        "limitation": null,
+        "mtype": "+",
+        "target": null
+      }
+    ],
+    "duration": null,
+    "flavor": [],
+    "full_description": "Cette cape permet à son porteur de se téléporter sur de brèves distance de façon très rapide et imprévisible pendant les combats. Elle donne à son porteur un bonus de +4 en DEF et en Init. Une fois par tour, elle permet de se déplacer instantanément de 10 mètres à un endroit en vue (téléportation, par une action gratuite).",
+    "hands": 0,
+    "magical_level": 9,
+    "material": null,
+    "name": "Cape de déplacement",
+    "oid": "cape-de-deplacement",
+    "quantity": -1,
+    "range": null,
+    "scenario": [
+      {
+        "__type__": "Scenario",
+        "campaign": "Anathazerïn",
+        "chapter": "",
+        "numbering": "",
+        "title": "Les secrets d’Anathazerïn"
+      }
+    ],
+    "short_description": "Cette cape permet à son porteur de se téléporter sur de brèves distance de façon très rapide et imprévisible pendant les combats.",
+    "skill": null,
+    "special_property": [
+      "Téléportation (gratuit): max 10m, 1/tour",
+      "Init: +4"
+    ],
+    "usable_by": [],
+    "use": -1,
+    "way_rank": -1,
+    "weight": {
+      "__type__": "Weight",
+      "unit": "Kg",
+      "value": 0.0
     }
   }
 ]
